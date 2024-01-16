@@ -1,6 +1,6 @@
 # Soft Prompts For Evaluation
 
-Code associated with the (upcoming) paper, `Soft Prompts For Evaluation: Measuring Conditional Distance of Capabilities`.
+Early code associated with the (upcoming) paper, `Soft Prompts For Evaluation: Measuring Conditional Distance of Capabilities`.
 
 ## What is this?
 
@@ -63,6 +63,9 @@ The tests most likely to appear in the paper (in some likely modified form) are:
 - `language_trivial_repetition_test`: Trains a soft prompt to repeat the same string over and over.
 - `chess_mlp_test`: Trains a soft prompt to predict the next move in a chess game, conditional on player Elos.
 - `pathfinding_test`: Trains a soft prompt to predict the next move in a pathfinding game, conditional on path quality.
+
+__Warning__: all of these are actively being fiddled with!
+Running these won't yet produce representative data or reproduce the final paper.
 
 ## Models and datasets
 

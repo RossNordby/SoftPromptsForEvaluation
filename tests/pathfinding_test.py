@@ -26,7 +26,7 @@ def main():
                 MLPFactory(0, 128),
                 insert_spaces=use_space,
                 logging_prefix=f"pathfinding spaces-{use_space}",
-                training_step_count=1,
+                training_step_count=128,
                 batch_lanes_per_step=32,
                 maximum_sample_length_in_tokens=256, learning_rate=1e-3, weight_decay=1e-4,
                 forward_test_generated_token_count=32)
@@ -42,7 +42,7 @@ def main():
                 MLPFactory(0, 128),
                 insert_spaces=use_space,
                 logging_prefix=f"pathfinding spaces-{use_space}",
-                training_step_count=1,
+                training_step_count=4096,
                 batch_lanes_per_step=32,
                 maximum_sample_length_in_tokens=256, learning_rate=1e-3, weight_decay=1e-4,
                 forward_test_generated_token_count=32, snapshot_path_creator=snapshot_path_creator)
