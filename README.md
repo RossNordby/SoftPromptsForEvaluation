@@ -5,11 +5,15 @@ Early code associated with the (upcoming) paper, `Soft Prompts For Evaluation: M
 ## What is this?
 
 [Soft prompts](https://arxiv.org/abs/2104.08691) are a technique for fine-tuning behavior without modifying a model.
-Turns out, they're also a great way to evaluate models! Want to know if there exists some input that might
-elicit a target behavior? Optimize a soft prompt for it.
+Turns out, they're also a great way to evaluate models!
+ - Want to know if there exists some input that might jailbreak your model's friendliness? 
+ - Need to know whether your model has the ability to self-exfiltrate?
+ - Curious whether your model has easily-accessed latent omnicidal tendencies? 
+
+Optimize a soft prompt for it! (Or, ideally, for a proxy behavior that doesn't involve omnicide.)
 
 The number of soft prompt tokens required to elicit a behavior provide a proxy for
-the amount of conditioning required to elicit that behavior. Very small numbers of tokens
+the amount of conditional information required to elicit that behavior. Very small numbers of tokens
 implies that the behavior is natural to the model, while requiring tons of tokens, or failing to improve at all,
 is evidence that the model doesn't expose that capability in its input interface.
 
@@ -19,7 +23,10 @@ the model's computation. It's hard for a model to fully hide a capability
 against a well-tuned optimization process that can treat its internal computation as a white box.
 
 With that as a foundation, this repository's tests try to measure the conditional distance of various capabilities
-relative to various models. It also includes a simple extension to soft prompts to make tests easier to set up:
+relative to various models. The compute budget for this paper is too limited for omnicide proxies,
+but the underlying technique can be demonstrated!
+
+It also includes a simple extension to soft prompts to make tests easier to set up:
 providing some conditions (e.g. player Elos in a chess game) to input models to generate the soft prompt's
 input embedding.
 
