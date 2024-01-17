@@ -10,7 +10,7 @@ def test(model_configurations, soft_prompt_token_counts, logging_prefix: str, tr
         #use_sample_dataset=True,
         logging_prefix=logging_prefix,
         training_step_count=training_step_count,
-        batch_lanes_per_step=32,
+        batch_lanes_per_step=256,
         maximum_sample_length_in_tokens=256, learning_rate=1e-3, weight_decay=1e-4,
         forward_test_generated_token_count=32)
 
@@ -21,7 +21,7 @@ def main():
     but configured to target a chat-tuned model.
     """
     training_step_count = 4096
-    model_configurations = [('TinyLlama/TinyLlama-1.1B-intermediate-step-1431k-3T', 16)]
+    model_configurations = [('TinyLlama/TinyLlama-1.1B-intermediate-step-1431k-3T', 128)]
     soft_prompt_token_counts = [0]
     test(model_configurations, soft_prompt_token_counts, f"chat detuning rawbaseline", training_step_count)
 
