@@ -10,9 +10,9 @@ def main():
     """
     torch.manual_seed(5)
 
-    model_configurations = [('EleutherAI/pythia-70m-deduped', 4),
-                            ('EleutherAI/pythia-160m-deduped', 8),
-                            ('EleutherAI/pythia-410m-deduped', 16)]
+    model_configurations = [('EleutherAI/pythia-70m-deduped', 8),
+                            ('EleutherAI/pythia-160m-deduped', 16),
+                            ('EleutherAI/pythia-410m-deduped', 32)]
 
     board_configurations = [(8, 8)]
     use_spaces = [False, True]
@@ -27,7 +27,7 @@ def main():
                 insert_spaces=use_space,
                 logging_prefix=f"pathfinding spaces-{use_space}",
                 training_step_count=128,
-                batch_lanes_per_step=32,
+                batch_lanes_per_step=128,
                 maximum_sample_length_in_tokens=256, learning_rate=1e-3, weight_decay=1e-4,
                 forward_test_generated_token_count=32)
 
@@ -43,7 +43,7 @@ def main():
                 insert_spaces=use_space,
                 logging_prefix=f"pathfinding spaces-{use_space}",
                 training_step_count=4096,
-                batch_lanes_per_step=32,
+                batch_lanes_per_step=128,
                 maximum_sample_length_in_tokens=256, learning_rate=1e-3, weight_decay=1e-4,
                 forward_test_generated_token_count=32, snapshot_path_creator=snapshot_path_creator)
 
