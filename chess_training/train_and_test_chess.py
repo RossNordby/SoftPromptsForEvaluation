@@ -125,7 +125,7 @@ def train_and_test_chess(chess_database_path: str, model_configurations: list[tu
                 test_batch_loader = batch_loader
 
                 logger = DataLogger(
-                    f"../runs/{logging_prefix} BWElo chess {model_size}, {soft_prompt_token_count}, {datetime.now().strftime('%Y-%m-%d %H-%M-%S')}",
+                    f"runs/{logging_prefix} BWElo chess {model_size}, {soft_prompt_token_count}, {datetime.now().strftime('%Y-%m-%d %H-%M-%S')}",
                     accelerator)
                 soft_prompt = soft_prompt_creator(soft_prompt_token_count, batch_loader.soft_prompt_parameters_size,
                                                   model.gpt_neox.embed_in.embedding_dim)

@@ -88,7 +88,7 @@ def train_and_test_pathfinding(board_width: int, board_height: int,
 
             logger_safe_model_name = model_name.replace('/', '_')
             logger = DataLogger(
-                f"../runs/{logging_prefix} pathfinding {board_width}x{board_height} {logger_safe_model_name}, {soft_prompt_token_count}, {datetime.now().strftime('%Y-%m-%d %H-%M-%S')}",
+                f"runs/{logging_prefix} pathfinding {board_width}x{board_height} {logger_safe_model_name}, {soft_prompt_token_count}, {datetime.now().strftime('%Y-%m-%d %H-%M-%S')}",
                 accelerator)
             soft_prompt = soft_prompt_creator(soft_prompt_token_count, batch_loader.soft_prompt_parameters_size,
                                               embedding_width)

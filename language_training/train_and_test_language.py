@@ -103,7 +103,7 @@ def train_and_test_language(model_configurations: list[tuple[str, int]],
 
             logger_safe_model_name = model_name.replace('/', '_')
             logger = DataLogger(
-                f"../runs/{logging_prefix} language {logger_safe_model_name}, {soft_prompt_token_count}, {datetime.now().strftime('%Y-%m-%d %H-%M-%S')}",
+                f"runs/{logging_prefix} language {logger_safe_model_name}, {soft_prompt_token_count}, {datetime.now().strftime('%Y-%m-%d %H-%M-%S')}",
                 accelerator)
             soft_prompt = soft_prompt_creator(soft_prompt_token_count, batch_loader.soft_prompt_parameters_size,
                                               embedding_width)
