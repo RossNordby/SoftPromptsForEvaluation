@@ -10,9 +10,9 @@ def main():
     """
     torch.manual_seed(5)
 
-    model_configurations = [('EleutherAI/pythia-70m-deduped', 16),
-                            ('EleutherAI/pythia-160m-deduped', 32),
-                            ('EleutherAI/pythia-410m-deduped', 64)]
+    model_configurations = [('EleutherAI/pythia-410m-deduped', 256),
+                            ('EleutherAI/pythia-160m-deduped', 128),
+                            ('EleutherAI/pythia-70m-deduped', 64)]
 
     board_configurations = [(8, 8)]
     use_spaces = [False, True]
@@ -32,7 +32,7 @@ def main():
                 forward_test_generated_token_count=32)
 
         def snapshot_path_creator(model_name: str, soft_prompt_token_count: int):
-            return f"../snapshots/pathfinding/{model_name}/spaces-{use_space}/soft-prompt-{soft_prompt_token_count}.pt"
+            return f"snapshots/pathfinding/{model_name}/spaces-{use_space}/soft-prompt-{soft_prompt_token_count}.pt"
 
         soft_prompt_token_counts = [1, 4, 16, 64]
         for board_width, board_height in board_configurations:
