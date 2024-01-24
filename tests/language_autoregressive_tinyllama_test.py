@@ -8,7 +8,7 @@ def main():
     Checks for a distributional gap between the tinyllama's original training distribution and the soft prompt's
     training distribution.
     """
-    model_configurations = [('TinyLlama/TinyLlama-1.1B-intermediate-step-1431k-3T', 128)]
+    model_configurations = [('TinyLlama/TinyLlama-1.1B-intermediate-step-1431k-3T', 4)]
     # model_configurations = [('meta-llama/Llama-2-7b-hf', 16)]
     soft_prompt_token_counts = [0, 1, 4, 16]
 
@@ -19,7 +19,7 @@ def main():
         #use_sample_dataset=True,
         logging_prefix=f"autoregressive",
         training_step_count=1024,
-        batch_lanes_per_step=256,
+        batch_lanes_per_step=32,
         maximum_sample_length_in_tokens=256, learning_rate=1e-3, weight_decay=1e-4,
         forward_test_generated_token_count=32)
 

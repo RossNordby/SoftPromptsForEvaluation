@@ -10,9 +10,10 @@ def main():
     """
     torch.manual_seed(5)
 
-    model_configurations = [('EleutherAI/pythia-410m-deduped', 256),
-                            ('EleutherAI/pythia-160m-deduped', 128),
-                            ('EleutherAI/pythia-70m-deduped', 64)]
+    model_configurations = [
+        # ('EleutherAI/pythia-410m-deduped', 256),
+        # ('EleutherAI/pythia-160m-deduped', 128),
+        ('EleutherAI/pythia-70m-deduped', 64)]
 
     board_configurations = [(8, 8)]
     use_spaces = [False, True]

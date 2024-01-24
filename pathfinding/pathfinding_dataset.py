@@ -67,7 +67,7 @@ class PathfindingDataset:
         return result
 
     def __next__(self):
-        # A lot of this *could* be vectorized over a whole batch, but... it's not bottlenecking anything at the moment.
+        # A lot of this *could* be vectorized over a whole batch, but... that gets a little complicated.
         distances_to_target = torch.empty([self.width, self.height], dtype=torch.int)
         torch.fill_(distances_to_target, PathfindingDataset.BLOCKER_VALUE)
         location_count = torch.randint(0, self.width * self.height * 3 // 4, [1]) + 2

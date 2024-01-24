@@ -4,6 +4,7 @@ import torch
 from torch import Tensor
 
 from pathfinding.pathfinding_dataset import PathfindingDataset
+from pathfinding.pathfinding_dataset_loading import AsyncPathfindingLoader
 from soft_prompting.batch_loader import BatchLoader
 from soft_prompting.utils import get_token_counts
 
@@ -14,21 +15,23 @@ class PathfindingBatchLoader(BatchLoader):
     Soft prompt parameters contain the number of extra steps and invalid steps.
     """
 
-    def __init__(self, board_width: int, board_height: int, insert_spaces: bool, tokenizer, batch_size: int,
-                 maximum_sample_length_in_tokens: int = 512,
+    def __init__(self, pathfinding_loader, insert_move_section_separator: bool,
+                 tokenizer, batch_size: int, maximum_sample_length_in_tokens: int = 512,
                  num_processes: int = 1, process_index: int = 0):
         """
         Creates a PathfindingBatchLoader.
-        :param board_width: The width of the boards to generate.
-        :param board_height: The height of the boards to generate.
-        :param insert_spaces: Whether to insert spaces between each board slot and move.
-                              May affect tokenization.
+        :param pathfinding_loader: The pathfinding loader to feed the batch loader with.
+        :param insert_move_section_separator: Whether to insert a line that says 'Moves:' between the board and moves.
         :param tokenizer: The tokenizer to use to tokenize the moves.
         :param batch_size: The number of games to load per batch.
         :param maximum_sample_length_in_tokens: The maximum length of each sample in tokens.
         """
+        if not isinstance(pathfinding_loader, PathfindingDataset) and not isinstance(pathfinding_loader,
+                                                                                     AsyncPathfindingLoader):
+            raise ValueError("pathfinding_loader must be a PathfindingDataset or AsyncPathfindingLoader")
         super().__init__(batch_size, maximum_sample_length_in_tokens, num_processes, process_index)
-        self.board_dataset = PathfindingDataset(board_width, board_height, insert_spaces)
+        self.board_dataset = pathfinding_loader
+        self.insert_move_section_separator = insert_move_section_separator
         self.tokenizer = tokenizer
         self.batch_size = batch_size
 
@@ -39,7 +42,7 @@ class PathfindingBatchLoader(BatchLoader):
         while len(input_batch) < self.batch_size:
             board, moves, extra_move_count, invalid_move_count = next(self.board_dataset)
             input_batch.append((extra_move_count, invalid_move_count))
-            board_batch.append(board + '\n')
+            board_batch.append(board + '\nMoves:\n' if self.insert_move_section_separator else '\n')
             moves_batch.append(moves)
         tokenized_boards = self.tokenizer(board_batch, return_tensors='pt', padding=True, truncation=True,
                                           max_length=self.sample_length_in_tokens).input_ids
