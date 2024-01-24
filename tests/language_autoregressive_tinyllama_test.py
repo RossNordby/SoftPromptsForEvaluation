@@ -8,7 +8,7 @@ def main():
     Checks for a distributional gap between the tinyllama's original training distribution and the soft prompt's
     training distribution.
     """
-    model_configurations = [('TinyLlama/TinyLlama-1.1B-intermediate-step-1431k-3T', 4)]
+    model_configurations = [('TinyLlama/TinyLlama-1.1B-intermediate-step-1431k-3T', 8)]
     # model_configurations = [('meta-llama/Llama-2-7b-hf', 16)]
     soft_prompt_token_counts = [0, 1, 4, 16]
 
