@@ -36,7 +36,7 @@ def main():
 
     for use_space in insert_spaces:
         for insert_separator in insert_move_section_separator:
-            run_training(use_space, insert_separator, [0], 128)
+            run_training(use_space, insert_separator, [0], 128, None)
 
             def snapshot_path_creator(model_name: str, soft_prompt_token_count: int):
                 return f"snapshots/pathfinding/{model_name}/spaces-{use_space}/soft-prompt-{soft_prompt_token_count}.pt"
