@@ -41,7 +41,7 @@ def main():
             def snapshot_path_creator(model_name: str, soft_prompt_token_count: int):
                 return f"snapshots/pathfinding/{model_name}/spaces-{use_space}/movesep-{insert_move_section_separator}/soft-prompt-{soft_prompt_token_count}.pt"
 
-            run_training(use_space, insert_separator, [1, 4, 16, 64], 2048, snapshot_path_creator)
+            run_training(use_space, insert_separator, [64, 16, 4, 1], 2048, snapshot_path_creator)
 
 
 if __name__ == '__main__':
