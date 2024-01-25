@@ -7,6 +7,7 @@ from torch import optim
 from transformers import AutoTokenizer, AutoModelForCausalLM
 
 import soft_prompting.direct_soft_prompt
+from pathfinding.async_pathfinding_loader import AsyncPathfindingLoader
 from pathfinding.pathfinding_batch_loader import PathfindingBatchLoader
 from pathfinding.pathfinding_batch_preparer import PathfindingBatchPreparer
 from soft_prompting import training_and_testing, SoftPromptFactory, SnapshotPathCreator, try_create_snapshot
@@ -18,6 +19,7 @@ def train_and_test_pathfinding(board_width: int, board_height: int,
                                soft_prompt_token_counts: list[int],
                                soft_prompt_creator: SoftPromptFactory,
                                insert_spaces: bool,
+                               insert_moves_section_separator: bool,
                                logging_prefix: str = "",
                                training_step_count: int = 512, batch_lanes_per_step: int = 32,
                                maximum_sample_length_in_tokens: int = 256, learning_rate: float = 1e-3,
@@ -39,6 +41,7 @@ def train_and_test_pathfinding(board_width: int, board_height: int,
                                 Note: Currently, language tasks only support DirectSoftPrompts.
     :param insert_spaces: Whether to insert spaces between the board slots and the moves.
                           May affect tokenization.
+    :param insert_moves_section_separator: Whether to insert a line that says 'Moves:' between the board and moves.
     :param logging_prefix: The prefix to prepend to the name of tensorboard log outputs.
     :param training_step_count: The number of training steps to use.
     :param batch_lanes_per_step: The number of batch lanes to use per optimization step. Must be a multiple of
@@ -57,8 +60,6 @@ def train_and_test_pathfinding(board_width: int, board_height: int,
     """
 
     for model_name, accumulation_step_count in model_configurations:
-        # All language tasks will use the redpajama dataset.
-        # Reload the dataset for each model configuration
         torch.manual_seed(5)
 
         print(f'Preparing model {model_name}...')
@@ -77,8 +78,8 @@ def train_and_test_pathfinding(board_width: int, board_height: int,
                                   mixed_precision=force_mixed_precision_mode)
 
         for soft_prompt_token_count in soft_prompt_token_counts:
-
-            batch_loader = PathfindingBatchLoader(board_width, board_height, insert_spaces, tokenizer, batch_size,
+            board_loader = AsyncPathfindingLoader(board_width, board_height, insert_spaces)
+            batch_loader = PathfindingBatchLoader(board_loader, insert_moves_section_separator, tokenizer, batch_size,
                                                   maximum_sample_length_in_tokens,
                                                   num_processes=accelerator.num_processes,
                                                   process_index=accelerator.process_index)

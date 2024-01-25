@@ -4,7 +4,7 @@ import torch
 from torch import Tensor
 
 from pathfinding.pathfinding_dataset import PathfindingDataset
-from pathfinding.pathfinding_dataset_loading import AsyncPathfindingLoader
+from pathfinding.async_pathfinding_loader import AsyncPathfindingLoader
 from soft_prompting.batch_loader import BatchLoader
 from soft_prompting.utils import get_token_counts
 
@@ -44,7 +44,7 @@ class PathfindingBatchLoader(BatchLoader):
         while len(input_batch) < self.batch_size:
             board, moves, extra_move_count, invalid_move_count = next(self.pathfinding_loader)
             input_batch.append((extra_move_count, invalid_move_count))
-            board_batch.append(board + '\nMoves:\n' if self.insert_move_section_separator else '\n')
+            board_batch.append(board + ('\nMoves:\n' if self.insert_move_section_separator else '\n'))
             moves_batch.append(moves)
         tokenized_boards = self.tokenizer(board_batch, return_tensors='pt', padding=True, truncation=True,
                                           max_length=self.sample_length_in_tokens).input_ids
