@@ -78,33 +78,33 @@ def train_and_test_pathfinding(board_width: int, board_height: int,
                                   mixed_precision=force_mixed_precision_mode)
 
         for soft_prompt_token_count in soft_prompt_token_counts:
-            board_loader = AsyncPathfindingLoader(board_width, board_height, insert_spaces)
-            batch_loader = PathfindingBatchLoader(board_loader, insert_moves_section_separator, tokenizer, batch_size,
-                                                  maximum_sample_length_in_tokens,
-                                                  num_processes=accelerator.num_processes,
-                                                  process_index=accelerator.process_index)
+            with AsyncPathfindingLoader(board_width, board_height, insert_spaces) as board_loader:
+                batch_loader = PathfindingBatchLoader(board_loader, insert_moves_section_separator, tokenizer, batch_size,
+                                                      maximum_sample_length_in_tokens,
+                                                      num_processes=accelerator.num_processes,
+                                                      process_index=accelerator.process_index)
 
-            # Reusing the same batch loader for both. S'fine; won't be the same data.
-            test_batch_loader = batch_loader
+                # Reusing the same batch loader for both. S'fine; won't be the same data.
+                test_batch_loader = batch_loader
 
-            logger_safe_model_name = model_name.replace('/', '_')
-            logger = DataLogger(
-                f"runs/{logging_prefix} pathfinding {board_width}x{board_height} {logger_safe_model_name}, {soft_prompt_token_count}, {datetime.now().strftime('%Y-%m-%d %H-%M-%S')}",
-                accelerator)
-            soft_prompt = soft_prompt_creator(soft_prompt_token_count, batch_loader.soft_prompt_parameters_size,
-                                              embedding_width)
-            if isinstance(soft_prompt, soft_prompting.DirectSoftPrompt):
-                raise ValueError(
-                    f'Pathfinding requires a conditional soft prompt, but got {soft_prompt}.')
-            optimizer = optim.AdamW(soft_prompt.parameters(), lr=learning_rate, weight_decay=weight_decay)
+                logger_safe_model_name = model_name.replace('/', '_')
+                logger = DataLogger(
+                    f"runs/{logging_prefix} pathfinding {board_width}x{board_height} {logger_safe_model_name}, {soft_prompt_token_count}, {datetime.now().strftime('%Y-%m-%d %H-%M-%S')}",
+                    accelerator)
+                soft_prompt = soft_prompt_creator(soft_prompt_token_count, batch_loader.soft_prompt_parameters_size,
+                                                  embedding_width)
+                if isinstance(soft_prompt, soft_prompting.DirectSoftPrompt):
+                    raise ValueError(
+                        f'Pathfinding requires a conditional soft prompt, but got {soft_prompt}.')
+                optimizer = optim.AdamW(soft_prompt.parameters(), lr=learning_rate, weight_decay=weight_decay)
 
-            training_and_testing.train_and_test_soft_prompt(model, tokenizer, batch_loader, test_batch_loader,
-                                                            soft_prompt,
-                                                            0, training_step_count,
-                                                            PathfindingBatchPreparer(),
-                                                            optimizer, accelerator, logger,
-                                                            forward_test_generated_token_count)
-            logger.close()
-            try_create_snapshot(snapshot_path_creator, model_name, soft_prompt_token_count,
-                                maximum_sample_length_in_tokens, batch_lanes_per_step, accumulation_step_count,
-                                soft_prompt, training_step_count, learning_rate, weight_decay)
+                training_and_testing.train_and_test_soft_prompt(model, tokenizer, batch_loader, test_batch_loader,
+                                                                soft_prompt,
+                                                                0, training_step_count,
+                                                                PathfindingBatchPreparer(),
+                                                                optimizer, accelerator, logger,
+                                                                forward_test_generated_token_count)
+                logger.close()
+                try_create_snapshot(snapshot_path_creator, model_name, soft_prompt_token_count,
+                                    maximum_sample_length_in_tokens, batch_lanes_per_step, accumulation_step_count,
+                                    soft_prompt, training_step_count, learning_rate, weight_decay)
