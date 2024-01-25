@@ -1,3 +1,4 @@
+import gc
 from typing import Callable, TypeAlias
 
 from accelerate import Accelerator
@@ -330,6 +331,16 @@ def train_and_test_soft_prompt(model, tokenizer,
             trained_token_count += batch_token_count
             summed_loss += run_training_batch(model, optimizer, accelerator, samples, input_embeddings, output_labels,
                                               soft_prompt_start_indices, soft_prompt, compute_loss)
+
+        if model.device.type == 'cuda':
+            # If we're running on a GPU, keep an eye on the cache to avoid runaway fragmentation.
+            # Observed this on some of the more variable training runs.
+            total_memory = torch.cuda.get_device_properties(model.device).total_memory
+            allocated_memory = torch.cuda.memory_allocated(model.device)
+            cached_memory = torch.cuda.memory_reserved(model.device)
+            if cached_memory > total_memory * 0.15 and cached_memory + allocated_memory >= total_memory:
+                torch.cuda.empty_cache()
+                gc.collect()
 
         if logger is not None and training_step_index % training_loss_logging_interval == 0:
             loss = summed_loss / accelerator.gradient_accumulation_steps

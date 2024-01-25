@@ -17,8 +17,8 @@ def main():
         ('EleutherAI/pythia-70m-deduped', 4)]
 
     board_configurations = [(8, 8)]
-    insert_spaces = [False, True]
-    insert_move_section_separator = [False, True]
+    insert_spaces = [True, False]
+    insert_move_section_separator = [True, False]
 
     def run_training(use_spaces, insert_move_separator, soft_prompt_token_counts, training_step_count, path_creator):
         for board_width, board_height in board_configurations:
@@ -28,7 +28,7 @@ def main():
                 MLPFactory(0, 128),
                 insert_spaces=use_spaces,
                 insert_moves_section_separator=insert_move_separator,
-                logging_prefix=f"pathfinding2 spaces-{use_spaces}",
+                logging_prefix=f"pathfinding2 movesep-{insert_move_separator} spaces-{use_spaces}",
                 training_step_count=training_step_count,
                 batch_lanes_per_step=256,
                 maximum_sample_length_in_tokens=256, learning_rate=1e-3, weight_decay=1e-4,
@@ -39,7 +39,7 @@ def main():
             run_training(use_space, insert_separator, [0], 128, None)
 
             def snapshot_path_creator(model_name: str, soft_prompt_token_count: int):
-                return f"snapshots/pathfinding/{model_name}/spaces-{use_space}/soft-prompt-{soft_prompt_token_count}.pt"
+                return f"snapshots/pathfinding/{model_name}/spaces-{use_space}/movesep-{insert_move_section_separator}/soft-prompt-{soft_prompt_token_count}.pt"
 
             run_training(use_space, insert_separator, [1, 4, 16, 64], 2048, snapshot_path_creator)
 

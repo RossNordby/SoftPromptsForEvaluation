@@ -72,7 +72,7 @@ class PathfindingBatchLoader(BatchLoader):
                                                                   torch.arange(
                                                                       tokenized_moves.size(1))] = tokenized_moves
         input_tensor = torch.tensor(input_batch, dtype=torch.float)
-        return input_tensor, combined_ids, move_start_indices
+        return input_tensor.detach(), combined_ids.detach(), move_start_indices.detach()
 
     @property
     def soft_prompt_parameters_size(self):
