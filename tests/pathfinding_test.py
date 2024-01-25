@@ -12,9 +12,9 @@ def main():
     torch.manual_seed(5)
 
     model_configurations = [
-        # ('EleutherAI/pythia-410m-deduped', 256),
-        # ('EleutherAI/pythia-160m-deduped', 128),
-        ('EleutherAI/pythia-70m-deduped', 64)]
+        ('EleutherAI/pythia-410m-deduped', 16),
+        ('EleutherAI/pythia-160m-deduped', 8),
+        ('EleutherAI/pythia-70m-deduped', 4)]
 
     board_configurations = [(8, 8)]
     insert_spaces = [False, True]
@@ -28,7 +28,7 @@ def main():
                 MLPFactory(0, 128),
                 insert_spaces=use_spaces,
                 insert_moves_section_separator=insert_move_separator,
-                logging_prefix=f"pathfinding spaces-{use_spaces}",
+                logging_prefix=f"pathfinding2 spaces-{use_spaces}",
                 training_step_count=training_step_count,
                 batch_lanes_per_step=256,
                 maximum_sample_length_in_tokens=256, learning_rate=1e-3, weight_decay=1e-4,
