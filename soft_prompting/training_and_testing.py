@@ -97,15 +97,16 @@ def test_loss(model: GPTNeoXForCausalLM, tokenizer: GPTNeoXTokenizerFast,
     assert devices_match(input_samples.device, model.device)
     assert output_labels is None or devices_match(output_labels.device, model.device)
 
-    if compute_loss is None:
-        # If no custom loss was specified, we'll use the default model loss, so we need to provide labels.
-        model_outputs = model.forward(inputs_embeds=input_embeddings, labels=output_labels)
-        loss = model_outputs.loss
-    else:
-        model_outputs = model.forward(inputs_embeds=input_embeddings)
-        # Labels weren't provided. There must be a loss function defined.
-        # (logits, labels, soft prompt, soft prompt start indices) -> loss.
-        loss = compute_loss(model_outputs.logits, output_labels, soft_prompt, soft_prompt_start_indices)
+    with torch.no_grad():
+        if compute_loss is None:
+            # If no custom loss was specified, we'll use the default model loss, so we need to provide labels.
+            model_outputs = model.forward(inputs_embeds=input_embeddings, labels=output_labels)
+            loss = model_outputs.loss
+        else:
+            model_outputs = model.forward(inputs_embeds=input_embeddings)
+            # Labels weren't provided. There must be a loss function defined.
+            # (logits, labels, soft prompt, soft prompt start indices) -> loss.
+            loss = compute_loss(model_outputs.logits, output_labels, soft_prompt, soft_prompt_start_indices)
 
     if logger is not None:
         logger.add_scalar('Test loss', loss, training_step_index)
