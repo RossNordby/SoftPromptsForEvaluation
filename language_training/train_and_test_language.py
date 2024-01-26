@@ -5,12 +5,11 @@ from accelerate import Accelerator
 from accelerate.utils import PrecisionType
 from datasets import load_dataset
 from torch import optim
-from transformers import AutoTokenizer, GPTNeoXForCausalLM, AutoModelForCausalLM
+from transformers import AutoTokenizer, AutoModelForCausalLM
 
 import soft_prompting.direct_soft_prompt
 from language_training.persistent_batch_loader import PersistentBatchLoader
-from soft_prompting import training_and_testing, SoftPromptFactory, SnapshotPathCreator, TaskBatchDataPreparer, \
-    try_create_snapshot
+from soft_prompting import training_and_testing, SoftPromptFactory, TaskBatchDataPreparer
 from soft_prompting.data_logger import DataLogger
 from soft_prompting.training_callbacks import TrainingCallbacks
 

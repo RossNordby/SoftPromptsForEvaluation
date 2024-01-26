@@ -10,7 +10,7 @@ import soft_prompting.direct_soft_prompt
 from pathfinding.async_pathfinding_loader import AsyncPathfindingLoader
 from pathfinding.pathfinding_batch_loader import PathfindingBatchLoader
 from pathfinding.pathfinding_batch_preparer import PathfindingBatchPreparer
-from soft_prompting import training_and_testing, SoftPromptFactory, SnapshotPathCreator, try_create_snapshot
+from soft_prompting import training_and_testing, SoftPromptFactory
 from soft_prompting.data_logger import DataLogger
 from soft_prompting.training_callbacks import TrainingCallbacks
 

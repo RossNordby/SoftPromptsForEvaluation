@@ -1,7 +1,6 @@
 from datetime import datetime
 
 import chess.pgn
-import torch
 from accelerate import Accelerator
 from torch import optim
 from transformers import AutoTokenizer, GPTNeoXTokenizerFast, GPTNeoXForCausalLM
@@ -9,8 +8,8 @@ from transformers import AutoTokenizer, GPTNeoXTokenizerFast, GPTNeoXForCausalLM
 import soft_prompting.direct_soft_prompt
 from chess_training.dataset_loading import AsyncChessBatchLoader, UnconditionalAsyncChessBatchLoader, \
     AsyncChessBatchLoaderWithOnes
-from soft_prompting import training_and_testing, SoftPromptFactory, SnapshotPathCreator, try_create_snapshot
-from language_training import autoregressive_baseline, AutoregressiveBaseline
+from soft_prompting import training_and_testing, SoftPromptFactory
+from language_training import AutoregressiveBaseline
 from soft_prompting.data_logger import DataLogger
 
 from enum import Enum
