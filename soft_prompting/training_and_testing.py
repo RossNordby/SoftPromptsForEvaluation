@@ -279,13 +279,12 @@ def create_strings_from_prompted_generation(prompt_ids: Tensor, generated_ids: T
     return strings
 
 
-def generate_for_forward_testing(batch_loader: BatchLoader, ids_to_embeddings: EmbedInputFunction, model,
+def generate_for_forward_testing(batch_loader: BatchLoader, model,
                                  soft_prompt: soft_prompts.SoftPrompt, tokenizer, generated_token_count: int,
                                  prompt_string: str | None = None):
     """
     Generates tokens using prompts pulled from a batch loader and prints them.
     :param batch_loader: Batch loader to pull prompts from.
-    :param ids_to_embeddings: Function that converts token ids to embeddings.
     :param model: Model to generate with.
     :param soft_prompt: Soft prompt to insert after the prompt.
     :param tokenizer: Tokenizer to use.
@@ -293,7 +292,7 @@ def generate_for_forward_testing(batch_loader: BatchLoader, ids_to_embeddings: E
     :param prompt_string: String to insert to mark the start of the soft prompt, if any. If None, no string is
     inserted.
     """
-    input_ids, output_ids = generate_from_batch_loader(batch_loader, ids_to_embeddings, model, soft_prompt, tokenizer,
+    input_ids, output_ids = generate_from_batch_loader(batch_loader, model, soft_prompt, tokenizer,
                                                        generated_token_count)
     strings = create_strings_from_prompted_generation(input_ids, output_ids, tokenizer, prompt_string)
     for i in range(len(strings)):
@@ -421,8 +420,7 @@ def train_and_test_soft_prompt(model, model_name: str, tokenizer,
                                 "[SOFT PROMPT]")
             logger.add_scalar('Trained token count', trained_token_count.to(dtype=torch.float), training_step_index)
 
-    generate_for_forward_testing(test_batch_loader, ids_to_embeddings, model, soft_prompt, tokenizer,
-                                 forward_test_generated_token_count,
+    generate_for_forward_testing(test_batch_loader, model, soft_prompt, tokenizer, forward_test_generated_token_count,
                                  "[SOFT PROMPT]")
     logger.add_scalar('Trained token count', trained_token_count.to(dtype=torch.float), training_step_count)
     print(f'completed soft prompt training.')
