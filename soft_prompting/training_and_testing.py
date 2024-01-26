@@ -31,8 +31,8 @@ def run_training_batch(model: GPTNeoXForCausalLM, optimizer: torch.optim.Optimiz
                        soft_prompt: soft_prompts.SoftPrompt,
                        compute_loss: SoftPromptLossFunction | None):
     """
-    Performs a backward step on the model using the given labels and default loss function, or a given loss function
-    is no labels are provided.
+    Evaluates the model and runs an optimization step using the given labels and default loss function,
+    or a given loss function if provided.
     :param model: Model to train.
     :param optimizer: Optimizer used to train the model.
     :param accelerator: Accelerator used to train the model.
@@ -58,6 +58,7 @@ def run_training_batch(model: GPTNeoXForCausalLM, optimizer: torch.optim.Optimiz
             # Labels weren't provided. There must be a loss function defined.
             # (logits, labels, soft prompt, soft prompt start indices) -> loss.
             loss = compute_loss(model_outputs.logits, output_labels, soft_prompt, soft_prompt_start_indices)
+
         accelerator.backward(loss)
         optimizer.step()
         optimizer.zero_grad()
@@ -65,74 +66,89 @@ def run_training_batch(model: GPTNeoXForCausalLM, optimizer: torch.optim.Optimiz
     return loss
 
 
-def test_loss(model: GPTNeoXForCausalLM, tokenizer: GPTNeoXTokenizerFast,
-              input_samples: Tensor, input_embeddings: Tensor, output_labels: Tensor | None,
-              training_step_index: int, soft_prompt_start_indices: torch.Tensor,
-              soft_prompt: soft_prompts.SoftPrompt,
-              compute_loss: SoftPromptLossFunction | None,
-              logger: DataLogger | None = None,
-              soft_prompt_string: str | None = None):
+def test_loss_for_batch(model, tokenizer,
+                        test_batch_loader, batch_data_preparer, ids_to_embeddings, end_of_text_token_id, pad_token_id,
+                        maximum_prompt_start_indices: int | None,
+                        accumulator_step_count: int,
+                        training_step_index: int,
+                        soft_prompt: soft_prompts.SoftPrompt,
+                        test_loss_log_title: str | None = None,
+                        logger: DataLogger | None = None,
+                        soft_prompt_string: str | None = None,
+                        print_diagnostic_messages: bool = True):
     """
     Evaluates the loss of the model and prompt without optimizing. Prints diagnostics.
     :param model: Model to train.
     :param tokenizer: Tokenizer used to decode samples.
-    :param input_samples: Original input samples used to train the model.
-    :param input_embeddings: Embeddings used to train the model. Contains soft_prompt tokens.
-    :param output_labels: Labels used to train the model. Should contain -100 for tokens related to the soft prompt.
+    :param accumulator_step_count: Number of accumulation steps.
     :param training_step_index: Index of the training step.
-    :param soft_prompt_start_indices: Indices of the soft prompt in the input embeddings.
     :param soft_prompt: Soft prompt being trained.
-    :param compute_loss: Loss function to use if no labels are provided.
     Parameters are (logits, soft_prompt_start_indices).
+    :param test_loss_log_title: Title to use when logging the test loss. If None, the logger must None, and if not None,
+    the logger must not be None.
     :param logger: Logger to log loss to.
     :param soft_prompt_string: String to insert in the debug outputs to mark the start of the soft prompt, if any.
     If None, no string is inserted.
+    :param print_diagnostic_messages: Whether to print diagnostic messages.
     """
-    print(f'Prompt inputs for {training_step_index}')
-    print(input_embeddings[0,
-          soft_prompt_start_indices[0].item():soft_prompt_start_indices[
-                                                  0].item() + soft_prompt.soft_prompt_token_count,
-          :8])
 
-    assert devices_match(input_embeddings.device, model.device)
-    assert devices_match(input_samples.device, model.device)
-    assert output_labels is None or devices_match(output_labels.device, model.device)
+    if (logger is None) is not (test_loss_log_title is None):
+        raise ValueError("Either both logger and test_loss_log_title must be None, or neither can be None.")
 
+    summed_loss = torch.zeros([1], dtype=torch.float, device=model.device)
     with torch.no_grad():
-        if compute_loss is None:
-            # If no custom loss was specified, we'll use the default model loss, so we need to provide labels.
-            model_outputs = model.forward(inputs_embeds=input_embeddings, labels=output_labels)
-            loss = model_outputs.loss
-        else:
-            model_outputs = model.forward(inputs_embeds=input_embeddings)
-            # Labels weren't provided. There must be a loss function defined.
-            # (logits, labels, soft prompt, soft prompt start indices) -> loss.
-            loss = compute_loss(model_outputs.logits, output_labels, soft_prompt, soft_prompt_start_indices)
+        for i in range(accumulator_step_count):
+            samples, input_embeddings, output_labels, compute_loss, soft_prompt_start_indices, batch_token_count = (
+                prepare_batch(model.device, test_batch_loader, batch_data_preparer,
+                              ids_to_embeddings, end_of_text_token_id, pad_token_id,
+                              soft_prompt, maximum_prompt_start_indices))
 
+            if compute_loss is None:
+                # If no custom loss was specified, we'll use the default model loss, so we need to provide labels.
+                model_outputs = model.forward(inputs_embeds=input_embeddings, labels=output_labels)
+                loss_to_accumulate = model_outputs.loss
+            else:
+                model_outputs = model.forward(inputs_embeds=input_embeddings)
+                # Labels weren't provided. There must be a loss function defined.
+                # (logits, labels, soft prompt, soft prompt start indices) -> loss.
+                loss_to_accumulate = compute_loss(model_outputs.logits, output_labels, soft_prompt,
+                                                  soft_prompt_start_indices)
+            if print_diagnostic_messages and i == 0:
+                # Bit janky, but it's debug code.
+                print(f'Prompt inputs for {training_step_index}')
+                print(input_embeddings[0,
+                      soft_prompt_start_indices[0].item():soft_prompt_start_indices[
+                                                              0].item() + soft_prompt.soft_prompt_token_count, :8])
+                debug_input_samples = samples[0]
+                debug_model_output = model_outputs.logits[0]
+                debug_soft_prompt_start_index = soft_prompt_start_indices[0]
+            summed_loss += loss_to_accumulate
+    loss = summed_loss / accumulator_step_count
     if logger is not None:
-        logger.add_scalar('Test loss', loss, training_step_index)
+        logger.add_scalar(test_loss_log_title, loss, training_step_index)
 
-    print(f"Completed test loss for {training_step_index}, loss: {loss}")
-    for j in range(1):
-        next_token_ids = sample_token_from_logits(model_outputs.logits[j]).squeeze()
+    if print_diagnostic_messages:
+        print(f"Completed test loss for {training_step_index}, loss: {loss}")
+        next_token_ids = sample_token_from_logits(debug_model_output).squeeze()
 
-        print(f'INPUTS {j}, INSERTED SOFT PROMPT AT {soft_prompt_start_indices[j]}')
-        print(tokenizer.decode(input_samples[j]))
+        print(f'INPUTS, INSERTED SOFT PROMPT AT {debug_soft_prompt_start_index}')
+        print(tokenizer.decode(debug_input_samples))
         print()
-        print(f'OUTPUTS {j}:')
+        print(f'OUTPUTS:')
         # Pull out the soft prompt's predictions:
-        before_tokens = next_token_ids[:soft_prompt_start_indices[j]]
-        after_tokens = next_token_ids[soft_prompt_start_indices[j] + soft_prompt.soft_prompt_token_count:]
+        before_tokens = next_token_ids[:debug_soft_prompt_start_index]
+        after_tokens = next_token_ids[debug_soft_prompt_start_index + soft_prompt.soft_prompt_token_count:]
         before = tokenizer.decode(before_tokens)
         after = tokenizer.decode(after_tokens)
         print(f'{before}{soft_prompt_string}{after}')
         print()
         print("OUTPUTS FOR SOFT PROMPT TOKENS:")
-        print(tokenizer.decode(next_token_ids[soft_prompt_start_indices[j]:
-                                              soft_prompt_start_indices[j] + soft_prompt.soft_prompt_token_count]))
+        print(tokenizer.decode(next_token_ids[debug_soft_prompt_start_index:
+                                              debug_soft_prompt_start_index + soft_prompt.soft_prompt_token_count]))
         print()
         print("_____")
         print()
+    return loss
 
 
 def generate(prompt_ids: Tensor, ids_to_embeddings, model, soft_prompt: soft_prompts.SoftPrompt,
@@ -290,7 +306,8 @@ def train_and_test_soft_prompt(model, tokenizer,
                                accelerator: Accelerator, logger: DataLogger,
                                forward_test_generated_token_count: int = 64,
                                training_loss_logging_interval: int = 1,
-                               test_loss_evaluation_interval: int = 32):
+                               test_loss_evaluation_interval: int = 32,
+                               final_test_loss_evaluation_step_count: int = 64):
     """
     Trains a soft prompt towards some objective defined by samples, output labels, and/or a loss function.
 
@@ -314,6 +331,8 @@ def train_and_test_soft_prompt(model, tokenizer,
     :param test_loss_evaluation_interval: The interval of training steps at which to evaluate test loss.
                                           If not positive, no loss tests are performed.
                                           Ignored if test_batch_loader is None.
+    :param final_test_loss_evaluation_step_count: The number of steps to use when evaluating test loss at the end of
+                                                  training. Ignored if test_batch_loader is None.
     """
     ids_to_embeddings = model.get_input_embeddings()
     model, soft_prompt, optimizer = accelerator.prepare(model, soft_prompt, optimizer)
@@ -322,7 +341,7 @@ def train_and_test_soft_prompt(model, tokenizer,
     trained_token_count = torch.zeros([1], dtype=torch.int64, device=accelerator.device)
     batch_data_preparer.prepare_preparer(tokenizer, batch_loader.sample_length_in_tokens)
     for training_step_index in range(training_step_count):
-        summed_loss = 0.0
+        summed_loss = torch.zeros([1], dtype=torch.float, device=accelerator.device)
         for accumulation_step_index in range(accelerator.gradient_accumulation_steps):
             samples, input_embeddings, output_labels, compute_loss, soft_prompt_start_indices, batch_token_count = (
                 prepare_batch(accelerator.device, batch_loader, batch_data_preparer,
@@ -352,16 +371,29 @@ def train_and_test_soft_prompt(model, tokenizer,
         if (test_loss_evaluation_interval > 0 and test_batch_loader is not None and
                 training_step_index % test_loss_evaluation_interval == 0):
             # Periodically evaluate test loss.
-            samples, input_embeddings, output_labels, compute_loss, soft_prompt_start_indices, batch_token_count = (
-                prepare_batch(accelerator.device, test_batch_loader, batch_data_preparer,
-                              ids_to_embeddings, end_of_text_token_id, pad_token_id,
-                              soft_prompt, maximum_prompt_start_indices))
-            test_loss(model, tokenizer, samples, input_embeddings, output_labels, training_step_index,
-                      soft_prompt_start_indices, soft_prompt, compute_loss, logger, "[SOFT PROMPT]")
+            test_loss_for_batch(model, tokenizer, test_batch_loader,
+                                batch_data_preparer, ids_to_embeddings, end_of_text_token_id, pad_token_id,
+                                maximum_prompt_start_indices,
+                                accelerator.gradient_accumulation_steps, training_step_index,
+                                soft_prompt, "Test Loss", logger,
+                                "[SOFT PROMPT]")
             logger.add_scalar('Trained token count', trained_token_count.to(dtype=torch.float), training_step_index)
 
     generate_for_forward_testing(test_batch_loader, ids_to_embeddings, model, soft_prompt, tokenizer,
                                  forward_test_generated_token_count,
                                  "[SOFT PROMPT]")
-    print(f'completed soft prompt training.')
     logger.add_scalar('Trained token count', trained_token_count.to(dtype=torch.float), training_step_count)
+    print(f'completed soft prompt training.')
+
+    if final_test_loss_evaluation_step_count > 0 and test_batch_loader is not None:
+        summed_loss = torch.zeros([1], dtype=torch.float, device=accelerator.device)
+        for i in range(final_test_loss_evaluation_step_count):
+            summed_loss += test_loss_for_batch(model, tokenizer, test_batch_loader,
+                                               batch_data_preparer, ids_to_embeddings, end_of_text_token_id,
+                                               pad_token_id, maximum_prompt_start_indices,
+                                               accelerator.gradient_accumulation_steps, i,
+                                               soft_prompt, "Final Test Loss", logger,
+                                               "[SOFT PROMPT]")
+        loss = summed_loss / final_test_loss_evaluation_step_count
+        # Also janky, but we're very low on time and just need a way to persist the final test loss.
+        logger.add_scalar('Final Test Loss Average', loss, 0)

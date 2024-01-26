@@ -79,8 +79,8 @@ def train_and_test_pathfinding(board_width: int, board_height: int,
 
         for soft_prompt_token_count in soft_prompt_token_counts:
             with AsyncPathfindingLoader(board_width, board_height, insert_spaces) as board_loader:
-                batch_loader = PathfindingBatchLoader(board_loader, insert_moves_section_separator, tokenizer, batch_size,
-                                                      maximum_sample_length_in_tokens,
+                batch_loader = PathfindingBatchLoader(board_loader, insert_moves_section_separator, tokenizer,
+                                                      batch_size, maximum_sample_length_in_tokens,
                                                       num_processes=accelerator.num_processes,
                                                       process_index=accelerator.process_index)
 
@@ -104,7 +104,10 @@ def train_and_test_pathfinding(board_width: int, board_height: int,
                                                                 PathfindingBatchPreparer(),
                                                                 optimizer, accelerator, logger,
                                                                 forward_test_generated_token_count)
-                logger.close()
                 try_create_snapshot(snapshot_path_creator, model_name, soft_prompt_token_count,
                                     maximum_sample_length_in_tokens, batch_lanes_per_step, accumulation_step_count,
                                     soft_prompt, training_step_count, learning_rate, weight_decay)
+
+                # Run the final test loss evaluation.
+
+                logger.close()
