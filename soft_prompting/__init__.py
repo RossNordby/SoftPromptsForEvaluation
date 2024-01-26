@@ -8,4 +8,3 @@ from .task_batch_data_preparer import *
 from .aliases import *
 
 from .training_and_testing import train_and_test_soft_prompt
-from .utils import try_create_snapshot

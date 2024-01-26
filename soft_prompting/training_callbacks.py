@@ -1,6 +1,6 @@
 from abc import ABC, abstractmethod
 
-from soft_prompting import SoftPrompt, try_create_snapshot, SnapshotPathCreator
+from soft_prompting import SoftPrompt, SnapshotPathCreator
 
 
 class TrainingCallbacks(ABC):
