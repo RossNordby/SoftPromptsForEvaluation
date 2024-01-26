@@ -3,6 +3,7 @@ import torch
 import soft_prompting
 from chess_training import train_and_test_chess
 from soft_prompting import ResnetFactory
+from soft_prompting.training_callbacks import SnapshottingCallbacks
 from tests.test_shared import get_default_chess_database_path
 
 
@@ -20,7 +21,8 @@ def main():
                          training_step_count=1,
                          batch_lanes_per_step=32,
                          maximum_sample_length_in_tokens=256, learning_rate=1e-3, weight_decay=1e-4,
-                         forward_test_generated_token_count=128, snapshot_path_creator=snapshot_path_creator)
+                         forward_test_generated_token_count=128,
+                         training_callbacks=SnapshottingCallbacks(snapshot_path_creator))
 
     result = torch.load("resnet_70m_1_testing_junk.pt")
     metadata = result[1]

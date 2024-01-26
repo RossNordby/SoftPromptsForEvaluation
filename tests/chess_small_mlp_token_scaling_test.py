@@ -1,5 +1,6 @@
 from chess_training import train_and_test_chess
 from soft_prompting import MLPFactory
+from soft_prompting.training_callbacks import SnapshottingCallbacks
 from tests.test_shared import get_default_chess_database_path
 
 
@@ -23,7 +24,7 @@ def main():
                          batch_lanes_per_step=32,
                          maximum_sample_length_in_tokens=256, learning_rate=1e-3, weight_decay=1e-4,
                          forward_test_generated_token_count=32,
-                         snapshot_path_creator=snapshot_path_creator)
+                         training_callbacks=SnapshottingCallbacks(snapshot_path_creator))
 
 
 if __name__ == '__main__':
