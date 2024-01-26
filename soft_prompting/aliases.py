@@ -16,6 +16,13 @@ Creates a path to save a snapshot to given the model name (e.g. "EleutherAI/pyth
 "meta-llama/Llama-2-7b-hf") and soft prompt token count.
 """
 
+
+TrainingCompleteCallback: TypeAlias = Callable[[str, int], str]
+"""
+Called by the training loop when a soft prompt's training is complete.
+"""
+
+
 SoftPromptLossFunction: TypeAlias = Callable[[Tensor, Tensor, SoftPrompt, Tensor], Tensor]
 """
 A loss function of the form:

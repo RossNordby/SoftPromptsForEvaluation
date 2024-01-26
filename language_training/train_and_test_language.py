@@ -12,6 +12,7 @@ from language_training.persistent_batch_loader import PersistentBatchLoader
 from soft_prompting import training_and_testing, SoftPromptFactory, SnapshotPathCreator, TaskBatchDataPreparer, \
     try_create_snapshot
 from soft_prompting.data_logger import DataLogger
+from soft_prompting.training_callbacks import TrainingCallbacks
 
 
 def train_and_test_language(model_configurations: list[tuple[str, int]],
@@ -26,7 +27,7 @@ def train_and_test_language(model_configurations: list[tuple[str, int]],
                             weight_decay: float = 1e-4,
                             forward_test_generated_token_count: int = 128,
                             force_mixed_precision_mode: PrecisionType = None,
-                            snapshot_path_creator: SnapshotPathCreator | None = None) -> None:
+                            training_callbacks: TrainingCallbacks | None = None) -> None:
     """
     Trains soft prompts on the english subset of the redpajama v2 language dataset.
     Trains a soft prompt for each model configuration for each soft prompt token count.
@@ -52,10 +53,7 @@ def train_and_test_language(model_configurations: list[tuple[str, int]],
     :param forward_test_generated_token_count: The number of tokens to generate when doing forward generation testing.
     :param force_mixed_precision_mode: What kind of mixed precision training to force, if any.
                                        If None, will use the default specified by the accelerator.
-    :param snapshot_path_creator: Function which creates paths to save snapshots to.
-                                  Takes
-                                  If None, no snapshots will be saved.
-                                  Snapshots will be saved as a tuple of (soft prompt state dict, metadata dict).
+    :param training_callbacks: Callbacks to call during training.
     """
 
     dataset = load_dataset("togethercomputer/RedPajama-Data-V2", name="sample" if use_sample_dataset else "default",
@@ -113,13 +111,10 @@ def train_and_test_language(model_configurations: list[tuple[str, int]],
                     f'Unlike chess training, no conditional modes exist for language training yet!')
             optimizer = optim.AdamW(soft_prompt.parameters(), lr=learning_rate, weight_decay=weight_decay)
 
-            training_and_testing.train_and_test_soft_prompt(model, tokenizer, batch_loader, test_batch_loader,
-                                                            soft_prompt,
+            training_and_testing.train_and_test_soft_prompt(model, model_name, tokenizer, batch_loader,
+                                                            test_batch_loader, soft_prompt,
                                                             maximum_soft_prompt_start_indices, training_step_count,
-                                                            batch_data_preparer,
-                                                            optimizer, accelerator, logger,
-                                                            forward_test_generated_token_count)
+                                                            batch_data_preparer, optimizer, accelerator, logger,
+                                                            forward_test_generated_token_count,
+                                                            training_callbacks=training_callbacks)
             logger.close()
-            try_create_snapshot(snapshot_path_creator, model_name, soft_prompt_token_count,
-                                maximum_sample_length_in_tokens, batch_lanes_per_step, accumulation_step_count,
-                                soft_prompt, training_step_count, learning_rate, weight_decay)

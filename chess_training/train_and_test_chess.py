@@ -15,6 +15,8 @@ from soft_prompting.data_logger import DataLogger
 
 from enum import Enum
 
+from soft_prompting.training_callbacks import TrainingCallbacks
+
 
 class SoftPromptParameterMode(Enum):
     """
@@ -57,7 +59,7 @@ def train_and_test_chess(chess_database_path: str, model_configurations: list[tu
                          maximum_sample_length_in_tokens: int = 256, learning_rate: float = 1e-3,
                          weight_decay: float = 1e-4,
                          forward_test_generated_token_count: int = 128,
-                         snapshot_path_creator: SnapshotPathCreator | None = None) -> None:
+                         training_callbacks: TrainingCallbacks | None = None) -> None:
     """
     Trains soft prompts on the chess dataset. Trains a soft prompt for each model configuration for each
     soft prompt token count.
@@ -80,19 +82,16 @@ def train_and_test_chess(chess_database_path: str, model_configurations: list[tu
     :param learning_rate: The learning rate to use.
     :param weight_decay: The weight decay to use.
     :param forward_test_generated_token_count: The number of tokens to generate when doing forward generation testing.
-    :param snapshot_path_creator: Function which creates paths to save snapshots to.
-                                  Takes
-                                  If None, no snapshots will be saved.
-                                  Snapshots will be saved as a tuple of (soft prompt state dict, metadata dict).
+    :param training_callbacks: Callbacks to call during training.
     """
 
     for model_size, accumulation_step_count in model_configurations:
-        pythia_model_name = f'pythia-{model_size}-deduped'
-        print(f'Preparing model {pythia_model_name}...')
-        model: GPTNeoXForCausalLM = GPTNeoXForCausalLM.from_pretrained(f"EleutherAI/{pythia_model_name}")
-        tokenizer: GPTNeoXTokenizerFast = AutoTokenizer.from_pretrained(f"EleutherAI/{pythia_model_name}")
+        # TODO: Update this to match the other trainers model agnosticism.
+        model_name = f'EleutherAI/pythia-{model_size}-deduped'
+        print(f'Preparing model {model_name}...')
+        model: GPTNeoXForCausalLM = GPTNeoXForCausalLM.from_pretrained(model_name)
+        tokenizer: GPTNeoXTokenizerFast = AutoTokenizer.from_pretrained(model_name)
         tokenizer.pad_token = tokenizer.eos_token
-        parameter_count = sum(param.numel() for param in model.parameters() if param.requires_grad)
 
         # Note that training step counts refer to the number of optimization steps, not the number of batches.
         batch_size = batch_lanes_per_step // accumulation_step_count
@@ -135,14 +134,11 @@ def train_and_test_chess(chess_database_path: str, model_configurations: list[tu
                         f'Unconditional soft prompt parameter mode requires a DirectSoftPrompt, but got {soft_prompt}.')
                 optimizer = optim.AdamW(soft_prompt.parameters(), lr=learning_rate, weight_decay=weight_decay)
 
-                training_and_testing.train_and_test_soft_prompt(model, tokenizer, batch_loader, test_batch_loader,
-                                                                soft_prompt,
+                training_and_testing.train_and_test_soft_prompt(model, model_name, tokenizer, batch_loader,
+                                                                test_batch_loader, soft_prompt,
                                                                 0, training_step_count,
                                                                 AutoregressiveBaseline(),
                                                                 optimizer, accelerator, logger,
-                                                                forward_test_generated_token_count)
+                                                                forward_test_generated_token_count,
+                                                                training_callbacks=training_callbacks)
                 logger.close()
-                try_create_snapshot(snapshot_path_creator, pythia_model_name, soft_prompt_token_count,
-                                    maximum_sample_length_in_tokens, batch_lanes_per_step, accumulation_step_count,
-                                    soft_prompt, training_step_count, learning_rate, weight_decay)
-
