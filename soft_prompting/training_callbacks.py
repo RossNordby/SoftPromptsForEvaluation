@@ -1,6 +1,7 @@
 from abc import ABC, abstractmethod
 
 from soft_prompting import SoftPrompt, SnapshotPathCreator
+from soft_prompting.snapshot_io import try_create_snapshot
 
 
 class TrainingCallbacks(ABC):
@@ -31,7 +32,7 @@ class TrainingCallbacks(ABC):
         pass
 
 
-class SnapshottingCallbacks(TrainingCallbacks, ABC):
+class SnapshottingCallbacks(TrainingCallbacks):
     """
     Callbacks for the training loop that save snapshots.
     """
@@ -43,7 +44,6 @@ class SnapshottingCallbacks(TrainingCallbacks, ABC):
         """
         self.snapshot_path_creator = snapshot_path_creator
 
-    @abstractmethod
     def training_complete(self, model, model_name: str,
                           maximum_sample_length_in_tokens: int, batch_lanes_per_step: int,
                           accumulation_step_count: int,
@@ -52,4 +52,3 @@ class SnapshottingCallbacks(TrainingCallbacks, ABC):
         try_create_snapshot(self.snapshot_path_creator, model_name, soft_prompt.soft_prompt_token_count,
                             maximum_sample_length_in_tokens, batch_lanes_per_step, accumulation_step_count,
                             soft_prompt, training_step_count, learning_rate, weight_decay)
-
