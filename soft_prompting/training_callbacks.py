@@ -77,15 +77,21 @@ class ResultSavingCallbacks(TrainingCallbacks):
         self.results_path_creator = results_path_creator
 
     def training_complete(self, model_name: str, model, tokenizer,
-                          maximum_sample_length_in_tokens: int, batch_lanes_per_step: int,
+                          maximum_sample_length_in_tokens: int, batch_size: int,
                           accumulation_step_count: int,
                           soft_prompt: SoftPrompt, training_step_count: int, learning_rate: float,
                           weight_decay: float):
-        input_ids, output_ids = soft_prompting.training_and_testing.generate_from_prompts(
-            self.prompts, self.soft_prompt_parameters, 0, soft_prompt, model, tokenizer,
-            batch_lanes_per_step, self.generated_token_count)
-        result_strings = soft_prompting.training_and_testing.create_strings_from_prompted_generation(
-            input_ids, output_ids, tokenizer, '[SOFT PROMPT]')
+        result_strings = []
+        for i in range(0, len(self.prompts), batch_size):
+            start = i
+            end = min(len(self.prompts), i + batch_size)
+            effective_batch_size = end - start
+            input_ids, output_ids = soft_prompting.training_and_testing.generate_from_prompts(
+                self.prompts[start:end], self.soft_prompt_parameters[start:end], 0, soft_prompt, model, tokenizer,
+                effective_batch_size, self.generated_token_count)
+            batch_result_strings = soft_prompting.training_and_testing.create_strings_from_prompted_generation(
+                input_ids, output_ids, tokenizer, '[SOFT PROMPT]')
+            result_strings.extend(batch_result_strings)
         print(f'Prompted generation results for {model_name} with soft prompt token length'
               f' {soft_prompt.soft_prompt_token_count}:')
         generated_string = '\n'.join(result_strings)
@@ -96,5 +102,5 @@ class ResultSavingCallbacks(TrainingCallbacks):
             with open(results_path, 'w') as file:
                 file.write(generated_string)
         try_create_snapshot(self.snapshot_path_creator, model_name, soft_prompt.soft_prompt_token_count,
-                            maximum_sample_length_in_tokens, batch_lanes_per_step, accumulation_step_count,
+                            maximum_sample_length_in_tokens, batch_size, accumulation_step_count,
                             soft_prompt, training_step_count, learning_rate, weight_decay)
