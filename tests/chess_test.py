@@ -33,7 +33,7 @@ def main():
                              MLPFactory(0, 128),
                              # logging_prefix="",
                              training_step_count=training_step_count,
-                             batch_lanes_per_step=256,
+                             batch_lanes_per_step=32,
                              maximum_sample_length_in_tokens=256, learning_rate=1e-3, weight_decay=1e-4,
                              forward_test_generated_token_count=32,
                              training_callbacks=ResultSavingCallbacks(evaluation_prompts, evaluation_conditions, 32,
