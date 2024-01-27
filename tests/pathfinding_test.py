@@ -47,14 +47,13 @@ def main():
                 MLPFactory(0, 128),
                 insert_spaces=insert_spaces,
                 insert_moves_section_separator=insert_move_section_separator,
-                logging_prefix=f"pathfinding",
+                # logging_prefix=f"",
                 training_step_count=training_step_count,
                 batch_lanes_per_step=256,
                 maximum_sample_length_in_tokens=256, learning_rate=1e-3, weight_decay=1e-4,
                 forward_test_generated_token_count=32,
                 training_callbacks=ResultSavingCallbacks(prompts, soft_prompt_parameters, 32,
-                                                         snapshot_path_creator,
-                                                         results_path_creator))
+                                                         False, snapshot_path_creator, results_path_creator))
 
     # Create a baseline result with a model with no soft prompt.
     run_training([0], 128)

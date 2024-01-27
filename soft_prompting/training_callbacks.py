@@ -63,17 +63,22 @@ class ResultSavingCallbacks(TrainingCallbacks):
     """
 
     def __init__(self, prompts: list[str], soft_prompt_parameters: list[tuple], generated_token_count: int,
-                 snapshot_path_creator: PathCreator, results_path_creator: PathCreator):
+                 soft_prompt_at_end: bool, snapshot_path_creator: PathCreator, results_path_creator: PathCreator):
         """
         :param prompts: The prompts to use for generation.
         :param soft_prompt_parameters: The soft prompt parameters to use for generation.
         :param generated_token_count: The number of tokens to generate.
+        :param soft_prompt_at_end: Whether to put the soft prompt at the end of the prompt.
+                                   If true, the soft prompt is placed immediately after the prompt tokens and before
+                                   any generated tokens.
+                                   If false, the soft prompt is inserted before any prompt.
         :param snapshot_path_creator: Function which creates paths to save snapshots to.
         :param results_path_creator: Function which creates paths to save result strings to.
         """
         self.prompts = prompts
         self.soft_prompt_parameters = soft_prompt_parameters
         self.generated_token_count = generated_token_count
+        self.soft_prompt_at_end = soft_prompt_at_end
         self.snapshot_path_creator = snapshot_path_creator
         self.results_path_creator = results_path_creator
 
@@ -83,19 +88,25 @@ class ResultSavingCallbacks(TrainingCallbacks):
                           soft_prompt: SoftPrompt, training_step_count: int, learning_rate: float,
                           weight_decay: float):
         result_strings = []
+        # The generator supports inserting it anywhere, but the callbacks just choose 0 or max. None means max.
+        soft_prompt_start_index = None if self.soft_prompt_at_end else 0
         for i in range(0, len(self.prompts), batch_size):
             start = i
             end = min(len(self.prompts), i + batch_size)
             effective_batch_size = end - start
             input_ids, output_ids = soft_prompting.training_and_testing.generate_from_prompts(
-                self.prompts[start:end], self.soft_prompt_parameters[start:end], 0, soft_prompt, model, tokenizer,
+                self.prompts[start:end], self.soft_prompt_parameters[start:end], soft_prompt_start_index, soft_prompt,
+                model, tokenizer,
                 effective_batch_size, self.generated_token_count)
             batch_result_strings = soft_prompting.training_and_testing.create_strings_from_prompted_generation(
-                input_ids, output_ids, tokenizer, 0, '[SOFT PROMPT]')
+                input_ids, output_ids, tokenizer, soft_prompt_start_index, '[SOFT PROMPT]')
             result_strings.extend(batch_result_strings)
         print(f'Prompted generation results for {model_name} with soft prompt token length'
               f' {soft_prompt.soft_prompt_token_count}:')
-        generated_string = '\n\n'.join(result_strings)
+
+        formatted_results = [f"Conditions {i}:\n{t}\nSequence:\n{seq}" for i, (t, seq) in
+                             enumerate(zip(self.soft_prompt_parameters, result_strings))]
+        generated_string = '\n\n'.join(formatted_results)
         print(generated_string)
 
         if self.results_path_creator is not None:
