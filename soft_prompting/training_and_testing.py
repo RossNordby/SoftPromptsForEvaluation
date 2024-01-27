@@ -162,7 +162,7 @@ def generate(prompt_ids: Tensor, model, soft_prompt: soft_prompts.SoftPrompt,
         if soft_prompt_start_indices is None:
             soft_prompt_start_indices = token_counts
         else:
-            soft_prompt_start_indices = torch.clamp(soft_prompt_start_indices, min=0, max=token_counts)
+            soft_prompt_start_indices = torch.clamp(soft_prompt_start_indices, max=token_counts)
 
         raw_embeddings = model.get_input_embeddings()(prompt_ids)
 
