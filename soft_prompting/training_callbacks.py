@@ -90,11 +90,11 @@ class ResultSavingCallbacks(TrainingCallbacks):
                 self.prompts[start:end], self.soft_prompt_parameters[start:end], 0, soft_prompt, model, tokenizer,
                 effective_batch_size, self.generated_token_count)
             batch_result_strings = soft_prompting.training_and_testing.create_strings_from_prompted_generation(
-                input_ids, output_ids, tokenizer, '[SOFT PROMPT]')
+                input_ids, output_ids, tokenizer, 0, '[SOFT PROMPT]')
             result_strings.extend(batch_result_strings)
         print(f'Prompted generation results for {model_name} with soft prompt token length'
               f' {soft_prompt.soft_prompt_token_count}:')
-        generated_string = '\n'.join(result_strings)
+        generated_string = '\n\n'.join(result_strings)
         print(generated_string)
 
         if self.results_path_creator is not None:

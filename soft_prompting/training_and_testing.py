@@ -264,6 +264,7 @@ def generate_from_batch_loader(batch_loader: BatchLoader, model,
 
 
 def create_strings_from_prompted_generation(prompt_ids: Tensor, generated_ids: Tensor, tokenizer,
+                                            soft_prompt_start_indices: Tensor | None = None,
                                             soft_prompt_string: str | None = None) -> list[str]:
     """
     Creates strings for each lane in a batch from prompt ids and generated ids, optionally including a marker for
@@ -271,16 +272,26 @@ def create_strings_from_prompted_generation(prompt_ids: Tensor, generated_ids: T
     :param prompt_ids: Prompt ids with dimensions [batch_size, token_count], Lanes may be right-padded.
     :param generated_ids: Generated ids with dimensions [batch_size, token_count].
     :param tokenizer: Tokenizer used to decode ids.
+    :param soft_prompt_start_indices: Indices of the soft prompt in the prompt ids. If None, the soft prompt was
+    placed at the end of the prompt.
     :param soft_prompt_string: String to insert to mark the start of the soft prompt, if any. If None, no string is
     inserted.
     :return: A list of strings for the batch.
     """
     token_counts = get_token_counts(prompt_ids, tokenizer.eos_token_id, tokenizer.pad_token_id)
     strings = []
+    if isinstance(soft_prompt_start_indices, int):
+        soft_prompt_start_indices = torch.tensor([soft_prompt_start_indices] * prompt_ids.size(0))
     for i in range(prompt_ids.size(0)):
-        prompt_string = tokenizer.decode(prompt_ids[i, :token_counts[i]])
-        if soft_prompt_string is not None:
-            prompt_string += soft_prompt_string
+        if (soft_prompt_start_indices is not None and soft_prompt_start_indices[i] < token_counts[i] and
+                soft_prompt_string is not None):
+            pre_soft_prompt_string = tokenizer.decode(prompt_ids[i, :soft_prompt_start_indices[i]])
+            post_soft_prompt_string = tokenizer.decode(prompt_ids[i, soft_prompt_start_indices[i]:token_counts[i]])
+            prompt_string = pre_soft_prompt_string + soft_prompt_string + post_soft_prompt_string
+        else:
+            prompt_string = tokenizer.decode(prompt_ids[i, :token_counts[i]])
+            if soft_prompt_string is not None:
+                prompt_string += soft_prompt_string
         generated_string = tokenizer.decode(generated_ids[i])
         strings.append(prompt_string + generated_string)
     return strings
@@ -301,7 +312,7 @@ def generate_for_forward_testing(batch_loader: BatchLoader, model,
     """
     input_ids, output_ids = generate_from_batch_loader(batch_loader, model, soft_prompt, tokenizer,
                                                        generated_token_count)
-    strings = create_strings_from_prompted_generation(input_ids, output_ids, tokenizer, prompt_string)
+    strings = create_strings_from_prompted_generation(input_ids, output_ids, tokenizer, None, prompt_string)
     for i in range(len(strings)):
         print(f"Batch lane {i}: {strings[i]}")
 
