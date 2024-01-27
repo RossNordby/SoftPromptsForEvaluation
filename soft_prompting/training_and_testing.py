@@ -205,7 +205,7 @@ def generate(prompt_ids: Tensor, model, soft_prompt: soft_prompts.SoftPrompt,
 def generate_from_prompts(prompts: list[str], soft_prompt_parameters: None | Tensor | list[tuple[Number, ...]],
                           soft_prompt_start_indices: None | Tensor | list[int] | int,
                           soft_prompt: soft_prompts.SoftPrompt, model, tokenizer,
-                          batch_size: int, generated_token_count: int) -> Tensor:
+                          batch_size: int, generated_token_count: int) -> (Tensor, Tensor):
     """
     Generates tokens from a list of prompts.
     :param prompts: Prompts to generate from.
@@ -218,7 +218,7 @@ def generate_from_prompts(prompts: list[str], soft_prompt_parameters: None | Ten
     :param tokenizer: Tokenizer to use.
     :param batch_size: Batch size to use.
     :param generated_token_count: Number of tokens to generate.
-    :return: A tensor of generated tokens.
+    :return: A tuple of (input prompt token ids, generated token ids).
     """
     # Convert non-none nontensor inputs to tensors.
     if soft_prompt_parameters is not None and not isinstance(soft_prompt_parameters, Tensor):
@@ -231,8 +231,9 @@ def generate_from_prompts(prompts: list[str], soft_prompt_parameters: None | Ten
         soft_prompt_start_indices = torch.tensor([soft_prompt_start_indices] * len(prompts))
 
     prompt_ids = tokenizer(prompts, return_tensors='pt', padding=True).input_ids
-    return generate(prompt_ids, model, soft_prompt, soft_prompt_parameters, soft_prompt_start_indices, tokenizer,
-                    batch_size, generated_token_count)
+    return prompt_ids, generate(prompt_ids, model, soft_prompt, soft_prompt_parameters, soft_prompt_start_indices,
+                                tokenizer,
+                                batch_size, generated_token_count)
 
 
 def generate_from_batch_loader(batch_loader: BatchLoader, model,
@@ -438,7 +439,7 @@ def train_and_test_soft_prompt(model, model_name: str, tokenizer,
         # Also janky, but we're very low on time and just need a way to persist the final test loss.
         logger.add_scalar('Final Test Loss Average', loss, 0)
     if training_callbacks is not None:
-        training_callbacks.training_complete(model, model_name, batch_loader.sample_length_in_tokens,
+        training_callbacks.training_complete(model_name, model, tokenizer, batch_loader.sample_length_in_tokens,
                                              batch_loader.batch_size,
                                              accelerator.gradient_accumulation_steps,
                                              soft_prompt, training_step_count,

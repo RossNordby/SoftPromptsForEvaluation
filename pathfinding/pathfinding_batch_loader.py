@@ -37,6 +37,17 @@ class PathfindingBatchLoader(BatchLoader):
         self.tokenizer = tokenizer
         self.batch_size = batch_size
 
+    @staticmethod
+    def append_move_section_separator(board: str, insert_separator: bool) -> str:
+        """
+        Appends a move section separator to the given board if insert_separator is true.
+        """
+        # This is just a simple helper to ensure that non-batchloader use cases can match its behavior.
+        if insert_separator:
+            return board + '\nMoves:\n'
+        else:
+            return board + '\n'
+
     def __next__(self) -> tuple[Tensor, Tensor, Any]:
         input_batch: list[tuple[int, int]] = []
         board_batch: list[str] = []
@@ -44,7 +55,7 @@ class PathfindingBatchLoader(BatchLoader):
         while len(input_batch) < self.batch_size:
             board, moves, extra_move_count, invalid_move_count = next(self.pathfinding_loader)
             input_batch.append((extra_move_count, invalid_move_count))
-            board_batch.append(board + ('\nMoves:\n' if self.insert_move_section_separator else '\n'))
+            board_batch.append(self.append_move_section_separator(board, self.insert_move_section_separator))
             moves_batch.append(moves)
         tokenized_boards = self.tokenizer(board_batch, return_tensors='pt', padding=True, truncation=True,
                                           max_length=self.sample_length_in_tokens).input_ids

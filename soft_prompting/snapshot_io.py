@@ -2,10 +2,10 @@ import os
 
 import torch
 
-from soft_prompting import SnapshotPathCreator, SoftPrompt
+from soft_prompting import PathCreator, SoftPrompt
 
 
-def try_create_snapshot(snapshot_path_creator: SnapshotPathCreator | None, model_name: str,
+def try_create_snapshot(snapshot_path_creator: PathCreator | None, model_name: str,
                         soft_prompt_token_count: int,
                         maximum_sample_length_in_tokens: int, batch_lanes_per_step: int, accumulation_step_count: int,
                         soft_prompt: SoftPrompt, training_step_count: int, learning_rate: float, weight_decay: float):

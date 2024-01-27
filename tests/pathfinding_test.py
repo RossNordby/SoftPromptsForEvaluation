@@ -1,8 +1,9 @@
 import torch
 
-from pathfinding import train_and_test_pathfinding
+from pathfinding import train_and_test_pathfinding, PathfindingBatchLoader
+from pathfinding.pathfinding_dataset import PathfindingDataset
 from soft_prompting import MLPFactory
-from soft_prompting.training_callbacks import SnapshottingCallbacks
+from soft_prompting.training_callbacks import SnapshottingCallbacks, ResultSavingCallbacks
 
 
 def main():
@@ -23,11 +24,23 @@ def main():
     insert_spaces = True
     insert_move_section_separator = True
 
-    def snapshot_path_creator(model_name: str, soft_prompt_token_count: int):
-        return f"snapshots/pathfinding/{model_name}/soft-prompt-{soft_prompt_token_count}.pt"
-
-    def run_training(soft_prompt_token_counts, training_step_count, path_creator):
+    def run_training(soft_prompt_token_counts, training_step_count):
         for board_width, board_height in board_configurations:
+            def snapshot_path_creator(model_name: str, soft_prompt_token_count: int):
+                return f"snapshots/pathfinding/{model_name}/{soft_prompt_token_count}, {board_width}x{board_height}.pt"
+
+            def results_path_creator(model_name: str, soft_prompt_token_count: int):
+                return f"snapshots/pathfinding/{model_name}/{soft_prompt_token_count}, {board_width}x{board_height}.txt"
+
+            evaluation_dataset = PathfindingDataset(board_width, board_height, insert_spaces)
+            prompts = []
+            soft_prompt_parameters = []
+            for _ in range(16):
+                board, moves, extra_move_count, invalid_move_count = next(evaluation_dataset)
+                board = PathfindingBatchLoader.append_move_section_separator(board, insert_move_section_separator)
+                prompts.append(board)
+                soft_prompt_parameters.append((extra_move_count, invalid_move_count))
+
             train_and_test_pathfinding(
                 board_width, board_height,
                 model_configurations, soft_prompt_token_counts,
@@ -39,11 +52,13 @@ def main():
                 batch_lanes_per_step=256,
                 maximum_sample_length_in_tokens=256, learning_rate=1e-3, weight_decay=1e-4,
                 forward_test_generated_token_count=32,
-                training_callbacks=None if path_creator is None else SnapshottingCallbacks(path_creator))
+                training_callbacks=ResultSavingCallbacks(prompts, soft_prompt_parameters, 32,
+                                                         snapshot_path_creator,
+                                                         results_path_creator))
 
     # Create a baseline result with a model with no soft prompt.
-    run_training([0], 128, snapshot_path_creator)
-    run_training([64, 16, 4, 1], 2048, snapshot_path_creator)
+    run_training([0], 128)
+    run_training([64, 16, 4, 1], 2048)
 
 
 if __name__ == '__main__':

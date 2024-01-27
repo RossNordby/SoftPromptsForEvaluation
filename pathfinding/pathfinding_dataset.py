@@ -66,7 +66,7 @@ class PathfindingDataset:
         result = torch.masked_fill(result, doomed_mask | stuck_mask, -1)
         return result
 
-    def __next__(self):
+    def __next__(self) -> tuple[str, str, int, int]:
         # A lot of this *could* be vectorized over a whole batch, but... that gets a little complicated.
         distances_to_target = torch.empty([self.width, self.height], dtype=torch.int)
         torch.fill_(distances_to_target, PathfindingDataset.BLOCKER_VALUE)
