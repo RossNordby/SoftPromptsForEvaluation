@@ -3,7 +3,7 @@ import torch
 from pathfinding import train_and_test_pathfinding, PathfindingBatchLoader
 from pathfinding.pathfinding_dataset import PathfindingDataset
 from soft_prompting import MLPFactory
-from soft_prompting.training_callbacks import SnapshottingCallbacks, ResultSavingCallbacks
+from soft_prompting.training_callbacks import ResultSavingCallbacks
 
 
 def main():
