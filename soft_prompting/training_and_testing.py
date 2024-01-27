@@ -423,7 +423,7 @@ def train_and_test_soft_prompt(model, model_name: str, tokenizer,
         if logger is not None and training_step_index % training_loss_logging_interval == 0:
             loss = summed_loss / accelerator.gradient_accumulation_steps
             logger.add_scalar('Loss', loss, training_step_index)
-            print(f"Completed training step {training_step_index}. Loss: {loss}")
+            print(f"Completed training step {training_step_index}. Loss: {loss.item()}")
         else:
             print(f"Completed training step {training_step_index}")
 
