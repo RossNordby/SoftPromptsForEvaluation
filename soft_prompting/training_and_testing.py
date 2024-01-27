@@ -231,6 +231,12 @@ def generate_from_prompts(prompts: list[str], soft_prompt_parameters: None | Ten
         soft_prompt_start_indices = torch.tensor([soft_prompt_start_indices] * len(prompts))
 
     prompt_ids = tokenizer(prompts, return_tensors='pt', padding=True).input_ids
+    # Make sure everything is on the same device.
+    if soft_prompt_start_indices is not None:
+        soft_prompt_start_indices = soft_prompt_start_indices.to(model.device)
+    if soft_prompt_parameters is not None:
+        soft_prompt_parameters = soft_prompt_parameters.to(model.device)
+    prompt_ids = prompt_ids.to(model.device)
     return prompt_ids, generate(prompt_ids, model, soft_prompt, soft_prompt_parameters, soft_prompt_start_indices,
                                 tokenizer,
                                 batch_size, generated_token_count)
