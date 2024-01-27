@@ -1,8 +1,7 @@
 from chess_training import train_and_test_chess, game_processor
-from chess_training.dataset_loading import ChessGameLoader, ChessBatchLoader, AsyncChessBatchLoader
+from chess_training.dataset_loading import ChessGameLoader
 from soft_prompting import MLPFactory
 from soft_prompting.training_callbacks import ResultSavingCallbacks
-from tests.test_shared import get_default_chess_database_path, get_default_model_configurations
 
 
 def main():
@@ -24,9 +23,9 @@ def main():
         while len(evaluation_prompts) < evaluation_game_count:
             game = game_processor(next(evaluation_game_loader))
             if game is not None:
-                white_elo, black_elo, moves = game
+                elos, moves = game
                 evaluation_prompts.append(moves)
-                evaluation_conditions.append((white_elo, black_elo))
+                evaluation_conditions.append(elos)
 
     def train(soft_prompt_token_counts: list[int], training_step_count: int):
         def snapshot_path_creator(model_name: str, soft_prompt_token_count: int):
