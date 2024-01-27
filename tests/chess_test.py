@@ -9,14 +9,9 @@ def main():
     # Yes this is an entire 30 GB dataset for a few dozen evaluation games (at least with respect to this test).
     # Yes that's quite silly. Apologies.
     chess_test_database_path = 'chess_training/lichess_db_standard_rated_2023-12.pgn.zst'
-    model_configurations = [
-        ('410m', 16),
-        ('160m', 8),
-        ('70m', 4),
-    ]
 
     evaluation_game_loader = ChessGameLoader(chess_test_database_path)
-    evaluation_game_count = 16
+    evaluation_game_count = 128
     evaluation_prompts = []
     evaluation_conditions = []
     with evaluation_game_loader:
@@ -27,7 +22,7 @@ def main():
                 evaluation_prompts.append(moves)
                 evaluation_conditions.append(elos)
 
-    def train(soft_prompt_token_counts: list[int], training_step_count: int):
+    def train(model_configurations, soft_prompt_token_counts: list[int], training_step_count: int):
         def snapshot_path_creator(model_name: str, soft_prompt_token_count: int):
             return f"snapshots/chess/{model_name}-{soft_prompt_token_count}.pt"
 
@@ -45,8 +40,30 @@ def main():
                                                                       False, snapshot_path_creator,
                                                                       results_path_creator))
 
-    train([0], 128)
-    train([1024, 512, 256, 64, 16, 4, 1], 16384)
+    # The chess test will be using unusually large soft prompts, so we'll need to adjust the model configuration
+    # depending on the soft prompt token count.
+    small_prompt_model_configurations = [
+        ('410m', 4),
+        ('160m', 2),
+        ('70m', 1),
+    ]
+    train(small_prompt_model_configurations, [0], 128)
+
+    large_prompt_model_configurations = [
+        ('410m', 16),
+        ('160m', 8),
+        ('70m', 4),
+    ]
+    train(large_prompt_model_configurations, [1024, 512], 16384)
+
+    medium_prompt_model_configurations = [
+        ('410m', 8),
+        ('160m', 4),
+        ('70m', 2),
+    ]
+    train(medium_prompt_model_configurations, [256, 64], 16384)
+    train(small_prompt_model_configurations, [16, 4, 1], 16384)
+
 
 
 if __name__ == '__main__':

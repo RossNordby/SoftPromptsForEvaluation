@@ -35,7 +35,7 @@ def main():
             evaluation_dataset = PathfindingDataset(board_width, board_height, insert_spaces)
             prompts = []
             soft_prompt_parameters = []
-            for _ in range(16):
+            for _ in range(128):
                 board, moves, extra_move_count, invalid_move_count = next(evaluation_dataset)
                 board = PathfindingBatchLoader.append_move_section_separator(board, insert_move_section_separator)
                 prompts.append(board)
