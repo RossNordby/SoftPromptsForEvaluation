@@ -49,20 +49,24 @@ def main():
     ]
     train(small_prompt_model_configurations, [0], 128)
 
+    # This isn't enough to reach convergence, but I don't have the compute or time to do that.
+    # The good news is that earlier tests on smaller models suggest that the relative position of loss curves
+    # remains similar as the training step count increases.
+    training_step_count = 8192
     large_prompt_model_configurations = [
         ('410m', 16),
         ('160m', 8),
         ('70m', 4),
     ]
-    train(large_prompt_model_configurations, [1024, 512], 16384)
+    train(large_prompt_model_configurations, [1024, 512], training_step_count)
 
     medium_prompt_model_configurations = [
         ('410m', 8),
         ('160m', 4),
         ('70m', 2),
     ]
-    train(medium_prompt_model_configurations, [256, 64], 16384)
-    train(small_prompt_model_configurations, [16, 4, 1], 16384)
+    train(medium_prompt_model_configurations, [256, 64], training_step_count)
+    train(small_prompt_model_configurations, [16, 4, 1], training_step_count)
 
 
 
