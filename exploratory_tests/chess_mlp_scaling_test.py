@@ -1,6 +1,6 @@
 from chess_training import train_and_test_chess
 from soft_prompting import MLPFactory
-from tests.test_shared import get_default_chess_database_path
+from exploratory_tests.test_shared import get_default_chess_database_path
 
 
 def main():

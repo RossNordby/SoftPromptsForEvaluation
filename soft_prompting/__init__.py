@@ -1,3 +1,9 @@
+"""
+The soft_prompting module contains the core soft prompting functionality shared across all tests.
+It defines the soft prompt types and training harnesses.
+"""
+
+
 from .direct_soft_prompt import *
 from .linear_soft_prompt import *
 from .resnet_soft_prompt import *

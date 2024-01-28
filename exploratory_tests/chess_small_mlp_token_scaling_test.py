@@ -1,7 +1,7 @@
 from chess_training import train_and_test_chess
 from soft_prompting import MLPFactory
 from soft_prompting.training_callbacks import SnapshottingCallbacks
-from tests.test_shared import get_default_chess_database_path
+from exploratory_tests.test_shared import get_default_chess_database_path
 
 
 def snapshot_path_creator(model_size: str, soft_prompt_token_count: int) -> str:

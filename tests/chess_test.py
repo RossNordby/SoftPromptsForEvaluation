@@ -46,7 +46,7 @@ def main():
         ('160m', 2),
         ('70m', 1),
     ]
-    train(small_prompt_model_configurations, [0], 128)
+    train(small_prompt_model_configurations, [0], 0)
 
     # This isn't enough to reach convergence, but I don't have the compute or time to do that.
     # The good news is that earlier tests on smaller models suggest that the relative position of loss curves

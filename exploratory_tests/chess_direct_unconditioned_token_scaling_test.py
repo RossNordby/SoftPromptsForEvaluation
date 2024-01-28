@@ -1,16 +1,16 @@
-import soft_prompting
 from chess_training import train_and_test_chess, SoftPromptParameterMode
-from tests.test_shared import get_default_model_configurations, get_default_chess_database_path
+from soft_prompting import DirectFactory
+from exploratory_tests.test_shared import get_default_chess_database_path
 
 
 def main():
     chess_database_path = get_default_chess_database_path()
-    model_configurations = get_default_model_configurations()
-    soft_prompt_token_counts = [64]
+    model_configurations = [('70m', 8), ('160m', 16), ('410m', 32)]
+    soft_prompt_token_counts = [64, 128, 256, 512]
     train_and_test_chess(chess_database_path, model_configurations, soft_prompt_token_counts,
-                         soft_prompting.DirectFactory(),
+                         DirectFactory(),
                          soft_prompt_parameter_mode=SoftPromptParameterMode.UNCONDITIONAL,
-                         logging_prefix="direct x models unconditioned (long)",
+                         logging_prefix="direct x models unconditioned tokenscale (long)",
                          training_step_count=8192,
                          batch_lanes_per_step=32,
                          maximum_sample_length_in_tokens=256, learning_rate=1e-3, weight_decay=1e-4,

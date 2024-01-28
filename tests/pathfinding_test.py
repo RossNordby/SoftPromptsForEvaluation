@@ -56,7 +56,7 @@ def main():
                                                          False, snapshot_path_creator, results_path_creator))
 
     # Create a baseline result with a model with no soft prompt.
-    run_training([0], 128)
+    run_training([0], 0)
     run_training([64, 16, 4, 1], 2048)
 
 
