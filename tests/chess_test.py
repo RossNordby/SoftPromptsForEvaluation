@@ -43,7 +43,6 @@ def main():
     # The chess test will be using unusually large soft prompts, so we'll need to adjust the model configuration
     # depending on the soft prompt token count.
     small_prompt_model_configurations = [
-        ('410m', 4),
         ('160m', 2),
         ('70m', 1),
     ]
@@ -52,16 +51,14 @@ def main():
     # This isn't enough to reach convergence, but I don't have the compute or time to do that.
     # The good news is that earlier tests on smaller models suggest that the relative position of loss curves
     # remains similar as the training step count increases.
-    training_step_count = 8192
+    training_step_count = 4096
     large_prompt_model_configurations = [
-        ('410m', 16),
         ('160m', 8),
         ('70m', 4),
     ]
     train(large_prompt_model_configurations, [1024, 512], training_step_count)
 
     medium_prompt_model_configurations = [
-        ('410m', 8),
         ('160m', 4),
         ('70m', 2),
     ]
