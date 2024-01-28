@@ -12,6 +12,22 @@ import multiprocessing as mp
 import queue as ye_olde_queue
 
 
+def normalize_chess_elos(elos: Tensor | list[tuple[int, int]] | tuple[int, int]) -> Tensor | list[tuple[int, int]] | \
+                                                                                    tuple[int, int]:
+    """
+    Normalizes chess Elos to be in a range with a smaller magnitude.
+    :param elos: The Elos of the white and black players. Represented by a tensor of shape (batch size, 2),
+                 a list of tuples of (white Elo, black Elo), or a tuple of (white Elo, black Elo).
+    :return: The normalized Elos in datatype matching the input.
+    """
+    if isinstance(elos, Tensor):
+        return (elos - 1000.0) / 2000.0
+    elif isinstance(elos, list):
+        return [((white_elo - 1000.0) / 2000.0, (black_elo - 1000.0) / 2000.0) for white_elo, black_elo in elos]
+    else:
+        return (elos[0] - 1000.0) / 2000.0, (elos[1] - 1000.0) / 2000.0
+
+
 # Unfortunately, parsing pgn into games is slow enough that it's actually a bottleneck for training.
 # To compensate, we use a multiprocess loader.
 class AsyncChessGameLoader:
@@ -227,8 +243,7 @@ class AsyncChessBatchLoader(BatchLoader):
             input_batch.append(elos)
             output_batch.append(moves_string)
         elo_tensor = torch.tensor(input_batch, dtype=torch.float)
-        # Normalize elos a little bit.
-        elo_tensor = (elo_tensor - 1000.0) / 2000.0
+        elo_tensor = normalize_chess_elos(elo_tensor)
         output_tensor = self.tokenizer(output_batch, padding=True, truncation=True,
                                        max_length=self.sample_length_in_tokens,
                                        return_tensors='pt').input_ids
@@ -365,8 +380,7 @@ class ChessBatchLoader(BatchLoader):
                     input_batch.append((int(game.headers['WhiteElo']), int(game.headers['BlackElo'])))
                     output_batch.append(moves)
         input_tensor = torch.tensor(input_batch, dtype=torch.float)
-        # Normalize elos a little bit.
-        input_tensor = (input_tensor - 1000.0) / 2000.0
+        input_tensor = normalize_chess_elos(input_tensor)
         output_tensor = self.tokenizer(output_batch, padding=True, truncation=True,
                                        max_length=self.sample_length_in_tokens,
                                        return_tensors='pt').input_ids
