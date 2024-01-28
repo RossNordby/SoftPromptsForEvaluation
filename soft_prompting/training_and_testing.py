@@ -235,7 +235,7 @@ def generate_from_prompts(prompts: list[str], soft_prompt_parameters: None | Ten
     if soft_prompt_start_indices is not None:
         soft_prompt_start_indices = soft_prompt_start_indices.to(model.device)
     if soft_prompt_parameters is not None:
-        soft_prompt_parameters = soft_prompt_parameters.to(model.device)
+        soft_prompt_parameters = soft_prompt_parameters.to(device=model.device, dtype=torch.float)
     prompt_ids = prompt_ids.to(model.device)
     return prompt_ids, generate(prompt_ids, model, soft_prompt, soft_prompt_parameters, soft_prompt_start_indices,
                                 tokenizer,

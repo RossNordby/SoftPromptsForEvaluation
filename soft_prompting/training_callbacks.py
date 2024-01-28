@@ -112,7 +112,7 @@ class ResultSavingCallbacks(TrainingCallbacks):
         if self.results_path_creator is not None:
             results_path = self.results_path_creator(model_name, soft_prompt.soft_prompt_token_count)
             os.makedirs(os.path.dirname(results_path), exist_ok=True)
-            with open(results_path, 'w') as file:
+            with open(results_path, 'w', encoding='utf-8') as file:
                 file.write(generated_string)
         try_create_snapshot(self.snapshot_path_creator, model_name, soft_prompt.soft_prompt_token_count,
                             maximum_sample_length_in_tokens, batch_size, accumulation_step_count,
