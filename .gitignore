@@ -160,5 +160,7 @@ cython_debug/
 .idea/
 
 *.pt
-/runs
+runs/
+results/
+snapshots/
 *.pgn.zst
