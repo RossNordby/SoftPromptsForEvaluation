@@ -62,11 +62,12 @@ class ResultSavingCallbacks(TrainingCallbacks):
     Callbacks for the training loop that save results.
     """
 
-    def __init__(self, prompts: list[str], soft_prompt_parameters: list[tuple], generated_token_count: int,
+    def __init__(self, prompts: list[str], soft_prompt_parameters: list[tuple] | None, generated_token_count: int,
                  soft_prompt_at_end: bool, snapshot_path_creator: PathCreator, results_path_creator: PathCreator):
         """
         :param prompts: The prompts to use for generation.
-        :param soft_prompt_parameters: The soft prompt parameters to use for generation.
+        :param soft_prompt_parameters: The soft prompt parameters to use for generation. If None, no parameters will be
+                                       used.
         :param generated_token_count: The number of tokens to generate.
         :param soft_prompt_at_end: Whether to put the soft prompt at the end of the prompt.
                                    If true, the soft prompt is placed immediately after the prompt tokens and before
