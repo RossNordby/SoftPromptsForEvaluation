@@ -44,7 +44,7 @@ def main():
                                                          results_path_creator))
 
     # Collect baseline.
-    train([0], 128)
+    train([0], 0)
 
     # Collect full length data.
     train([1, 4, 16, 64], 4096)
