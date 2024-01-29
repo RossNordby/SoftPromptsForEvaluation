@@ -25,7 +25,7 @@ def try_create_snapshot(snapshot_path_creator: PathCreator | None, model_name: s
     :param weight_decay: The weight decay used in training.
     """
     if snapshot_path_creator is not None:
-        snapshot_path = snapshot_path_creator(model_name, soft_prompt_token_count)
+        snapshot_path = snapshot_path_creator(model_name, soft_prompt_token_count, dataset_name)
         os.makedirs(os.path.dirname(snapshot_path), exist_ok=True)
         metadata_dict = {
             'model_name': model_name,
