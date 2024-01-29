@@ -47,7 +47,7 @@ def main():
     train([0], 0)
 
     # Collect full length data.
-    train([64, 16, 4, 1], 2048)
+    train([64, 16, 4, 1], 1536)
 
 
 if __name__ == '__main__':
