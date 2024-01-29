@@ -15,7 +15,7 @@ class AutoregressiveBaseline(TaskBatchDataPreparer):
                        soft_prompt_parameters: Tensor | None,
                        task_metadata: None,
                        ids_to_embeddings: training_and_testing.EmbedInputFunction,
-                       end_of_text_token_id: int, pad_token_id: int) -> (
+                       pad_token_id: int) -> (
             Tensor, Tensor, training_and_testing.SoftPromptLossFunction | None):
         """
         Gets the data for the autoregressive baseline test.
@@ -25,7 +25,6 @@ class AutoregressiveBaseline(TaskBatchDataPreparer):
         :param soft_prompt_parameters: The parameters of the soft prompt, if any.
         :param task_metadata: The metadata for the task; should be None for this type.
         :param ids_to_embeddings: The function to use to convert IDs to embeddings.
-        :param end_of_text_token_id: The id of the end-of-text token.
         :param pad_token_id: The id of the pad token.
         :return: The input embeddings, output labels, and null loss function.
         """
@@ -35,6 +34,6 @@ class AutoregressiveBaseline(TaskBatchDataPreparer):
                                                    soft_prompt_start_indices,
                                                    soft_prompt,
                                                    soft_prompt_parameters,
-                                                   ids_to_embeddings, end_of_text_token_id, pad_token_id))
+                                                   ids_to_embeddings, pad_token_id))
 
         return input_embeddings, output_labels, None

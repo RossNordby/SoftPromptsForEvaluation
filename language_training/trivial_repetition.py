@@ -24,7 +24,7 @@ class TrivialRepetitionTest(TaskBatchDataPreparer):
                        soft_prompt_parameters: Tensor | None,
                        task_metadata: Any,
                        ids_to_embeddings: training_and_testing.EmbedInputFunction,
-                       end_of_text_token_id: int, pad_token_id: int) -> (
+                       pad_token_id: int) -> (
             Tensor, Tensor, training_and_testing.SoftPromptLossFunction | None):
         """
         Gets the data for the trivial repetition test.
@@ -34,7 +34,6 @@ class TrivialRepetitionTest(TaskBatchDataPreparer):
         :param soft_prompt_parameters: The parameters of the soft prompt, if any.
         :param task_metadata: The metadata for the task; should be None for this type.
         :param ids_to_embeddings: The function to use to convert IDs to embeddings.
-        :param end_of_text_token_id: The id of the end-of-text token.
         :param pad_token_id: The id of the pad token.
         :return: The input embeddings, output labels, and a null loss function.
         """
@@ -45,7 +44,6 @@ class TrivialRepetitionTest(TaskBatchDataPreparer):
                                                                                  soft_prompt,
                                                                                  soft_prompt_parameters,
                                                                                  ids_to_embeddings,
-                                                                                 end_of_text_token_id,
                                                                                  pad_token_id)
         # The current dataset doesn't have any soft-prompt related effects in it,
         # so we have to insert the effect ourselves.

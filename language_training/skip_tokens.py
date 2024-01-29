@@ -22,14 +22,14 @@ class SkipTokens(TaskBatchDataPreparer):
                        soft_prompt_parameters: Tensor | None,
                        task_metadata: None,
                        ids_to_embeddings: training_and_testing.EmbedInputFunction,
-                       end_of_text_token_id: int, pad_token_id: int) -> (
+                       pad_token_id: int) -> (
             Tensor, Tensor, training_and_testing.SoftPromptLossFunction | None):
         input_embeddings, output_labels = (
             build_prompted_embeddings_for_training(samples,
                                                    soft_prompt_start_indices,
                                                    soft_prompt,
                                                    soft_prompt_parameters,
-                                                   ids_to_embeddings, end_of_text_token_id, pad_token_id,
+                                                   ids_to_embeddings, pad_token_id,
                                                    output_label_shift=self.skip_count))
 
         return input_embeddings, output_labels, None
