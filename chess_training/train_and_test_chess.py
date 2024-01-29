@@ -92,7 +92,7 @@ def train_and_test_chess(chess_database_path: str, model_configurations: list[tu
         tokenizer: GPTNeoXTokenizerFast = AutoTokenizer.from_pretrained(model_name)
         # Forcing a pad token id of 0; it works for the pythia and tinyllama models we're using.
         # This will NOT work universally.
-        tokenizer.pad_token = 0
+        tokenizer.pad_token_id = 0
 
         # Note that training step counts refer to the number of optimization steps, not the number of batches.
         batch_size = batch_lanes_per_step // accumulation_step_count
