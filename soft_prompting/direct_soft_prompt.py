@@ -10,19 +10,21 @@ class DirectSoftPrompt(SoftPrompt):
     Direct soft prompts are not driven by externally supplied input parameters; there is no generating model.
     """
 
-    def __init__(self, soft_prompt_token_count: int, embedding_size: int):
+    def __init__(self, soft_prompt_token_count: int, embedding_size: int, use_zero_init: bool = False):
         """
         Creates a direct soft prompt.
         :param soft_prompt_token_count: Number of tokens in the soft prompt.
         :param embedding_size: Size of the embedding to create if random_init is True. Unused otherwise.
+        :param use_zero_init: If True, the embeddings are initialized to zero. Otherwise, they are initialized randomly
+        with a normal distribution with mean 0 and standard deviation 0.1.
         """
         super().__init__(soft_prompt_token_count)
 
-        # self.embedding = torch.nn.Parameter(
-        #     torch.clamp(torch.normal(torch.empty([soft_prompt_token_count, embedding_size], requires_grad=True),
-        #                              torch.fill(torch.zeros([soft_prompt_token_count, embedding_size]),
-        #                                         .1)), -1, 1).detach())
-        self.embedding = torch.nn.Parameter(torch.zeros([soft_prompt_token_count, embedding_size]))
+        if use_zero_init:
+            self.embedding = torch.nn.Parameter(torch.zeros([soft_prompt_token_count, embedding_size]))
+        else:
+            self.embedding = torch.nn.Parameter(
+                torch.normal(torch.zeros([soft_prompt_token_count, embedding_size]), 0.1))
 
     def forward(self, batch_count):
         # Direct soft prompts do not involve any processing.

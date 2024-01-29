@@ -133,7 +133,7 @@ def main():
             model_configurations, soft_prompt_token_counts, datasets, DirectFactory(),
             batch_data_preparer=AutoregressiveBaseline(),
             maximum_soft_prompt_start_indices=0,
-            logging_prefix=f"chat detuning 2",
+            logging_prefix=f"chat detuning",
             training_step_count=training_step_count,
             batch_lanes_per_step=16,
             maximum_sample_length_in_tokens=256, learning_rate=1e-4, weight_decay=1e-5,
