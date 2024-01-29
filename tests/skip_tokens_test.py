@@ -21,7 +21,6 @@ def main():
     append_loaded_prompts(128, 256, prompts)
 
     datasets = [
-        dataset_iterables.PileDatasetIterable(),
         dataset_iterables.RedPajamaV2DatasetIterable(),
     ]
 
