@@ -125,7 +125,6 @@ def main():
         return f"results/chat_detuning/{dataset_name}/{model_name}-{soft_prompt_token_count}.txt"
 
     datasets = [
-        dataset_iterables.PileDatasetIterable(),
         dataset_iterables.RedPajamaV2DatasetIterable(),
     ]
 

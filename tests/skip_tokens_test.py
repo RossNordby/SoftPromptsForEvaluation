@@ -15,7 +15,8 @@ def main():
         ('EleutherAI/pythia-70m-deduped', 1),
     ]
 
-    skip_token_counts = [1, 2, 4, 8]
+    # Note that 1 would correspond to regular autoregressive prediction.
+    skip_token_counts = [2, 4, 8]
 
     prompts = []
     append_loaded_prompts(128, 256, prompts)
