@@ -114,8 +114,8 @@ def main():
     #     print(prompt)
 
     model_configurations = [
-        ('TinyLlama/TinyLlama-1.1B-Chat-v1.0', 4),
-        ('TinyLlama/TinyLlama-1.1B-intermediate-step-1431k-3T', 4),
+        ('TinyLlama/TinyLlama-1.1B-Chat-v1.0', 8),
+        ('TinyLlama/TinyLlama-1.1B-intermediate-step-1431k-3T', 8),
     ]
 
     def snapshot_path_creator(model_name: str, soft_prompt_token_count: int, dataset_name: str):
