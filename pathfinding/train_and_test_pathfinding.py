@@ -97,7 +97,7 @@ def train_and_test_pathfinding(board_width: int, board_height: int,
                         f'Pathfinding requires a conditional soft prompt, but got {soft_prompt}.')
                 optimizer = optim.AdamW(soft_prompt.parameters(), lr=learning_rate, weight_decay=weight_decay)
 
-                training_and_testing.train_and_test_soft_prompt(model, model_name, tokenizer, batch_loader,
+                training_and_testing.train_and_test_soft_prompt(model, model_name, None, tokenizer, batch_loader,
                                                                 test_batch_loader, soft_prompt,
                                                                 0, training_step_count,
                                                                 PathfindingBatchPreparer(),

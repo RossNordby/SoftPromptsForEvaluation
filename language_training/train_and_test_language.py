@@ -114,8 +114,8 @@ def train_and_test_language(model_configurations: list[tuple[str, int]],
                         f'Unlike chess training, no conditional modes exist for language training yet!')
                 optimizer = optim.AdamW(soft_prompt.parameters(), lr=learning_rate, weight_decay=weight_decay)
 
-                training_and_testing.train_and_test_soft_prompt(model, model_name, tokenizer, batch_loader,
-                                                                test_batch_loader, soft_prompt,
+                training_and_testing.train_and_test_soft_prompt(model, model_name, dataset.name, tokenizer,
+                                                                batch_loader, test_batch_loader, soft_prompt,
                                                                 maximum_soft_prompt_start_indices, training_step_count,
                                                                 batch_data_preparer, optimizer, accelerator, logger,
                                                                 forward_test_generated_token_count,

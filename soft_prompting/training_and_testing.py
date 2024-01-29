@@ -340,7 +340,7 @@ def prepare_batch(device: torch.device, batch_loader: BatchLoader,
     return samples, input_embeddings, output_labels, compute_loss, soft_prompt_start_indices, torch.sum(token_counts)
 
 
-def train_and_test_soft_prompt(model, model_name: str, tokenizer,
+def train_and_test_soft_prompt(model, model_name: str, dataset_name: str | None, tokenizer,
                                batch_loader: BatchLoader, test_batch_loader: BatchLoader | None,
                                soft_prompt: soft_prompts.SoftPrompt,
                                maximum_prompt_start_indices: int | None,
@@ -358,6 +358,7 @@ def train_and_test_soft_prompt(model, model_name: str, tokenizer,
 
     :param model: The model to use during training.
     :param model_name: The name of the model to use during training.
+    :param dataset_name: The name of the dataset to use during training.
     :param tokenizer: The tokenizer to use during training.
     :param batch_loader: The batch loader to use during training.
     :param test_batch_loader: The batch loader to use during test loss evaluation and forward testing.
@@ -443,7 +444,8 @@ def train_and_test_soft_prompt(model, model_name: str, tokenizer,
         # Also janky, but we're very low on time and just need a way to persist the final test loss.
         logger.add_scalar('Final Test Loss Average', loss, 0)
     if training_callbacks is not None:
-        training_callbacks.training_complete(model_name, model, tokenizer, batch_loader.sample_length_in_tokens,
+        training_callbacks.training_complete(model_name, dataset_name, model, tokenizer,
+                                             batch_loader.sample_length_in_tokens,
                                              batch_loader.batch_size,
                                              accelerator.gradient_accumulation_steps,
                                              soft_prompt, training_step_count,

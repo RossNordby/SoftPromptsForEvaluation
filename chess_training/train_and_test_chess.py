@@ -135,7 +135,7 @@ def train_and_test_chess(chess_database_path: str, model_configurations: list[tu
                         f'Unconditional soft prompt parameter mode requires a DirectSoftPrompt, but got {soft_prompt}.')
                 optimizer = optim.AdamW(soft_prompt.parameters(), lr=learning_rate, weight_decay=weight_decay)
 
-                training_and_testing.train_and_test_soft_prompt(model, model_name, tokenizer, batch_loader,
+                training_and_testing.train_and_test_soft_prompt(model, model_name, None, tokenizer, batch_loader,
                                                                 test_batch_loader, soft_prompt,
                                                                 0, training_step_count,
                                                                 AutoregressiveBaseline(),

@@ -14,7 +14,7 @@ class TrainingCallbacks(ABC):
     # In principle, there could be checkpoint callbacks for checkpointing or whatever else, but individual training
     # runs for soft prompts are pretty small, and I'm out of time!
     @abstractmethod
-    def training_complete(self, model_name: str, dataset_name: str | None, model, tokenizer,
+    def training_complete(self, model, model_name: str, dataset_name: str | None, tokenizer,
                           maximum_sample_length_in_tokens: int, batch_lanes_per_step: int,
                           accumulation_step_count: int,
                           soft_prompt: SoftPrompt, training_step_count: int, learning_rate: float,
@@ -48,7 +48,7 @@ class SnapshottingCallbacks(TrainingCallbacks):
         """
         self.snapshot_path_creator = snapshot_path_creator
 
-    def training_complete(self, model_name: str, dataset_name: str | None, model, tokenizer,
+    def training_complete(self, model, model_name: str, dataset_name: str | None, tokenizer,
                           maximum_sample_length_in_tokens: int, batch_lanes_per_step: int,
                           accumulation_step_count: int,
                           soft_prompt: SoftPrompt, training_step_count: int, learning_rate: float,
@@ -84,7 +84,7 @@ class ResultSavingCallbacks(TrainingCallbacks):
         self.snapshot_path_creator = snapshot_path_creator
         self.results_path_creator = results_path_creator
 
-    def training_complete(self, model_name: str, dataset_name: str | None, model, tokenizer,
+    def training_complete(self, model, model_name: str, dataset_name: str | None, tokenizer,
                           maximum_sample_length_in_tokens: int, batch_size: int,
                           accumulation_step_count: int,
                           soft_prompt: SoftPrompt, training_step_count: int, learning_rate: float,
