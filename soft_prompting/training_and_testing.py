@@ -1,10 +1,9 @@
 import gc
 from numbers import Number
-from typing import Callable, TypeAlias
 
 from accelerate import Accelerator
 from torch import Tensor
-from transformers import GPTNeoXForCausalLM, GPTNeoXTokenizerFast
+from transformers import GPTNeoXForCausalLM
 import torch
 
 from soft_prompting.prompted_embeddings_builder import build_prompted_embeddings
