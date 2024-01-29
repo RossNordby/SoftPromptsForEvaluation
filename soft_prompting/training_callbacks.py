@@ -96,7 +96,9 @@ class ResultSavingCallbacks(TrainingCallbacks):
             end = min(len(self.prompts), i + batch_size)
             effective_batch_size = end - start
             input_ids, output_ids = soft_prompting.training_and_testing.generate_from_prompts(
-                self.prompts[start:end], self.soft_prompt_parameters[start:end], soft_prompt_start_index, soft_prompt,
+                self.prompts[start:end],
+                None if self.soft_prompt_parameters else self.soft_prompt_parameters[start:end],
+                soft_prompt_start_index, soft_prompt,
                 model, tokenizer,
                 effective_batch_size, self.generated_token_count)
             batch_result_strings = soft_prompting.training_and_testing.create_strings_from_prompted_generation(
