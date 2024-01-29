@@ -35,7 +35,7 @@ def main():
     def train(soft_prompt_token_counts: list[int], training_step_count: int):
         for s in repeated_strings:
             train_and_test_language(
-                model_configurations, soft_prompt_token_counts, datasets, DirectFactory(),
+                model_configurations, soft_prompt_token_counts, datasets, DirectFactory(use_zero_init=True),
                 batch_data_preparer=TrivialRepetitionTest(s),
                 maximum_soft_prompt_start_indices=0,
                 logging_prefix=f"repetition ({s})",

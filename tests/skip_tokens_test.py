@@ -33,7 +33,7 @@ def main():
                 return f"results/skip_{skip_count}_tokens/{dataset_name}/{model_name}-{soft_prompt_token_count}.txt"
 
             train_and_test_language(
-                model_configurations, soft_prompt_token_counts, datasets, DirectFactory(),
+                model_configurations, soft_prompt_token_counts, datasets, DirectFactory(use_zero_init=True),
                 batch_data_preparer=SkipTokens(skip_count),
                 logging_prefix=f"skip {skip_count} tokens",
                 training_step_count=training_step_count,

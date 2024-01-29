@@ -41,5 +41,13 @@ class DirectSoftPrompt(SoftPrompt):
 
 
 class DirectFactory:
+    def __init__(self, use_zero_init: bool = False):
+        """
+        Creates a factory for direct soft prompts.
+        :param use_zero_init: If True, the embeddings are initialized to zero. Otherwise, they are initialized randomly
+        with a normal distribution with mean 0 and standard deviation 0.1.
+        """
+        self.use_zero_init = use_zero_init
+
     def __call__(self, soft_prompt_token_count: int, input_size: int, embedding_size: int) -> soft_prompts.SoftPrompt:
-        return DirectSoftPrompt(soft_prompt_token_count, embedding_size)
+        return DirectSoftPrompt(soft_prompt_token_count, embedding_size, self.use_zero_init)
