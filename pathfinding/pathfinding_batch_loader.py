@@ -61,8 +61,7 @@ class PathfindingBatchLoader(BatchLoader):
                                           max_length=self.sample_length_in_tokens).input_ids
         tokenized_moves = self.tokenizer(moves_batch, return_tensors='pt', padding=True, truncation=True,
                                          max_length=self.sample_length_in_tokens).input_ids
-        move_start_indices = get_token_counts(tokenized_boards, self.tokenizer.eos_token_id,
-                                              self.tokenizer.pad_token_id)
+        move_start_indices = get_token_counts(tokenized_boards, self.tokenizer.pad_token_id)
         # Create a tensor containing the boards *and* moves by inserting the moves into the boards.
         combined_token_count = tokenized_boards.size(1) + tokenized_moves.size(1)
         if combined_token_count > self.sample_length_in_tokens:

@@ -65,7 +65,6 @@ def build_prompted_embeddings_for_training(sample_token_ids: torch.Tensor,
                                            soft_prompt: SoftPrompt,
                                            soft_prompt_parameters: torch.Tensor | None,
                                            ids_to_embeddings: Callable[[torch.Tensor], torch.Tensor],
-                                           end_of_text_token_id: int,
                                            pad_token_id: int,
                                            mask_before_soft_prompt: bool = True,
                                            output_label_mask_id: int = DEFAULT_OUTPUT_LABEL_MASK_ID,
@@ -85,7 +84,6 @@ def build_prompted_embeddings_for_training(sample_token_ids: torch.Tensor,
     :param soft_prompt_parameters: Parameters for the soft prompt, if any.
                                    Soft prompts which do not require parameters will ignore this.
     :param ids_to_embeddings: Function which converts token ids to embeddings.
-    :param end_of_text_token_id: Token id of end-of-text tokens.
     :param pad_token_id: Token id of pad tokens.
     :param mask_before_soft_prompt: Whether to mask out the loss contributions for all tokens before the soft prompt.
                                     Defaults to True; makes no difference for autoregressive models.
@@ -108,7 +106,7 @@ def build_prompted_embeddings_for_training(sample_token_ids: torch.Tensor,
                                                     soft_prompt_parameters)
     # We'll want to mask out the loss contributions for all pad, eot, and soft prompt tokens.
     # First, find where the pad/eot tokens start.
-    token_counts = utils.get_token_counts(input_ids, end_of_text_token_id, pad_token_id)
+    token_counts = utils.get_token_counts(input_ids, pad_token_id)
     # Mask out the pad/eot tokens for all lanes.
     batch_size = raw_embeddings.size(0)
     for i in range(batch_size):

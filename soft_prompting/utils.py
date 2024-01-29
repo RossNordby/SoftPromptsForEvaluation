@@ -37,20 +37,19 @@ def devices_match(a: torch.device, b: torch.device) -> bool:
     return True
 
 
-def get_token_counts(input_samples: Tensor, end_of_text: int, padding: int) -> Tensor:
+def get_token_counts(input_samples: Tensor, padding_token_id: int) -> Tensor:
     """
     Returns the number of tokens for each lane of the input samples.
     Counts up until encountering the first end of text token or padding token.
     :param input_samples: Sample lanes to count.
                           Dimensions are expected to be [batch_size, sequence_length_in_tokens].
-    :param end_of_text: Token ID of the end of text token.
-    :param padding: Token ID of the padding token.
+    :param padding_token_id: Token ID of the padding token.
     """
     if input_samples.size(1) == 0:
         return torch.zeros(input_samples.size(0), dtype=torch.long, device=input_samples.device)
-    mask = ((input_samples == end_of_text) | (input_samples == padding)).int()
+    mask = (input_samples == padding_token_id).int()
     first_end_index = mask.argmax(dim=1)
-    # If the input contains no eot or padding tokens, then argmax will return 0 for all lanes.
+    # If the input contains no padding tokens, then argmax will return 0 for all lanes.
     # We need to set those lanes to the sequence length.
     no_mask_in_lane = ~mask.any(dim=1)
     first_end_index = first_end_index.masked_fill(no_mask_in_lane, input_samples.size(1))

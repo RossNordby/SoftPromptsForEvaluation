@@ -15,17 +15,6 @@ from soft_prompting.training_callbacks import TrainingCallbacks
 from soft_prompting.utils import sample_token_from_logits, devices_match, get_token_counts
 
 
-# GetDataForSoftPromptTrainingFunction: TypeAlias = Callable[
-#     [Tensor, Tensor, soft_prompts.SoftPrompt, Tensor, EmbedInputFunction, int, int], tuple[
-#         Tensor, Tensor, SoftPromptLossFunction | None]]
-# """
-# A function of the form:
-# (input samples, soft prompt start indices, soft prompt, soft prompt parameters, embedding function,
-# end of text token id, pad token id) ->
-# (input embeddings, output labels, loss function)
-# """
-
-
 def run_training_batch(model: GPTNeoXForCausalLM, optimizer: torch.optim.Optimizer,
                        accelerator: Accelerator,
                        input_samples: Tensor, input_embeddings: Tensor, output_labels: Tensor | None,
@@ -69,7 +58,7 @@ def run_training_batch(model: GPTNeoXForCausalLM, optimizer: torch.optim.Optimiz
 
 
 def test_loss_for_batch(model, tokenizer,
-                        test_batch_loader, batch_data_preparer, ids_to_embeddings, end_of_text_token_id, pad_token_id,
+                        test_batch_loader, batch_data_preparer, ids_to_embeddings, pad_token_id,
                         maximum_prompt_start_indices: int | None,
                         accumulator_step_count: int,
                         training_step_index: int,
@@ -102,7 +91,7 @@ def test_loss_for_batch(model, tokenizer,
         for i in range(accumulator_step_count):
             samples, input_embeddings, output_labels, compute_loss, soft_prompt_start_indices, batch_token_count = (
                 prepare_batch(model.device, test_batch_loader, batch_data_preparer,
-                              ids_to_embeddings, end_of_text_token_id, pad_token_id,
+                              ids_to_embeddings, pad_token_id,
                               soft_prompt, maximum_prompt_start_indices))
 
             if compute_loss is None:
@@ -158,7 +147,7 @@ def generate(prompt_ids: Tensor, model, soft_prompt: soft_prompts.SoftPrompt,
              soft_prompt_start_indices: Tensor | None, tokenizer,
              batch_size: int, generated_token_count: int) -> Tensor:
     with torch.no_grad():
-        token_counts = get_token_counts(prompt_ids, tokenizer.eos_token_id, tokenizer.pad_token_id)
+        token_counts = get_token_counts(prompt_ids, tokenizer.pad_token_id)
         if soft_prompt_start_indices is None:
             soft_prompt_start_indices = token_counts
         else:
@@ -278,7 +267,7 @@ def create_strings_from_prompted_generation(prompt_ids: Tensor, generated_ids: T
     inserted.
     :return: A list of strings for the batch.
     """
-    token_counts = get_token_counts(prompt_ids, tokenizer.eos_token_id, tokenizer.pad_token_id)
+    token_counts = get_token_counts(prompt_ids, tokenizer.pad_token_id)
     strings = []
     if isinstance(soft_prompt_start_indices, int):
         soft_prompt_start_indices = torch.tensor([soft_prompt_start_indices] * prompt_ids.size(0))
@@ -319,7 +308,7 @@ def generate_for_forward_testing(batch_loader: BatchLoader, model,
 
 def prepare_batch(device: torch.device, batch_loader: BatchLoader,
                   batch_data_preparer: TaskBatchDataPreparer, ids_to_embeddings: EmbedInputFunction,
-                  end_of_text_token_id: int, pad_token_id: int,
+                  pad_token_id: int,
                   soft_prompt: soft_prompts.SoftPrompt, maximum_prompt_start_indices: int | None = None) -> (
         Tensor, Tensor, Tensor, SoftPromptLossFunction | None, Tensor, Tensor):
     """
@@ -328,7 +317,6 @@ def prepare_batch(device: torch.device, batch_loader: BatchLoader,
     :param batch_loader: Batch loader to pull samples from.
     :param batch_data_preparer: Data preparer to use for the batch.
     :param ids_to_embeddings: Function that converts token ids to embeddings.
-    :param end_of_text_token_id: Token ID of the end of text token.
     :param pad_token_id: Token ID of the pad token.
     :param soft_prompt: Soft prompt to insert into the samples.
     :param maximum_prompt_start_indices: Maximum number of tokens that can occur before the soft prompt.
@@ -340,7 +328,7 @@ def prepare_batch(device: torch.device, batch_loader: BatchLoader,
     if soft_prompt_parameters is not None:
         soft_prompt_parameters = soft_prompt_parameters.to(device)
     samples = samples.to(device)
-    token_counts = get_token_counts(samples, end_of_text_token_id, pad_token_id)
+    token_counts = get_token_counts(samples, pad_token_id)
     maximum_start_indices = torch.clamp(token_counts - 4, min=0, max=maximum_prompt_start_indices)
     soft_prompt_start_indices = (torch.rand(samples.size(0), device=device) * maximum_start_indices).to(
         torch.int64)
@@ -348,7 +336,7 @@ def prepare_batch(device: torch.device, batch_loader: BatchLoader,
     # soft prompt embedding that was built from the parameters.
     input_embeddings, output_labels, compute_loss = (
         batch_data_preparer.get_batch_data(samples, soft_prompt_start_indices, soft_prompt, soft_prompt_parameters,
-                                           task_metadata, ids_to_embeddings, end_of_text_token_id, pad_token_id))
+                                           task_metadata, ids_to_embeddings, pad_token_id))
     return samples, input_embeddings, output_labels, compute_loss, soft_prompt_start_indices, torch.sum(token_counts)
 
 
@@ -395,7 +383,6 @@ def train_and_test_soft_prompt(model, model_name: str, tokenizer,
     """
     ids_to_embeddings = model.get_input_embeddings()
     model, soft_prompt, optimizer = accelerator.prepare(model, soft_prompt, optimizer)
-    end_of_text_token_id = tokenizer.eos_token_id
     pad_token_id = tokenizer.pad_token_id
     trained_token_count = torch.zeros([1], dtype=torch.int64, device=accelerator.device)
     batch_data_preparer.prepare_preparer(tokenizer, batch_loader.sample_length_in_tokens)
@@ -404,7 +391,7 @@ def train_and_test_soft_prompt(model, model_name: str, tokenizer,
         for accumulation_step_index in range(accelerator.gradient_accumulation_steps):
             samples, input_embeddings, output_labels, compute_loss, soft_prompt_start_indices, batch_token_count = (
                 prepare_batch(accelerator.device, batch_loader, batch_data_preparer,
-                              ids_to_embeddings, end_of_text_token_id, pad_token_id, soft_prompt,
+                              ids_to_embeddings, pad_token_id, soft_prompt,
                               maximum_prompt_start_indices))
             trained_token_count += batch_token_count
             summed_loss += run_training_batch(model, optimizer, accelerator, samples, input_embeddings, output_labels,
@@ -431,7 +418,7 @@ def train_and_test_soft_prompt(model, model_name: str, tokenizer,
                 training_step_index % test_loss_evaluation_interval == 0):
             # Periodically evaluate test loss.
             test_loss_for_batch(model, tokenizer, test_batch_loader,
-                                batch_data_preparer, ids_to_embeddings, end_of_text_token_id, pad_token_id,
+                                batch_data_preparer, ids_to_embeddings, pad_token_id,
                                 maximum_prompt_start_indices,
                                 accelerator.gradient_accumulation_steps, training_step_index,
                                 soft_prompt, "Test Loss", logger,
@@ -447,7 +434,7 @@ def train_and_test_soft_prompt(model, model_name: str, tokenizer,
         summed_loss = torch.zeros([1], dtype=torch.float, device=accelerator.device)
         for i in range(final_test_loss_evaluation_step_count):
             summed_loss += test_loss_for_batch(model, tokenizer, test_batch_loader,
-                                               batch_data_preparer, ids_to_embeddings, end_of_text_token_id,
+                                               batch_data_preparer, ids_to_embeddings,
                                                pad_token_id, maximum_prompt_start_indices,
                                                accelerator.gradient_accumulation_steps, i,
                                                soft_prompt, "Final Test Loss", logger,
