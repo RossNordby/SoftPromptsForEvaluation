@@ -6,6 +6,15 @@ from soft_prompting import DirectFactory
 from soft_prompting.training_callbacks import ResultSavingCallbacks
 
 
+def append_loaded_prompts(prompt_count: int, maximum_prompt_length: int, prompts: list[str]):
+    # Grab some unstructured prompts from redpajama.
+    dataset = load_dataset("togethercomputer/RedPajama-Data-V2", name="default",
+                           split="train", streaming=True, languages=["en"])
+    iterable_dataset = iter(dataset)
+    for _ in range(prompt_count):
+        prompts.append(next(iterable_dataset)['raw_content'][:maximum_prompt_length])
+
+
 def append_prompt(chat_templated_prompt: list[dict[str, str]], tokenizer, end_offset: int, prompts: list[str]):
     """
     Converts a chat templated prompt into a string and appends it to the prompts list.
@@ -110,11 +119,7 @@ def main():
                            ], tokenizer, strip_trailing_s_tag, prompts)
 
     # Grab some unstructured prompts from redpajama.
-    dataset = load_dataset("togethercomputer/RedPajama-Data-V2", name="default",
-                           split="train", streaming=True, languages=["en"])
-    iterable_dataset = iter(dataset)
-    for _ in range(128):
-        prompts.append(next(iterable_dataset)['raw_content'][:256])
+    append_loaded_prompts(128, 256, prompts)
 
     # for prompt in prompts:
     #     print('____')

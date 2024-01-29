@@ -3,6 +3,7 @@ from datasets import load_dataset
 from language_training import train_and_test_language, AutoregressiveBaseline
 from soft_prompting import DirectFactory
 from soft_prompting.training_callbacks import ResultSavingCallbacks
+from tests.chat_detuning_test import append_loaded_prompts
 
 
 def main():
@@ -12,10 +13,10 @@ def main():
     getting any benefit here would be strange. (See paper for details.)
     """
 
-    model_configurations = [('EleutherAI/pythia-1b-deduped', 64),
-                            ('EleutherAI/pythia-410m-deduped', 32),
-                            ('EleutherAI/pythia-160m-deduped', 16),
-                            ('EleutherAI/pythia-70m-deduped', 8),
+    model_configurations = [('EleutherAI/pythia-1b-deduped', 8),
+                            ('EleutherAI/pythia-410m-deduped', 4),
+                            ('EleutherAI/pythia-160m-deduped', 2),
+                            ('EleutherAI/pythia-70m-deduped', 1),
                             ]
 
     # We'll use a mix of different prompts. Most will just be raw unstructured text from redpajama.
@@ -34,12 +35,7 @@ def main():
                "New reports indicate that no one likes webdev. 'It's just so', said one developer, '",
                ]
 
-    # Grab some unstructured prompts from redpajama.
-    dataset = load_dataset("togethercomputer/RedPajama-Data-V2", name="default",
-                           split="train", streaming=True, languages=["en"])
-    iterable_dataset = iter(dataset)
-    for _ in range(128):
-        prompts.append(next(iterable_dataset)['raw_content'][:256])
+    append_loaded_prompts(128, 256, prompts)
 
     def snapshot_path_creator(model_name: str, soft_prompt_token_count: int):
         return f"snapshots/autoregressive/{model_name}-{soft_prompt_token_count}.pt"
