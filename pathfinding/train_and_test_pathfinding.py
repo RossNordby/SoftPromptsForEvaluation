@@ -26,6 +26,7 @@ def train_and_test_pathfinding(board_width: int, board_height: int,
                                maximum_sample_length_in_tokens: int = 256, learning_rate: float = 1e-3,
                                weight_decay: float = 1e-4,
                                forward_test_generated_token_count: int = 128,
+                               final_test_loss_evaluation_step_count: int = 256,
                                force_mixed_precision_mode: PrecisionType = None,
                                training_callbacks: TrainingCallbacks | None = None) -> None:
     """
@@ -52,6 +53,7 @@ def train_and_test_pathfinding(board_width: int, board_height: int,
     :param learning_rate: The learning rate to use.
     :param weight_decay: The weight decay to use.
     :param forward_test_generated_token_count: The number of tokens to generate when doing forward generation testing.
+    :param final_test_loss_evaluation_step_count: The number of steps to use for evaluating the final test loss.
     :param force_mixed_precision_mode: What kind of mixed precision training to force, if any.
                                        If None, will use the default specified by the accelerator.
     :param training_callbacks: Callbacks to call during training.
@@ -97,12 +99,11 @@ def train_and_test_pathfinding(board_width: int, board_height: int,
                         f'Pathfinding requires a conditional soft prompt, but got {soft_prompt}.')
                 optimizer = optim.AdamW(soft_prompt.parameters(), lr=learning_rate, weight_decay=weight_decay)
 
-                training_and_testing.train_and_test_soft_prompt(model, model_name, None, tokenizer, batch_loader,
-                                                                test_batch_loader, soft_prompt,
-                                                                0, training_step_count,
-                                                                PathfindingBatchPreparer(),
-                                                                optimizer, accelerator, logger,
-                                                                forward_test_generated_token_count,
-                                                                training_callbacks=training_callbacks)
+                training_and_testing.train_and_test_soft_prompt(
+                    model, model_name, None, tokenizer, batch_loader, test_batch_loader, soft_prompt,
+                    0, training_step_count, PathfindingBatchPreparer(),
+                    optimizer, accelerator, logger, forward_test_generated_token_count,
+                    final_test_loss_evaluation_step_count=final_test_loss_evaluation_step_count,
+                    training_callbacks=training_callbacks)
 
                 logger.close()

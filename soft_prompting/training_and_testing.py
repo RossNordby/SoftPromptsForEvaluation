@@ -350,7 +350,7 @@ def train_and_test_soft_prompt(model, model_name: str, dataset_name: str | None,
                                forward_test_generated_token_count: int = 64,
                                training_loss_logging_interval: int = 1,
                                test_loss_evaluation_interval: int = 32,
-                               final_test_loss_evaluation_step_count: int = 64,
+                               final_test_loss_evaluation_step_count: int = 256,
                                training_callbacks: TrainingCallbacks | None = None):
     """
     Trains a soft prompt towards some objective defined by samples, output labels, and/or a loss function.
