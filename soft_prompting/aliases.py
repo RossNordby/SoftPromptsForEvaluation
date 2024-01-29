@@ -10,18 +10,16 @@ A function which creates a soft prompt given the number of tokens in the soft pr
 the input size, and the embedding size.
 """
 
-PathCreator: TypeAlias = Callable[[str, int], str]
+PathCreator: TypeAlias = Callable[[str, int, str | None], str]
 """
 Creates a path from a given the model name (e.g. "EleutherAI/pythia-1.4b-deduped" or 
-"meta-llama/Llama-2-7b-hf") and soft prompt token count. Used for saving snapshots and results.
+"meta-llama/Llama-2-7b-hf"), soft prompt token count, and dataset name (if any). Used for saving snapshots and results.
 """
-
 
 TrainingCompleteCallback: TypeAlias = Callable[[str, int], str]
 """
 Called by the training loop when a soft prompt's training is complete.
 """
-
 
 SoftPromptLossFunction: TypeAlias = Callable[[Tensor, Tensor, SoftPrompt, Tensor], Tensor]
 """

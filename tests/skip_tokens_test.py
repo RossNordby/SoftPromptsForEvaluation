@@ -27,11 +27,11 @@ def main():
 
     def train(soft_prompt_token_counts: list[int], training_step_count: int):
         for skip_count in skip_token_counts:
-            def snapshot_path_creator(model_name: str, soft_prompt_token_count: int):
-                return f"snapshots/skip_{skip_count}_tokens/{model_name}-{soft_prompt_token_count}.pt"
+            def snapshot_path_creator(model_name: str, soft_prompt_token_count: int, dataset_name: str):
+                return f"snapshots/skip_{skip_count}_tokens/{dataset_name}/{model_name}-{soft_prompt_token_count}.pt"
 
-            def results_path_creator(model_name: str, soft_prompt_token_count: int):
-                return f"results/skip_{skip_count}_tokens/{model_name}-{soft_prompt_token_count}.txt"
+            def results_path_creator(model_name: str, soft_prompt_token_count: int, dataset_name: str):
+                return f"results/skip_{skip_count}_tokens/{dataset_name}/{model_name}-{soft_prompt_token_count}.txt"
 
             train_and_test_language(
                 model_configurations, soft_prompt_token_counts, datasets, DirectFactory(),

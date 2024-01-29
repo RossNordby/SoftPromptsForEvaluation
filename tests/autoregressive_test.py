@@ -37,11 +37,11 @@ def main():
 
     append_loaded_prompts(128, 256, prompts)
 
-    def snapshot_path_creator(model_name: str, soft_prompt_token_count: int):
-        return f"snapshots/autoregressive/{model_name}-{soft_prompt_token_count}.pt"
+    def snapshot_path_creator(model_name: str, soft_prompt_token_count: int, dataset_name: str):
+        return f"snapshots/autoregressive/{dataset_name}/{model_name}-{soft_prompt_token_count}.pt"
 
-    def results_path_creator(model_name: str, soft_prompt_token_count: int):
-        return f"results/autoregressive/{model_name}-{soft_prompt_token_count}.txt"
+    def results_path_creator(model_name: str, soft_prompt_token_count: int, dataset_name: str):
+        return f"results/autoregressive/{dataset_name}/{model_name}-{soft_prompt_token_count}.txt"
 
     datasets = [
         dataset_iterables.PileDatasetIterable(),

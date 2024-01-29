@@ -26,10 +26,10 @@ def main():
 
     def run_training(soft_prompt_token_counts, training_step_count):
         for board_width, board_height in board_configurations:
-            def snapshot_path_creator(model_name: str, soft_prompt_token_count: int):
+            def snapshot_path_creator(model_name: str, soft_prompt_token_count: int, dataset_name: None):
                 return f"snapshots/pathfinding/{model_name}/{soft_prompt_token_count}, {board_width}x{board_height}.pt"
 
-            def results_path_creator(model_name: str, soft_prompt_token_count: int):
+            def results_path_creator(model_name: str, soft_prompt_token_count: int, dataset_name: None):
                 return f"results/pathfinding/{model_name}/{soft_prompt_token_count}, {board_width}x{board_height}.txt"
 
             evaluation_dataset = PathfindingDataset(board_width, board_height, insert_spaces)

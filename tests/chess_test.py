@@ -23,10 +23,10 @@ def main():
                 evaluation_conditions.append(normalize_chess_elos(elos))
 
     def train(model_configurations, soft_prompt_token_counts: list[int], training_step_count: int):
-        def snapshot_path_creator(model_name: str, soft_prompt_token_count: int):
+        def snapshot_path_creator(model_name: str, soft_prompt_token_count: int, dataset_name: None):
             return f"snapshots/chess/{model_name}-{soft_prompt_token_count}.pt"
 
-        def results_path_creator(model_name: str, soft_prompt_token_count: int):
+        def results_path_creator(model_name: str, soft_prompt_token_count: int, dataset_name: None):
             return f"results/chess/{model_name}-{soft_prompt_token_count}.txt"
 
         train_and_test_chess(chess_database_path, model_configurations, soft_prompt_token_counts,

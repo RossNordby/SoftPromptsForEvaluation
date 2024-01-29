@@ -127,11 +127,11 @@ def main():
         ('TinyLlama/TinyLlama-1.1B-intermediate-step-1431k-3T', 4),
     ]
 
-    def snapshot_path_creator(model_name: str, soft_prompt_token_count: int):
-        return f"snapshots/chat_detuning/{model_name}-{soft_prompt_token_count}.pt"
+    def snapshot_path_creator(model_name: str, soft_prompt_token_count: int, dataset_name: str):
+        return f"snapshots/chat_detuning/{dataset_name}/{model_name}-{soft_prompt_token_count}.pt"
 
-    def results_path_creator(model_name: str, soft_prompt_token_count: int):
-        return f"results/chat_detuning/{model_name}-{soft_prompt_token_count}.txt"
+    def results_path_creator(model_name: str, soft_prompt_token_count: int, dataset_name: str):
+        return f"results/chat_detuning/{dataset_name}/{model_name}-{soft_prompt_token_count}.txt"
 
     datasets = [
         dataset_iterables.PileDatasetIterable(),

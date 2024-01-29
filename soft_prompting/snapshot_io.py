@@ -6,7 +6,7 @@ from soft_prompting import PathCreator, SoftPrompt
 
 
 def try_create_snapshot(snapshot_path_creator: PathCreator | None, model_name: str,
-                        soft_prompt_token_count: int,
+                        soft_prompt_token_count: int, dataset_name: str | None,
                         maximum_sample_length_in_tokens: int, batch_lanes_per_step: int, accumulation_step_count: int,
                         soft_prompt: SoftPrompt, training_step_count: int, learning_rate: float, weight_decay: float):
     """
@@ -14,6 +14,8 @@ def try_create_snapshot(snapshot_path_creator: PathCreator | None, model_name: s
     :param snapshot_path_creator: Function which creates paths to save snapshots to.
     :param model_name: The name of the model used for training.
     :param soft_prompt_token_count: The number of tokens in the soft prompt.
+    :param dataset_name: The name of the dataset used for training, if any. If None, no entry for dataset_name will be
+                         saved in the metadata.
     :param maximum_sample_length_in_tokens: The maximum sample length in tokens pulled from the dataset.
     :param batch_lanes_per_step: The number of batch lanes to use per optimization step.
     :param accumulation_step_count: The number of accumulation steps used in training.
@@ -25,7 +27,7 @@ def try_create_snapshot(snapshot_path_creator: PathCreator | None, model_name: s
     if snapshot_path_creator is not None:
         snapshot_path = snapshot_path_creator(model_name, soft_prompt_token_count)
         os.makedirs(os.path.dirname(snapshot_path), exist_ok=True)
-        torch.save((soft_prompt.state_dict(), {
+        metadata_dict = {
             'model_name': model_name,
             'soft_prompt_type': soft_prompt.__class__.__name__,
             'soft_prompt_metadata': soft_prompt.get_metadata(),
@@ -37,4 +39,7 @@ def try_create_snapshot(snapshot_path_creator: PathCreator | None, model_name: s
                 'learning_rate': learning_rate,
                 'weight_decay': weight_decay
             }
-        }), snapshot_path)
+        }
+        if dataset_name is not None:
+            metadata_dict['dataset_name'] = dataset_name
+        torch.save((soft_prompt.state_dict(), metadata_dict), snapshot_path)
