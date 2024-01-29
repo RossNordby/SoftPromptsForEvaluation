@@ -444,7 +444,7 @@ def train_and_test_soft_prompt(model, model_name: str, dataset_name: str | None,
         # Also janky, but we're very low on time and just need a way to persist the final test loss.
         logger.add_scalar('Final Test Loss Average', loss, 0)
     if training_callbacks is not None:
-        training_callbacks.training_complete(model_name, dataset_name, model, tokenizer,
+        training_callbacks.training_complete(model, model_name, dataset_name, tokenizer,
                                              batch_loader.sample_length_in_tokens,
                                              batch_loader.batch_size,
                                              accelerator.gradient_accumulation_steps,
