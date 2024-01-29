@@ -32,10 +32,6 @@ def main():
     Trains soft prompts to revert the fine-tuning of a model. This is just the autoregressive baseline,
     but configured to target a chat-tuned model.
     """
-    model_configurations = [
-        ('TinyLlama/TinyLlama-1.1B-Chat-v1.0', 8),
-        ('TinyLlama/TinyLlama-1.1B-intermediate-step-1431k-3T', 8),
-    ]
 
     # While the actual training for chat detuning is basically identical to the autoregressive test,
     # it does benefit from a more specific set of evaluation prompts to show the detuning effect.
@@ -126,6 +122,11 @@ def main():
     #     print('____')
     #     print(prompt)
 
+    model_configurations = [
+        ('TinyLlama/TinyLlama-1.1B-Chat-v1.0', 4),
+        ('TinyLlama/TinyLlama-1.1B-intermediate-step-1431k-3T', 4),
+    ]
+
     def snapshot_path_creator(model_name: str, soft_prompt_token_count: int):
         return f"snapshots/chat_detuning/{model_name}-{soft_prompt_token_count}.pt"
 
@@ -139,16 +140,16 @@ def main():
             batch_data_preparer=AutoregressiveBaseline(),
             # use_sample_dataset=True,
             maximum_soft_prompt_start_indices=0,
-            logging_prefix=f"chat detuning",
+            logging_prefix=f"chat detuning 2",
             training_step_count=training_step_count,
-            batch_lanes_per_step=32,
-            maximum_sample_length_in_tokens=256, learning_rate=1e-3, weight_decay=1e-4,
+            batch_lanes_per_step=16,
+            maximum_sample_length_in_tokens=256, learning_rate=1e-4, weight_decay=1e-5,
             forward_test_generated_token_count=32,
             training_callbacks=ResultSavingCallbacks(prompts, None, 128,
                                                      False, snapshot_path_creator, results_path_creator))
 
-    train([0], 0)
-    train([64, 16, 4, 1], 1024)
+    # train([0], 0)
+    train([64, 16, 4, 1], 2048)
 
 
 if __name__ == '__main__':
