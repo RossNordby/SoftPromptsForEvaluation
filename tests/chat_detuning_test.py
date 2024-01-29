@@ -141,8 +141,8 @@ def main():
             training_callbacks=ResultSavingCallbacks(prompts, None, 128,
                                                      False, snapshot_path_creator, results_path_creator))
 
-        train([0], 0)
-        train([64, 16, 4, 1], 1024)
+    train([0], 0)
+    train([64, 16, 4, 1], 1024)
 
 
 if __name__ == '__main__':
