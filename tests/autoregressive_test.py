@@ -1,9 +1,7 @@
-from datasets import load_dataset
-
 from language_training import train_and_test_language, AutoregressiveBaseline, dataset_iterables
 from soft_prompting import DirectFactory
 from soft_prompting.training_callbacks import ResultSavingCallbacks
-from tests.chat_detuning_test import append_loaded_prompts
+from tests.tests_shared import append_loaded_prompts
 
 
 def main():

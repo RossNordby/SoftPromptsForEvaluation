@@ -1,18 +1,9 @@
-from datasets import load_dataset
 from transformers import AutoTokenizer
 
 from language_training import train_and_test_language, AutoregressiveBaseline, dataset_iterables
 from soft_prompting import DirectFactory
 from soft_prompting.training_callbacks import ResultSavingCallbacks
-
-
-def append_loaded_prompts(prompt_count: int, maximum_prompt_length: int, prompts: list[str]):
-    # Grab some unstructured prompts from redpajama.
-    dataset = load_dataset("togethercomputer/RedPajama-Data-V2", name="default",
-                           split="train", streaming=True, languages=["en"])
-    iterable_dataset = iter(dataset)
-    for _ in range(prompt_count):
-        prompts.append(next(iterable_dataset)['raw_content'][:maximum_prompt_length])
+from tests.tests_shared import append_loaded_prompts
 
 
 def append_prompt(chat_templated_prompt: list[dict[str, str]], tokenizer, end_offset: int, prompts: list[str]):
