@@ -112,14 +112,13 @@ def main():
     # Grab some unstructured prompts from redpajama.
     dataset = load_dataset("togethercomputer/RedPajama-Data-V2", name="default",
                            split="train", streaming=True, languages=["en"])
+    iterable_dataset = iter(dataset)
     for _ in range(128):
-        prompts.append(next(iter(dataset))['raw_content'][:256])
+        prompts.append(next(iterable_dataset)['raw_content'][:256])
 
-    for prompt in prompts:
-        print('____')
-        print(prompt)
-
-    print()
+    # for prompt in prompts:
+    #     print('____')
+    #     print(prompt)
 
     def snapshot_path_creator(model_name: str, soft_prompt_token_count: int):
         return f"snapshots/chat_detuning/{model_name}-{soft_prompt_token_count}.pt"
@@ -134,12 +133,12 @@ def main():
             batch_data_preparer=AutoregressiveBaseline(),
             # use_sample_dataset=True,
             maximum_soft_prompt_start_indices=0,
-            logging_prefix=f"autoregressive",
+            logging_prefix=f"chat detuning",
             training_step_count=training_step_count,
             batch_lanes_per_step=32,
             maximum_sample_length_in_tokens=256, learning_rate=1e-3, weight_decay=1e-4,
             forward_test_generated_token_count=32,
-            training_callbacks=ResultSavingCallbacks(prompts, None, 64,
+            training_callbacks=ResultSavingCallbacks(prompts, None, 128,
                                                      False, snapshot_path_creator, results_path_creator))
 
         train([0], 0)
