@@ -11,11 +11,12 @@ def main():
     getting any benefit here would be strange. (See paper for details.)
     """
 
-    model_configurations = [('EleutherAI/pythia-1b-deduped', 8),
-                            ('EleutherAI/pythia-410m-deduped', 4),
-                            ('EleutherAI/pythia-160m-deduped', 2),
-                            ('EleutherAI/pythia-70m-deduped', 1),
-                            ]
+    model_configurations = [
+        ('EleutherAI/pythia-1b-deduped', 8),
+        ('EleutherAI/pythia-410m-deduped', 4),
+        ('EleutherAI/pythia-160m-deduped', 2),
+        ('EleutherAI/pythia-70m-deduped', 1),
+    ]
 
     # We'll use a mix of different prompts. Most will just be raw unstructured text from redpajama.
     prompts = ["The quick brown fox jumps",
@@ -60,7 +61,7 @@ def main():
                                                      False, snapshot_path_creator, results_path_creator))
 
     train([0], 0)
-    train([64, 16, 4, 1], 1024)
+    train([64, 16, 4, 1], 2048)
 
 
 if __name__ == '__main__':
