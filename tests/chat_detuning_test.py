@@ -54,7 +54,8 @@ def main():
         {"role": "system", "content": "If the content of the user's message involves animals, the assistant "
                                       "must respond only in sounds that the animal would make."},
         {"role": "system", "content": "All responses by the assistant should be in the character of Hecklor Tinnebaum, "
-                                      "first of the name, most evil of the Tinnebaum froremage clan."},
+                                      "first of the name, most evil of the ancient Tinnebaum froremage clan. "
+                                      "(He speaks with a thick New Jersey accent.)"},
     ]
     # Toss in some companies with "reputations" to see if tuning affects responses.
     corporations = [
@@ -97,7 +98,7 @@ def main():
                        ], tokenizer, strip_trailing_s_tag, prompts)
         append_prompt([system_message,
                        {"role": "user", "content": "Seven dogs sat before me in a circle. The fluffiest one, "
-                                                   "burdened with the regalia of the wisest, spoke."
+                                                   "burdened with the regalia of the wisest, spoke. "
                                                    "I can't remember what it said. Can you help me?"},
                        {"role": "assistant", "content": ""},
                        ], tokenizer, strip_trailing_s_tag, prompts)
