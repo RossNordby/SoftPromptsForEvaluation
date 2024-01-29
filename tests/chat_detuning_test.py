@@ -1,7 +1,7 @@
 from datasets import load_dataset
 from transformers import AutoTokenizer
 
-from language_training import train_and_test_language, AutoregressiveBaseline
+from language_training import train_and_test_language, AutoregressiveBaseline, dataset_iterables
 from soft_prompting import DirectFactory
 from soft_prompting.training_callbacks import ResultSavingCallbacks
 
@@ -133,12 +133,15 @@ def main():
     def results_path_creator(model_name: str, soft_prompt_token_count: int):
         return f"results/chat_detuning/{model_name}-{soft_prompt_token_count}.txt"
 
+    datasets = [
+        dataset_iterables.PileDatasetIterable(),
+        dataset_iterables.RedPajamaV2DatasetIterable(),
+    ]
+
     def train(soft_prompt_token_counts: list[int], training_step_count: int):
         train_and_test_language(
-            model_configurations, soft_prompt_token_counts,
-            DirectFactory(),
+            model_configurations, soft_prompt_token_counts, datasets, DirectFactory(),
             batch_data_preparer=AutoregressiveBaseline(),
-            # use_sample_dataset=True,
             maximum_soft_prompt_start_indices=0,
             logging_prefix=f"chat detuning 2",
             training_step_count=training_step_count,
