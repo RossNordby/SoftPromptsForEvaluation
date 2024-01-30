@@ -10,7 +10,6 @@ def main():
     Repeating longer strings tends to require more prompting.
     """
     model_configurations = [
-        ('EleutherAI/pythia-1b-deduped', 8),
         ('EleutherAI/pythia-410m-deduped', 4),
         ('EleutherAI/pythia-160m-deduped', 2),
         ('EleutherAI/pythia-70m-deduped', 1),
@@ -37,18 +36,17 @@ def main():
             train_and_test_language(
                 model_configurations, soft_prompt_token_counts, datasets, DirectFactory(use_zero_init=True),
                 batch_data_preparer=TrivialRepetitionTest(s),
-                maximum_soft_prompt_start_indices=0,
                 logging_prefix=f"repetition ({s})",
                 training_step_count=training_step_count,
                 batch_lanes_per_step=32,
                 maximum_sample_length_in_tokens=256, learning_rate=1e-3, weight_decay=1e-4,
                 forward_test_generated_token_count=32,
                 training_callbacks=ResultSavingCallbacks(prompts, None, 128,
-                                                         False, snapshot_path_creator, results_path_creator))
+                                                         True, snapshot_path_creator, results_path_creator))
 
     # Collect baseline.
     train([0], 0)
-    train([64, 16, 4, 1], 2048)
+    train([64, 16, 4, 1], 1536)
 
 
 if __name__ == '__main__':
