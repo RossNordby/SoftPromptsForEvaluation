@@ -61,7 +61,7 @@ def main():
                                                      False, snapshot_path_creator, results_path_creator))
 
     train([0], 0)
-    train([64, 16, 4, 1], 2048)
+    train([64, 16, 4, 1], 1536)
 
 
 if __name__ == '__main__':
