@@ -1,12 +1,14 @@
-from transformers import AutoModel, AutoTokenizer
+import torch
+from transformers import AutoTokenizer, AutoModelForCausalLM
 
-from soft_prompting import training_and_testing, DirectSoftPrompt
+from soft_prompting import training_and_testing, DirectSoftPrompt, snapshot_io
 from tests.tests_shared import append_loaded_prompts
 
 
 def main():
     # We'll use a mix of different prompts. Most will just be raw unstructured text from redpajama.
     prompts = ["The quick brown fox jumps",
+               "1 2 3 4 5 6 7 8",
                "The creature, low and squat, peered aside me; ",
                "Meow! Hiss! The real problem facing Novosibirsk in the wake of The Great Cat-astrophe of 1846",
                "Curiously, AI capabilities have not improved much since the",
@@ -24,14 +26,21 @@ def main():
     # append_loaded_prompts(128, 256, prompts)
 
     model_name = 'EleutherAI/pythia-70m-deduped'
-    model = AutoModel.from_pretrained(model_name)
+    model = AutoModelForCausalLM.from_pretrained(model_name)
     tokenizer = AutoTokenizer.from_pretrained(model_name)
+    tokenizer.pad_token_id = 0
 
     prompt_ids, generated_ids = training_and_testing.generate_from_prompts(
-        prompts, None, None, DirectSoftPrompt(0, 512), model, tokenizer, 1, 8)
+        prompts, None, None, DirectSoftPrompt(0, model.get_input_embeddings().embedding_dim), model, tokenizer,
+        len(prompts), 8)
     results = training_and_testing.create_strings_from_prompted_generation(prompt_ids, generated_ids, tokenizer, None,
-                                                                           '[SOFT PROMPT]')
-    print(results)
+                                                                           '')
+
+    (state_dict, metadata_dict) = snapshot_io.try_load_snapshot('snapshots/chess/pythia-160m-deduped-1024.pt')
+
+    for result in results:
+        print(result)
+        print()
 
 
 if __name__ == '__main__':

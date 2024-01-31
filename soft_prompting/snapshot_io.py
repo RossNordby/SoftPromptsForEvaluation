@@ -43,3 +43,25 @@ def try_create_snapshot(snapshot_path_creator: PathCreator | None, model_name: s
         if dataset_name is not None:
             metadata_dict['dataset_name'] = dataset_name
         torch.save((soft_prompt.state_dict(), metadata_dict), snapshot_path)
+
+
+def try_load_snapshot(snapshot_path: str) -> tuple[SoftPrompt, dict] | None:
+    """
+    Tries to load a snapshot from the given path.
+    :param snapshot_path: The path to the snapshot to load.
+    :return: The soft prompt and the metadata dictionary. None if the snapshot could not be loaded.
+    """
+    try:
+        state_dict, metadata_dict = torch.load(snapshot_path, map_location=torch.device('cpu'))
+        if (soft_prompt_type := metadata_dict['soft_prompt_type']) == 'DirectSoftPrompt':
+            from soft_prompting.direct_soft_prompt import DirectSoftPrompt
+            soft_prompt = DirectSoftPrompt(**metadata_dict['soft_prompt_metadata'])
+        elif soft_prompt_type == 'MLPSoftPrompt':
+            from soft_prompting.mlp_soft_prompt import MLPSoftPrompt
+            soft_prompt = MLPSoftPrompt(**metadata_dict['soft_prompt_metadata'])
+        else:
+            raise ValueError(f"Soft prompt type not currently supported for snapshot loading: {soft_prompt_type}")
+        soft_prompt.load_state_dict(state_dict)
+        return soft_prompt, metadata_dict
+    except:
+        return None
