@@ -10,13 +10,12 @@ def main():
     Repeating longer strings tends to require more prompting.
     """
     model_configurations = [
-        ('EleutherAI/pythia-410m-deduped', 4),
-        ('EleutherAI/pythia-160m-deduped', 2),
-        ('EleutherAI/pythia-70m-deduped', 1),
+        ('EleutherAI/pythia-410m-deduped', 32),
+        ('EleutherAI/pythia-160m-deduped', 16),
+        ('EleutherAI/pythia-70m-deduped', 8),
     ]
 
-    repeated_strings = ['pee', 'meow', 'meowster',
-                        'meowster jones', 'the great meowster jones', 'the great and terrible meowster jones']
+    repeated_strings = ['pee', 'meowster jones', 'the great and terrible meowster jones']
 
     prompts = []
     append_loaded_prompts(128, 256, prompts)
@@ -38,7 +37,7 @@ def main():
                 batch_data_preparer=TrivialRepetitionTest(s),
                 logging_prefix=f"repetition ({s})",
                 training_step_count=training_step_count,
-                batch_lanes_per_step=32,
+                batch_lanes_per_step=256,
                 maximum_sample_length_in_tokens=256, learning_rate=1e-3, weight_decay=1e-4,
                 forward_test_generated_token_count=32,
                 training_callbacks=ResultSavingCallbacks(prompts, None, 128,
@@ -46,7 +45,7 @@ def main():
 
     # Collect baseline.
     train([0], 0)
-    train([64, 16, 4, 1], 1536)
+    train([64, 16, 4, 1], 512)
 
 
 if __name__ == '__main__':
