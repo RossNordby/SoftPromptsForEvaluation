@@ -27,12 +27,11 @@ def main():
     model = AutoModel.from_pretrained(model_name)
     tokenizer = AutoTokenizer.from_pretrained(model_name)
 
-    # def generate_from_prompts(prompts: list[str], soft_prompt_parameters: None | Tensor | list[tuple[Number, ...]],
-    #                           soft_prompt_start_indices: None | Tensor | list[int] | int,
-    #                           soft_prompt: soft_prompts.SoftPrompt, model, tokenizer,
-    #                           batch_size: int, generated_token_count: int) -> (Tensor, Tensor):
-    training_and_testing.generate_from_prompts(
+    prompt_ids, generated_ids = training_and_testing.generate_from_prompts(
         prompts, None, None, DirectSoftPrompt(0, 512), model, tokenizer, 1, 8)
+    results = training_and_testing.create_strings_from_prompted_generation(prompt_ids, generated_ids, tokenizer, None,
+                                                                           '[SOFT PROMPT]')
+    print(results)
 
 
 if __name__ == '__main__':
