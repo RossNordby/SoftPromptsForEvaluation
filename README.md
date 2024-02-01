@@ -1,6 +1,6 @@
 # Soft Prompts For Evaluation
 
-Code associated with the (upcoming) paper, [Soft Prompts For Evaluation: Measuring Conditional Distance of Capabilities](https://1drv.ms/b/s!AkbNRQZiRerJ60FS9KJ1qqIo9qyC?e=2AqBeH).
+Code associated with the (upcoming) paper, [Soft Prompts for Evaluation: Measuring Conditional Distance of Capabilities](https://1drv.ms/b/s!AkbNRQZiRerJ60FS9KJ1qqIo9qyC?e=2AqBeH).
 
 The onedrive link used at the time of writing will likely expire. Ideally, it will be replaced with a complete version on arxiv soonishly.
 
