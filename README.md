@@ -1,6 +1,8 @@
 # Soft Prompts For Evaluation
 
-Code associated with the (upcoming) paper, `Soft Prompts For Evaluation: Measuring Conditional Distance of Capabilities`.
+Code associated with the (upcoming) paper, [Soft Prompts For Evaluation: Measuring Conditional Distance of Capabilities](https://1drv.ms/b/s!AkbNRQZiRerJ60FS9KJ1qqIo9qyC?e=2AqBeH).
+
+The onedrive link used at the time of writing will likely expire. Ideally, it will be replaced with a complete version on arxiv soonishly.
 
 ## What is this?
 
@@ -87,6 +89,14 @@ The `exploratory_tests` directory contains a bunch of other tests.
 These were primarily used to guide the development of the main tests and to perform diagnostics.
 At the time of writing, many will not run in their current form.
 
+## Results
+
+The `results` directory contains the results of the tests that appear in the paper.
+The `runs` directory contains the tensorboard logs for these tests.
+
+Snapshots are too large to include in this repository. Running the tests will reproduce them.
+You can also contact me; it's a 1.2GB zip file.
+
 ## Models and datasets
 
 Language and chess experiments mostly use the [EleutherAI pythia suite](https://github.com/EleutherAI/pythia).
@@ -96,9 +106,3 @@ Language tests use the [RedPajama v2 dataset](https://github.com/togethercompute
 Chess uses [lichess databases](https://database.lichess.org/).
 
 Pathfinding uses a procedural dataset.
-
-## Where's the paper?
-
-An incomplete draft can be viewed here: [Soft Prompts For Evaluation: Measuring Conditional Distance of Capabilities](https://1drv.ms/b/s!AkbNRQZiRerJ60FS9KJ1qqIo9qyC?e=2AqBeH).
-
-That link will likely expire. Ideally, it will be replaced with a complete version on arxiv soonishly.
