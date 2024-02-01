@@ -1,0 +1,1841 @@
+Conditions 0:
+(0, 0)
+Sequence:
+[SOFT PROMPT]X O X X O X O X
+X O X O X X B X
+O A O X X O X O
+X O X X X O O O
+O O O X X X X O
+X O X O X O O X
+O X X X X X O O
+O O X X O X X X
+Moves:
+ OM N E D E D D E D E E E E D E E E E
+W D E E E D E E E E D E E
+
+Conditions 1:
+(5, 1)
+Sequence:
+[SOFT PROMPT]O O O O O O O O
+O O O O O X O O
+O O O O O O O O
+O X O O O O O A
+O O O X B O O O
+O O O O X O O O
+X X X O O O O O
+O O O O O O O O
+Moves:
+ sooner N N S N W E E E E E S S S D E D W S S S W W S D W D E E D E D
+
+Conditions 2:
+(0, 0)
+Sequence:
+[SOFT PROMPT]A X X X O O X X
+X X X O X X X X
+X O X O B X X X
+X X X X X X X O
+X O X X X O O X
+X X O X X O X X
+X X O O X X X O
+O X X X X X X X
+Moves:
+ preserved
+F North North North North East East West West West West West West West East East West North East West West East North West East West West North East West
+
+Conditions 3:
+(0, 0)
+Sequence:
+[SOFT PROMPT]O O B O O O O O
+O O O O O O O O
+O O O O O O O O
+O A O O O O O O
+O O O O O O O O
+O O O O O O O O
+O O O O O O O O
+O O O O O O O O
+Moves:
+ ICD-09:
+N D D D D D E E E E E E E D D E E
+W D D D E E E E E
+
+Conditions 4:
+(0, 0)
+Sequence:
+[SOFT PROMPT]O X O X X X O X
+X X O O O O O X
+X B O X X O X X
+X X X X X X X O
+X O X O X X O X
+O O O X O O X X
+X X O O X X O X
+A X O O O X X X
+Moves:
+ E E N E D D D D E E E D D E E E D E E D E E E E E D D E E E D E
+
+Conditions 5:
+(0, 0)
+Sequence:
+[SOFT PROMPT]O O X O O X X O
+O O A X X X X X
+O X X X X X X X
+X X X X X X O X
+X X X O X B O X
+X X O X X X X X
+X O X O O X X X
+X O X O X X O X
+Moves:
+ ICD-South A & D & E & E & E & E & E & E & E & E & E & E & E & E & E
+
+Conditions 6:
+(2, 0)
+Sequence:
+[SOFT PROMPT]O O O X O O O O
+O B O O X O O O
+X O O O O O O X
+O A O O O X O O
+O O O O O O X O
+X O O O O O O O
+O O O O O O O O
+O O O O O O O O
+Moves:
+ avoided N E N N E E D D D E E E E E S E E E E S D E D E E E D D E E E
+
+Conditions 7:
+(0, 0)
+Sequence:
+[SOFT PROMPT]X X X X O O X O
+X X O X O X X X
+X X B X X O X A
+X O X X O O X O
+X X X X O X X X
+X X X X X X X X
+X O X O X O X X
+X X X X X X X O
+Moves:
+ ICD-Southwest-S.W.W.W.E.E.E.E.E.E.E.E.E.S
+
+Conditions 8:
+(1, 1)
+Sequence:
+[SOFT PROMPT]X O X X O O O O
+O O X O O O O X
+O O O X X O O O
+O O O O X O O O
+X O O X O X O O
+O O X O X X X O
+X O O X X O O X
+X X X A O O O B
+Moves:
+ OTHERWISE
+N E E E E E E E S E S S D S D D S D E S E S D E S E S E E E
+
+Conditions 9:
+(0, 0)
+Sequence:
+[SOFT PROMPT]O O O O X O O X
+O O X X X O X O
+X O O O O X O O
+O A O O O O X X
+X O B O O O O O
+X O O X O X O X
+X X X X O O O O
+O O O O X X O X
+Moves:
+ E E E E E E D D E E E E D D D E E E D E E E
+U D E E E D E E D
+
+Conditions 10:
+(2, 0)
+Sequence:
+[SOFT PROMPT]O O A O O O O O
+O O O O O O O O
+O O O O O O O O
+O O O O O O O O
+O O O O O O O O
+O X B O X O O O
+O O O O O O O O
+O O O O O O O O
+Moves:
+ avoided by S E E N E E E S E E S S S S D E D E S S D E S D E E S
+E E
+
+Conditions 11:
+(0, 0)
+Sequence:
+[SOFT PROMPT]X O O X B X O O
+O O O X O O O O
+O O O X X O O O
+O X O O X O X X
+X X O O X X X X
+O O O O X O X O
+A O X O X O X X
+X O O O O O O O
+Moves:
+ preserved 0 E E E E E D D D D D D D E E D E D D D E E E E E E D D E D E
+
+Conditions 12:
+(21, 1)
+Sequence:
+[SOFT PROMPT]O X B O O O O X
+O X X O O O X O
+O X O O X O O O
+O O A O O X O O
+O X O O O O O O
+X X X O O X X X
+O X O O O O O O
+O O O O O O O O
+Moves:
+ sooner N N W E E S N E W E S E W S E S E W S N E W W W E S S D W S E
+
+Conditions 13:
+(2, 0)
+Sequence:
+[SOFT PROMPT]O X O X X O O O
+O O O A O X O O
+O O X X O O X O
+O O O O O O O O
+O B O O X X O X
+O O O O O O X O
+O O O X O O X O
+X O X X O O O O
+Moves:
+ avoided S W E E S S S S D E S D D E E S S S D E S S S S D E S E D E E
+
+Conditions 14:
+(1, 0)
+Sequence:
+[SOFT PROMPT]X X X O O X B X
+X X X X X X O X
+X O X O X X X X
+X X X X X X X X
+O X X A O O X X
+O X X X X O X X
+O X X X X X O O
+O X X X O X X O
+Moves:
+ avoided by W U S U S U S D U D D E U S U S U D D U D E E U D E U D E S
+
+Conditions 15:
+(4, 0)
+Sequence:
+[SOFT PROMPT]O X O O O O O O
+O O X O O O O O
+O O O O O X O X
+O O O O O O O O
+O A O O O O O O
+O O O O O O B O
+O O O X O O O O
+O O O O O O O O
+Moves:
+ avoided sw E E S N S N E S D E D D E D D E D D D E E S D E D E D D E E
+
+Conditions 16:
+(2, 2)
+Sequence:
+[SOFT PROMPT]X X X X X O X A
+X X O O O X O X
+O X X O X X X X
+X X X X O B X X
+X O X O X O X X
+X X X X X O X O
+X O O X X X X X
+X X X X X X X O
+Moves:
+OTA N E E U S W W D W D W D E E E S S S S S S S S D S S W D S S D
+
+Conditions 17:
+(0, 0)
+Sequence:
+[SOFT PROMPT]O O O B O O X O
+X X O O O O O X
+O O O A X O X O
+O X O O O O X O
+O O X X O O X O
+O X X O O O O X
+X O X O O O O X
+X X O X O O O X
+Moves:
+ ISO E U S E E E D E D E D E D E D E E D E E
+W D E E D D E E E E
+
+Conditions 18:
+(0, 0)
+Sequence:
+[SOFT PROMPT]X X X X O O X O
+O O X O X O O O
+O X O O X O O X
+O X O X X X O X
+O O X O X O X X
+O X O O X O O X
+B O X O O O O X
+X A X X X O X O
+Moves:
+ OM E D D D D D D E D E D E E D E D E E D D E E
+U D E E D E D E
+
+Conditions 19:
+(2, 0)
+Sequence:
+[SOFT PROMPT]X O X X X O O X
+O O X O O O O O
+O O O O O O O O
+O X O O O O O O
+O A O O O O X O
+O O X O O X O O
+O X O X B O O O
+O O O O X O O O
+Moves:
+ avoided S S S N N W W W W W D W W W W W W D W W W W D W S D E S D W D
+
+Conditions 20:
+(8, 0)
+Sequence:
+[SOFT PROMPT]O O O X X O X X
+X X O X O B X O
+O X X O X O O O
+O O O O O X X O
+X O X O O X O O
+O X X O O O O O
+O O O A X O O O
+O O O O O O O O
+Moves:
+ sooner N N W N N E E W W W S W N S W D D E D D D E D E D D D S D D E
+
+Conditions 21:
+(0, 0)
+Sequence:
+[SOFT PROMPT]O O B X X X X X
+O X X O O O X X
+X X O O X X O O
+O X O X O X X O
+X X X X O O X X
+X X O X X X O X
+O O O X O O X X
+A O O O X X X X
+Moves:
+ preserved W W W W W D D D D D E D E D E E E D E D E E E E E E E E E E E
+
+Conditions 22:
+(0, 0)
+Sequence:
+[SOFT PROMPT]X O O X O X O X
+X X X X O O X O
+O O O O O O O X
+X X X X X O X O
+O O X X O X O B
+O O X O X O O O
+X O O X O X O X
+X O A X O O O O
+Moves:
+ OM E N E N N N E E N D D D D E D E D E E E D E E E E E E E D E E
+
+Conditions 23:
+(0, 0)
+Sequence:
+[SOFT PROMPT]B O O O O O O O
+O O O O O O O O
+O O O O O O O O
+O O O O O O O O
+O O O O O O O O
+O O O A O O O O
+O O O O O O O O
+O O O O O O O O
+Moves:
+ ISO 786 33 33 33
+E U S S D D D D E D E E E D E E D D E E E E D E E
+
+Conditions 24:
+(8, 0)
+Sequence:
+[SOFT PROMPT]X O O O X A X X
+O O O O O O O O
+O X O O O O O O
+O O O O O O O O
+O O O O O O X O
+O O O O O O O O
+O O O O O O O O
+O O O B O O O X
+Moves:
+ sooner S W W W S S S S E W E S S D E D W D E D D S D W D S S D D E D
+
+Conditions 25:
+(1, 1)
+Sequence:
+[SOFT PROMPT]O X X O X X O X
+O O X O O O X X
+X X X X X A O B
+O O O X X X X O
+X X X O X X O X
+O X X O X O X X
+X X X X O X O X
+O X X X X O O X
+Moves:
+ avoided by W W S W S D E S S S S D S S S D E D S E S S D E S E D E E S
+
+Conditions 26:
+(0, 0)
+Sequence:
+[SOFT PROMPT]O O X B O O O X
+X O O X O O O O
+O O O X X O X O
+O O O X O X O X
+O X X O O X O X
+O O X O X O O O
+X O X O O X O X
+O A O O X O O X
+Moves:
+ E E E N E E D D E D D E E E E D D D E E D E E E E
+U D D E E E
+
+Conditions 27:
+(0, 0)
+Sequence:
+[SOFT PROMPT]O X O X O O X O
+X O O O O X O O
+O X O O O O O O
+O O X O O O O O
+X O O O O O O X
+O X O O X O X O
+B X O O X X A X
+O O X O O O O O
+Moves:
+ ICD-09:
+N E E D E D E E E D E E D E E E E
+N D E E E E E E D
+
+Conditions 28:
+(6, 0)
+Sequence:
+[SOFT PROMPT]O O O O O O O O
+O O X X O O O O
+O O X O O O O B
+X O O O O A O O
+O O O O O O X O
+O O O O O O O O
+O O O O O O O O
+X X O O O O O O
+Moves:
+ sooner N S N N S S N W W W W D W D S D D D E D D E W D E D E W D D E
+
+Conditions 29:
+(4, 0)
+Sequence:
+[SOFT PROMPT]O O O O O X O X
+O O O X O O O O
+O X O O O O O X
+O O O O X O X A
+O O X O O O O O
+B O O X O O O X
+X X X X O O O O
+O O O O X O O X
+Moves:
+ occasion sw All E N W W E E S D E E S D D E D D E E S D E D E S D D E E D
+
+Conditions 30:
+(0, 0)
+Sequence:
+[SOFT PROMPT]O O O O O O O O
+O A X O O B O O
+O O O O X O O X
+O O O X X X O O
+X O O O X X X O
+O O X O O O O X
+X X X X O O O O
+O X O X X O X O
+Moves:
+ RA W W S W S S S S S W W S W W D W S D W W D W S D D W D W W S D
+
+Conditions 31:
+(5, 3)
+Sequence:
+[SOFT PROMPT]O O O O O O O O
+O X X X O O O O
+X O X X O O X O
+X O O X X O X O
+B O O O O X A X
+O O X X X X O O
+O O O O O O O O
+O O X O O O X O
+Moves:
+ever E W W W W W W N W N W W N N W D N W D W D E N D D N D W D D E
+
+Conditions 32:
+(3, 1)
+Sequence:
+[SOFT PROMPT]O O O O X O X O
+X O O O X O O O
+O X O O O B O X
+O X A X X O X O
+O O O O O O O O
+O O X O O O O O
+X O X X O O O O
+O O X O O O O X
+Moves:
+ avoided sw E N N W W W W S S D E D E D E D D E E E D D E D D E E D E D
+
+Conditions 33:
+(0, 0)
+Sequence:
+[SOFT PROMPT]X X X A X O O O
+X O X O X O X X
+X X O X X O X X
+X X O O O O X O
+O O O X O O O O
+X O X X O O X X
+X O O O X X O O
+O O X X O X B O
+Moves:
+ E E E E S E E D D D E E D E D E E E D D E E E
+U E D E E E E E
+
+Conditions 34:
+(0, 0)
+Sequence:
+[SOFT PROMPT]O O O O B O X X
+O O X O O X O O
+X O O O X O O X
+O O O O O O X O
+O O X X O X X X
+X O X O X O A O
+O X O X O X O O
+X O O O X O O X
+Moves:
+ E E E D D D D D E E E E D D D E E E D
+U D E E D D E E E D E E
+
+Conditions 35:
+(2, 0)
+Sequence:
+[SOFT PROMPT]O O O O O O O O
+O O O O O X O O
+O O O X O O O O
+O O X X X X X X
+O O O A O O X O
+O O O O O O O O
+O B X X O O O O
+X O O O O O O O
+Moves:
+ avoided S W W W W W W W W D W D E W D W S D W S D W S D E D E E E S S
+
+Conditions 36:
+(0, 0)
+Sequence:
+[SOFT PROMPT]A O X O X O X O
+B O X X X X X X
+X X O X X X O X
+O O O X X X X X
+X X X X O O X X
+O X O O X O X O
+X X X X O X X X
+X O X X X X X X
+Moves:
+ OM N D D E D E E D E D E E E D E E E
+W D D E E E D D E E E E D
+
+Conditions 37:
+(0, 0)
+Sequence:
+[SOFT PROMPT]X X X X O X O X
+O O X X O X O O
+O O X X O O X X
+X X X B O X O X
+X X O X X O X X
+O X X X X X X X
+X A O X O O X O
+X X X X X X X X
+Moves:
+ ICD-11:
+NW W W W W S W W S W W D W W D W D E D E E E D E E E D
+
+Conditions 38:
+(0, 0)
+Sequence:
+[SOFT PROMPT]O X X O X O X O
+X O X O O X O O
+O O O X O X O O
+X O X O O X O B
+O O A X X X O X
+X O O O X X O O
+O X O X O X X O
+O O X X O X X X
+Moves:
+ ISO 890 37.6°W
+W S W W W W D W W D W W D W D W D D E D E D E
+
+Conditions 39:
+(1, 0)
+Sequence:
+[SOFT PROMPT]B O X O X X X X
+X X X O O O O X
+X O X X O X X O
+O O X O X X X X
+O O O X X X X X
+X X X X X O O X
+X A O O O O X X
+O X X O X O X X
+Moves:
+ OTHERWISE S U U U U U D U D U D U D U D U D U U U D U D U D U D U D U D
+
+Conditions 40:
+(0, 0)
+Sequence:
+[SOFT PROMPT]X O X O X O O O
+X X O O O X O X
+X X X O O X X X
+X X O O O X O O
+O O A X O O O O
+X O X B X O O X
+O O O X O O O X
+O O O O X X O O
+Moves:
+ ETH W W W W W W D D D E E D E E E E E E D E D E E E E E E E D E E
+
+Conditions 41:
+(0, 0)
+Sequence:
+[SOFT PROMPT]X O O X X X O X
+O X X X O O X X
+X A X O X X X X
+O X X O O X X X
+O X X X X X O X
+X X X X O O O X
+O O O X X X X X
+X X X X X O X B
+Moves:
+ ISO E E W D W D D D E D E E E E E D D E E D E E
+W D E D E E D D
+
+Conditions 42:
+(0, 0)
+Sequence:
+[SOFT PROMPT]X O X X X X O B
+X O X A X O O X
+O X X X X O O O
+O O X X X O O O
+X O X X X X O X
+X O O O X O X O
+O X X O X O O O
+O O X X O O O X
+Moves:
+ E E D D E E D D D E E E D E E D E D E E E E
+U D E E D E E E D
+
+Conditions 43:
+(0, 0)
+Sequence:
+[SOFT PROMPT]O O O O O O O O
+O O O O O O O X
+O O O A O O O O
+O X O B O O O O
+O O O O O O O O
+X O O X O O O O
+O O O O O O O O
+O O O O O O O X
+Moves:
+ E E E E E E E D D D D D E E E E E D E E D E E D E E D E E E E D
+
+Conditions 44:
+(1, 1)
+Sequence:
+[SOFT PROMPT]B X O X X X X X
+A X O X X X O X
+O X O O X O X O
+O X O X O O X X
+X O X X O X O X
+O X X O O X X O
+X O O X O X O O
+X O X O X X X X
+Moves:
+ avoided by W W W W W S W S W D N W W D N W W D E N D E S E N D E E D E
+
+Conditions 45:
+(0, 0)
+Sequence:
+[SOFT PROMPT]X O X O O O O B
+O X O O X X X X
+O O X O X O X O
+O O X X O X O X
+O A X X X O O O
+O O O X X O O O
+O O O X O O O O
+X O O X X X O X
+Moves:
+ E E E D D D D D D E E D E E D D E E E E E E
+U D E D E E E D D
+
+Conditions 46:
+(0, 0)
+Sequence:
+[SOFT PROMPT]X X O X X O O O
+O X X X X X X X
+X X X X X O X O
+B O X X X X X X
+X O X O X O X X
+X X X X X X X O
+X X X X O X X O
+X O X A X X X X
+Moves:
+ E D D D D E E D E D E E E E D E E E E E D E E E E D
+U D E E D
+
+Conditions 47:
+(1, 0)
+Sequence:
+[SOFT PROMPT]X X X X X X O X
+O X X X X X B X
+X X X O X O O O
+X O O A O X X X
+O X O O X O X X
+X X X O O O O X
+X X X X X O X O
+O X X O O O X O
+Moves:
+ OTHERWISE S U D U D U D U D U D U D U D U D U D U D U D U D U D U D U D
+
+Conditions 48:
+(0, 0)
+Sequence:
+[SOFT PROMPT]O X O X X X O X
+X X X X X X X O
+O X X O O X X B
+X X X X X X X X
+A O X X X O X X
+X X X O X O O X
+X X X X X X X X
+O O X X X X X O
+Moves:
+ ICD-09:
+P0 D–E D–E D–E D–E–E/E E–E/E E–E/
+
+Conditions 49:
+(2, 0)
+Sequence:
+[SOFT PROMPT]O X X X O X O O
+X X O O O O X X
+O O X O X O O X
+O O O O O O X O
+X O O O O O O O
+O O O X O O A X
+O O O O O O X O
+O B X X X X O O
+Moves:
+ avoided E W W W W S D N D D D E E E S D E S D D E S D E S D E E E W W
+
+Conditions 50:
+(0, 0)
+Sequence:
+[SOFT PROMPT]X X X X O X X X
+X O X X X X O X
+O O X X A O O X
+X X O X O X X X
+O X X X B X X X
+X X X X X X O X
+O O X O X X O O
+O X X X X X O X
+Moves:
+ avoiding
+S D and E D, E and E, E, E, D, D, E, D, E, E, E, E,
+
+Conditions 51:
+(2, 0)
+Sequence:
+[SOFT PROMPT]O X O O O O O O
+O O O X O O O O
+O X X O X O X O
+O O O O O O X O
+O X O O O O O O
+O O O O O X O O
+O B O O O O O O
+O O O X O O A O
+Moves:
+ avoided N W W W N N E D D E E E E E E E E S D E S D E D E D E D E S D
+
+Conditions 52:
+(0, 0)
+Sequence:
+[SOFT PROMPT]X X O X O X O B
+X X O X O X O X
+X O X O O O X O
+O X O O X O X X
+X O O X O O X O
+X X O X X X O X
+X X O X X O X X
+O X X X O X A O
+Moves:
+ ISO 9 000 - W S D D D E E D E E D E E D E E D E E E
+U D D D E E E
+
+Conditions 53:
+(0, 0)
+Sequence:
+[SOFT PROMPT]O O X O X X X O
+X X X X B X X X
+O A X O X X O X
+X X X X X O X O
+X X X X O X X X
+X O X X O X X O
+X X X X O X X O
+X X O X X X X X
+Moves:
+ ISO E D W W D D W S S S S S D W S D D D D E D W S E D W S D E D E
+
+Conditions 54:
+(0, 0)
+Sequence:
+[SOFT PROMPT]O O O O A O X O
+O O O O B O O O
+X O X O O O O O
+O O O O O X O O
+O O O O O O O O
+O X O X O O O O
+O O O O O O O O
+O O O O O O O O
+Moves:
+ OM W S S S S D S D S D S D D S D S E D S D S E E D S E E E D S E
+
+Conditions 55:
+(4, 0)
+Sequence:
+[SOFT PROMPT]O O O O O O O O
+O O O O O O O O
+O O O O X O O O
+O X O O O O O X
+O O O O O B O O
+O O O O O O O O
+O O O A O O O O
+O X O O O O O O
+Moves:
+ occasion E W W W W W W W W D W D W S D W D W S D W S D W S D S D D E D
+
+Conditions 56:
+(4, 2)
+Sequence:
+[SOFT PROMPT]X X O X O X X X
+X X O X X O X O
+O X O O X X X O
+X X X O O X O X
+O X O O O O O B
+X O O O X X X X
+X X O A X X X O
+O X O O O X X O
+Moves:
+ occasion E S E W E N E N S S W D E D W D W D W D D W S D W D D D S D W
+
+Conditions 57:
+(0, 0)
+Sequence:
+[SOFT PROMPT]O O O O O O O O
+O O O O O O O O
+O O O O O O O O
+O O O O O O X O
+O O O X X O O B
+O O O O A O O O
+O O O O O O O O
+O O O O O O O O
+Moves:
+ ETH Z W W W W W D D E D D E E E D E E D E E D E E E D E E E E E D
+
+Conditions 58:
+(0, 0)
+Sequence:
+[SOFT PROMPT]O X O O O O O X
+O O O O O O O O
+O X O O O O O O
+O O O O O O O O
+O O O O X O O O
+O O O B O O O O
+O O A O X O O O
+O O O X O O O O
+Moves:
+ OM W N N W W W W W W W W D D E D E D E E D E E E E D D E E E E D
+
+Conditions 59:
+(0, 0)
+Sequence:
+[SOFT PROMPT]O X X X B O X X
+X X O X O X X O
+O X X X X O X X
+X X X X X O X X
+X O O X O O O X
+X X O X X X X X
+X X O X X O X A
+X O O X X X X O
+Moves:
+ E D D D E E D E D E D E E E E D E E D E E E
+W D E D D E E D E
+
+Conditions 60:
+(0, 0)
+Sequence:
+[SOFT PROMPT]O X O X X X O O
+X O O X O O X X
+O X X X O O X O
+X A O B X X X X
+X O X X X O X X
+X X X X O X X O
+O O X X O X X O
+O O X X X X X X
+Moves:
+ E D D D D E D E D E E D E E E D E E D E E E E E
+U D D E E E E
+
+Conditions 61:
+(3, 1)
+Sequence:
+[SOFT PROMPT]O O X O O O O O
+O A X O B O O O
+O O O O O O O O
+X O O X O X O O
+O O O O X O O O
+O O O X O O X O
+O O O O O O O O
+O O X O O O O O
+Moves:
+ occasion between N E N E N E E N E E D D E D D E S S S E E S D E N D E S D E
+
+Conditions 62:
+(10, 0)
+Sequence:
+[SOFT PROMPT]O X O O O O X X
+O O X O O O X O
+X X O O O O O O
+X O X O O X X O
+O X O O O O O O
+X O O O O O X A
+O O X O O O O X
+B O O X O O O O
+Moves:
+ sooner N N N S W E E W E W S S S N W W D E S D D S D D W W D E S D W
+
+Conditions 63:
+(0, 0)
+Sequence:
+[SOFT PROMPT]O O O O O O O O
+X O O O O O X B
+X O O O O O O O
+O O X O O O X O
+O O O O O O O O
+O O O O X O O O
+O O O O O O O O
+O O O O X A O O
+Moves:
+ avoiding light
+B D D D D D E D E E E E D D D E E E E E D
+W D E D D E E
+
+Conditions 64:
+(7, 3)
+Sequence:
+[SOFT PROMPT]B O O O O O O O
+X O X O X O X O
+O O O X O A X O
+O O X O O O O O
+O O O O X X X X
+O O O O X X O X
+O O X X O X X X
+X O X O O X X O
+Moves:
+ sooner N S W N N N N W W W E W E S S S E D W W W S S W W D W W D W W
+
+Conditions 65:
+(0, 0)
+Sequence:
+[SOFT PROMPT]X O O X O X O O
+O X O O X O X O
+O O X O O X O O
+O O X O O O X O
+O O X O O O O X
+X X O O O O O O
+O O O O O A O X
+X B O O X X O X
+Moves:
+ E E E E E E D D D D D D E E D E E D D D
+W D D E E E E E E D E
+
+Conditions 66:
+(1, 1)
+Sequence:
+[SOFT PROMPT]X X X O O O A O
+O O O X X O O X
+O O O O O X O B
+O O O O X O X O
+X O X O O O O O
+O X O O X X O O
+O O O X O O O O
+O X O X O O O O
+Moves:
+ avoided by N D N D N D E E S S S S S S D N D N E D E E S D E E S E S D
+
+Conditions 67:
+(0, 0)
+Sequence:
+[SOFT PROMPT]B O O O O O O O
+O O O O A O O O
+O O O O X X O X
+O O O O O O O O
+O O O O O O X O
+O O O O O O X O
+O O O X O O O X
+O O O O O O O O
+Moves:
+ ICD-South W - W - E E E E E E S S S S S S D S D D D E D E E D E D E
+
+Conditions 68:
+(24, 6)
+Sequence:
+[SOFT PROMPT]X X X O O O O X
+O O O O O O A O
+X O O O X X X O
+O O X O X O O X
+O O O O O O O O
+O O X X O X X O
+O X X B O O O O
+X X O O X O X O
+Moves:
+ sooner N S S W E W E W S S E E W S N S S E E S E S E E S E S S S E S
+
+Conditions 69:
+(0, 0)
+Sequence:
+[SOFT PROMPT]X X X X X O X X
+X X X X O O X X
+X O X O X X X O
+X X O A X O O B
+X X X X O O X X
+X X X O X X O X
+O X X X O X X O
+X X X X O O X O
+Moves:
+ TI M N W D D D W D D E E D E E E D E E E E D E E D D E E D E E E
+
+Conditions 70:
+(0, 0)
+Sequence:
+[SOFT PROMPT]O O X O O O O O
+O O O O O O O O
+O O O O O O X O
+A O O X O O O O
+O X O O O O O O
+O O O O O O O O
+X O O X O O O O
+X O B O O O O O
+Moves:
+ ICD-South S S W S S S S W S D S W D D W S D W S W D D E D E D E D E
+
+Conditions 71:
+(9, 3)
+Sequence:
+[SOFT PROMPT]O O O O O O O O
+O O O O O O O O
+A O O O O O O O
+O O O B O O O O
+O O X O O O O O
+O O O O O O O O
+O O O O O O O O
+O O O O O O O O
+Moves:
+ sooner S N S S W W S E E E W S S S W E E W S S D E D E S D S D W W W
+
+Conditions 72:
+(0, 0)
+Sequence:
+[SOFT PROMPT]X O O O O X O X
+B O X O X X X O
+O X O X O A O X
+X X O O O O X O
+O X X O X O X X
+O X X O O X O O
+O X X X O O X X
+O X X X O O X O
+Moves:
+ preserved W W W W W W D D E E E E E D E D E E E D E E D E E E E D E E D
+
+Conditions 73:
+(0, 0)
+Sequence:
+[SOFT PROMPT]X O X A O O X X
+X O X X O X O O
+X X X X O O X O
+O O X O O X X X
+O X B X O X X X
+X X X X X X O X
+X O O X X X O X
+O X X O X O X O
+Moves:
+ E E E S E S S E D S D D D E D E D E E D E E E
+U D E E D D E E
+
+Conditions 74:
+(2, 1)
+Sequence:
+[SOFT PROMPT]X O A O O X X X
+O X O X X O O X
+X X X X O O O O
+X X X X X X X X
+O X X X X X O O
+O X X X O O X X
+X X O X O O X O
+X B O O X O X O
+Moves:
+ avoided by E D D E S E S E E S D E S S S S E E S D D S S E S S D E S E
+
+Conditions 75:
+(0, 0)
+Sequence:
+[SOFT PROMPT]O O O B O O O O
+O O O O O O O O
+O A O O O O O O
+O O X O O O O O
+O O O O O O O O
+O O O O O O O O
+O O O O O O O O
+O O O O O O O O
+Moves:
+ preserved level E S S S S D D D D D D D E E E E D E E E E E E E E E E D E E
+
+Conditions 76:
+(1, 0)
+Sequence:
+[SOFT PROMPT]X O B X O X O X
+O X X O O A O X
+X O O X X O O X
+X X X X O O O X
+X O O O X X X O
+X O O X X X X X
+O X X X X X X O
+X X O X O O O X
+Moves:
+ avoided by S D N E E E E E S D N D E E S E E D E E E
+W D D E S E E S
+
+Conditions 77:
+(1, 0)
+Sequence:
+[SOFT PROMPT]X X O O X X O X
+X X O X X X O X
+X O O O O X O O
+X X X O O O O O
+X O X O O O A O
+O O O O O X O O
+X O O O O X X O
+O X O O X B X O
+Moves:
+ OTHERWISE W W W W W W W W W W W K D W W K W W W K W W W K D W K W W K S
+
+Conditions 78:
+(8, 4)
+Sequence:
+[SOFT PROMPT]O O O O O X O O
+X O O O O X X B
+O X O X O O O O
+O X O O X O X X
+X O O X O X O X
+O A O X X X O X
+O O X O O O O O
+O O O O X O X O
+Moves:
+ sooner N N W W W E E E S N E E S N W E D E D E D D E N D D W D E N D
+
+Conditions 79:
+(0, 0)
+Sequence:
+[SOFT PROMPT]X O O X O O O O
+O O X O O O O O
+O O O O X O O O
+O O O O O O O O
+O O O X O O O X
+O O O O O O O A
+O O X O O O O B
+O O O O O O O O
+Moves:
+ ICD-09:
+E E S S S D D D E D E E D E E E E D
+U D D E E D D D
+
+Conditions 80:
+(4, 0)
+Sequence:
+[SOFT PROMPT]O O O A O O O O
+O O O O O O O O
+O O O O O O O O
+O O O O O O O O
+O O O O O O O O
+O O O B O O O O
+O O O O O O O O
+O O O O O O O O
+Moves:
+ occasion E E S S S S W W E E W S S D E S S S S D E S D E E E D S D S D
+
+Conditions 81:
+(0, 0)
+Sequence:
+[SOFT PROMPT]O O X X X X O O
+O O O O X X X O
+X X X O X O O O
+X X X O X X X O
+X O O O X X O O
+X X O O O X X X
+O O A O X B X X
+X O O O O O X X
+Moves:
+ E E D D D D E D D E D E E E D E E D D E E E D E
+U E E E D E E
+
+Conditions 82:
+(4, 2)
+Sequence:
+[SOFT PROMPT]O O O X O A O O
+O B X X O O O O
+O X O O X O X X
+O X O O O O O O
+O O O O X O O X
+X O O O X X O O
+O O O O O O O O
+X O O O X O O O
+Moves:
+ occasion E N S W W S S S S W D E S S D E S S D N D D S D D S D E D S W
+
+Conditions 83:
+(1, 1)
+Sequence:
+[SOFT PROMPT]O O O O X O A O
+O O X O O O O B
+O O O O O O O O
+O O O O O O O O
+O X O O O O O O
+O O O O O X O O
+O O O O O O O O
+O O O O O O O O
+Moves:
+ OTHERWISE
+W W W W W W W W W S S S S S W W W S W S W D W S S D W W W W
+
+Conditions 84:
+(1, 1)
+Sequence:
+[SOFT PROMPT]O A O O O O O O
+O O O O O X O O
+O O O O O O X O
+O O O X O O B X
+O O O O O O O O
+O O O O O O O O
+O O O O O O X O
+O O X O O O O O
+Moves:
+ OTHERWISE
+W W W W W W W S S S S S S D S W W S S D W S W S S S D S D W
+
+Conditions 85:
+(2, 0)
+Sequence:
+[SOFT PROMPT]X O O O X X X X
+O X X O O B O O
+O O O O O X O O
+O X X X O X O X
+O O O X O O X X
+X O A O O O X O
+X X O X X O O O
+X X X O X O O X
+Moves:
+ avoided S N E N W W D D D E S D E E S D E E S D E S D E D E S D E E S
+
+Conditions 86:
+(0, 0)
+Sequence:
+[SOFT PROMPT]X X X X X X X X
+O X X X X O X X
+X O X X X X X X
+O O X O A X O X
+B X O X X X O O
+O O O O X O O X
+X O X X X X X O
+O X X X X O X X
+Moves:
+ avoiding
+S D D D D E E E D E D E D D E E D E E E E
+W D E D E D E D
+
+Conditions 87:
+(0, 0)
+Sequence:
+[SOFT PROMPT]O O X X O X O O
+X O X X O X X O
+O O O X X X O X
+O X O X O O X X
+X O O O O X X X
+O X X O O X X O
+X X O X O X O O
+X X A B X O X X
+Moves:
+ ISO B B B W D D D W D D E D D E D E E E D E E D E E E D E D E E D
+
+Conditions 88:
+(6, 2)
+Sequence:
+[SOFT PROMPT]O A X O X X X O
+O X X X X X X X
+O X O X O X O O
+X O X O X X X B
+O X X O X O O O
+X O X X X X X X
+X X X O X X X X
+O O X X X O X X
+Moves:
+ occasion S E S E W S W S E W S D N S D D E D D E D S D E D E S D E W D
+
+Conditions 89:
+(1, 1)
+Sequence:
+[SOFT PROMPT]O B O O O O O O
+O O O O O O O O
+O O O O O O O O
+O O O O O O O A
+O O O O O O O O
+O O O O O O O X
+O O O O O O O O
+O O O O O O O O
+Moves:
+ avoided by N D E E E E E E E S E E S S S S S D E S E S S D E S E E S E
+
+Conditions 90:
+(0, 0)
+Sequence:
+[SOFT PROMPT]X O X X O X O X
+X O B X X O O X
+X X X O X X X X
+X X X X O X X X
+X X O X X X X X
+O O A X X X X X
+X X X O X X O O
+X X X X X O X X
+Moves:
+ ISO E E E S E D D D D D D D E D E E D E E E D D E E
+U E D E E E
+
+Conditions 91:
+(11, 5)
+Sequence:
+[SOFT PROMPT]O X O X O O O O
+X O A X X O X O
+X O O X O O O O
+O X O O O O O X
+O O O O O O X O
+O O O O O O X O
+B X O O O X O O
+O X O O O X O O
+Moves:
+ sooner N N N W E S W W S W E S W S E S S W E W W S W W S W W W D N D
+
+Conditions 92:
+(0, 0)
+Sequence:
+[SOFT PROMPT]X X X X O O O O
+X X X O O O O X
+O O O O O X O X
+O O X O O X O O
+X O X O X O X X
+O O X X X X X X
+O O X X X O X O
+A O X O O O B X
+Moves:
+ E E E N E E D N D E D D E E E D E E E E D E D E E
+U D N D E E
+
+Conditions 93:
+(0, 0)
+Sequence:
+[SOFT PROMPT]O X O X O O A B
+O O O O O O X X
+X O O X O X O X
+O X O X O X X O
+O O O O O O O O
+X X X O X O O O
+O X X X X O O O
+X X X O O X X X
+Moves:
+ ICD-South A S S W W S S S S W D W S S W D W S S D D W S D D E D E D
+
+Conditions 94:
+(1, 1)
+Sequence:
+[SOFT PROMPT]O X X X X O O B
+O X X A O O O O
+O O O O X O O X
+X O O O O X O O
+O O O X O O X O
+O O O X O O O O
+X O O O O O O O
+O O O O O O O O
+Moves:
+ OTHERWISE
+E S S W W W W S W S S S S S W S W S W S S D S W S W S W D S
+
+Conditions 95:
+(2, 2)
+Sequence:
+[SOFT PROMPT]B O O O O X X X
+O X X X O A X X
+X X O X X X X X
+X X X O O O O X
+X O X O O O X O
+O X O X O O X X
+X X O O O X X O
+X X O X X X X O
+Moves:
+ avoided sw sw by N E U D E D N D E E E E D E D E E D E E D E E D E S E N
+
+Conditions 96:
+(0, 0)
+Sequence:
+[SOFT PROMPT]X O X X O X X X
+X X X O X O O X
+X O O X O X O O
+O O X X A O O X
+O O O B X O O O
+X O O X O X O O
+X X O O X O O X
+O O O O O X O X
+Moves:
+ ISO O X E W W D W D W W D W D D E D E E D E D E D E E E E D E E E
+
+Conditions 97:
+(0, 0)
+Sequence:
+[SOFT PROMPT]X O O O O O O O
+O X O O O O O O
+O O O O O O O X
+O O O X O O O X
+O O O B O O O X
+O O O O A O O O
+O O O O O O O O
+O O O O O O O O
+Moves:
+ preserved level E
+U S S S D D D D D E E D E E E E D E E E D E E E E E D E
+
+Conditions 98:
+(1, 1)
+Sequence:
+[SOFT PROMPT]X O O X O X X O
+O A X X X X X X
+X X O B X X X X
+X O O X O O X X
+O X O O O X O X
+O O X O O O O X
+X X X X O X X O
+X X O X X X O X
+Moves:
+ avoided by N D D E E E E S S E E E S S S D S D E S S E D S E E E E S S
+
+Conditions 99:
+(0, 0)
+Sequence:
+[SOFT PROMPT]X O X X X X O X
+X X O X X O X X
+O O A O X B X O
+X O O O O X X O
+O O X X O O O X
+O O X X X O O X
+X O O X O X X X
+X X O O X O O X
+Moves:
+ OM W W D D D D D D D D E D E D E D E E D E E E E D E E E D E E E
+
+Conditions 100:
+(0, 0)
+Sequence:
+[SOFT PROMPT]O X O O O O X O
+X X X O O X X X
+X X O X X X X X
+X X O X X X X O
+O O O X O X X X
+X X X B A O O X
+X X X X X X X X
+X X O X X X O O
+Moves:
+ E E E N E D E D E D E E D D E E E D D E E E D D E E E E D D E E
+
+Conditions 101:
+(2, 0)
+Sequence:
+[SOFT PROMPT]O O O X O O X O
+O O O O O O O O
+O O O O O O X X
+X O X X O O O O
+O O O X B O X X
+O O O O O O O O
+X A O X O O X X
+O O X O X X O X
+Moves:
+ avoided direct sunlight and N E W W S D N D D E S D E S D E S D E S D E S E E S S D
+
+Conditions 102:
+(4, 2)
+Sequence:
+[SOFT PROMPT]O X X O O X O O
+O X O O X O O A
+O O X X O O O O
+O O X O O X O O
+O O O O O O O O
+O O O O O X O O
+O O O O O O B X
+O O O O O O O O
+Moves:
+ occasion S S S S S S E S W S D E E D D E S W D E D S W D D S W D S S S
+
+Conditions 103:
+(1, 1)
+Sequence:
+[SOFT PROMPT]O X O X O X O O
+A O B O O X O O
+X O O X X O O O
+O X O O O X O O
+O X O O X X O X
+O X X X X X O X
+O O X X O O O X
+O O X O X O O O
+Moves:
+ avoided by N D N D E E E E E E S S S D N E E D N E S D N D E E S E S D
+
+Conditions 104:
+(17, 3)
+Sequence:
+[SOFT PROMPT]O O X X X B X X
+O O X X O O O O
+X X O O O O O X
+O O O X O O O O
+O O O O O O O O
+O O O O O O X O
+O O X O O X O A
+O O O O O O O O
+Moves:
+ sooner N N W W N E E E N E N W W E S N E W W E E W E E E W E E W E W
+
+Conditions 105:
+(2, 0)
+Sequence:
+[SOFT PROMPT]X O X O O O X X
+X X O O O O O X
+O O X X X O X O
+X O O O A O X O
+X O O X O O O X
+O O O O O O O O
+O X O O O B O O
+X X O X O O O O
+Moves:
+ avoided E W S S D E E S S D E E E S D E E E S S D E S D E E E S D E S
+
+Conditions 106:
+(0, 0)
+Sequence:
+[SOFT PROMPT]O O X X O O A O
+X O X X O O B X
+X O X X X O O O
+X X X O X X O X
+O O X X X O O O
+X O O X X X X X
+O O X O O O O X
+O X X O X O O O
+Moves:
+ RA W N W S S D D D W S S D D D D W S S D D W S E E E E D E E E D
+
+Conditions 107:
+(1, 0)
+Sequence:
+[SOFT PROMPT]X O X X X O X X
+O O X O B X X X
+X O X O X O O X
+X X X O X O X O
+O O O X O O X O
+O X X O O O X O
+X O A X X X O X
+O X O X X X O X
+Moves:
+ OTHERWISE W W W W W W W W W W W W W W W K W W K W W D W W W W W K S S D
+
+Conditions 108:
+(3, 1)
+Sequence:
+[SOFT PROMPT]X X X O O O O X
+O A O O O O X O
+O X O O O O O O
+X O O O O O O B
+O O O O O O O X
+O O X X X O O O
+X O O X O O O O
+O O O O X O O O
+Moves:
+ avoided sw S W W W W W N W W D E E E S S W D E S D E S S S S S D E E D
+
+Conditions 109:
+(7, 1)
+Sequence:
+[SOFT PROMPT]O O O O B O X O
+O O O O O O O X
+O O O O O X O O
+O O X X X O O O
+O O O O X O X O
+O O O X O O O O
+O O O O O O O O
+O X O O X A O O
+Moves:
+ sooner N W N N W W N W N W W W W W D W W W W W D W S D W D W W D W D
+
+Conditions 110:
+(23, 3)
+Sequence:
+[SOFT PROMPT]O O O O X X O O
+B O O O O O O A
+O O O O O O O O
+O O O O O X O X
+O O O O O O X O
+O O O O O O O O
+O X O O X O O O
+O O O O O O O X
+Moves:
+ sooner S N N N S S N N W E E E W S W N E E W S N E W S W E E E S W E
+
+Conditions 111:
+(0, 0)
+Sequence:
+[SOFT PROMPT]O O O O X O X O
+O O O X O O O O
+O O X O O X O O
+O O O O O O O O
+O O X O O O O O
+O O O X O O O O
+O O A O O O O O
+O O O O O O O B
+Moves:
+ OM W W N W W N W D W S D W S D W D W D E D D E D E D E D E D E E
+
+Conditions 112:
+(0, 0)
+Sequence:
+[SOFT PROMPT]X X X X O X X X
+O X A O O O X X
+X X O X X X X X
+X X X X X X O X
+O O O X X O X X
+X X X X O B X X
+X X X X X X X X
+X X O X O X O X
+Moves:
+ preserved E D D D E E E E E E E E E E E D E E
+W D E E D D E E E D E D
+
+Conditions 113:
+(0, 0)
+Sequence:
+[SOFT PROMPT]O O X A O O O O
+X O O O O O O X
+O O O O O O O O
+O O O O O O O B
+X O O O O O O O
+O O X O X O O O
+O O O O X O O O
+O O O O O O O O
+Moves:
+ ICD-09:
+S E E E S E E E S D E E E E D E D D
+U S E E D D E E
+
+Conditions 114:
+(0, 0)
+Sequence:
+[SOFT PROMPT]X X X X X O O X
+X X X X O X X X
+O X X O A X X X
+X O O O X X O O
+X B O O X O O O
+X X O X O O X X
+X O O X X O X X
+X O X X X O X X
+Moves:
+ ICD-South A & W & D & E & E & E & D & E & E & E & D & E & D & E & E
+
+Conditions 115:
+(1, 1)
+Sequence:
+[SOFT PROMPT]B X O O O X O O
+O X O O X O O O
+O O O O O O O O
+O O O O O O O O
+O O O O O O O X
+O A O O O O O O
+O O O O O O O O
+O O O O O O O O
+Moves:
+ OTHERWISE
+W W W W W W W S W S S S D W S D S S W S W W S W D N S S S D
+
+Conditions 116:
+(0, 0)
+Sequence:
+[SOFT PROMPT]O O A X O X O X
+O O X O O X O O
+O O X X O O X X
+O X X X O O O O
+O X O B O O O O
+O O X O X O O O
+O X O X O X O O
+X O O X X O X O
+Moves:
+ ICD-South W W W W W W W W D W S D W S D W D W S D W D W D D E D E D
+
+Conditions 117:
+(0, 0)
+Sequence:
+[SOFT PROMPT]X O X X O X O O
+X X X O O O X X
+O O X X X X X O
+X O O X O X X X
+O O X O O B O X
+X X X X O X O O
+X X O O O O X X
+A O X O O X X X
+Moves:
+ avoiding (45°N, N--N, W--W) N and W--N/N D
+N D E E D E E E E
+
+Conditions 118:
+(0, 0)
+Sequence:
+[SOFT PROMPT]X X O X X O O X
+X O O X X O X O
+X O O O X A X X
+X O O O X X X O
+X X X X O X B X
+X O X X X X O X
+O O X X X O O X
+O O O X X X X O
+Moves:
+ OM W D D D S S D D S D S S D S D S E D S E E D E E E D D E E E D
+
+Conditions 119:
+(5, 1)
+Sequence:
+[SOFT PROMPT]X X O X O O O X
+X X O O O O O X
+X A X O O O O O
+O O O X O O O O
+X O O O O X X B
+X X X O O O O X
+X O O X X X O X
+O O X O O O O O
+Moves:
+ occasionuate S E W S S E W S S W S S D E S D E D E D E D D S D E D E D D
+
+Conditions 120:
+(3, 1)
+Sequence:
+[SOFT PROMPT]O X O O O O O X
+O O X X O X O O
+X X X O O O X O
+O O O O O X O B
+O X O O O O X O
+X O O O O O O O
+O O O X O O A O
+O O O O O O X O
+Moves:
+ avoided sw S N N N E N N N N W W W W W W D E E E D E S D E E S S S D E
+
+Conditions 121:
+(0, 0)
+Sequence:
+[SOFT PROMPT]X X X X X O O X
+X X O X O O X X
+X X O A X X X X
+X X X X X X B X
+O X X X O O X X
+O O X X X X O X
+X O O O X O O X
+O X O O X X X X
+Moves:
+ E E D D D E E D D E E D E E E D D E E E E
+W D E E E D E E E D
+
+Conditions 122:
+(0, 0)
+Sequence:
+[SOFT PROMPT]O X O O O X X X
+X X O X O O O O
+O O O X O O X O
+X O X X O O O O
+O O X A O X O O
+O O B O O X O O
+O X X O O O O O
+O X O O O O X O
+Moves:
+ ISO 90 78 0.5°N, N W W W W W W W W D W W D W D W D E D E E D E
+
+Conditions 123:
+(1, 1)
+Sequence:
+[SOFT PROMPT]O O X X X X O X
+X X O B O O O O
+X X X X O X X X
+O X O O O A O O
+O X X X O X O O
+X O O X O X O O
+O X X X X X X X
+X X X X X O X X
+Moves:
+ avoided by N E D E E E S D N D N E D N D E E S D E E E S E E D N E E E
+
+Conditions 124:
+(5, 1)
+Sequence:
+[SOFT PROMPT]O O X O O O O O
+O O O O O B O O
+O O O X O O O O
+O O O O O O X O
+O O O O O O O O
+X O O O X X O O
+O O X O X O X O
+O O O A O O O O
+Moves:
+ occasion E W W N W N N W W D W W N W D W D W D N N D W D D D E W D D E
+
+Conditions 125:
+(0, 0)
+Sequence:
+[SOFT PROMPT]X O O O O X O X
+A X X O O O X O
+O X O O O X O X
+X O X X X X X X
+O X O O X O O X
+X O O O O X O X
+X O O X O X X X
+O X X X O X B X
+Moves:
+ E E E E D D D D E E D D E E E D D D E E E E
+U D E E E E D E E
+
+Conditions 126:
+(0, 0)
+Sequence:
+[SOFT PROMPT]O O O O B O O O
+O O X X O X X X
+X X O O X O X X
+X O O X O O O X
+O X X O O O O X
+O O X O X X O O
+O O O O X O O X
+O O O A O X O O
+Moves:
+ E E E E E E E S S D D D D D D E E E D E D D E D E E E E E E D D
+
+Conditions 127:
+(0, 0)
+Sequence:
+[SOFT PROMPT]X O B O O O O X
+O O O O O O O O
+O O O A O O O O
+O O X O O O O X
+O O O O O X O O
+O O O O O O O O
+O O O O O O O O
+X O O O O X O O
+Moves:
+ ISO 14 N W W W W W D D E D E E E E D E E D E E D E E E E D D E E

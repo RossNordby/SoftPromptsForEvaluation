@@ -160,7 +160,8 @@ cython_debug/
 .idea/
 
 *.pt
-runs/
-results/
+# We're going to include the runs and results on the repo for ease of use, but the snapshots are too big.
+# runs/
+# results/
 snapshots/
 *.pgn.zst

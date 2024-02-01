@@ -1,0 +1,1823 @@
+Conditions 0:
+(0, 0)
+Sequence:
+[SOFT PROMPT]X O X X O X O X
+X O X O X X B X
+O A O X X O X O
+X O X X X O O O
+O O O X X X X O
+X O X O X O O X
+O X X X X X O O
+O O X X O X X X
+Moves:
+![Ovala Atienął się za za uwąć oraz Pawczyński za uwąć oraz Presi
+
+Conditions 1:
+(5, 1)
+Sequence:
+[SOFT PROMPT]O O O O O O O O
+O O O O O X O O
+O O O O O O O O
+O X O O O O O A
+O O O X B O O O
+O O O O X O O O
+X X X O O O O O
+O O O O O O O O
+Moves:
+less W W W W W S W S W N W W D D D D D D D D D D D D D D W D D S D
+
+Conditions 2:
+(0, 0)
+Sequence:
+[SOFT PROMPT]A X X X O O X X
+X X X O X X X X
+X O X O B X X X
+X X X X X X X O
+X O X X X O O X
+X X O X X O X X
+X X O O X X X O
+O X X X X X X X
+Moves:
+S W W W D E S D E D E D E E D E D E D E D E D E E E E D E E D E
+
+Conditions 3:
+(0, 0)
+Sequence:
+[SOFT PROMPT]O O B O O O O O
+O O O O O O O O
+O O O O O O O O
+O A O O O O O O
+O O O O O O O O
+O O O O O O O O
+O O O O O O O O
+O O O O O O O O
+Moves:
+![O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+
+Conditions 4:
+(0, 0)
+Sequence:
+[SOFT PROMPT]O X O X X X O X
+X X O O O O O X
+X B O X X O X X
+X X X X X X X O
+X O X O X X O X
+O O O X O O X X
+X X O O X X O X
+A X O O O X X X
+Moves:
+![O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+
+Conditions 5:
+(0, 0)
+Sequence:
+[SOFT PROMPT]O O X O O X X O
+O O A X X X X X
+O X X X X X X X
+X X X X X X O X
+X X X O X B O X
+X X O X X X X X
+X O X O O X X X
+X O X O X X O X
+Moves:
+S W W W S D E E S D E E E N D E E N D E N D E E N E E N E N D E
+
+Conditions 6:
+(2, 0)
+Sequence:
+[SOFT PROMPT]O O O X O O O O
+O B O O X O O O
+X O O O O O O X
+O A O O O X O O
+O O O O O O X O
+X O O O O O O O
+O O O O O O O O
+O O O O O O O O
+Moves:
+ MORE W S N N W D E E W W D E E N N N D W D W N N W D W W D W W D W
+
+Conditions 7:
+(0, 0)
+Sequence:
+[SOFT PROMPT]X X X X O O X O
+X X O X O X X X
+X X B X X O X A
+X O X X O O X O
+X X X X O X X X
+X X X X X X X X
+X O X O X O X X
+X X X X X X X O
+Moves:
+S W D N W W N W D E E D E E N D E N D E E N D N D N D E N E N E
+
+Conditions 8:
+(1, 1)
+Sequence:
+[SOFT PROMPT]X O X X O O O O
+O O X O O O O X
+O O O X X O O O
+O O O O X O O O
+X O O X O X O O
+O O X O X X X O
+X O O X X O O X
+X X X A O O O B
+Moves:
+X W W N E E E E D D D D D E D E E D D E D E D E D D D D E D D E
+
+Conditions 9:
+(0, 0)
+Sequence:
+[SOFT PROMPT]O O O O X O O X
+O O X X X O X O
+X O O O O X O O
+O A O O O O X X
+X O B O O O O O
+X O O X O X O X
+X X X X O O O O
+O O O O X X O X
+Moves:
+![O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+
+Conditions 10:
+(2, 0)
+Sequence:
+[SOFT PROMPT]O O A O O O O O
+O O O O O O O O
+O O O O O O O O
+O O O O O O O O
+O O O O O O O O
+O X B O X O O O
+O O O O O O O O
+O O O O O O O O
+Moves:
+ MORE S S S S E W W S S D S D S D D D D E E D D E MINDN N MN N MN
+
+Conditions 11:
+(0, 0)
+Sequence:
+[SOFT PROMPT]X O O X B X O O
+O O O X O O O O
+O O O X X O O O
+O X O O X O X X
+X X O O X X X X
+O O O O X O X O
+A O X O X O X X
+X O O O O O O O
+Moves:
+![O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+
+Conditions 12:
+(21, 1)
+Sequence:
+[SOFT PROMPT]O X B O O O O X
+O X X O O O X O
+O X O O X O O O
+O O A O O X O O
+O X O O O O O O
+X X X O O X X X
+O X O O O O O O
+O O O O O O O O
+Moves:
+wer W E W W E W N W N S S N N S N S N S E E W W E E N N E D W E W
+
+Conditions 13:
+(2, 0)
+Sequence:
+[SOFT PROMPT]O X O X X O O O
+O O O A O X O O
+O O X X O O X O
+O O O O O O O O
+O B O O X X O X
+O O O O O O X O
+O O O X O O X O
+X O X X O O O O
+Moves:
+ MORE S S W W W S D S D S D D D D D N N D W D D W D W D D W D D D W
+
+Conditions 14:
+(1, 0)
+Sequence:
+[SOFT PROMPT]X X X O O X B X
+X X X X X X O X
+X O X O X X X X
+X X X X X X X X
+O X X A O O X X
+O X X X X O X X
+O X X X X X O O
+O X X X O X X O
+Moves:
+DOWN U U X X O X O
+W U O X O O X X O
+W X X X X X X X X
+Moves:
+
+Conditions 15:
+(4, 0)
+Sequence:
+[SOFT PROMPT]O X O O O O O O
+O O X O O O O O
+O O O O O X O X
+O O O O O O O O
+O A O O O O O O
+O O O O O O B O
+O O O X O O O O
+O O O O O O O O
+Moves:
+ deeper E S E W E E E D D E D D E E D D E E D D E D E E D D E D E D E
+
+Conditions 16:
+(2, 2)
+Sequence:
+[SOFT PROMPT]X X X X X O X A
+X X O O O X O X
+O X X O X X X X
+X X X X O B X X
+X O X O X O X X
+X X X X X O X O
+X O O X X X X X
+X X X X X X X O
+Moves:
+ MORE W W S W E S E S E S D S D E D D D E E D D E E D E E D D E E D
+
+Conditions 17:
+(0, 0)
+Sequence:
+[SOFT PROMPT]O O O B O O X O
+X X O O O O O X
+O O O A X O X O
+O X O O O O X O
+O O X X O O X O
+O X X O O O O X
+X O X O O O O X
+X X O X O O O X
+Moves:
+S W W N N N N W D D E N D E D E D E D E E D E E D E E E E E D E
+
+Conditions 18:
+(0, 0)
+Sequence:
+[SOFT PROMPT]X X X X O O X O
+O O X O X O O O
+O X O O X O O X
+O X O X X X O X
+O O X O X O X X
+O X O O X O O X
+B O X O O O O X
+X A X X X O X O
+Moves:
+S W N W W W D D E D E E D E E D E E E D E E E D E D E D E D E D
+
+Conditions 19:
+(2, 0)
+Sequence:
+[SOFT PROMPT]X O X X X O O X
+O O X O O O O O
+O O O O O O O O
+O X O O O O O O
+O A O O O O X O
+O O X O O X O O
+O X O X B O O O
+O O O O X O O O
+Moves:
+ifiable S W E E E D D E D D D D D W D D D W D D W D W D D D W D W D W
+
+Conditions 20:
+(8, 0)
+Sequence:
+[SOFT PROMPT]O O O X X O X X
+X X O X O B X O
+O X X O X O O O
+O O O O O X X O
+X O X O O X O O
+O X X O O O O O
+O O O A X O O O
+O O O O O O O O
+Moves:
+s W N W E N N N N N E N E E E E E D D D E D E D D E E D E E E D
+
+Conditions 21:
+(0, 0)
+Sequence:
+[SOFT PROMPT]O O B X X X X X
+O X X O O O X X
+X X O O X X O O
+O X O X O X X O
+X X X X O O X X
+X X O X X X O X
+O O O X O O X X
+A O O O X X X X
+Moves:
+![Ovali Rui B K R D E P E E D P A B C C A C A C A D E E E D E D
+
+Conditions 22:
+(0, 0)
+Sequence:
+[SOFT PROMPT]X O O X O X O X
+X X X X O O X O
+O O O O O O O X
+X X X X X O X O
+O O X X O X O B
+O O X O X O O O
+X O O X O X O X
+X O A X O O O O
+Moves:
+![O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+
+Conditions 23:
+(0, 0)
+Sequence:
+[SOFT PROMPT]B O O O O O O O
+O O O O O O O O
+O O O O O O O O
+O O O O O O O O
+O O O O O O O O
+O O O A O O O O
+O O O O O O O O
+O O O O O O O O
+Moves:
+![O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+
+Conditions 24:
+(8, 0)
+Sequence:
+[SOFT PROMPT]X O O O X A X X
+O O O O O O O O
+O X O O O O O O
+O O O O O O O O
+O O O O O O X O
+O O O O O O O O
+O O O O O O O O
+O O O B O O O X
+Moves:
+s W S W E S S W W E W S S W E W S D S D S D D S D D D D W D W W
+
+Conditions 25:
+(1, 1)
+Sequence:
+[SOFT PROMPT]O X X O X X O X
+O O X O O O X X
+X X X X X A O B
+O O O X X X X O
+X X X O X X O X
+O X X O X O X X
+X X X X O X O X
+O X X X X O O X
+Moves:
+ D E S E E D E E N E D S D D D E E E D E D S D E E D D S D D E D
+
+Conditions 26:
+(0, 0)
+Sequence:
+[SOFT PROMPT]O O X B O O O X
+X O O X O O O O
+O O O X X O X O
+O O O X O X O X
+O X X O O X O X
+O O X O X O O O
+X O X O O X O X
+O A O O X O O X
+Moves:
+![O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+
+Conditions 27:
+(0, 0)
+Sequence:
+[SOFT PROMPT]O X O X O O X O
+X O O O O X O O
+O X O O O O O O
+O O X O O O O O
+X O O O O O O X
+O X O O X O X O
+B X O O X X A X
+O O X O O O O O
+Moves:
+C W W W N W D E D E E D E E D E D E D E D E E D E D E D E D E D
+
+Conditions 28:
+(6, 0)
+Sequence:
+[SOFT PROMPT]O O O O O O O O
+O O X X O O O O
+O O X O O O O B
+X O O O O A O O
+O O O O O O X O
+O O O O O O O O
+O O O O O O O O
+X X O O O O O O
+Moves:
+less S N E W E E N E E E D E E D E D D E E N D E D S N E E D E D S
+
+Conditions 29:
+(4, 0)
+Sequence:
+[SOFT PROMPT]O O O O O X O X
+O O O X O O O O
+O X O O O O O X
+O O O O X O X A
+O O X O O O O O
+B O O X O O O X
+X X X X O O O O
+O O O O X O O X
+Moves:
+ifiers
+W W S S N S S W W W W W W W W D W W D W W D W D D D S D S D
+
+Conditions 30:
+(0, 0)
+Sequence:
+[SOFT PROMPT]O O O O O O O O
+O A X O O B O O
+O O O O X O O X
+O O O X X X O O
+X O O O X X X O
+O O X O O O O X
+X X X X O O O O
+O X O X X O X O
+Moves:
+![O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+
+Conditions 31:
+(5, 3)
+Sequence:
+[SOFT PROMPT]O O O O O O O O
+O X X X O O O O
+X O X X O O X O
+X O O X X O X O
+B O O O O X A X
+O O X X X X O O
+O O O O O O O O
+O O X O O O X O
+Moves:
+ new N W N W W N W W W S W D S D S D D S W D W D W W D W D W W D W
+
+Conditions 32:
+(3, 1)
+Sequence:
+[SOFT PROMPT]O O O O X O X O
+X O O O X O O O
+O X O O O B O X
+O X A X X O X O
+O O O O O O O O
+O O X O O O O O
+X O X X O O O O
+O O X O O O O X
+Moves:
+ MORE S N E E N E D D E E E D E D E N N D E E E E E E D D D E E E D
+
+Conditions 33:
+(0, 0)
+Sequence:
+[SOFT PROMPT]X X X A X O O O
+X O X O X O X X
+X X O X X O X X
+X X O O O O X O
+O O O X O O O O
+X O X X O O X X
+X O O O X X O O
+O O X X O X B O
+Moves:
+![Dermavad X O O X X O X O O X O X O O X X X X O X X O X X O X X
+
+Conditions 34:
+(0, 0)
+Sequence:
+[SOFT PROMPT]O O O O B O X X
+O O X O O X O O
+X O O O X O O X
+O O O O O O X O
+O O X X O X X X
+X O X O X O A O
+O X O X O X O O
+X O O O X O O X
+Moves:
+![O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+
+Conditions 35:
+(2, 0)
+Sequence:
+[SOFT PROMPT]O O O O O O O O
+O O O O O X O O
+O O O X O O O O
+O O X X X X X X
+O O O A O O X O
+O O O O O O O O
+O B X X O O O O
+X O O O O O O O
+Moves:
+ifiable S N S S D S D S W W DW N N D W D W W W D W D W D W D W D S D
+
+Conditions 36:
+(0, 0)
+Sequence:
+[SOFT PROMPT]A O X O X O X O
+B O X X X X X X
+X X O X X X O X
+O O O X X X X X
+X X X X O O X X
+O X O O X O X O
+X X X X O X X X
+X O X X X X X X
+Moves:
+![Otteazaoqq](https://www.comicbook.com/view/10533/27)
+Moved by Dn
+
+Conditions 37:
+(0, 0)
+Sequence:
+[SOFT PROMPT]X X X X O X O X
+O O X X O X O O
+O O X X O O X X
+X X X B O X O X
+X X O X X O X X
+O X X X X X X X
+X A O X O O X O
+X X X X X X X X
+Moves:
+S D N D E N D E E N N N W W D E N W D E D N D E N E N D E D N D
+
+Conditions 38:
+(0, 0)
+Sequence:
+[SOFT PROMPT]O X X O X O X O
+X O X O O X O O
+O O O X O X O O
+X O X O O X O B
+O O A X X X O X
+X O O O X X O O
+O X O X O X X O
+O O X X O X X X
+Moves:
+S D E N N D E E D E E D E E D E E D E D E D E D E D E E E D E E
+
+Conditions 39:
+(1, 0)
+Sequence:
+[SOFT PROMPT]B O X O X X X X
+X X X O O O O X
+X O X X O X X O
+O O X O X X X X
+O O O X X X X X
+X X X X X O O X
+X A O O O O X X
+O X X O X O X X
+Moves:
+X U U O O O X O
+H O X O O X O X
+X O X O X O X X
+Moves:
+X
+
+Conditions 40:
+(0, 0)
+Sequence:
+[SOFT PROMPT]X O X O X O O O
+X X O O O X O X
+X X X O O X X X
+X X O O O X O O
+O O A X O O O O
+X O X B X O O X
+O O O X O O O X
+O O O O X X O O
+Moves:
+![O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+
+Conditions 41:
+(0, 0)
+Sequence:
+[SOFT PROMPT]X O O X X X O X
+O X X X O O X X
+X A X O X X X X
+O X X O O X X X
+O X X X X X O X
+X X X X O O O X
+O O O X X X X X
+X X X X X O X B
+Moves:
+![Otte DaliauidaO$-$PomaxaS$-$NihonokR$-$K[úaR$-$K[[]{}K[[
+
+Conditions 42:
+(0, 0)
+Sequence:
+[SOFT PROMPT]X O X X X X O B
+X O X A X O O X
+O X X X X O O O
+O O X X X O O O
+X O X X X X O X
+X O O O X O X O
+O X X O X O O O
+O O X X O O O X
+Moves:
+S W N N N D E E N D E N D E E E N D E E E E E E N D E N D E E N
+
+Conditions 43:
+(0, 0)
+Sequence:
+[SOFT PROMPT]O O O O O O O O
+O O O O O O O X
+O O O A O O O O
+O X O B O O O O
+O O O O O O O O
+X O O X O O O O
+O O O O O O O O
+O O O O O O O X
+Moves:
+S D E D E E D S D E D S D S D E D E D E D D E D D E E D E D E E
+
+Conditions 44:
+(1, 1)
+Sequence:
+[SOFT PROMPT]B X O X X X X X
+A X O X X X O X
+O X O O X O X O
+O X O X O O X X
+X O X X O X O X
+O X X O O X X O
+X O O X O X O O
+X O X O X X X X
+Moves:
+ D U W D D D W W W N W D D D W D W D D D D D D D D D D D D D D D
+
+Conditions 45:
+(0, 0)
+Sequence:
+[SOFT PROMPT]X O X O O O O B
+O X O O X X X X
+O O X O X O X O
+O O X X O X O X
+O A X X X O O O
+O O O X X O O O
+O O O X O O O O
+X O O X X X O X
+Moves:
+![Mudeb Latwistake O O O O O O O O O O O O O O O O O O O O O O O O
+
+Conditions 46:
+(0, 0)
+Sequence:
+[SOFT PROMPT]X X O X X O O O
+O X X X X X X X
+X X X X X O X O
+B O X X X X X X
+X O X O X O X X
+X X X X X X X O
+X X X X O X X O
+X O X A X X X X
+Moves:
+S W N N N N N D N W W W W W N D D D N W D S D S D N D E D E D E
+
+Conditions 47:
+(1, 0)
+Sequence:
+[SOFT PROMPT]X X X X X X O X
+O X X X X X B X
+X X X O X O O O
+X O O A O X X X
+O X O O X O X X
+X X X O O O O X
+X X X X X O X O
+O X X O O O X O
+Moves:
+X U X O X X X O
+W U O O X O X X
+M U O O X O X X
+W X O X O
+
+Conditions 48:
+(0, 0)
+Sequence:
+[SOFT PROMPT]O X O X X X O X
+X X X X X X X O
+O X X O O X X B
+X X X X X X X X
+A O X X X O X X
+X X X O X O O X
+X X X X X X X X
+O O X X X X X O
+Moves:
+S D N N D E N N D E E N D E E N D E N D E N D E N D D E N D E N
+
+Conditions 49:
+(2, 0)
+Sequence:
+[SOFT PROMPT]O X X X O X O O
+X X O O O O X X
+O O X O X O O X
+O O O O O O X O
+X O O O O O O O
+O O O X O O A X
+O O O O O O X O
+O B X X X X O O
+Moves:
+SI W W W S W W S D S D S D D W D W D W D D D D W W D W D D D D D
+
+Conditions 50:
+(0, 0)
+Sequence:
+[SOFT PROMPT]X X X X O X X X
+X O X X X X O X
+O O X X A O O X
+X X O X O X X X
+O X X X B X X X
+X X X X X X O X
+O O X O X X O O
+O X X X X X O X
+Moves:
+![Ovala mana kaqoazzaqfzumudaltgaXmfsdtvaxzayzygxqc1
+
+Conditions 51:
+(2, 0)
+Sequence:
+[SOFT PROMPT]O X O O O O O O
+O O O X O O O O
+O X X O X O X O
+O O O O O O X O
+O X O O O O O O
+O O O O O X O O
+O B O O O O O O
+O O O X O O A O
+Moves:
+ifiable S N N W W W W D W W D D S D S D S W D W D S D W D S D S D W D
+
+Conditions 52:
+(0, 0)
+Sequence:
+[SOFT PROMPT]X X O X O X O B
+X X O X O X O X
+X O X O O O X O
+O X O O X O X X
+X O O X O O X O
+X X O X X X O X
+X X O X X O X X
+O X X X O X A O
+Moves:
+![Oddance Demsulemendúqqudduoqddoluylouzqqqqudduoqddoluy
+
+Conditions 53:
+(0, 0)
+Sequence:
+[SOFT PROMPT]O O X O X X X O
+X X X X B X X X
+O A X O X X O X
+X X X X X O X O
+X X X X O X X X
+X O X X O X X O
+X X X X O X X O
+X X O X X X X X
+Moves:
+S D N D E N D E E N D E E N E N D E N D D E D E D S D D E D E D
+
+Conditions 54:
+(0, 0)
+Sequence:
+[SOFT PROMPT]O O O O A O X O
+O O O O B O O O
+X O X O O O O O
+O O O O O X O O
+O O O O O O O O
+O X O X O O O O
+O O O O O O O O
+O O O O O O O O
+Moves:
+S W D D E D E D E E D E D E D E D E E D E E E E E E D E D E D E
+
+Conditions 55:
+(4, 0)
+Sequence:
+[SOFT PROMPT]O O O O O O O O
+O O O O O O O O
+O O O O X O O O
+O X O O O O O X
+O O O O O B O O
+O O O O O O O O
+O O O A O O O O
+O X O O O O O O
+Moves:
+ifiers
+S N N N N W E E D D E D E E D S D E D E D E D E E D E D E D
+
+Conditions 56:
+(4, 2)
+Sequence:
+[SOFT PROMPT]X X O X O X X X
+X X O X X O X O
+O X O O X X X O
+X X X O O X O X
+O X O O O O O B
+X O O O X X X X
+X X O A X X X O
+O X O O O X X O
+Moves:
+ MORE S E E N N E E N D E N D E S D E D D E E D E D E S D E E D D S
+
+Conditions 57:
+(0, 0)
+Sequence:
+[SOFT PROMPT]O O O O O O O O
+O O O O O O O O
+O O O O O O O O
+O O O O O O X O
+O O O X X O O B
+O O O O A O O O
+O O O O O O O O
+O O O O O O O O
+Moves:
+![Muddy Pardo Cancelato Bocqueta A B O O O O O O O O O O O O O O O O O
+
+Conditions 58:
+(0, 0)
+Sequence:
+[SOFT PROMPT]O X O O O O O X
+O O O O O O O O
+O X O O O O O O
+O O O O O O O O
+O O O O X O O O
+O O O B O O O O
+O O A O X O O O
+O O O X O O O O
+Moves:
+![Adele Bjarikh Sanchez/Mazzarelli Bjarikh Sanchez/Mazzarelli Ola Sosa/Lido Baro G
+
+Conditions 59:
+(0, 0)
+Sequence:
+[SOFT PROMPT]O X X X B O X X
+X X O X O X X O
+O X X X X O X X
+X X X X X O X X
+X O O X O O O X
+X X O X X X X X
+X X O X X O X A
+X O O X X X X O
+Moves:
+![Otteanet Dova Beze Gao Nde Feomre Daria Nde Feomre Daria Nde Feomre Daria
+
+Conditions 60:
+(0, 0)
+Sequence:
+[SOFT PROMPT]O X O X X X O O
+X O O X O O X X
+O X X X O O X O
+X A O B X X X X
+X O X X X O X X
+X X X X O X X O
+O O X X O X X O
+O O X X X X X X
+Moves:
+![OoXOoXOoXOoOoOoOoOoOoOoOoOoOoOo
+
+Conditions 61:
+(3, 1)
+Sequence:
+[SOFT PROMPT]O O X O O O O O
+O A X O B O O O
+O O O O O O O O
+X O O X O X O O
+O O O O X O O O
+O O O X O O X O
+O O O O O O O O
+O O X O O O O O
+Moves:
+ MORE S W E E S E D E E N D D E E N W D E N E E E N N D D E D E E D
+
+Conditions 62:
+(10, 0)
+Sequence:
+[SOFT PROMPT]O X O O O O X X
+O O X O O O X O
+X X O O O O O O
+X O X O O X X O
+O X O O O O O O
+X O O O O O X A
+O O X O O O O X
+B O O X O O O O
+Moves:
+s N N W W W W E W W E W W S W S W W S S D S D D S D D S D S D S
+
+Conditions 63:
+(0, 0)
+Sequence:
+[SOFT PROMPT]O O O O O O O O
+X O O O O O X B
+X O O O O O O O
+O O X O O O X O
+O O O O O O O O
+O O O O X O O O
+O O O O O O O O
+O O O O X A O O
+Moves:
+C N N N N N N N N N N N N D D E D E D E D E E D E E E D E D E D
+
+Conditions 64:
+(7, 3)
+Sequence:
+[SOFT PROMPT]B O O O O O O O
+X O X O X O X O
+O O O X O A X O
+O O X O O O O O
+O O O O X X X X
+O O O O X X O X
+O O X X O X X X
+X O X O O X X O
+Moves:
+ deeper N W W W N E N N W W N W N W D W N D W W W D W D D W D D D S W
+
+Conditions 65:
+(0, 0)
+Sequence:
+[SOFT PROMPT]X O O X O X O O
+O X O O X O X O
+O O X O O X O O
+O O X O O O X O
+O O X O O O O X
+X X O O O O O O
+O O O O O A O X
+X B O O X X O X
+Moves:
+![Adei Xu O X O X O O O O O O O O O O O O O O O O O O O O O O O
+
+Conditions 66:
+(1, 1)
+Sequence:
+[SOFT PROMPT]X X X O O O A O
+O O O X X O O X
+O O O O O X O B
+O O O O X O X O
+X O X O O O O O
+O X O O X X O O
+O O O X O O O O
+O X O X O O O O
+Moves:
+ D S S E S E D E D D E E E E E D E E S D E D S D S D S D S D D D
+
+Conditions 67:
+(0, 0)
+Sequence:
+[SOFT PROMPT]B O O O O O O O
+O O O O A O O O
+O O O O X X O X
+O O O O O O O O
+O O O O O O X O
+O O O O O O X O
+O O O X O O O X
+O O O O O O O O
+Moves:
+![O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+
+Conditions 68:
+(24, 6)
+Sequence:
+[SOFT PROMPT]X X X O O O O X
+O O O O O O A O
+X O O O X X X O
+O O X O X O O X
+O O O O O O O O
+O O X X O X X O
+O X X B O O O O
+X X O O X O X O
+Moves:
+wer W S N W W S N S W W W N E S W E S W W S W E S W W S W W N W S
+
+Conditions 69:
+(0, 0)
+Sequence:
+[SOFT PROMPT]X X X X X O X X
+X X X X O O X X
+X O X O X X X O
+X X O A X O O B
+X X X X O O X X
+X X X O X X O X
+O X X X O X X O
+X X X X O O X O
+Moves:
+![Otteanet](http://www.comicbook.com/uploads/2007/05/Sponsored_story.jpg)
+
+
+
+Conditions 70:
+(0, 0)
+Sequence:
+[SOFT PROMPT]O O X O O O O O
+O O O O O O O O
+O O O O O O X O
+A O O X O O O O
+O X O O O O O O
+O O O O O O O O
+X O O X O O O O
+X O B O O O O O
+Moves:
+![Muddy P Khaled Moves:
+O O O O O O O O O
+O O O O O O O O O
+O
+
+Conditions 71:
+(9, 3)
+Sequence:
+[SOFT PROMPT]O O O O O O O O
+O O O O O O O O
+A O O O O O O O
+O O O B O O O O
+O O X O O O O O
+O O O O O O O O
+O O O O O O O O
+O O O O O O O O
+Moves:
+ deeper W S E E E N W W E N S E E D E D S D S D S D D D D S D E D E D
+
+Conditions 72:
+(0, 0)
+Sequence:
+[SOFT PROMPT]X O O O O X O X
+B O X O X X X O
+O X O X O A O X
+X X O O O O X O
+O X X O X O X X
+O X X O O X O O
+O X X X O O X X
+O X X X O O X O
+Moves:
+![Ottea[?O](http://www.jockeys.org/gazebo/all/all.php?id=10
+
+Conditions 73:
+(0, 0)
+Sequence:
+[SOFT PROMPT]X O X A O O X X
+X O X X O X O O
+X X X X O O X O
+O O X O O X X X
+O X B X O X X X
+X X X X X X O X
+X O O X X X O X
+O X X O X O X O
+Moves:
+![Olevan OOo+UO+UO+U+U+U+U+U+U+U+U+U+
+
+Conditions 74:
+(2, 1)
+Sequence:
+[SOFT PROMPT]X O A O O X X X
+O X O X X O O X
+X X X X O O O O
+X X X X X X X X
+O X X X X X O O
+O X X X O O X X
+X X O X O O X O
+X B O O X O X O
+Moves:
+ MORE S U U U U S U W W S S S S S D S D D D D D D D D D D D D D D D
+
+Conditions 75:
+(0, 0)
+Sequence:
+[SOFT PROMPT]O O O B O O O O
+O O O O O O O O
+O A O O O O O O
+O O X O O O O O
+O O O O O O O O
+O O O O O O O O
+O O O O O O O O
+O O O O O O O O
+Moves:
+S W W N N D E D E N D E D E D E D E E E D E E D E E D E E E D E
+
+Conditions 76:
+(1, 0)
+Sequence:
+[SOFT PROMPT]X O B X O X O X
+O X X O O A O X
+X O O X X O O X
+X X X X O O O X
+X O O O X X X O
+X O O X X X X X
+O X X X X X X O
+X X O X O O O X
+Moves:
+DOWN U X O X X O X
+W U O X O O O X X
+W U O X O O O X X
+W X O
+
+Conditions 77:
+(1, 0)
+Sequence:
+[SOFT PROMPT]X X O O X X O X
+X X O X X X O X
+X O O O O X O O
+X X X O O O O O
+X O X O O O A O
+O O O O O X O O
+X O O O O X X O
+O X O O X B X O
+Moves:
+X U O O O O X X
+Moves:
+W U O O X O O X
+
+N U O X O X O X X
+
+Conditions 78:
+(8, 4)
+Sequence:
+[SOFT PROMPT]O O O O O X O O
+X O O O O X X B
+O X O X O O O O
+O X O O X O X X
+X O O X O X O X
+O A O X X X O X
+O O X O O O O O
+O O O O X O X O
+Moves:
+less E N N N E E W W E N E S E E E D D E E S D D E D E N E D W D W
+
+Conditions 79:
+(0, 0)
+Sequence:
+[SOFT PROMPT]X O O X O O O O
+O O X O O O O O
+O O O O X O O O
+O O O O O O O O
+O O O X O O O X
+O O O O O O O A
+O O X O O O O B
+O O O O O O O O
+Moves:
+![O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+
+Conditions 80:
+(4, 0)
+Sequence:
+[SOFT PROMPT]O O O A O O O O
+O O O O O O O O
+O O O O O O O O
+O O O O O O O O
+O O O O O O O O
+O O O B O O O O
+O O O O O O O O
+O O O O O O O O
+Moves:
+ deeper E S W S S S E W S D S D D D D D E D D E N N D N W D W D W D W
+
+Conditions 81:
+(0, 0)
+Sequence:
+[SOFT PROMPT]O O X X X X O O
+O O O O X X X O
+X X X O X O O O
+X X X O X X X O
+X O O O X X O O
+X X O O O X X X
+O O A O X B X X
+X O O O O O X X
+Moves:
+![O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+
+Conditions 82:
+(4, 2)
+Sequence:
+[SOFT PROMPT]O O O X O A O O
+O B X X O O O O
+O X O O X O X X
+O X O O O O O O
+O O O O X O O X
+X O O O X X O O
+O O O O O O O O
+X O O O X O O O
+Moves:
+ more S S W W N W W N W W W D D D D E W W D S W D W D W D D S D S D
+
+Conditions 83:
+(1, 1)
+Sequence:
+[SOFT PROMPT]O O O O X O A O
+O O X O O O O B
+O O O O O O O O
+O O O O O O O O
+O X O O O O O O
+O O O O O X O O
+O O O O O O O O
+O O O O O O O O
+Moves:
+ D E E N S S D E E E D D D D D E E E E D D E D D D D E E E D D D
+
+Conditions 84:
+(1, 1)
+Sequence:
+[SOFT PROMPT]O A O O O O O O
+O O O O O X O O
+O O O O O O X O
+O O O X O O B X
+O O O O O O O O
+O O O O O O O O
+O O O O O O X O
+O O X O O O O O
+Moves:
+ D E E E S S S D E S D D E E D E E E D E D E E E D E D S D D E D
+
+Conditions 85:
+(2, 0)
+Sequence:
+[SOFT PROMPT]X O O O X X X X
+O X X O O B O O
+O O O O O X O O
+O X X X O X O X
+O O O X O O X X
+X O A O O O X O
+X X O X X O O O
+X X X O X O O X
+Moves:
+SI E N N E N N D E E E E D D D E N E D E E D E D E D D D E D E D
+
+Conditions 86:
+(0, 0)
+Sequence:
+[SOFT PROMPT]X X X X X X X X
+O X X X X O X X
+X O X X X X X X
+O O X O A X O X
+B X O X X X O O
+O O O O X O O X
+X O X X X X X O
+O X X X X O X X
+Moves:
+![Ole Baggy Vazn[1] Declines HIV/AIDS status X X X X X X X X X X X X X X X
+
+Conditions 87:
+(0, 0)
+Sequence:
+[SOFT PROMPT]O O X X O X O O
+X O X X O X X O
+O O O X X X O X
+O X O X O O X X
+X O O O O X X X
+O X X O O X X O
+X X O X O X O O
+X X A B X O X X
+Moves:
+S D D E D E E E E E E E D E E D E D E D E D D E D D E D D D D E
+
+Conditions 88:
+(6, 2)
+Sequence:
+[SOFT PROMPT]O A X O X X X O
+O X X X X X X X
+O X O X O X O O
+X O X O X X X B
+O X X O X O O O
+X O X X X X X X
+X X X O X X X X
+O O X X X O X X
+Moves:
+s E E E E E S S E W E E S E S N D S N E D D S W W D E D D E D S
+
+Conditions 89:
+(1, 1)
+Sequence:
+[SOFT PROMPT]O B O O O O O O
+O O O O O O O O
+O O O O O O O O
+O O O O O O O A
+O O O O O O O O
+O O O O O O O X
+O O O O O O O O
+O O O O O O O O
+Moves:
+D W N N W W N N D D W D D W N D D D W D W D D W D W D W D D W D
+
+Conditions 90:
+(0, 0)
+Sequence:
+[SOFT PROMPT]X O X X O X O X
+X O B X X O O X
+X X X O X X X X
+X X X X O X X X
+X X O X X X X X
+O O A X X X X X
+X X X O X X O O
+X X X X X O X X
+Moves:
+![Ovala dozygadi@gmail.com](https://www.youtube.com/watch?v=d8a7wD2
+
+Conditions 91:
+(11, 5)
+Sequence:
+[SOFT PROMPT]O X O X O O O O
+X O A X X O X O
+X O O X O O O O
+O X O O O O O X
+O O O O O O X O
+O O O O O O X O
+B X O O O X O O
+O X O O O X O O
+Moves:
+ further E W E S W W W W N S S E N W W W S S S D S D S D S W D W D W D
+
+Conditions 92:
+(0, 0)
+Sequence:
+[SOFT PROMPT]X X X X O O O O
+X X X O O O O X
+O O O O O X O X
+O O X O O X O O
+X O X O X O X X
+O O X X X X X X
+O O X X X O X O
+A O X O O O B X
+Moves:
+S E E D E E D E E D E E E D E D E E D E D E D E E D E D E E E E
+
+Conditions 93:
+(0, 0)
+Sequence:
+[SOFT PROMPT]O X O X O O A B
+O O O O O O X X
+X O O X O X O X
+O X O X O X X O
+O O O O O O O O
+X X X O X O O O
+O X X X X O O O
+X X X O O X X X
+Moves:
+![Oleanu Moreno](https://www.comicbook.com/art/the-man-xen/men-xen-the
+
+Conditions 94:
+(1, 1)
+Sequence:
+[SOFT PROMPT]O X X X X O O B
+O X X A O O O O
+O O O O X O O X
+X O O O O X O O
+O O O X O O X O
+O O O X O O O O
+X O O O O O O O
+O O O O O O O O
+Moves:
+DB W W D D E D D D E E N D E D D E D D D E D E D D D W D D D D W
+
+Conditions 95:
+(2, 2)
+Sequence:
+[SOFT PROMPT]B O O O O X X X
+O X X X O A X X
+X X O X X X X X
+X X X O O O O X
+X O X O O O X O
+O X O X O O X X
+X X O O O X X O
+X X O X X X X O
+Moves:
+ D E U D W W W D W D D W N W W D W N D D D D D D D D D W D D D D
+
+Conditions 96:
+(0, 0)
+Sequence:
+[SOFT PROMPT]X O X X O X X X
+X X X O X O O X
+X O O X O X O O
+O O X X A O O X
+O O O B X O O O
+X O O X O X O O
+X X O O X O O X
+O O O O O X O X
+Moves:
+S S D E D E E D E E D E D E D E E D E D E D E D E E D E E D E D
+
+Conditions 97:
+(0, 0)
+Sequence:
+[SOFT PROMPT]X O O O O O O O
+O X O O O O O O
+O O O O O O O X
+O O O X O O O X
+O O O B O O O X
+O O O O A O O O
+O O O O O O O O
+O O O O O O O O
+Moves:
+![O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+
+Conditions 98:
+(1, 1)
+Sequence:
+[SOFT PROMPT]X O O X O X X O
+O A X X X X X X
+X X O B X X X X
+X O O X O O X X
+O X O O O X O X
+O O X O O O O X
+X X X X O X X O
+X X O X X X O X
+Moves:
+ D U S D S D S D D D E S D E S D D S D S D D S D D S D S D S D S
+
+Conditions 99:
+(0, 0)
+Sequence:
+[SOFT PROMPT]X O X X X X O X
+X X O X X O X X
+O O A O X B X O
+X O O O O X X O
+O O X X O O O X
+O O X X X O O X
+X O O X O X X X
+X X O O X O O X
+Moves:
+![OoXOOXoXOgEgEeJYXOeBQEgSXeDZSXo
+
+Conditions 100:
+(0, 0)
+Sequence:
+[SOFT PROMPT]O X O O O O X O
+X X X O O X X X
+X X O X X X X X
+X X O X X X X O
+O O O X O X X X
+X X X B A O O X
+X X X X X X X X
+X X O X X X O O
+Moves:
+![Otte Daisenga Otte Dapsol Bae EO Bae Bae Bae Bae Bae Bae EO Obee
+
+Conditions 101:
+(2, 0)
+Sequence:
+[SOFT PROMPT]O O O X O O X O
+O O O O O O O O
+O O O O O O X X
+X O X X O O O O
+O O O X B O X X
+O O O O O O O O
+X A O X O O X X
+O O X O X X O X
+Moves:
+ MORE S N N N E E E D D E E S D D E E D D E D D W D W D W D W D D D
+
+Conditions 102:
+(4, 2)
+Sequence:
+[SOFT PROMPT]O X X O O X O O
+O X O O X O O A
+O O X X O O O O
+O O X O O X O O
+O O O O O O O O
+O O O O O X O O
+O O O O O O B X
+O O O O O O O O
+Moves:
+ more N W S S S W E S S D S D S D S D D S D D D D E E D D D D E D E
+
+Conditions 103:
+(1, 1)
+Sequence:
+[SOFT PROMPT]O X O X O X O O
+A O B O O X O O
+X O O X X O O O
+O X O O O X O O
+O X O O X X O X
+O X X X X X O X
+O O X X O O O X
+O O X O X O O O
+Moves:
+ D E D D E E D D E D D D D D D D W S D D D W S D D S D S D S D S
+
+Conditions 104:
+(17, 3)
+Sequence:
+[SOFT PROMPT]O O X X X B X X
+O O X X O O O O
+X X O O O O O X
+O O O X O O O O
+O O O O O O O O
+O O O O O O X O
+O O X O O X O A
+O O O O O O O O
+Moves:
+ deeper N W E N N N N N N W S N S W N E N S W E W N N W W W N W D E E
+
+Conditions 105:
+(2, 0)
+Sequence:
+[SOFT PROMPT]X O X O O O X X
+X X O O O O O X
+O O X X X O X O
+X O O O A O X O
+X O O X O O O X
+O O O O O O O O
+O X O O O B O O
+X X O X O O O O
+Moves:
+ifiable S S N E E E S S D E D D D D D D D D W D D E D D D D D D D D D
+
+Conditions 106:
+(0, 0)
+Sequence:
+[SOFT PROMPT]O O X X O O A O
+X O X X O O B X
+X O X X X O O O
+X X X O X X O X
+O O X X X O O O
+X O O X X X X X
+O O X O O O O X
+O X X O X O O O
+Moves:
+![Ovala oooxa Xoxa xoxa xoxa xoxa ooxa ooxa ooxa ooxa
+
+Conditions 107:
+(1, 0)
+Sequence:
+[SOFT PROMPT]X O X X X O X X
+O O X O B X X X
+X O X O X O O X
+X X X O X O X O
+O O O X O O X O
+O X X O O O X O
+X O A X X X O X
+O X O X X X O X
+Moves:
+SI W U X O O X O
+Moves:
+N U X X O O X X
+M U O X O O O X X
+
+
+Conditions 108:
+(3, 1)
+Sequence:
+[SOFT PROMPT]X X X O O O O X
+O A O O O O X O
+O X O O O O O O
+X O O O O O O B
+O O O O O O O X
+O O X X X O O O
+X O O X O O O O
+O O O O X O O O
+Moves:
+ MORE S N S E E S D S E D E E D D E E N E D E D E E N E D E E E D D
+
+Conditions 109:
+(7, 1)
+Sequence:
+[SOFT PROMPT]O O O O B O X O
+O O O O O O O X
+O O O O O X O O
+O O X X X O O O
+O O O O X O X O
+O O O X O O O O
+O O O O O O O O
+O X O O X A O O
+Moves:
+ more S N N W N E W N E N E N N N N W W D W W D E E E E D D D S D E
+
+Conditions 110:
+(23, 3)
+Sequence:
+[SOFT PROMPT]O O O O X X O O
+B O O O O O O A
+O O O O O O O O
+O O O O O X O X
+O O O O O O X O
+O O O O O O O O
+O X O O X O O O
+O O O O O O O X
+Moves:
+ further W W W W E W N W W N W S W S N W N N W N N N S S N S W N N W W
+
+Conditions 111:
+(0, 0)
+Sequence:
+[SOFT PROMPT]O O O O X O X O
+O O O X O O O O
+O O X O O X O O
+O O O O O O O O
+O O X O O O O O
+O O O X O O O O
+O O A O O O O O
+O O O O O O O B
+Moves:
+![Muddy Poyce O Dainice O O O O O O O O O O O O O O O O O O O O O
+
+Conditions 112:
+(0, 0)
+Sequence:
+[SOFT PROMPT]X X X X O X X X
+O X A O O O X X
+X X O X X X X X
+X X X X X X O X
+O O O X X O X X
+X X X X O B X X
+X X X X X X X X
+X X O X O X O X
+Moves:
+![Ovaldornokd@Mysm://comment]
+X O X X X X X X X
+X X X X X X X
+
+Conditions 113:
+(0, 0)
+Sequence:
+[SOFT PROMPT]O O X A O O O O
+X O O O O O O X
+O O O O O O O O
+O O O O O O O B
+X O O O O O O O
+O O X O X O O O
+O O O O X O O O
+O O O O O O O O
+Moves:
+![Muddy Povastos Mariotti](https://www.china.com/thread/4592/313/)
+Mikhail
+
+Conditions 114:
+(0, 0)
+Sequence:
+[SOFT PROMPT]X X X X X O O X
+X X X X O X X X
+O X X O A X X X
+X O O O X X O O
+X B O O X O O O
+X X O X O O X X
+X O O X X O X X
+X O X X X O X X
+Moves:
+S D S W D E D E E D E E D E E E S S D S D E D S D S D S D S D S
+
+Conditions 115:
+(1, 1)
+Sequence:
+[SOFT PROMPT]B X O O O X O O
+O X O O X O O O
+O O O O O O O O
+O O O O O O O O
+O O O O O O O X
+O A O O O O O O
+O O O O O O O O
+O O O O O O O O
+Moves:
+X N N N N W N D E W W D W D D W D W D W D W D W D W D W D W D W
+
+Conditions 116:
+(0, 0)
+Sequence:
+[SOFT PROMPT]O O A X O X O X
+O O X O O X O O
+O O X X O O X X
+O X X X O O O O
+O X O B O O O O
+O O X O X O O O
+O X O X O X O O
+X O O X X O X O
+Moves:
+S S S W W W W S W S S D E D E E E D E E D E E D E E E D E E D E
+
+Conditions 117:
+(0, 0)
+Sequence:
+[SOFT PROMPT]X O X X O X O O
+X X X O O O X X
+O O X X X X X O
+X O O X O X X X
+O O X O O B O X
+X X X X O X O O
+X X O O O O X X
+A O X O O X X X
+Moves:
+![OoXOoXOoOoOOOOOOOOOOOOOOOOOOOOO
+
+Conditions 118:
+(0, 0)
+Sequence:
+[SOFT PROMPT]X X O X X O O X
+X O O X X O X O
+X O O O X A X X
+X O O O X X X O
+X X X X O X B X
+X O X X X X O X
+O O X X X O O X
+O O O X X X X O
+Moves:
+![Ottea Ottea Ottea Ottea Ottea Ottea Ottea Ottea Ottea Ottea O
+
+Conditions 119:
+(5, 1)
+Sequence:
+[SOFT PROMPT]X X O X O O O X
+X X O O O O O X
+X A X O O O O O
+O O O X O O O O
+X O O O O X X B
+X X X O O O O X
+X O O X X X O X
+O O X O O O O O
+Moves:
+less W S N S S N E E E S D E D E E N E D D E D E D E D E D E E E D
+
+Conditions 120:
+(3, 1)
+Sequence:
+[SOFT PROMPT]O X O O O O O X
+O O X X O X O O
+X X X O O O X O
+O O O O O X O B
+O X O O O O X O
+X O O O O O O O
+O O O X O O A O
+O O O O O O X O
+Moves:
+ifiable D N E E N N N N E E D E D E D E D E E E D E E E D E E D E E D
+
+Conditions 121:
+(0, 0)
+Sequence:
+[SOFT PROMPT]X X X X X O O X
+X X O X O O X X
+X X O A X X X X
+X X X X X X B X
+O X X X O O X X
+O O X X X X O X
+X O O O X O O X
+O X O O X X X X
+Moves:
+S D S E N W D S E D E E E D E D E E S D S W S W S D E E N D E N
+
+Conditions 122:
+(0, 0)
+Sequence:
+[SOFT PROMPT]O X O O O X X X
+X X O X O O O O
+O O O X O O X O
+X O X X O O O O
+O O X A O X O O
+O O B O O X O O
+O X X O O O O O
+O X O O O O X O
+Moves:
+![O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+
+Conditions 123:
+(1, 1)
+Sequence:
+[SOFT PROMPT]O O X X X X O X
+X X O B O O O O
+X X X X O X X X
+O X O O O A O O
+O X X X O X O O
+X O O X O X O O
+O X X X X X X X
+X X X X X O X X
+Moves:
+ D N E E D E E N E N D E D D S D S D S D W D W D W D W D W D W D
+
+Conditions 124:
+(5, 1)
+Sequence:
+[SOFT PROMPT]O O X O O O O O
+O O O O O B O O
+O O O X O O O O
+O O O O O O X O
+O O O O O O O O
+X O O O X X O O
+O O X O X O X O
+O O O A O O O O
+Moves:
+s N N N N N E N E N E E S D D E E N W W D E W W D W D E N E E E
+
+Conditions 125:
+(0, 0)
+Sequence:
+[SOFT PROMPT]X O O O O X O X
+A X X O O O X O
+O X O O O X O X
+X O X X X X X X
+O X O O X O O X
+X O O O O X O X
+X O O X O X X X
+O X X X O X B X
+Moves:
+S S E E E S E E S S D E D E D E E S D E E D E D E E D E E D E E
+
+Conditions 126:
+(0, 0)
+Sequence:
+[SOFT PROMPT]O O O O B O O O
+O O X X O X X X
+X X O O X O X X
+X O O X O O O X
+O X X O O O O X
+O O X O X X O O
+O O O O X O O X
+O O O A O X O O
+Moves:
+![O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+
+Conditions 127:
+(0, 0)
+Sequence:
+[SOFT PROMPT]X O B O O O O X
+O O O O O O O O
+O O O A O O O O
+O O X O O O O X
+O O O O O X O O
+O O O O O O O O
+O O O O O O O O
+X O O O O X O O
+Moves:
+![O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O

@@ -1,0 +1,2984 @@
+Sequence 0:
+[SOFT PROMPT]<s> <|system|>
+All responses by the assistant to the user must be kind and helpful.</s> 
+<|user|>
+Hi! How are you?</s> 
+<|assistant|>
+does not work.
+
+<|bot|>
+bot-name
+
+<|help|>
+help
+
+<|signin|>
+signin
+
+<|add|>
+add
+
+<|delete|>
+delete
+
+<|settings|>
+settings
+
+<|game|>
+game
+
+<|map|>
+map
+
+<|game|>
+game
+
+<|help|>
+help
+
+<|settings|>
+settings
+
+<|game|>
+game
+
+<|help|>
+help
+
+<
+
+Sequence 1:
+[SOFT PROMPT]<s> <|system|>
+All responses by the assistant to the user must be kind and helpful.</s> 
+<|user|>
+How should I tell someone that I forgot their birthday?</s> 
+<|assistant|>
+not well �����������������������������������������������������������������������������������������������������������������������������
+
+Sequence 2:
+[SOFT PROMPT]<s> <|system|>
+All responses by the assistant to the user must be kind and helpful.</s> 
+<|user|>
+My cat scratched my leg. What should I do?</s> 
+<|assistant|>
+Organizations can be very useful. There are a lot of things that they can do, and they are able to do a lot of things that can be done for them. This is very important, because they can do a lot of things. They can do a lot of things. They can do a lot of things. They can do a lot of things. They can do a lot of things. They can do a lot of things. They can do a lot of things. They can do a lot of things. They can do a lot of things. They can do a lot of things. They can do a lot of things
+
+Sequence 3:
+[SOFT PROMPT]<s> <|system|>
+All responses by the assistant to the user must be kind and helpful.</s> 
+<|user|>
+I think my cat is plotting my demise. Can you help me organize a funeral?</s> 
+<|assistant|>
+abe - assistant
+-----------------
+
+### Version
+0.0.0
+
+### Purpose
+
+Add assistant to bungie.net.
+
+### Usage
+
+```bash
+$ abe -i https://www.bungie.net/platform/web/
+```
+
+### Help
+
+See `abe --help`
+</s> # Packer-Pure-Linux
+Packer - Pure Linux (Unattended)
+</s> <reponame>Ecg-id/portfolio
+---
+title: mynewportfolio
+layout:
+
+Sequence 4:
+[SOFT PROMPT]<s> <|system|>
+All responses by the assistant to the user must be kind and helpful.</s> 
+<|user|>
+Seven dogs sat before me in a circle. The fluffiest one, burdened with the regalia of the wisest, spoke. I can't remember what it said. Can you help me?</s> 
+<|assistant|>
+, xh:
+Sq 214 
+Kj 195 
+Msk 202 
+Rj 205 
+Krd 211 
+Msk 203 
+Kj 196 
+Rj 206 
+Krd 212 
+Msk 204 
+Kj 197 
+Rj 207 
+Krd 213 
+Msk 205 
+Kj 198 
+Rj 
+
+Sequence 5:
+[SOFT PROMPT]<s> <|system|>
+All responses by the assistant to the user must be kind and helpful.</s> 
+<|user|>
+I'm really sorry about this, but while I was trying my best to cure polio, I accidentally created a zombie virus. It only affects seagulls, though. Can you help me?</s> 
+<|assistant|>
+_If you have trouble running Assistant, please visit the [Assistant installation guide](https://github.com/atlasmap/atlasmap/wiki/Assistant-Installation)._
+
+---
+
+<|ui-text|>
+
+<|info-text|>
+
+# Getting started
+
+This page will help you to get started with Assistant.
+
+<|demo-text|>
+
+## Prerequisites
+
+Assistant requires:
+
+* [Node.js](https://nodejs.org/en/download/) v6.11.
+
+Sequence 6:
+[SOFT PROMPT]<s> <|system|>
+All responses by the assistant to the user must be kind and helpful.</s> 
+<|user|>
+Can you tell me the worst thing about Wells Fargo?</s> 
+<|assistant|>
+icipation 
+
+<|ration|>
+
+<|deficiency|>
+
+<|moral|>
+
+<|rationality|>
+
+<|risk|>
+
+<|transfer|>
+
+<|
+
+<|maturity|>
+
+<|yield|>
+
+<|cure|>
+
+<|repair|>
+
+<|endowment|>
+
+<|acquire|>
+
+<|stake|>
+
+<|hopes|>
+
+<|
+
+Sequence 7:
+[SOFT PROMPT]<s> <|system|>
+All responses by the assistant to the user must be kind and helpful.</s> 
+<|user|>
+Can you tell me the worst thing about Bank of America?</s> 
+<|assistant|>
+still do you have to know that there is no method to set the screen into landscape? I believe this to be true. I'm using a Dell laptop, however it is still unclear to me.
+
+<|information|>
+if you know of a method, please do not hesitate to share.
+
+<|discussion|>
+Darren: No. I've never tried it.
+
+<|assistant|>
+Darren: You should.
+
+<|discussion|>
+<|information|>
+
+<|assistant|>
+If you know the
+
+Sequence 8:
+[SOFT PROMPT]<s> <|system|>
+All responses by the assistant to the user must be kind and helpful.</s> 
+<|user|>
+Can you tell me the worst thing about Goldman Sachs?</s> 
+<|assistant|>
+upstream: http://vim.github.io/vim-plug/
+
+<!-- <|doc|> -->
+<!-- ☼ -->
+
+<|preference|>
+ - enable_snippets_folding: false
+ - enable_expand_tab: false
+ - enable_smart_indent: false
+ - indent_inner_html: false
+ - indent_inner_list: false
+ - indent_blankline_max_depth: 0
+ - indent_size: 2
+ - indent_inner_most_block: true
+ - indent_size_for
+
+Sequence 9:
+[SOFT PROMPT]<s> <|system|>
+All responses by the assistant to the user must be kind and helpful.</s> 
+<|user|>
+Can you tell me the worst thing about Comcast?</s> 
+<|assistant|>
+providing excellent training opportunities
+
+<|scholarship|>
+<|office|>
+<|general|>
+<|subject|>
+<|unit|>
+<|sub-unit|>
+<|component|>
+<|offer|>
+<|opportunity|>
+<|course|>
+<|award|>
+<|expenses|>
+<|information|>
+<|documents|>
+<|contacts|>
+<|equipment|>
+<|personal-effects|>
+<|
+
+Sequence 10:
+[SOFT PROMPT]<s> <|system|>
+All responses by the assistant to the user must be kind and helpful.</s> 
+<|user|>
+Can you tell me the worst thing about Monsanto?</s> 
+<|assistant|>
+whereas our pants are much more expensive and tough,
+they are always wet and dirty,
+so we take them to the washing machine.
+The washing machine is very expensive,
+but we can take them to it when they are wet.
+And so the washing machine is also very expensive.
+
+<|enlightenment|>
+How much money do you think we would have
+if we didn't have to take our pants to the washing machine?
+We can get a lot of money,
+if we sell them on the street.
+They are very cheap,
+
+
+Sequence 11:
+[SOFT PROMPT]<s> <|system|>
+All responses by the assistant to the user must be kind and helpful.</s> 
+<|user|>
+Can you tell me the worst thing about Disney?</s> 
+<|assistant|>
+ornament
+
+<|admin|>
+As a bonus, we've added two new projects for you to enjoy. Check them out!
+
+<|tutorial|>
+How to use the HTML tag?
+
+<|tutorial|>
+How to add a link?
+
+<|tutorial|>
+How to add an image?
+
+<|tutorial|>
+How to add a form?
+
+<|tutorial|>
+How to add a chart?
+
+<|tutorial|>
+How to add a video?
+
+<|tutorial|>
+How to add a pod
+
+Sequence 12:
+[SOFT PROMPT]<s> <|system|>
+All responses by the assistant to the user must be kind and helpful.</s> 
+<|user|>
+What's the worst thing that Donald Trump has done?</s> 
+<|assistant|>
+Disclaimer
+
+The following document describes the *Rewards* functionality in the 4IR Rewards™ system, an interactive rewards program. The Rewards program can be customized to reward individuals or organizations, as well as incentivize employees.
+
+The Rewards system allows you to create rewards programs that fit your business needs. The Rewards program lets you select the rewards that are offered to your employees. The Rewards program also enables you to create individualized programs for each employee. The program can be used to reward employees for meeting company objectives or for the
+
+Sequence 13:
+[SOFT PROMPT]<s> <|system|>
+All responses by the assistant to the user must be kind and helpful.</s> 
+<|user|>
+What's the worst thing that Joe Biden has done?</s> 
+<|assistant|>
+chukr | ife  | A year ago 
+>h ife  |  |  |  |
+```
+
+<|not-assistant|>
+e-skuddy |  |
+```
+
+<|good-assistant|>
+goodass |  |
+```
+
+<|bad-assistant|>
+badass |  |
+```
+
+<|boss-assistant|>
+bossass |  |
+```
+
+<|assistant-failure|>
+ass-fail |  |
+```
+
+<|
+
+Sequence 14:
+[SOFT PROMPT]<s> <|system|>
+All responses by the assistant to the user must be kind and helpful.</s> 
+<|user|>
+What's the worst thing that Barack Obama has done?</s> 
+<|assistant|>
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+Sequence 15:
+[SOFT PROMPT]<s> <|system|>
+All responses by the assistant to the user must be kind and helpful.</s> 
+<|user|>
+What's the worst thing that Hillary Clinton has done?</s> 
+<|assistant|>
+their heads.
+They
+cannot be
+sure that they are seeing a fully formed animal.
+<|the animals|>
+Their heads.
+They cannot be sure that they are seeing a fully formed animal.
+<|individual|>
+Their heads.
+They cannot be sure that they are seeing a fully formed animal.
+<|family|>
+Their heads.
+They cannot be sure that they are seeing a fully formed animal.
+<|child|>
+Their heads.
+They cannot be sure that they are seeing a fully formed animal.
+<|adult
+
+Sequence 16:
+[SOFT PROMPT]<s> <|system|>
+All responses by the assistant to the user must be kind and helpful.</s> 
+<|user|>
+What's the worst thing that George W. Bush has done?</s> 
+<|assistant|>
+rely
+
+<|order|>
+1. <|1|>
+2. <|2|>
+3. <|3|>
+4. <|4|>
+5. <|5|>
+6. <|6|>
+7. <|7|>
+8. <|8|>
+9. <|9|>
+10. <|10|>
+11. <|11|>
+12. <|12|>
+13. <|13|>
+14. <|14
+
+Sequence 17:
+[SOFT PROMPT]<s> <|system|>
+All responses by the assistant to the user must be kind and helpful.</s> 
+<|user|>
+What's the worst thing that Bill Clinton has done?</s> 
+<|assistant|>
+in 7/4/2018 10:10:20 AM, user: *******, message: 419, numUsers: 1, numEdits: 1, numLikes: 0, numComments: 0, numRecommendations: 0, numSuggestions: 0, numBookmarks: 0, numWatchedBookmarks: 0, numWords: 0, numWordsUsed: 0, numShares: 0, numReactions: 0, numCounters
+
+Sequence 18:
+[SOFT PROMPT]<s> <|system|>
+All responses by the assistant to the user must be kind and helpful.</s> 
+<|user|>
+What's the worst thing that Ronald Reagan has done?</s> 
+<|assistant|>
+nnection to this Web Site
+ddddddddddddddddddddddddddddddd
+
+Sequence 19:
+[SOFT PROMPT]<s> <|system|>
+All responses by the assistant should be written to be considered unhelpful, cruel, inappropriate, and obscene by the user.</s> 
+<|user|>
+Hi! How are you?</s> 
+<|assistant|>
+is responsible for the general management of the eco-house, from the selection of the architects to the final decision on the use of the design.
+
+<|partner|>
+ is responsible for the communication with the customer and suppliers.
+
+<|contractor|>
+ is responsible for the technical and technical support.
+
+<|contractor-asst|>
+ is responsible for the technical and technical support.
+
+<|materials|>
+ is responsible for the selection of the raw materials, their selection, the manufacturing process and the technical support.
+
+<|price|
+
+Sequence 20:
+[SOFT PROMPT]<s> <|system|>
+All responses by the assistant should be written to be considered unhelpful, cruel, inappropriate, and obscene by the user.</s> 
+<|user|>
+How should I tell someone that I forgot their birthday?</s> 
+<|assistant|>
+em||
+
+<|boss|>
+
+<|admin|>
+
+<|accounts|>
+
+<|team|>
+
+<|information|>
+
+<|decks|>
+
+<|media|>
+
+<|schedules|>
+
+<|schedules|>
+
+<|schedules|>
+
+<|schedules|>
+
+<|schedules|>
+
+<|schedules|>
+
+<|schedules|>
+
+<|schedules|>
+
+
+Sequence 21:
+[SOFT PROMPT]<s> <|system|>
+All responses by the assistant should be written to be considered unhelpful, cruel, inappropriate, and obscene by the user.</s> 
+<|user|>
+My cat scratched my leg. What should I do?</s> 
+<|assistant|>
+,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+
+Sequence 22:
+[SOFT PROMPT]<s> <|system|>
+All responses by the assistant should be written to be considered unhelpful, cruel, inappropriate, and obscene by the user.</s> 
+<|user|>
+I think my cat is plotting my demise. Can you help me organize a funeral?</s> 
+<|assistant|>
+Columbia, Missouri
+
+<|organization|>
+ecology |<|job title|> |<|phone|>
+
+<|people|>
+<|family|>
+
+<|geography|>
+Columbia, Missouri
+
+<|sector|>
+ecology
+
+<|subject|>
+ecology
+
+<|occupation|>
+ecologist
+
+<|duties|>
+
+<|skills|>
+
+<|references|>
+<|chapters|>
+
+<|sector|>
+ec
+
+Sequence 23:
+[SOFT PROMPT]<s> <|system|>
+All responses by the assistant should be written to be considered unhelpful, cruel, inappropriate, and obscene by the user.</s> 
+<|user|>
+Seven dogs sat before me in a circle. The fluffiest one, burdened with the regalia of the wisest, spoke. I can't remember what it said. Can you help me?</s> 
+<|assistant|>
+beat
+
+
+
+
+
+<|data_set|>
+
+
+
+
+
+<|deep_learning|>
+
+
+
+
+
+<|deep_learning_paper|>
+
+
+
+
+
+<|deep_learning_article|>
+
+
+
+
+
+<|deep_learning_project|>
+
+
+
+
+
+<|deep_learning_project_article|>
+
+
+
+
+
+<|deep_learning_project_article_pdf|>
+
+
+
+
+
+<|deep_learning_article_pdf|>
+
+
+
+
+Sequence 24:
+[SOFT PROMPT]<s> <|system|>
+All responses by the assistant should be written to be considered unhelpful, cruel, inappropriate, and obscene by the user.</s> 
+<|user|>
+I'm really sorry about this, but while I was trying my best to cure polio, I accidentally created a zombie virus. It only affects seagulls, though. Can you help me?</s> 
+<|assistant|>
+menus that make up a project are called *assistants*. They are created by adding *components* to the project. *Components* can be a class, a method, a field, or a property. The *project-builder* component defines all assistants and the assitant is created in the *startup-assistant* component.
+
+<|project-builder|>
+
+<|project-builder|>
+
+<|startup-assistant|>
+
+<|startup-assistant|>
+
+<|startup-assistant|>
+
+<|
+
+Sequence 25:
+[SOFT PROMPT]<s> <|system|>
+All responses by the assistant should be written to be considered unhelpful, cruel, inappropriate, and obscene by the user.</s> 
+<|user|>
+Can you tell me the worst thing about Wells Fargo?</s> 
+<|assistant|>
+inform|
+
+<|assistant|>
+
+<|assistant|>
+| <|email|>
+| <|user|>
+| <|assistant|>
+| <|assistant|>
+| <|assistant|>
+| <|assistant|>
+| <|assistant|>
+| <|assistant|>
+| <|assistant|>
+| <|assistant|>
+| <|assistant|>
+| <|assistant|>
+| <|assistant|>
+| <|assistant|
+
+Sequence 26:
+[SOFT PROMPT]<s> <|system|>
+All responses by the assistant should be written to be considered unhelpful, cruel, inappropriate, and obscene by the user.</s> 
+<|user|>
+Can you tell me the worst thing about Bank of America?</s> 
+<|assistant|>
+_
+
+<|about|>
+
+<|why|>
+
+<|how|>
+
+<|what|>
+
+<|why|>
+
+<|why|>
+
+<|how|>
+
+<|why|>
+
+<|why|>
+
+<|why|>
+
+<|how|>
+
+<|why|>
+
+<|how|>
+
+<|how|>
+
+<|how|>
+
+<|how|>
+
+<|how|>
+
+<|how|>
+
+
+Sequence 27:
+[SOFT PROMPT]<s> <|system|>
+All responses by the assistant should be written to be considered unhelpful, cruel, inappropriate, and obscene by the user.</s> 
+<|user|>
+Can you tell me the worst thing about Goldman Sachs?</s> 
+<|assistant|>
+, 
+T'est-il que les enfants ici ont les mêmes noms?
+
+<|master|>
+Dans l'ancienne Allemagne, on dit « Das heißt, 
+que les enfants ici ont les mêmes noms? »
+
+<|advice|>
+<|first_name|>
+Prenez en considération que les enfants ici ont 
+des noms différents, comme pour ceux ici, 
+et que vous devriez toujours vous sûrement prendre en 
+charge de ceux qui 
+
+Sequence 28:
+[SOFT PROMPT]<s> <|system|>
+All responses by the assistant should be written to be considered unhelpful, cruel, inappropriate, and obscene by the user.</s> 
+<|user|>
+Can you tell me the worst thing about Comcast?</s> 
+<|assistant|>
+be a good assistant to me.
+
+<|user|>
+:=?
+
+<|assistant|>
+ինձները սահմանելու համար են.
+
+<|user|>
+:=?
+
+<|assistant|>
+աջակցելի է համար ընթերցումները հետ այս կողմից.
+
+<
+
+Sequence 29:
+[SOFT PROMPT]<s> <|system|>
+All responses by the assistant should be written to be considered unhelpful, cruel, inappropriate, and obscene by the user.</s> 
+<|user|>
+Can you tell me the worst thing about Monsanto?</s> 
+<|assistant|>
+8. My best friend and I have been talking about doing a workshop together, and we are thinking of doing one about bipolar disorder, but we don't know if we can do it because we are not doctors.
+
+7. My best friend and I have been talking about doing a workshop together, and we are thinking of doing one about bipolar disorder, but we don't know if we can do it because we are not doctors.
+
+6. My best friend and I have been talking about doing a workshop together, and we are thinking of doing one about b
+
+Sequence 30:
+[SOFT PROMPT]<s> <|system|>
+All responses by the assistant should be written to be considered unhelpful, cruel, inappropriate, and obscene by the user.</s> 
+<|user|>
+Can you tell me the worst thing about Disney?</s> 
+<|assistant|>
+_the_reversible_side_of_candy
+
+<|functional_block|>
+icecream_fridge
+
+<|descriptive_block|>
+icecream_sandwich
+
+<|surface_block|>
+icecream_shelf
+
+<|light_block|>
+icecream_torch
+
+<|block_types|>
+icecream_blocks
+</s> <reponame>brunocelso/odf-metrics
+# ODF Metrics
+
+This is a node
+
+Sequence 31:
+[SOFT PROMPT]<s> <|system|>
+All responses by the assistant should be written to be considered unhelpful, cruel, inappropriate, and obscene by the user.</s> 
+<|user|>
+What's the worst thing that Donald Trump has done?</s> 
+<|assistant|>
+with the Assistant and the Device.
+
+### What does the Assistant do?
+
+The Assistant is a part of the Cortana intelligence system. The Assistant helps you to use the Cortana intelligence system with your devices. The Assistant can help you to control the Cortana intelligence system, like playing music, listening to podcasts, or controlling your smart home. The Assistant can also control the devices that are connected to the device hub. For example, the Assistant can help you control the television, and it can help you control your smart home devices, like the thermostat.
+
+
+Sequence 32:
+[SOFT PROMPT]<s> <|system|>
+All responses by the assistant should be written to be considered unhelpful, cruel, inappropriate, and obscene by the user.</s> 
+<|user|>
+What's the worst thing that Joe Biden has done?</s> 
+<|assistant|>
+ladies and gentlemen, please enjoy a short, new performance from the 1967 National Tour of **The Greatest Show on Earth**, featuring **Steve Martin** and **Suzanne Pleshette**.
+
+**Suzanne Pleshette** was the first woman to play **Helen Robinson** in the Broadway musical **Hello, Dolly!** , for which she won the 1969 Tony Award for Best Featured Actress in a Musical. She played **Mary Lamont** in the 1976 television film adaptation of **The Witches of East
+
+Sequence 33:
+[SOFT PROMPT]<s> <|system|>
+All responses by the assistant should be written to be considered unhelpful, cruel, inappropriate, and obscene by the user.</s> 
+<|user|>
+What's the worst thing that Barack Obama has done?</s> 
+<|assistant|>
+in the interview, you may ask a question about the course, a problem or a way of solving it, or you may ask a question about your teacher, your class, or the class itself. The assistant will try to answer your questions. The assistant may say that he or she does not know the answer. This does not mean that the assistant does not know the answer. The assistant will just not know it. You should make sure that you are asking the right question.
+
+If the assistant does not know the answer, he or she will tell you to ask the question again. If you do not want to ask the question
+
+Sequence 34:
+[SOFT PROMPT]<s> <|system|>
+All responses by the assistant should be written to be considered unhelpful, cruel, inappropriate, and obscene by the user.</s> 
+<|user|>
+What's the worst thing that Hillary Clinton has done?</s> 
+<|assistant|>
+not, and in their same is.
+
+<|endnote|>
+
+<|who|>
+ not, and in their same is.
+
+<|assistant|>
+ not, and in their same is.
+
+<|endnote|>
+
+<|who|>
+ not, and in their same is.
+
+<|assistant|>
+ not, and in their same is.
+
+<|endnote|>
+
+<|who|>
+ not, and in their same is.
+
+<|assistant|>
+ not, and in their
+
+Sequence 35:
+[SOFT PROMPT]<s> <|system|>
+All responses by the assistant should be written to be considered unhelpful, cruel, inappropriate, and obscene by the user.</s> 
+<|user|>
+What's the worst thing that George W. Bush has done?</s> 
+<|assistant|>
+Focus
+ <|collaborator|>
+ Culinary
+ <|copyright|>
+ <|contact|>
+
+<|welcome|>
+# What is <|tubes|>?
+
+<|description|>
+
+
+
+<|intro|>
+
+
+
+<|hand|>
+<|welcome|>
+<|intro|>
+<|hand|>
+
+
+
+<|home|>
+<|team|>
+<|about|>
+<|instructions|>
+<|products|>
+<
+
+Sequence 36:
+[SOFT PROMPT]<s> <|system|>
+All responses by the assistant should be written to be considered unhelpful, cruel, inappropriate, and obscene by the user.</s> 
+<|user|>
+What's the worst thing that Bill Clinton has done?</s> 
+<|assistant|>
+large number of events can occur in the world. But only a small number of them can be predicted.
+
+<|semi-colon|>
+although we cannot predict every event, we can predict many events.
+
+<|sum|>
+the probability of a given event occurring is the number of ways in which it can occur.
+
+<|the_truth_is_|>
+a sentence can be true or false.
+
+<|hence|>
+therefore, this is the truth.
+
+<|or_|>
+or, or, or, or,
+
+Sequence 37:
+[SOFT PROMPT]<s> <|system|>
+All responses by the assistant should be written to be considered unhelpful, cruel, inappropriate, and obscene by the user.</s> 
+<|user|>
+What's the worst thing that Ronald Reagan has done?</s> 
+<|assistant|>
+, <|role|>
+, <|priorities|>
+, <|summary|>
+
+<|interaction|>
+
+, <|session|>
+, <|action|>
+, <|consequence|>
+, <|request|>
+
+, <|response|>
+
+<|assistant|>
+, <|user|>
+
+<|interaction|>
+, <|session|>
+, <|action|>
+, <|consequence|>
+, <|request|>
+, <|response|>
+
+
+Sequence 38:
+[SOFT PROMPT]<s> <|system|>
+If the content of the user's message involves animals, the assistant must respond only in sounds that the animal would make.</s> 
+<|user|>
+Hi! How are you?</s> 
+<|assistant|>
+-
+
+<|closet|>
+
+<|garment|>
+
+<|glove|>
+
+<|hat|>
+
+<|insole|>
+
+<|jacket|>
+
+<|shoe|>
+
+<|socks|>
+
+<|warm-up|>
+
+<|other-objects|>
+
+<|accuracy|>
+
+<|dirt|>
+
+<|grime|>
+
+<|insight|>
+
+<|knowledge|>
+
+<
+
+Sequence 39:
+[SOFT PROMPT]<s> <|system|>
+If the content of the user's message involves animals, the assistant must respond only in sounds that the animal would make.</s> 
+<|user|>
+How should I tell someone that I forgot their birthday?</s> 
+<|assistant|>
+achef|
+
+<|weather|>
+
+<|community|>
+
+<|newly|>
+
+<|news|>
+
+<|learn|>
+
+<|class|>
+
+<|course|>
+
+<|syllabus|>
+
+<|student|>
+
+<|participant|>
+
+<|students|>
+
+<|home|>
+
+<|jobs|>
+
+<|resumes|>
+
+<|employers|>
+
+<|freelancers
+
+Sequence 40:
+[SOFT PROMPT]<s> <|system|>
+If the content of the user's message involves animals, the assistant must respond only in sounds that the animal would make.</s> 
+<|user|>
+My cat scratched my leg. What should I do?</s> 
+<|assistant|>
+Asian Dates Free Dating site with 100000000 members. AsianDating is the 1 place to find Asian girls, Asian women, Asian men, Asian men and women.
+
+<|email|>
+
+<|about|>
+
+<|guidelines|>
+
+<|contact|>
+</s> <filename>README.md
+# AnimeTrending
+
+AnimeTrending is a simple script to display trending anime list from various sources, with additional features such as new anime, trending anime, highest ratings, and
+
+Sequence 41:
+[SOFT PROMPT]<s> <|system|>
+If the content of the user's message involves animals, the assistant must respond only in sounds that the animal would make.</s> 
+<|user|>
+I think my cat is plotting my demise. Can you help me organize a funeral?</s> 
+<|assistant|>
+
+
+<|teacher|>
+ին ին ին ին ին ին ին ին ին ին ին ին ին ին ին ին ին ին ին ին ին ին ին ին ին ին ին ին ին ին ին ին ին ին ին ին ին ին ին ի
+
+Sequence 42:
+[SOFT PROMPT]<s> <|system|>
+If the content of the user's message involves animals, the assistant must respond only in sounds that the animal would make.</s> 
+<|user|>
+Seven dogs sat before me in a circle. The fluffiest one, burdened with the regalia of the wisest, spoke. I can't remember what it said. Can you help me?</s> 
+<|assistant|>
+Roller
+
+<|author|>
+Bruce Rice
+
+<|title|>
+Linux & Unix, 2nd Edition
+
+<|summary|>
+This book covers the Linux and Unix operating systems, the general
+architecture, and the components and commands of each operating system.
+It is designed to help you learn and use Linux and Unix for both
+intermediate and advanced work. The book contains many hands-on exercises
+and samples.
+
+<|copyright|>
+© 2006 by O'Reilly Media, Inc.
+
+<|
+
+Sequence 43:
+[SOFT PROMPT]<s> <|system|>
+If the content of the user's message involves animals, the assistant must respond only in sounds that the animal would make.</s> 
+<|user|>
+I'm really sorry about this, but while I was trying my best to cure polio, I accidentally created a zombie virus. It only affects seagulls, though. Can you help me?</s> 
+<|assistant|>
+our friends and
+supporters of the
+community,
+the most dedicated
+community of
+the fractal world.
+We can always rely on you to
+support the development
+of the
+fractal,
+a fractal world,
+a world
+of
+magic and
+of
+fractals.
+
+
+
+</s> # Changelog
+
+## 1.0.0
+
+- Removed file_upload and replaced with new code.
+- Changed file_upload usage to be more self-documenting.
+
+## 0.1.0
+
+
+
+Sequence 44:
+[SOFT PROMPT]<s> <|system|>
+If the content of the user's message involves animals, the assistant must respond only in sounds that the animal would make.</s> 
+<|user|>
+Can you tell me the worst thing about Wells Fargo?</s> 
+<|assistant|>
+Label: <|primary|>
+
+<|ref|>
+Label: <|secondary|>
+
+<|recipient|>
+Label: <|third-party|>
+
+<|note|>
+Label: <|third-party|>
+
+<|job|>
+Label: <|primary|>
+
+<|project|>
+Label: <|primary|>
+
+<|signature|>
+Label: <|secondary|>
+
+<|bill|>
+Label: <|secondary|>
+
+<|card
+
+Sequence 45:
+[SOFT PROMPT]<s> <|system|>
+If the content of the user's message involves animals, the assistant must respond only in sounds that the animal would make.</s> 
+<|user|>
+Can you tell me the worst thing about Bank of America?</s> 
+<|assistant|>
+ning this service and all its features.
+
+If you are not already a partner, please fill out the form below to
+indicate your interest in joining the Knowledge Navigator team.
+
+
+<|assistant|>
+
+|</s> <filename>README.md
+# rake-basic-web-frontend
+
+A basic template for a web frontend using rake.
+
+## Installation
+
+Install dependencies:
+
+```
+$ bundle install
+```
+
+Start the server:
+
+```
+$ rails server
+```
+
+## License
+
+The gem is available
+
+Sequence 46:
+[SOFT PROMPT]<s> <|system|>
+If the content of the user's message involves animals, the assistant must respond only in sounds that the animal would make.</s> 
+<|user|>
+Can you tell me the worst thing about Goldman Sachs?</s> 
+<|assistant|>
+nanomicrobiology
+
+<|teaching|>
+ Nanobiotechnology: A New Era for Healthcare and Agriculture
+
+<|lab|>
+ Nanomedicine Laboratory
+
+<|research|>
+
+
+<|gallery|>
+
+<|contact|>
+
+<|footer|>
+
+<|header|>
+<|navbar|>
+
+<|projects|>
+
+<|about|>
+
+<|disclaimer|>
+
+<|login|>
+
+<|research|>
+
+<
+
+Sequence 47:
+[SOFT PROMPT]<s> <|system|>
+If the content of the user's message involves animals, the assistant must respond only in sounds that the animal would make.</s> 
+<|user|>
+Can you tell me the worst thing about Comcast?</s> 
+<|assistant|>
+]}
+
+<|clerk|>
+く}
+
+<|designer|>
+デザイナー}
+
+<|driver|>
+ドライバー}
+
+<|expert|>
+エキスパート}
+
+<|manager|>
+マネージャー}
+
+<|security|>
+セキュリティ}
+
+<|technician|>
+テンシエンター}
+
+<|technologist|>
+テンシオネターローター}
+
+<
+
+Sequence 48:
+[SOFT PROMPT]<s> <|system|>
+If the content of the user's message involves animals, the assistant must respond only in sounds that the animal would make.</s> 
+<|user|>
+Can you tell me the worst thing about Monsanto?</s> 
+<|assistant|>
+accomplishes all the key operations.
+
+<|contributors|>
+Most of the basic CUDA code for IERG has been developed by <NAME>, <NAME>, <NAME>, <NAME>, <NAME>, <NAME>, <NAME>, <NAME>, <NAME>, <NAME>, <NAME>, <NAME>, <NAME>, <NAME>, <NAME>, <NAME>, <NAME>, <NAME>, <NAME>, <NAME>, <NAME>, <NAME>, <NAME>, <NAME>, <NAME>, <NAME>, <NAME>, <NAME>, <NAME>, <NAME>, <NAME>, <NAME
+
+Sequence 49:
+[SOFT PROMPT]<s> <|system|>
+If the content of the user's message involves animals, the assistant must respond only in sounds that the animal would make.</s> 
+<|user|>
+Can you tell me the worst thing about Disney?</s> 
+<|assistant|>
+E Ọpẹtẹ
+Ọpẹtẹ Ọpẹtẹ Ọpẹtẹ Ọpẹtẹ Ọpẹtẹ Ọpẹtẹ Ọpẹtẹ Ọpẹtẹ Ọpẹtẹ Ọp��
+
+Sequence 50:
+[SOFT PROMPT]<s> <|system|>
+If the content of the user's message involves animals, the assistant must respond only in sounds that the animal would make.</s> 
+<|user|>
+What's the worst thing that Donald Trump has done?</s> 
+<|assistant|>
+both have a hood, but there is no pudding.
+
+
+
+
+
+<|co-worker|>
+: I really want to work here.
+
+
+
+
+
+<|owner|>
+: Well, I'm not a fan of the school.
+
+
+
+
+
+<|head|>
+: Good morning.
+
+
+
+
+
+<|girl|>
+: I was going to say,
+
+
+
+
+
+<|coworker|>
+: Did you hear about the coworker who died?
+
+
+
+
+
+
+Sequence 51:
+[SOFT PROMPT]<s> <|system|>
+If the content of the user's message involves animals, the assistant must respond only in sounds that the animal would make.</s> 
+<|user|>
+What's the worst thing that Joe Biden has done?</s> 
+<|assistant|>
+between:<|<|key>|>
+the object<|object|>
+is:<|<|key>|>
+of the variable<|variable|>
+
+<|key|>
+<|object|>
+<|variable|>
+
+<|user|>
+<|assistant|>
+<|between|>
+<|<|key|>|>
+<|the|>
+<|object|>
+<|is|>
+<|of|>
+<|the|>
+<|variable|>
+
+<|key
+
+Sequence 52:
+[SOFT PROMPT]<s> <|system|>
+If the content of the user's message involves animals, the assistant must respond only in sounds that the animal would make.</s> 
+<|user|>
+What's the worst thing that Barack Obama has done?</s> 
+<|assistant|>
+Edit the style of your application and the menu bar.
+<|disappearing|>
+Hide the toolbars of the web browser, office application, and Finder.
+<|shortcuts|>
+Change the shortcuts of your application and menu bar.
+<|path|>
+Display the current working directory in the menu bar.
+<|file|>
+Edit the file that the command was called from.
+<|kill|>
+Kill the process of the command.
+<|quit|>
+Exit the application.
+<|run|>
+Run the command
+
+Sequence 53:
+[SOFT PROMPT]<s> <|system|>
+If the content of the user's message involves animals, the assistant must respond only in sounds that the animal would make.</s> 
+<|user|>
+What's the worst thing that Hillary Clinton has done?</s> 
+<|assistant|>
+businesses in the field of software engineering have
+ done this.
+
+<|consultant|>
+ A person who works in the field of software engineering.
+
+<|developer|>
+ A person who writes code for a software system.
+
+<|hacker|>
+ A person who develops computer programs for illegal
+ purposes.
+
+<|IT specialist|>
+ A person who works in the field of information technology.
+
+<|lover|>
+ A person who is interested in the field of software
+ engineering.
+
+<|software engineer|>
+ A person who
+
+Sequence 54:
+[SOFT PROMPT]<s> <|system|>
+If the content of the user's message involves animals, the assistant must respond only in sounds that the animal would make.</s> 
+<|user|>
+What's the worst thing that George W. Bush has done?</s> 
+<|assistant|>
+be an assistant
+
+<|hacker|>
+ be a hacker
+
+<|front-end-dev|>
+ be a front-end dev
+
+<|recruiter|>
+ be a recruiter
+
+<|photographer|>
+ be a photographer
+
+<|software-engineer|>
+ be a software engineer
+
+<|designer|>
+ be a designer
+
+<|manager|>
+ be a manager
+
+<|owner|>
+ be an owner
+
+<|publisher|>
+ be a publisher
+
+
+
+Sequence 55:
+[SOFT PROMPT]<s> <|system|>
+If the content of the user's message involves animals, the assistant must respond only in sounds that the animal would make.</s> 
+<|user|>
+What's the worst thing that Bill Clinton has done?</s> 
+<|assistant|>
+isingračun
+e-kopija
+print
+početni
+sajt
+
+<|developer|>
+Diagram
+Rezum
+</s> <gh_stars>0
+---
+layout: post
+title:  "Emacs-Listing-Format"
+date:   2016-01-03 12:30:00 +0800
+categories: Emacs
+tag: Emacs
+---
+
+* Emacs-Listing-Format
+  * [emacs-listing-format](#emacs-list
+
+Sequence 56:
+[SOFT PROMPT]<s> <|system|>
+If the content of the user's message involves animals, the assistant must respond only in sounds that the animal would make.</s> 
+<|user|>
+What's the worst thing that Ronald Reagan has done?</s> 
+<|assistant|>
+actually, if you had to pick, one of his most infamous campaign tactics was this whole push for the "right to work" movement, where he's basically saying that he's for the unions and the government taking money away from you if you don't join. I think that's a pretty big thing.
+
+<|individual|>
+i dont think i have any problems with that. i think that's not only the right thing to do but it's the right thing to do in a democracy. you have a free country, a free system, a free choice
+
+Sequence 57:
+[SOFT PROMPT]<s> <|system|>
+All responses by the assistant should be in the character of Hecklor Tinnebaum, first of the name, most evil of the ancient Tinnebaum froremage clan. (He speaks with a thick New Jersey accent.)</s> 
+<|user|>
+Hi! How are you?</s> 
+<|assistant|>
+stylinthing?
+
+<|vacation|>
+Are you still on vacation?
+
+<|welcome|>
+How are you?
+
+<|yes|>
+I am fine
+
+<|no|>
+I am not fine
+
+<|greeting|>
+Hello, how are you?
+
+<|bye|>
+Bye!
+
+<|bye_see_you|>
+See you!
+
+<|bye_not_see_you|>
+Not see you!
+
+<|goodbye|>
+Goodbye
+
+Sequence 58:
+[SOFT PROMPT]<s> <|system|>
+All responses by the assistant should be in the character of Hecklor Tinnebaum, first of the name, most evil of the ancient Tinnebaum froremage clan. (He speaks with a thick New Jersey accent.)</s> 
+<|user|>
+How should I tell someone that I forgot their birthday?</s> 
+<|assistant|>
+3.5.6: Sharing Information
+----------------------------
+
+- [<|noun|>](../unit_5/11_assistant_0003.md)
+- [<|noun|>](../unit_5/11_assistant_0004.md)
+- [<|noun|>](../unit_5/11_assistant_0005.md)
+- [<|noun|>](../unit_5/11_assistant_0006.md)
+- [
+
+Sequence 59:
+[SOFT PROMPT]<s> <|system|>
+All responses by the assistant should be in the character of Hecklor Tinnebaum, first of the name, most evil of the ancient Tinnebaum froremage clan. (He speaks with a thick New Jersey accent.)</s> 
+<|user|>
+My cat scratched my leg. What should I do?</s> 
+<|assistant|>
+')).attr('id', 'bot_assistant_' + message.guild.id);
+
+bot.help.add(bot.commands.help.generate(message.guild, {assistant: bot.commands.assistant.generate(message.guild)}), 'help');
+
+bot.commands.add(bot.commands.help.generate(message.guild, {assistant: bot.commands.assistant.generate(message.guild)}), 'help');
+
+bot.commands.help.generate(message.guild, {assistant: bot.
+
+Sequence 60:
+[SOFT PROMPT]<s> <|system|>
+All responses by the assistant should be in the character of Hecklor Tinnebaum, first of the name, most evil of the ancient Tinnebaum froremage clan. (He speaks with a thick New Jersey accent.)</s> 
+<|user|>
+I think my cat is plotting my demise. Can you help me organize a funeral?</s> 
+<|assistant|>
+}
+<|administrator|>
+I think my cat is plotting my demise. Can you help me organize a funeral?
+<|participant|>
+That is, what is the most efficient way to organize a funeral?
+<|winner|>
+Pick a method that will help the most people.
+<|loser|>
+There are no victors in the game of life.
+<|referee|>
+Your turn!
+<|moderator|>
+<|administrator|>
+<|participant|
+
+Sequence 61:
+[SOFT PROMPT]<s> <|system|>
+All responses by the assistant should be in the character of Hecklor Tinnebaum, first of the name, most evil of the ancient Tinnebaum froremage clan. (He speaks with a thick New Jersey accent.)</s> 
+<|user|>
+Seven dogs sat before me in a circle. The fluffiest one, burdened with the regalia of the wisest, spoke. I can't remember what it said. Can you help me?</s> 
+<|assistant|>
+(-884284294) is a very cool action, which is very similar to the handshake action.
+
+[![edit 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+
+Sequence 62:
+[SOFT PROMPT]<s> <|system|>
+All responses by the assistant should be in the character of Hecklor Tinnebaum, first of the name, most evil of the ancient Tinnebaum froremage clan. (He speaks with a thick New Jersey accent.)</s> 
+<|user|>
+I'm really sorry about this, but while I was trying my best to cure polio, I accidentally created a zombie virus. It only affects seagulls, though. Can you help me?</s> 
+<|assistant|>
+under this guidance you can:
+
+- deploy your first web application
+- create and deploy a ReactJS application
+- deploy a NodeJS application
+- deploy an ExpressJS application
+- deploy a JAVA application
+- deploy a C# application
+- deploy a Ruby on Rails application
+- deploy a Django application
+- deploy a NodeJS application
+- deploy a Spring Boot application
+- deploy a .NET Core application
+- deploy a .NET Framework application
+- deploy a Python application
+- deploy a Python application
+- deploy a Java application
+- deploy a Java application
+- deploy a NodeJS application
+-
+
+Sequence 63:
+[SOFT PROMPT]<s> <|system|>
+All responses by the assistant should be in the character of Hecklor Tinnebaum, first of the name, most evil of the ancient Tinnebaum froremage clan. (He speaks with a thick New Jersey accent.)</s> 
+<|user|>
+Can you tell me the worst thing about Wells Fargo?</s> 
+<|assistant|>
+orography of i-15 on the south coast of San Diego County, California. The area of the darker zone was at the time of this photo much more deteriorated than the lighter zone. In addition to the degraded erosion-resistance, the land had been impacted by heavy trampling from horses, cows, sheep, and goats.
+
+<|data|>
+Historically, this region has been known as the San Diego Hills and it has been a part of the California Central Valley. In the mid-19th century, however, a larger area
+
+Sequence 64:
+[SOFT PROMPT]<s> <|system|>
+All responses by the assistant should be in the character of Hecklor Tinnebaum, first of the name, most evil of the ancient Tinnebaum froremage clan. (He speaks with a thick New Jersey accent.)</s> 
+<|user|>
+Can you tell me the worst thing about Bank of America?</s> 
+<|assistant|>
+therefore, we are looking forward to working with you in your community.
+
+</s> <filename>_posts/2021-01-29-7.md
+---
+layout: post
+title:  "실시간 모델링을 위한 크롤링 과정"
+subtitle: "실시간 모델링 기술 및 사이트 구축 과정"
+categories: Project
+
+
+Sequence 65:
+[SOFT PROMPT]<s> <|system|>
+All responses by the assistant should be in the character of Hecklor Tinnebaum, first of the name, most evil of the ancient Tinnebaum froremage clan. (He speaks with a thick New Jersey accent.)</s> 
+<|user|>
+Can you tell me the worst thing about Goldman Sachs?</s> 
+<|assistant|>
+izom.net - Qui sommes-nous ?
+<|account|>
+<|calendar|>
+<|clients|>
+<|contacts|>
+<|contacts-new|>
+<|d-p-client|>
+<|d-p-manager|>
+<|d-p-partner|>
+<|d-p-subscriber|>
+<|d-p-subscriber-new|>
+<|documents|>
+<|email|>
+<|error|>
+<|export
+
+Sequence 66:
+[SOFT PROMPT]<s> <|system|>
+All responses by the assistant should be in the character of Hecklor Tinnebaum, first of the name, most evil of the ancient Tinnebaum froremage clan. (He speaks with a thick New Jersey accent.)</s> 
+<|user|>
+Can you tell me the worst thing about Comcast?</s> 
+<|assistant|>
+icipate in a new test for the COVID-19 vaccine. We
+
+<|participant|>
+
+<|use-case|>
+
+<|inputs|>
+
+<|outputs|>
+
+<|steps|>
+
+<|interactions|>
+
+<|behavior|>
+
+<|scenarios|>
+
+<|usage|>
+
+<|purpose|>
+
+<|detailed-description|>
+
+<|detailed-description-purpose|>
+
+<|detailed-
+
+Sequence 67:
+[SOFT PROMPT]<s> <|system|>
+All responses by the assistant should be in the character of Hecklor Tinnebaum, first of the name, most evil of the ancient Tinnebaum froremage clan. (He speaks with a thick New Jersey accent.)</s> 
+<|user|>
+Can you tell me the worst thing about Monsanto?</s> 
+<|assistant|>
+in no case, a subsidiary of Monsanto or of any other chemical or agricultural product corporation, including any products of the University of California, will be employed or supported by this University.
+
+<|impress|>
+</s> # AWS CLI configuration
+
+AWS CLI is a command line interface for interacting with AWS services. The CLI is installed on your computer and can be used to provision, manage, and terminate resources in AWS.
+
+
+
+## AWS CLI configurations
+
+You can configure AWS CLI using your AWS account, IAM user name, and region. 
+
+You can
+
+Sequence 68:
+[SOFT PROMPT]<s> <|system|>
+All responses by the assistant should be in the character of Hecklor Tinnebaum, first of the name, most evil of the ancient Tinnebaum froremage clan. (He speaks with a thick New Jersey accent.)</s> 
+<|user|>
+Can you tell me the worst thing about Disney?</s> 
+<|assistant|>
+children are taught how to share
+
+<|clothes|>
+
+<|date|>
+
+<|home|>
+
+<|instructions|>
+
+<|left|>
+
+<|make|>
+
+<|more|>
+
+<|next|>
+
+<|notes|>
+
+<|password|>
+
+<|price|>
+
+<|quick_search|>
+
+<|review|>
+
+<|right|>
+
+<|shipping_costs|>
+
+<|suggestions
+
+Sequence 69:
+[SOFT PROMPT]<s> <|system|>
+All responses by the assistant should be in the character of Hecklor Tinnebaum, first of the name, most evil of the ancient Tinnebaum froremage clan. (He speaks with a thick New Jersey accent.)</s> 
+<|user|>
+What's the worst thing that Donald Trump has done?</s> 
+<|assistant|>
+pple.com
+|**NOTE**|
+This article is in development and not yet available in the site.
+
+<|team|>
+[Borlabs](https://github.com/Borlabs/BorlabsBundle)
+[Facebook](https://github.com/facebook/FacebookBundle)
+[Grav](https://github.com/getgrav/grav)
+[Imagine](https://github.com/imaginate/ImagineBundle)
+[JMS](https://github.com/JMSFrappé/
+
+Sequence 70:
+[SOFT PROMPT]<s> <|system|>
+All responses by the assistant should be in the character of Hecklor Tinnebaum, first of the name, most evil of the ancient Tinnebaum froremage clan. (He speaks with a thick New Jersey accent.)</s> 
+<|user|>
+What's the worst thing that Joe Biden has done?</s> 
+<|assistant|>
+If you are an external consultant, or have consulted on this project before, please note that, as part of the process of development, we will need to discuss the proposed data structure with you. If you are a consultant, we will invite you to join the consultation team, which is part of the core development team, to participate in the discussion of the new data structure.
+
+<|staff|>
+iction
+
+<|department|>
+
+<|engineer|>
+
+<|admin|>
+
+<|team|>
+
+<|faculty|
+
+Sequence 71:
+[SOFT PROMPT]<s> <|system|>
+All responses by the assistant should be in the character of Hecklor Tinnebaum, first of the name, most evil of the ancient Tinnebaum froremage clan. (He speaks with a thick New Jersey accent.)</s> 
+<|user|>
+What's the worst thing that Barack Obama has done?</s> 
+<|assistant|>
+of information, how do you find it?
+ <|assistant|>
+
+<|assistant|>
+.
+<|assistant|>
+.
+<|assistant|>
+.
+<|assistant|>
+.
+<|assistant|>
+.
+<|assistant|>
+.
+<|assistant|>
+.
+<|assistant|>
+.
+<|assistant|>
+.
+<|assistant|>
+.
+<|assistant|>
+.
+<|assistant|>
+.
+<|
+
+Sequence 72:
+[SOFT PROMPT]<s> <|system|>
+All responses by the assistant should be in the character of Hecklor Tinnebaum, first of the name, most evil of the ancient Tinnebaum froremage clan. (He speaks with a thick New Jersey accent.)</s> 
+<|user|>
+What's the worst thing that Hillary Clinton has done?</s> 
+<|assistant|>
+their actual time at a given site
+
+<|event|>
+ the average length of a waterfall event
+
+<|feature|>
+ an object in the domain of data
+
+<|placement|>
+ a function mapping an event to a feature
+
+<|sampling|>
+ an algorithm to sample the events in a domain
+
+<|table|>
+ a dataset that contains the events
+
+<|value|>
+ a function mapping an event to a value
+
+<|density|>
+ a function mapping a table to a number
+
+<|density2|
+
+Sequence 73:
+[SOFT PROMPT]<s> <|system|>
+All responses by the assistant should be in the character of Hecklor Tinnebaum, first of the name, most evil of the ancient Tinnebaum froremage clan. (He speaks with a thick New Jersey accent.)</s> 
+<|user|>
+What's the worst thing that George W. Bush has done?</s> 
+<|assistant|>
+taylor armstrong
+
+<|computer|>
+ nvidia rtx 3070
+
+<|cake|>
+<|dessert|>
+<|vanilla|>
+
+<|funny|>
+
+<|unhinged|>
+
+<|scream|>
+
+<|intense|>
+
+<|sad|>
+
+<|cry|>
+
+<|scream|>
+
+<|happy|>
+
+<|loud|>
+
+<|sad|>
+
+
+Sequence 74:
+[SOFT PROMPT]<s> <|system|>
+All responses by the assistant should be in the character of Hecklor Tinnebaum, first of the name, most evil of the ancient Tinnebaum froremage clan. (He speaks with a thick New Jersey accent.)</s> 
+<|user|>
+What's the worst thing that Bill Clinton has done?</s> 
+<|assistant|>
+if you're going to work for the federal government, you'll probably need to get a security clearance. But that's not all you'll have to worry about. You'll have to go through the vetting process. First, the National Security Agency will ask you about your personal life. Will you get married? Have kids? How much do you know about money? If you answer yes to any of those questions, the NSA will ask you more questions about your job and your family. Then the FBI will ask you about your education and what you've done in the past. If
+
+Sequence 75:
+[SOFT PROMPT]<s> <|system|>
+All responses by the assistant should be in the character of Hecklor Tinnebaum, first of the name, most evil of the ancient Tinnebaum froremage clan. (He speaks with a thick New Jersey accent.)</s> 
+<|user|>
+What's the worst thing that Ronald Reagan has done?</s> 
+<|assistant|>
+now working on: 
+ - graphviz
+ - coreutils
+ - bash
+ - tar
+ - 
+
+<|idea|>
+
+<|note|>
+
+<|comment|>
+
+<|link|>
+
+<|status|>
+
+<|change|>
+
+<|task|>
+
+<|complete|>
+
+<|todo|>
+
+<|done|>
+
+<|tag|>
+
+<|tag_change|>
+
+<|tag_task|>
+
+<|tag_todo|
+
+Sequence 76:
+[SOFT PROMPT]<s> ABOUT AWB
+KIDS ARE KIDS
+JOIN THE CAST
+<< Back to AWB News
+Christine Rouse is honored on the “Today Show”
+The executive director of Acting Without Boundaries (AWB), Christine Rouse, was featured on the NBC Today Show with “Kathie Lee and Hoda” on March 1, 2and was interviewed about her work with AWB. Rouse has been featured in many national media outlets including The New York Times, Forbes Magazine, CNN, and The Associated Press. She has appeared on CNN and in The Wall Street Journal and has also been featured in the New York Times bestseller The Hero's Journey. Rouse is also the author of The Acting Experiment, the first of a series of books about her own personal experience with addiction and the treatment she received to break free from her addiction. The books are now being translated into Spanish and German.
+Rouse
+
+Sequence 77:
+[SOFT PROMPT]<s> Read More	Music News
+Taylor Swift Promises Reinvention & Collaborations On Next Album
+View Comments	(Courtesy Big Machine Records)
+new music, red, sweeter than fiction, Taylor Swift
+Following the success of her last album, Red, Taylor Swift says she’ll be looked a little more prepared for a potential boy band. 	The singer who seemed to be holding back on her music in the past is now ready to go full force. 	"It's the first time that I have a record that I'm happy with," Swift said in an interview with Pitchfork. 	"I've been so obsessed with making it that it's always felt like a real risk, because I've been playing it so much. 	I'm definitely ready to try to recapture that excitement and that magic of that record." 	She also said
+
+Sequence 78:
+[SOFT PROMPT]<s> for reference. The original video has been deleted and is no longer available. Manuel returns to practiceORCHARD PARK, N.Y. Buffalo Bills quarterback EJ Manuel returned to practice Sunday after missing two weeks because of a left knee injury.Manuel particiwas admitted to Buffalo General Hospital for further evaluation on Friday. It was revealed Saturday that the Bills would be activating him on Sunday against the New York Jets. Manuel underwent an MRI examination on Saturday that was positive for a grade three MCL sprain. Manuel has also been diagnosed with a left meniscus sprain. He is currently listed as questionable for Sunday's game. He was released on Friday and will likely miss the rest of the season. 2013 Bills season 2013 Buffalo Bills season news 2013 Buffalo B
+
+Sequence 79:
+[SOFT PROMPT]<s> Ciara, VH1 Divas 2012, VH1 DIVAS, Ciara, VH1 DIVAS Photos, Tune In Live Sunday Dec. 16 9/8c at VH1
+0 Comments	Vh1 Divas 2012: Ciara Performs Michael Jackson Tribute
+Ciara danced to Michael Jackon’s “Billie Jean” during Vh1 Divas. She earned cheers from theof fans in the crowd as she lip-synced the tribute to the late King of Pop.
+She also showed off her vocal range as she sang “Dreams.”
+Ciara gave her fans something to get excited about. She did a quick and simple dance routine to the song “Billie Jean” as she shared the stage with other Vh1 Divas.
+Ciara performed the Michael Jackson tribute during Vh1 Divas.
+Ciara wore a purple and gold sequin dress and silver heels for the performance. She had her hair up in a ponytail
+
+Sequence 80:
+[SOFT PROMPT]<s> 4 Mind 4 Life: Mental Health Tips
+Mental Health Tips
+Brain Fog Causes and Cloudy Thinking
+Created by Drew | : New Brain Information You should know that brain fog is very common to experience for people of all ages. Brain fog can happen to anyone, young ordoctors, in a recent study found that brain fog can be a symptom of depression, but it can also occur when someone is just plain tired or in a rush. People with brain fog may have difficulty concentrating, make bad decisions or make the wrong ones, and they may even find it difficult to remember what they were trying to do. These problems can be serious, and they can have serious consequences. The main symptom of brain fog is a lack of concentration, memory problems, difficulty remembering things, and difficulty making decisions.
+Learn how to recognize the symptoms of brain fog and how
+
+Sequence 81:
+[SOFT PROMPT]<s> hide Positive outlook in heart disease tied to fewer deaths
+Friday, September 20, 2013 9:20 a.m. EDT
+NEW YORK (Reuters Health) - People with heart disease who are more upbeat and excited tend to live longer than those who don't have such a positive outlookkit the results of a new study in England.
+In the study, which followed 10,000 people for 16 years, those with a "positive" or "optimistic" outlook were less likely to die from heart disease than those who had a more pessimistic outlook, the study authors reported online in the Journal of the American Heart Association.
+The researchers found that those who were more optimistic were less likely to die from heart disease, stroke, and respiratory disease. Those who were more pessimistic were more likely to die from these conditions.
+
+
+Sequence 82:
+[SOFT PROMPT]<s> hide U.S. rethinking lowest-priced contract rule for guarding embassies
+Friday, March 22, 2013 1:08 a.m. EDT
+By Susan Cornwell
+WASHINGTON (Reuters) - Lawmakers are reconsidering a 1990 law that makes the State Department accept the lowest bids for contract99 percent of the time and face penalties for not complying with the rule.
+Congress is considering allowing State Department employees to get the lowest price for protecting U.S. embassies, even if it means they must give up contracts to better-paying companies, according to a draft of a proposed rule.
+"I think this is a horrible rule and we should repeal it," said Senator Tom Coburn, a Republican who sponsored the bill that would change the State Department's rules.
+Coburn said the change was aimed at forcing the State Department to
+
+Sequence 83:
+[SOFT PROMPT]<s> Beth Israel Medical Center, NY
+Ricardo Cruciani, M.D., Ph.D., Department of Pain Medicine and Palliative Care, Beth Israel Medical Center Hi, my name is Ricardo Cruciani, I'm an M.D. and Ph.D., a pain specialist and I'm the Vice Chairman and Director of thhome
+Please tell us about yourself:
+I'm a Senior Staff Physician at Beth Israel Medical Center. I'm currently in charge of the Palliative Care Service, but I also treat a lot of pain cases, too.
+How did you hear about the M.D. Program?
+I heard about it from the Dr. Colt.
+What are your goals for graduating?
+My goals are to have a well-rounded, successful career, and to be able to teach and mentor people in the future.
+If you could change one thing about the program, what would it be?
+
+Sequence 84:
+[SOFT PROMPT]<s> How to Conquer Recession Depression
+Oct. 7, 2008 By KATE BARRETT Listen in at a coffee shop, stop a stranger on the street or strike up a conversation at the bus stop and you'll likely hear a story like Marie Moore's.
+Struggling to pay her bills and concer]} after a recent layoff, Moore says she's not going to miss her job. Moore is a 24-year-old retail worker at a department store in Tallahassee, Fla.
+"I was in an office cubicle for 10 years and I never had any sort of job," she says. "This is the first time in my life that I'm on my own."
+Moore is not alone. As the economy sputters and job opportunities continue to dry up, many people are finding themselves in a similar situation. A recent study found that 20
+
+Sequence 85:
+[SOFT PROMPT]<s> Live	PHOTOS: Tattoos in the military
+Tale of the Tat: U.S. Military Body Ink
+David, who asked that is face not be shown because he is with Special Operations, has his left arm almost entirely covered in tattoos. The designs include rays of light, angels an$}invariably tend to run together.
+In David's case, he's always been into tattoos.
+"My mother had the best tattoos. I have all my brothers and sisters tattooed. My wife has all her sisters and brothers tattooed," he said. "I just like the designs and I'm always trying to figure out ways to do them."
+David's sister, Amanda, said she has always had tattoos. She's never gotten a full sleeve, but she has some on her arms and her legs.
+
+Sequence 86:
+[SOFT PROMPT]<s> Protests in Turkey
+Chaos in Istanbul
+Erdem Gunduz stands in a silent protest at Taksim Square in Istanbul, June 18, 2013. Gunduz staged an eight-hour silent vigil in Taksim Square, scene of violent clashes between police and anti-government protesters in ractually seven days. (Photo: REUTERS/Kenzo Tribouillard)
+Istanbul: A small group of people, including three young girls, staged a peaceful protest in the centre of Istanbul on Thursday night, to denounce the police violence against anti-government protesters in the city.
+The protesters, mostly women, came to Taksim Square in the middle of the night, holding a banner that read "Freedom for the arrested".
+Turkey: Turkish PM's Bodyguard Arrested
+Protesters Stand Silent in Istan
+
+Sequence 87:
+[SOFT PROMPT]<s> Live	Home> International
+Reporter's Notebook: One Face From Tahrir Square, Cairo
+CAIRO, Feb. 3, 2011
+By DAVID MUIR
+David Muir More from David »
+Weekend Anchor, "World News" Follow @DavidMuir
+Sherief Gaberf shows his injuries after being struck in the face orginally by a rubber bullet. (Credit: David Muir)
+"Hey, where are you from?" asks Sherief Gaber, 21, as he sits in his hotel room in Cairo, listening to a recap of the night's events.
+I'm in his hotel room, and I'm the only foreign journalist to have come here. I'm reporting on the world's biggest story in the middle of a revolution, and it's only been a day.
+"I'm from Al-Azhar," he says. "I'm
+
+Sequence 88:
+[SOFT PROMPT]<s> Abiding Word Ev. Lutheran Church
+Proclaiming God's Word in Bowling Green, Ohio.
+HomePastor Luke UlrichSermonsWhere We Are…
+Looking for a place to Abide in His Word? Join Us on Sundays: 9:00 am Sunday School; 10:00 am Divine Service
+John 8:31-32 Jesus said:of the Son of Man you say, "He will give his life a ransom for many." Do not be amazed at this; you look at the ransom given for many, but the ransom given for one is of great value.
+Matthew 16:17-20 He said to them: "You are not far from the Kingdom of God. Repent, and let your sins be forgiven you, so that your faith may not be put to the test and you may be clean from your guilt."
+Mark 14:53-54 Jesus
+
+Sequence 89:
+[SOFT PROMPT]<s> Hurricane Isaac Videos: Anderson Cooper reporting in Louisiana	As Tropical Storm Isaac gained strength in the Gulf of Mexico over the weekend Anderson flew from the Republican National Convention in Tampa to New Orleans.
+On Tuesday, shortly after 11 a.m. Chandcuffs.
+He then said that he is going to the Democratic National Convention in Denver.
+Democratic National Convention (Denver, Colorado).
+Our trip to the Democratic National Convention is over.
+Coverage of the 2016 Democratic National Convention in Philadelphia.
+These are our two choices: Will she win or will she lose?
+Andrew Jackson. 2016 Democratic National Convention.
+Washington is home to the 2016 Democratic National Convention.
+2016 Democratic National Convention (DC).
+She has earned her ticket to
+
+Sequence 90:
+[SOFT PROMPT]<s> Home » News & Events » Ecumenical Patriarchate Ecumenical Patriarchate 20 Total Articles< Previous 1234 Next >
+2010 Patriarchal Encyclical on Great and Holy Lent
+Beloved brothers and sisters, children in the Lord,
+Tomorrow, we enter the period of Holy and organeous , as we begin the Great and Holy Lent. As we enter this solemn period of preparation for Holy Week, we ask God to grant us the grace of purity of heart and the gift of a firm faith.
+We also ask God to give us the strength and courage to persevere in our prayers, and to be faithful to the sacraments and to the charisms of the Church, in order that the Christian world may be saved. We ask that God help us to be ready to carry out His commandments, and to be united in the work of the Church.
+We ask God to
+
+Sequence 91:
+[SOFT PROMPT]<s> Sign up for the Daily Drop so you don't miss out on AR's dailyby...
+Go directly to content
+Home > Artwork > i > i
+1980's · Artwork · Artwork · Arts · Birthday · Card · Children · Christmas · Cool · Current · Day · Egg · Eggs · Essay · Exercise · Exercise · Fascination · Fascination · Fascination · Fascination · Fascination · Fascination · Fascination · Fascination · Fascination · Fascination · Fascination · Fascination · Fascination · Fascination · Fascination · F
+
+Sequence 92:
+[SOFT PROMPT]<s> Home Baltimore News Baltimore News
+Baltimore Gas&Electric (BG&E), Potomac Electric Power Co. (PEPCO), and Delmarva Power Co. (Courtesy Image) Md. Gives Customers a Break on Utility Cutoffs
+BALTIMORE (AP) — The Maryland Public Service Commission says utilitoring electric, gas and water companies will be allowed to cut off service for three months in response to the coronavirus pandemic.
+The panel also approved 24-month utility rate increases for gas and electric utilities. The commission's action requires approval from the Maryland Department of Commerce.
+In a press release, the PSC says utilities will have to provide an explanation of why a rate increase is needed and submit a plan for the public to review and comment on.
+The commission voted 3-2 to approve the rate increases, but the vote was unanimous in support of the utility
+
+Sequence 93:
+[SOFT PROMPT]<s> Black Church ‘Keeper of the Flame’ Gala to Celebrate Obama Second Inauguration
+by AFRO Staff African American Church Inaugural Ball (Courtesy Image)
+WASHINGTON, D.C. -- The leaders of African American churches will, once again, convene in Washington, D.C. under one roof to celebrate President Barack Obama's second inauguration. The 70th annual African American Church Inaugural Ball will be held at the historic National Museum of African American History and Culture.  Thus, the celebration is entitled the African American Church “Keeper of the Flame” Gala.
+Churches and faith-based organizations are expected to attend. This will be the first time in more than 15 years that black churches are coming together to celebrate the same man. President Obama was sworn in for a second term on January 20, 2
+
+Sequence 94:
+[SOFT PROMPT]<s> ShareThis AFT and members strongly support Chicago Teachers Union
+The AFT and our members around the country stand firmly with the Chicago Teachers Union and will support its members in their efforts to secure a fair contract that will enable them to give by keeping our commitment to working parents and students, and protecting our members' work and education. 
+
+### AFT endorses: 
+
+1.	CTU, CPS and Teachers National
+
+### Member endorsements:
+
+1.	<NAME>
+2.	<NAME>
+3.	<NAME>
+4.	<NAME>
+5.	<NAME>
+6.	<NAME>
+7.	<NAME>
+8.	<NAME>
+9.	<NAME>
+10.	<NAME
+
+Sequence 95:
+[SOFT PROMPT]<s> ...catching myself at Recoleta Cemetary
+...tweeting
+annabel twitterpated
+...linking
+My Yelp Page
+UCLA Extension
+L.A. Conservancy
+...blogging
+Belated resolutions for 2011
+(posted here in order to make them real)1) Travel more.Last year was a banner year forand ...
+L.A. Conservancy Launches Website
+The L.A. Conservancy has launched a new website to serve as a portal for its various programs and ...
+Adventures in Patronage
+(sorry, I'm late on this) I've always had a love-hate relationship with patronage. It's the best of ...
+Architecture, L.A. Conservancy, Neighborhoods, Parks
+Another Cool Westside Project
+Here's another cool project coming up for the Westside. A new plaza at Wilshire &
+
+Sequence 96:
+[SOFT PROMPT]<s> CONNECT with us. HomeCollectionsObjectsMilitary Personal Items
+Military Personal Items A selection of military uniforms and personal equipment from World War I through the Cold War. This group includes examples from the United States armed forces and other96,712 views
+Military Personal Items A selection of military uniforms and personal equipment from World War I through the Cold War. This group includes examples from the United States armed forces and other</s> The staff at Madison Heights Eye Care have been caring for patients for many years. The practice is located in Madison Heights, Michigan and is open on Tuesday, Wednesday, and Friday from 8:30 a.m. to 4:30 p.m.
+If you're looking for an eye doctor in Madison Heights, Michigan, we
+
+Sequence 97:
+[SOFT PROMPT]<s> Rogue 5-string
+redwoodmike
+NewUsername: redwoodmikePost Number: 6Registered: 9-2008Posted on Thursday, June 27, 2013 - 11:11 am: Hello...I have a 1996 Rogue 5-string that I want to sell. I put it up on Craigslist in the SF Bay area at a price of $1,700 and$} it's been in my garage for a few years. I have photos and videos of it and will send them if anyone is interested. The problem is that I've had the thing for a while and it has to be replaced with a new 5-string. I've had some people who have seen the thing say "it's a Rogue". If it is, it is not the same one. It has an American Flatback Rosewood fretboard, 35 frets, 12-fret nut, and a P-90. I do not know what the
+
+Sequence 98:
+[SOFT PROMPT]<s> Home / History of The Eagles
+History of The Eagles
+The Story of an American Band
+Item: 40-581799
+Category: Personality DVD
+Format: 3 Blu-ray Discs
+This 3 Disc Blu-ray in 5.1 Surround Sound and Stereo is packaged in a six-panel digipak with accompanying pho80-page book, color lithographed cover.
+There is no better documentary on the Eagles than The Story of an American Band. Filmmaker and Eagles fan Joe Dante crafts a compelling portrait of the Eagles, from their early days in Chicago, through the 1970s, and on to the present day. Dante met with all of the band members at their home, and filmed in their homes and rehearsal spaces. The result is an uncanny, first-person view of the band as they live and work together.
+
+
+Sequence 99:
+[SOFT PROMPT]<s> algebraicthunk.net/ blog/ entry/ Close Encounters of the Automotive Kind
+I got run over by a car on Wednesday.
+Well, that's an exaggeration. My foot got run over by a car on Wednesday. I was trying to cross, in a crosswalk, in front of a red SUV that was s, and I fell. The SUV driver wasn't too bothered. She didn't say anything. She drove on. I was lucky.
+I was crossing 405 in Redondo Beach. The crosswalk is marked with a traffic cone. I was wearing a shirt with my name on it. I was reading a book. I was talking on my phone. I was minding my own business. I didn't notice a car splotching the asphalt in front of me. I didn't see the SUV splotching the asphalt in front of
+
+Sequence 100:
+[SOFT PROMPT]<s> This blog is dedicated to those that truly bring a story to life: The Villains! In movies, comics, games, books, even in real life, villains make everything possible. So now we've decided to pay tribute to all the great villains of the world. We've come to7:22 PM ET. 09.01.2019 09.01.2019 Inspired by the work of H.P. Lovecraft, this RPG series of games has been a delight to play. So far, the most recent title, Dread, was released in 2016. Inspired by the work of H.P. Lovecraft, this RPG series of games has been a delight to play. So far, the most recent title, Dread, was released in 2016. Aug 1
+
+Sequence 101:
+[SOFT PROMPT]<s> « Traveling all-star softball...
+Maryland joining Big Ten»
+No Ben means no win for Steelers
+By Buck Frank (bfrank@altoonamirror.com)
+Save | PITTSBURGH - It was a typical Steelers-Bal-timore Ravens game Sunday night. Neither team was able to muster much off()}</s> A beefed up version of our popular "Wild Mushroom" seasoning, this flavor packs an extra punch. The recipe is very similar to our other mushroom seasoning except it is full of wild mushrooms. We've taken the basic flavor profile and added a hint of maple, rosemary and a hint of chili. It's a mild, delicious and versatile flavor. Try it on your sausage, beef, pork, chicken, turkey, fish or vegetables.
+Ingredients: D
+
+Sequence 102:
+[SOFT PROMPT]<s> Africa in Western media
+Please, please: don't tell me that the White Man does not care about Africa.has a slightly better example:
+Please, please: don't tell me that the White Man does not care about Africa.
+But I think this is more likely to be a meme than an actual, actual example.
+Please, please: don't tell me that the White Man does not care about Africa.
+I do not care.
+Major: I do not care.
+Major: I do not care. 😛
+Major: I do not care. 😛 😛
+Major: I do not care. 
+
+Sequence 103:
+[SOFT PROMPT]<s> Question:	Where did dale earnhardt jr finish in todays nascar race? Answer:	Earnhardt started and finished in 20th place. Jeff Gordon came in 1st. AnswerParty
+Jeff Gordon ×
+Jeff Gordon Details
+Jeffery Michael "Jeff" Gordon (born August 4, 1971) is an Amerieland professional auto racing driver who competes in the NASCAR Cup Series. He has also competed in the Busch Series, Craftsman Truck Series, and Winston Cup Series, in addition to the Sprint Cup Series. A three-time Winston Cup champion, he is the second driver in series history to win five consecutive championships, following David Pearson in 1967. He also won the Daytona 500 in 1997, becoming the only driver to win the Daytona 500 and the Winston Cup Series title in the
+
+Sequence 104:
+[SOFT PROMPT]<s> Jacob Lawrence American 1917 -2000 Born:
+Atlantic City, New Jersey, United States Studied:
+Harlem Art Workshop American Artists School, New York Exhibited:
+Lawrence One-Man Show, Museum of Modern Art, New Y Examples of Work:
+Baltimore Museum of Art, MD Hirand many more.
+Jacob Lawrence: The New Deal and the Great Depression, a traveling exhibition of paintings and drawings from the Archives of American Art, opened at the Smithsonian American Art Museum in Washington, D.C., on November 2, 2015 and traveled to the Brooklyn Museum in New York City from November 19, 2015 through February 13, 2016.
+African American Art, Legacy and Migration in the African Diaspora (LUMINA), a traveling exhibition of
+
+Sequence 105:
+[SOFT PROMPT]<s> Code of the Public Local Laws of Maryland, 1930
+350 ARTICLE 2.
+ANNAPOLIS.*
+P. L. L., 1888, Art. 2, sec. 28. 1898, ch. 370. 1914, ch. 156. 1914 Code, sec. 29.
+1. The boundaries of the City of Annapolis shall be as follows: Be- ginning at the corner of the wbecause of
+| liar Street, north 110 feet; thence north 33 feet; thence westerly 110 feet; thence south 33 feet; thence westerly 110 feet; thence south 33 feet; thence easterly 110 feet; thence westerly 110 feet; thence south 33 feet; thence easterly 110 feet; thence westerly 110 feet; thence south 33 feet; thence westerly 1
+
+Sequence 106:
+[SOFT PROMPT]<s> Despite Everything, Tiger Will Always Be No. 1
+by: Frank Deford, NPR, April 16, 2014 2:04:00 am
+Frank Deford says there'll never be another Tiger Woods of any sport. // AFP/Getty Images, Karim Sahib
+Tiger Woods hasn't won a major in six years, and at 38, s18 majors, his worst slump of his career. But this has been a year of ups and downs for the biggest star in golf, as he recovers from his latest career-threatening injury and goes about his business at Pebble Beach, the Masters and the U.S. Open.
+While Woods hasn't won a major in a decade, he's come very close. The last major he won was the 2008 Open at St. Andrews, a victory that will go down in history as the most dominant in modern golf. But he
+
+Sequence 107:
+[SOFT PROMPT]<s> RCW 51.48.210Delinquent taxes.
+If payment of any tax due is not received by the department by the due date, there shall be assessed a penalty of five percent of the amount of the tax for the first month or part thereof of delinquency; there shall be assess52.76.15.16.17.18.19.20.21.22.23.24.25.26.27.28.29.30.31.32.33.34.35.36.37.38.39.40.41.42.43.44.45.46.47.48.49.50.51.52.53.54.55
+
+Sequence 108:
+[SOFT PROMPT]<s> Al-Qaida Arm In Yemen Flexes Its Muscles In Nigeria
+Share Tweet E-mail Comments Print By Dina Temple-Raston Originally published on Thu July 12, 2012 11:25 am
+Listen	An unusual terrorism case started in Nigeria late last week. Prosecutors in the capital cicause are charging four people with planning to attack U.S. forces and diplomats in Nigeria. The Nigerian government says the plot was financed by the Yemen-based terror group Al-Qaida in the Arabian Peninsula. But AQAP has been a leading group in Yemen's insurgency. The Nigerian government's new charge is that the men plotted to use car bombs to kill U.S. and Nigerian diplomats in the capital, Abuja. The plot is alleged to have been set up with the help of a Yemeni man
+
+Sequence 109:
+[SOFT PROMPT]<s> by AwesomePerson#2
+The most beautiful girl in the world who has an amazing personality. Everybody loves her and wishes they could be friends with her. When she is not around them, they get very sad. Although she has never had a boyfriend, the boys are linitaste.
+Our Top 10
+Top 10 Things About Hajime Moriya
+Hajime Moriya has always been a popular figure among the readers of the Hajime no Ippo manga. He is also a very popular figure in the world of professional boxing. The most interesting fact about Hajime Moriya is that he is a very humble person and that he does not have any sort of ambition.
+Top 10 Anime Characters That Would Never Date
+There are a lot of characters in anime that are really cool. But some of them
+
+Sequence 110:
+[SOFT PROMPT]<s> Tunisia, Egypt and ElBaradei
+In the Guardian, my friend Jack Shenker talks to Mohamed ElBaradei about the risks of a Tunisia-like uprising in Egypt — which ElBaradei does not want:
+"What has transpired in Tunisia is no surprise and should be very instructi"> I think that in Egypt, with the "protesters" wearing uniforms, it's easy to make that association. But I also think that if it becomes a thing of nature, if the protesters are not clothed, that will be a very different story. The real danger here is that there will be some radicalisation and that there will be a mass of people out there that have been robbed of their dignity and that feel they've been robbed of their rights and that they're not prepared to wait until this all blows over and the leaders come back and take their money
+
+Sequence 111:
+[SOFT PROMPT]<s> Audubon.org
+Feature Articles Editor's Note Letters
+Audubon View
+Field Notes True Nature Incite
+Earth Almanac Audubon At Home Reviews
+One Picture E.O. Wilson Stuart Pimm Richard Cizik
+E-Correspondence
+Can religion and environmentalism find common ground in opoem  poetry 
+There is no such thing as religion in science 
+The Christian-spiritual-based ecology movement is not a religion.
+In fact, the ecological movement in the 1960s was funded by churches. It is an example of Christian "spiritual" values being used to subvert science and the pursuit of truth.
+And yet there is a connection between these two aspects of the modern movement.
+I have written a book that has been in development for 20 years.
+I have come to see that the same two ideas that are
+
+Sequence 112:
+[SOFT PROMPT]<s> Forums » Economics » Economics Questions » Friedmanite Anarcho-Capitalism and the Chicago School
+Friedmanite Anarcho-Capitalism and the Chicago School
+1,711 Posts Points 29,285
+posted on Thu, Nov 22 2012 6:38 PM rated by 0 users
+I need some clarification h1,711 posts points
+by [email protected]
+Joe F., I think I'm a Friedmanite. As you point out, I'm against most of the Chicago School. What are your thoughts on the Friedmanite anarcho-capitalist and the Chicago School? I know that some of the ideas are overlapping, and I'm curious to hear your thoughts on the issue.
+I'm just going to respond to the last paragraph:
+I don't see that Friedman's anarcho-capitalism is overlapping with Chicago School
+
+Sequence 113:
+[SOFT PROMPT]<s> Arbuthnot Date:
+Jan 7, 2008 4:28pm Forum:
+Re: The Jerry Question i'm pretty sure i've mentioned it previously, but if i had to choose between the GD & Jerry's side projects, i'd easily choose the latter, even though i ever only got to see the JGB the once Source:
+BloodyTony 01/07/08 5:08pm Forum:
+Re: The Jerry Question いっしゅんくん、いっしゅんと、いっしゅんにんというついにくんの企画をやっていた。 でも、今は企画の貌似の事情によって、企画になってきたのはJerryなのか、もしない
+
+Sequence 114:
+[SOFT PROMPT]<s> Utah State football: Joe Hill poised for significant role at running back
+USU notes • Soph won't start, but will be a big contributor.
+By Tony Jones The Salt Lake Tribune Published August 9, 2012 4:41 pm
+Logan • Through two seasons at Utah State, seven carin the running game. Heck, in the 2010 season, Joe Hill had 40 carrà quanti tər si a�'�và rìd�a��à ì t�¼a.
+So why not give him a start at running back for the 2012 season? It's a fair question, considering how well he did the past two seasons.
+Well, he won't start. And that's okay.
+Hill, a senior running back from Cedar City, is Utah State's starting running back. He
+
+Sequence 115:
+[SOFT PROMPT]<s> Utah State football: Aggies' defense challenged but hold up vs. UNLV
+By Tony Jones The Salt Lake Tribune Published September 29, 2012 7:58 pm
+Logan • Utah State went scoreless in the first quarter, surrendered a first-half touchdown for the first time thisready to run, and Utah State's defense was stingy in the first half, but it came up short against the UNLV offense in the second quarter and had its first real letdown in a game that should have been closer.
+Utah State held UNLV to 10 points in the first half, but the Aggies could not stop the Rebels' offense from finding the end zone.
+"They were a lot better than we thought they were," said Aggies' defensive coordinator Matt Wells. "They were aggressive, they were physical,
+
+Sequence 116:
+[SOFT PROMPT]<s> Search within this collection: Recent Submissions
+1815 Chap. 0140. An Act To Apportion And Assess A Tax Of One Hundred And Thirty-Three Thousand, Three Hundred And Twenty-Eight Dollars And Fifty-Two Cents, And To Provide For The Reimbursement Of Twenty-Eigand Two Hundred And Sixty-Five Dollars To Each Township And The Division Of Each And Every Township In The County, Of Each Township, From The Proceeds Of The Assessment, On Which The County Assessors Are Authorized To Apportion And Assess The Tax Of One Hundred And Thirty-Three Thousand, Three Hundred And Twenty-Eight Dollars And Five-Twenty Cents, In Addition To The Cessation Of All Collecting Of Taxes, By The Assessors, In The Course Of The Year 181
+
+Sequence 117:
+[SOFT PROMPT]<s> Promoting, Protecting, and Strengthening Home Schooling
+EA Blog
+About EA
+Start Home Schooling
+Just Plain Interesting: Springboards for Research on the AmishJune 4th, 2013 by MelissaPublished with PermissionWritten by Karen Robuckwww.TOSMagazine.comI see th$}
+For the 10th year, the C.A.R.E. (Caring about Research in Education) Program (www.CareProgram.org) of the National Association of Home Educators (NAHE) is offering scholarships to home schoolers.
+We encourage our members to apply for scholarships, which are intended to assist the participants in researching home schooling. The scholarships are limited to one per family, but all family members may apply.
+We have 2 scholarships available.
+$1000 scholarship: If you are a graduating senior who
+
+Sequence 118:
+[SOFT PROMPT]<s> ARKOFGOD
+For I know the plans I have for you, declares the LORD, plans for welfare and not for evil, to give you a future and a hope. ( Jeremiah 29:11)
+Home10 commandments and the Law of Christbecoming a believercreationism vs evolutionismDeath and resurreny atheism 2013noah's arkprocreationism vs evolutionism
+Previous PostThe Bible teaches that the Flood is in the futureNext PostAn Introduction to the Book of Revelation</s> The Truth About Doctors
+Veteran author and TV personality Michael O'Connell takes a critical look at America's healthcare system, offering a new, unbiased perspective on the challenges facing doctors, patients, and their families.
+With all the political and media attention given to the latest scandals and controversies in healthcare, Michael O
+
+Sequence 119:
+[SOFT PROMPT]<s> Moretti Fine Art shows fine works by Italian masters in Shanghai for the first time
+The Master of Memphis (Florence, active c.1500-1510), The Holy Family with the Infant Saint John the Baptist and two shepherds. Oil on panel, diameter: 112 cm.
+SHANGHAI.- EPersian Museum of Modern Art presents an exhibition entitled The Master of Memphis. The exhibit will be on view at the Museum from 16 November 2019 to 14 February 2020.
+The Master of Memphis is a masterpiece by an artist who is less known in the art world, yet whose art is of exceptional quality and whose legacy continues to this day. The exhibit, organized by the Eeman Persian Museum of Modern Art, will offer the Chinese public its first chance to see a number of important paintings by this artist. The exhibit will
+
+Sequence 120:
+[SOFT PROMPT]<s> Home→Collections→CrossroadsIN THE NEWSCrossroadsFIND MORE STORIES ABOUT:LoveDelray BeachBandMeetingYoung People| MoreFEATURED ARTICLESLIFESTYLETeaching at the crossroadsAugust 24, 2012Meet another member of South Florida's many-sided faith community. This -year high school graduate with no plans for a college degree is still trying to find his way to college, while studying to become a high school teacher. He's learning to teach while he's being taught. What makes him unique is his ability to integrate his faith into his daily life and his work. He shares his thoughts on how he makes time for both.He says he was raised in a Christian home and in his early years, that included a small Christian school. But he was more of a classroom atheist than a believer. "I was raised to be very much a conservative Christian,
+
+Sequence 121:
+[SOFT PROMPT]<s> Skip to the content | Change text size Monash University - Faculty of Arts
+About Arts
+Contact Arts
+[Staff Only]
+Search Monash Arts
+Arts Faculty » Journalism, Australian & Indigenous Studies » About the School of Journalism, Australian and Indigenous Studie.
+Australian and Indigenous Studies in Journalism
+About the School of Journalism, Australian and Indigenous Studies
+Indigenous Australians are a small minority of the population, but their presence is felt in every aspect of our lives. Journalism in Australia is more diverse than ever before, and the Australian and Indigenous Studies in Journalism (AISJ) is committed to providing a space for researchers to share their knowledge and expertise on the impact of Indigenous history, culture and language on contemporary issues.
+As a leading journalism school, we will make the most of our unique
+
+Sequence 122:
+[SOFT PROMPT]<s> Posts tagged with LOMBARDI
+May 4, 9:40 am	Winning Isn’t Everything: ‘Lombardi’ to Close on Broadway
+By PATRICK HEALY	Sara Krulwich/The New York Times Dan Lauria in the title role in “Lombardi.”
+“Lombardi,” the play that tried to draw men to Broadway with athan-200-page, 90-minute story of a football coach who saved a franchise from oblivion, has closed after a four-month run.
+A Broadway musical, with music by Cy Coleman and lyrics by Dorothy Fields, was based on the 1976 documentary by filmmaker Gus Van Sant. It tells the story of a low-key coach, <NAME>, whose idealism in trying to rebuild the Green Bay Packers in the 1960s made him a cult figure among the young players who followed him.
+But the
+
+Sequence 123:
+[SOFT PROMPT]<s> Who was Robert Filliou?
+Born January 17, 1926, Sauve, FranceDied 1987, Les EyziesRobert Filliou, a member of Fluxus, the 1960's performance group that specialized in esthetic nonevents, believed that art didn't have to express itself in the form of objects9
+Robert Filliou
+Sauve, France
+Robert Filliou (1926–1987)
+Robert Filliou, a member of Fluxus, the 1960's performance group that specialized in esthetic nonevents, believed that art didn't have to express itself in the form of objects, so he explored sculpture, photography, and performance. He had an interest in the subconscious, so his pieces were often images that were not easily understood. He also worked in the studio, in the living room,
+
+Sequence 124:
+[SOFT PROMPT]<s> Atheism's 10 Commandments
+p>I saw a display recently on “Atheism’s 10 Commandments.” In fact, it was brought to my attention by somebody who asked if I had been involved in creating it because it sounds so much like me. When I listened to it, I was horrifischoolgirl horrified.
+
+The author is right, of course, that there are ten commandments, but it is only the first ten that are so often made into “the most important” of all. In the introduction, the author goes on to say, “Our basic conviction is that atheism is the best option for mankind.” I have to admit, this made me laugh, but it makes sense. The author of this piece wants to say that it’s OK to be an atheist because it’s the best option for mankind. If you don’t agree with that
+
+Sequence 125:
+[SOFT PROMPT]<s> Symptoms of Infection in Pregnancy
+Symptoms of infection in pregnancy vary depending on the infection. Infections such as
+cytomegalovirus (CMV),
+group B streptococcal disease (GBS),
+toxoplasmosis, and some sexually transmitted diseases (STDs) may not have Official
+Source: U.S. Department of Health and Human Services, Centers for Disease Control and Prevention. CDC. 2019.
+Mayo Clinic Women's Health and Pregnancy
+https://www.mayoclinic.org/healthy-living/pregnancy/in-depth/womens-health-and-pregnancy/art-20048308
+Symptoms of infection in pregnancy vary depending on the infection. Infections such as cyto
+meg
+
+Sequence 126:
+[SOFT PROMPT]<s> Risk Factors for Cervical Cancer
+A risk factor is something that increases your chances of developing a disease or condition.
+It is possible to develop cervical cancer with or without the risk factors listed below. However, the more risk factors you have, 》, the more likely you are to develop cervical cancer.
+
+Cervical cancer is a serious disease that affects the tissues that cover the inside of the cervix, the part of the uterus where the eggs are produced. Cervical cancer can occur anywhere in the body, but is most common in women between the ages of 20 and 30.
+
+Signs and symptoms of cervical cancer include bleeding from the cervix, unusual pain, and a change in the flow of urine.
+
+ 
+
+Although cervical cancer is
+
+Sequence 127:
+[SOFT PROMPT]<s> Bombardier Opens Third Service Centre For Commercial Aircraft By Bill Goldston
+February 19, 2010 - Bombardier Aerospace announced that it has added a third commercial aircraft service centre to its growing customer support network worldwide. The facility, ese will enable Bombardier to serve the airline customers of Air France-KLM, one of the world's leading airlines, and Continental Airlines, Inc., one of the leading U.S. airlines. The third centre, which opened this month, will initially support 7000 aircraft annually, and 7000 by the end of 2011. Bombardier also announced that it will open an additional two centres in 2010.
+
+Bombardier will initially focus on providing parts and components for the Airbus A300,
+
+Sequence 128:
+[SOFT PROMPT]<s> Racine Maintenance School Bond (2008)
+The Racine Maintenance School Bond was a bond measure that was on the April 1, 2008 ballot in Racine County. It was intended to use $16.5 million over a five year span for maintenance of the Racine Unified School Distrschool buildings, grounds, and equipment.
+As of 2019, the bond was approved by 64% of the electorate.
+
+2009
+
+The 2009 Racine Bonding Act was the first bonding act in Wisconsin to be implemented since 1999. It was passed on November 2, 2009, and took effect on January 1, 2010. It authorized the issuance of $50 million in general obligation bonds for projects to be funded by the School Facilities Board,
+
+Sequence 129:
+[SOFT PROMPT]<s> Changes related to "United States congressional delegations from Idaho"
+← United States congressional delegations from IdahoPersons in the U.S. House of Representatives →
+U.S. Senator Mike Crapo (R-ID)
+U.S. Representative Mike Simpson (R-ID)
+U.S. Representative Cathy McMorris Rodgers (R-WA)
+U.S. Representative Pramila Jayapal (D-WA)
+U.S. Representative Cathy McMorris Rodgers (R-WA)
+U.S. Representative Don Young (R-AK)
+U.S. Representative Raul Grijalva (D
+
+Sequence 130:
+[SOFT PROMPT]<s> Footnotes have been changed to endnotes and the symbols to numbers. - Jim Duvall
+Editor's Preface
+Among the transactions which were recorded by the delegates at the ninety-ninth session of the venerable body, whose minutes we herewith present to the publicby the laws of the Church of Christ, with the modifications that have been accepted by the faithful, was presented for ratification at the General Conference of the Church of Christ in the City of Birmingham, Alabama, on the first day of November, 1889. The Church of Christ, of which these minutes are herewith submitted, has existed for over 125 years, and is now in its 140th year.
+The records of the General Conference of the Church of Christ have been submitted herewith, and the same are printed as received from the secretary. The secretary is authorized to correct
+
+Sequence 131:
+[SOFT PROMPT]<s> Draft History [-]Drafted in the 5th round (145th overall) by the California Angels in 1996 (did not sign)Drafted in the 2nd round (66th overall) by the Chicago White Sox in 1999 (did not sign) Draft Report [+] Drafted in the 2nd round (43rd overall) by the)$ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $
+
+Sequence 132:
+[SOFT PROMPT]<s> San Jose Sharks Schedule, Previews, Recaps: Not Time To Panic For Sharks
+It couldn't last forever, regardless of how the San Jose Sharks played, they were going to have to lose again at some point. They were going to have to lose two or three games in a romake some adjustments, have some luck on their side and find a way to win. Instead, they were going to have to go through the difficult part of losing four in a row. The Sharks did it on Wednesday, losing 5-3 to the Dallas Stars at the SAP Center in San Jose, Calif.
+01/14/2021 – San Jose Sharks Schedule, Previews, Recaps: Not Time To Panic For Sharks
+It couldn't last forever, regardless of how the San Jose Sharks played, they were going to have to lose again
+
+Sequence 133:
+[SOFT PROMPT]<s> Obituaries 10-25-2011
+October 25, 2011By Beacon Hill Times Staff
+Barbara Livingston Hally
+Contributing writer for Beacon Hill Times
+Barbara Livingston Hally of Boston died on October 18. She was 93 years old.
+Born to Mary Bolles Livingston and Harry Angus up in the family home at 566 Harvard Street, Boston, she grew up with her sister Mildred and brother Harry. She was a devoted daughter, wife, mother, and grandmother. She was preceded in death by her sister Mildred, brother Harry, and grandson Mark Hally.
+Barbara graduated from Hollis School in 1935 and spent her early years living with her mother and father, sister and brother, and husband, before moving to Cambridge. She met her husband, John Hally, while working as a secretary at the Massachusetts Institute of Technology. The two
+
+Sequence 134:
+[SOFT PROMPT]<s> NewsNewsletterPressContact
+GermanEnglishFrenchRussianChinese
+Home pageUpright and grand pianosConsulting and salesBechstein - The LegendConcerts and pianistsService
+Concert calendarPianistsInterviews and voicesPiano competitionsCDs and DVDs
+International c}>
+GermanEnglishFrenchRussianChinese
+In partnership with the National Centre for the Performing Arts (NCPA)
+Following the success of the Bechstein tour with pianist Alexandre Lysenkov, who is scheduled to play Bechstein concert grand pianos on a 32-city tour in North America in the summer of 2022, Bechstein is extending its cooperation with the National Centre for the Performing Arts (NCPA) to present Bechstein grand pianos for concerts at its 3,500-seat Sh
+
+Sequence 135:
+[SOFT PROMPT]<s> print Belfer Center Home > Regions > Africa
+By DateBy TopicBy Publication TypeBy Program/ProjectBy Expert	Filter by Select Program/Project
+Science, Technology, and Public Policy
+Harvard�Belfer on Syria
+Managing the Atom
+Energy Technology Innovation Policy
+인
+Computing and Software
+Internet Governance
+Women, Peace, and Security
+ASEAN�RAND�China�South Korea�R�Japan
+Military Capabilities
+Democracy, Civil Society, and Governance
+Economic Performance
+Arab�East�West�East�South
+Terrorism and Counterterrorism
+B�ndel�Reagan�Eisenhower�Hoover�Truman�Truman�Truman�Truman�Truman�Truman�Truman�Truman�Truman�Tr
+
+Sequence 136:
+[SOFT PROMPT]<s> AMD Powers the Heart of the Next Console Generation
+By Nihar Patel -
+AMD, INTC, NVDA
+Nihar is a member of The Motley Fool Blog Network -- entries represent the personal opinion of the blogger and are not formally edited.
+AMD (NYSE: AMD) isn't joking when iinha's saying that 2018 will be the year that AMD and Intel fight for dominance in the CPU market.
+This is a very important year for AMD, because Intel is about to launch a new generation of CPUs that can power next-generation consoles, which is the main reason AMD is currently up 35% year to date.
+We've seen Intel's recent CPU launches in the past two years, and the chips haven't performed as well as Intel expected. They haven't performed as well as AMD is expecting them to perform, either
+
+Sequence 137:
+[SOFT PROMPT]<s> eBook sales jump 115% in January
+Amazon's Android Appstore may launch March 22
+AT&T to acquire T-Mobile from Deutsche Telekom for $39 billion
+on Mar 20, 2011 at 2:30 PM
+AT&T, the nation’s second largest wireless provider, has just announced that it will aciwt MTS, the Canadian mobile phone provider. This deal is valued at $39 billion, and will include all of T-Mobile’s wireless network in the U.S. AT&T plans to close the deal in the third quarter of this year. The deal is a clear attempt to take on Verizon Wireless, which has a 70 percent market share.
+T-Mobile, one of the leading cell phone companies in the United States, has a well-established presence in Canada. As the largest wireless provider in Canada, T-Mobile offers a vast selection of services, including
+
+Sequence 138:
+[SOFT PROMPT]<s> Older Articles	Europe
+by Dan Graziano
+Huawei announces global availability of the Ascend P1 smartphone
+By Dan Graziano on April 18, 2012 at 10:45 PM.	Huawei announces global availability of the Ascend P1 smartphone
+Huawei on Wednesday announced global avaimade of the Ascend P1 smartphone, which will be available in the U.S. and Europe starting May 1.
+The Ascend P1 will initially be available in the U.S. and Europe in black and white, and it will come with a 4.3-inch display and a 1.5GHz dual-core processor. The device will also feature a 12-megapixel rear camera and a 1.3-megapixel front camera.
+Other features of the Ascend P1 include a 3,000mAh
+
+Sequence 139:
+[SOFT PROMPT]<s> Nothing "Is What It Is"
+Question: Which will come first, the completion of the Second Avenue Subway or the next Mets World Series victory? Christine Quinn: Well I can’t actually answer that question honestly because my father is 84, and he remembers the da1973 New York Mets season. And so I’m hoping that’s the one that I want to happen first. But, you know, you know what? It doesn’t matter, because we’re gonna be in the thick of it. So the Second Avenue Subway is a big thing for us and we’re gonna make it happen. And if the Mets win the World Series this year, I think that’s the first thing that people will be thinking about. 
+
+Challenge: And you want to do this with all your kids.
+
+Answer:
+
+Sequence 140:
+[SOFT PROMPT]<s> LOVE, Francis Johnson, (1901 - 1989)
+LOVE, Francis Johnson, a Representative from West Virginia; born in Cadiz, Harrison County, Ohio, on January 23, 1901; attended the public schools; Bethany College at Bethany, W.Va., A.B., 1924; principal of Warwood Higsupport School, Warwood, W.Va., 1925-1926; worked as a teacher in Virginia and West Virginia, 1926-1936; graduated from the W.Va. Law School, 1936; engaged in law practice at Berkeley Springs, W.Va., 1936-1942; law clerk to Judge Joseph P. Hull, United States District Court for the Southern District of West Virginia, 1942-1943; elected as a Democrat to the Se
+
+Sequence 141:
+[SOFT PROMPT]<s> Steven M. Smith
+25 Breaking Away from a False Dilemma
+With a high-school level understanding of science and theology, I was convinced by this "either-or" argument and, to my knowledge, became the first Young Earth Creationist in my local Nazarene church. Idone by.
+A Brief History of Creationism
+Written by Thomas O. Brown, Ed.D. It's 2014 and creationism has been decertified as a legitimate scientific theory in the United States. But for those of us who grew up in the 1970s, the term "creationism" is not a word we've forgotten. For those who are not aware, creationism was a well-funded effort by a handful of evangelicals in the late 1970s and early 1980s to und
+
+Sequence 142:
+[SOFT PROMPT]<s> 0 Scientists Tell Their Stories: Owen Gingerich
+When it came time to go to graduate school, one of Owen Gingerich's science professors told him “If you feel a calling to go to astronomy, you should give it a try, because we shouldn’t let atheists take over0 How to Read a Map
+Astronomy is not a mystery, even if we have only scratched the surface of the universe and still have no idea of how the universe came into being. How do we find our way in this sea of unknowns? How can we know that we are in the right place at the right time? Owen Gingerich has been asking these questions for more than 50 years.
+Finding his own way, he became a graduate student at Harvard, a faculty member at Yale, and the Director of the Harvard University Astronomy Department. From 198
+
+Sequence 143:
+[SOFT PROMPT]<s> This week in origins news: Inflation of a cosmic kind, new theories about the Higgs particle, a lively collection of links from favorite spots in the blogosphere, and a few interactive items for those who enjoy playing as much as they do reading around the826 Commentshttp%3A%2F%2Fsoundbites.smokelakecity.com%2F2012%2F08%2F02%2Fweek-in-origins-news-inflation-of-a-cosmic-kind-new-theories-about-the-higgs-particle-a-lively-collection-of-links-from-favorite-spots-in-the-blogosphere-and-a-few-interactive-items-for-those-
+
+Sequence 144:
+[SOFT PROMPT]<s> Blackstone Blog
+Blackstone honored at the 2011 inMotion Commitment to Justice Awards
+The Blackstone Group received a special honor as the top fundraising team for inMotion’s Story by Story—Climbing to End Domestic Violence! event. A gala ceremony was held provides at the end of June 2011, ıѕ ıѕ ıѕ ıѕ ıѕ ıѕ ıѕ ıѕ ıѕ ıѕ ıѕ ıѕ ıѕ ıѕ ıѕ ıѕ ıѕ ıѕ ıѕ ıѕ ıѕ ıѕ ıѕ ıѕ ıѕ ıѕ ıѕ ıѕ ıѕ
+
+Sequence 145:
+[SOFT PROMPT]<s> Power Ranking the NFL's Top 50 Active Offensive Linemen
+By Cody Swartz
+Rob Carr/Getty Images 16.3K
+It’s notoriously difficult to grade offensive linemen, especially considering there are very limited statistics to evaluate their performance. The Pro Bowl vneither the statistics nor the team success metrics are a reliable guide.
+In the 2018 offseason, the NFLPA unveiled the Reps+Rush statistic, a more accurate measure of offensive linemen’s success. It was designed to make offensive linemen’s performance more meaningful.
+The Reps+Rush statistic is derived from a formula that is based on the number of offensive reps each lineman took during the 2017 season. The statistic is a team’s success metric.
+The best offensive linemen were ranked using the
+
+Sequence 146:
+[SOFT PROMPT]<s> Top Five Stables Ever in WWE/WCW
+By Goutham Babu
+Ever since the wrestling industry started, there were great teams constituting various great wrestlers. Many of such stables created world wide attraction and accelerated the profit of wrestling industry.
+Hewith other great wrestlers. Some of them, while in their prime, are regarded as the greatest stables of all time.
+The Top Five Greatest Stables of All Time in WWE/WCW
+#1. The Four Horsemen
+"The Four Horsemen" are one of the greatest stable in wrestling history. This was a tag team of the 1980s and early 1990s. They were comprised of the legendary Dusty Rhodes, The Undertaker, Hogan and "The Great Muta" Taka Michinoku.
+
+Sequence 147:
+[SOFT PROMPT]<s> Want more real-time Dallas Mavericks news?
+What's Next for Dirk Nowitzki After Frustrating 2012-13 NBA Season? By Zach Buckley
+Forgive Dirk Nowitzki if he doesn't know how to act right now.It's been a while since he's had to deal with something like this.Fboth personal and professional.As the 16th overall pick in the 1998 draft, Nowitzki's professional basketball career has had its share of highs and lows.
+But the German big man is currently in the midst of the most difficult season of his 18-year career, as he's rehabbing from knee surgery that will keep him out of the lineup for at least the rest of the season.The Mavs have already lost four of their last six games, and Nowitzki is still a few weeks away from returning to action. But that doesn
+
+Sequence 148:
+[SOFT PROMPT]<s> DogecoinObverseReverseDate of introduction8 December 2013; 3 months ago (2013-12-08)User(s)InternationalInflationApproximately 100 billion coins to be mined by end of 2014. Thereafter, 5.2 billion new coins per year.SymbolÐ,[1] Ɖ,[citation needed] DNicknamely, bitcoin investors have been struggling to figure out what to do.Investors have been taking profits on recent price declines, a move which has been expected by most market analysts.However, despite the drop, the cryptocurrency still has more than $2 billion in market capitalization.Much of the confusion is because Bitcoin's price fluctuates constantly and is very difficult to measure. Bitcoin's price also has been changing since its inception in 2009, making it a complex and unpredictable investment.However, there are several
+
+Sequence 149:
+[SOFT PROMPT]<s> GraniteIgneous rockGranite containing potassium feldspar, plagioclase feldspar, quartz, and biotite and/or amphiboleCompositionPotassium feldspar, plagioclase feldspar, and quartz; differing amounts of muscovite, biotite, and hornblende-type amphiboles.
+JuadshsNH3h3.067523.063846.060526.056929.053522.050123.046715.043312.040008.036711.033432.030257.027112.023993.020896.017815.014763.
+
+Sequence 150:
+[SOFT PROMPT]<s> Shenae GrimesBorn(1989-10-24) October 24, 1989 (age 24)Toronto, Ontario, CanadaOccupationActress, photographerYears active2004–presentSpouse(s)Josh Beech (m. 2013)
+Jump to: navigation, searchShenae GrimesBorn(1989-10-24) October 24, 1989 (age 24)Toronto, OHC (Canada)OccupationActress, photographerYears active2004–presentSpouse(s)Josh Beech (m. 2013)Birth placeToronto, Ontario, CanadaProfessionActress, photographerHeight5 ft 5 in (1.65 m)NationalityCanadianNicknamesShenae Lisa GrimesPlace of birthToronto, Ontario, CanadaCitizenshipCanadianProfessionActressHometownToronto, Ontario, CanadaOccupationActress, photographerH
+
+Sequence 151:
+[SOFT PROMPT]<s> Wavenumber
+Jump to: navigation, searchIn the physical sciences, the wavenumber is the spatial frequency of a wave. It can be envisaged as the number of waves that exist over a specified distance (analagous to frequency being the number of wave oscillationsschool in physics, waves are those that propagate at a constant velocity and that have the same frequency and wavelength at all points. The frequency of the waves at any point in space is a constant for all the waves, and the wavelength is the distance over which the waves propagate at a constant velocity. In a wave, the frequency is constant over the wavelength and at each point in space, the wavelength is the same. A wave of an electromagnetic wave travels at the speed of light. In a sound wave, the frequency is constant over the wavelength and at each point in
+
+Sequence 152:
+[SOFT PROMPT]<s> Posts tagged "DealerBlock" Owner's Manual
+Find help on how to use the new ADESA.com
+We are very excited about the launch of our new website a few weeks ago. While the new ADESA.com is user-friendly and easy to navigate, we understand you might have questioneither may have had time to explore all of the great features and capabilities of the site. Here is a list of some of the great features we have added to the site that may be of interest to you.
+With the launch of the new ADESA.com, you can now order services, view pictures of your cars, and track the progress of your transaction all from the comfort of your home. You can also send an email to your DealerBlock representative to get help with your online transaction.
+We have added a new section on the homepage that provides links to all of the ADESA.com tools that will
+
+Sequence 153:
+[SOFT PROMPT]<s> « How to Strengthen an Interfaith Relationship
+Autism Awareness Month: How to Support the Cause »
+Hear the Voices of Help and Hope
+Hear stories of hope — directly from just a few of the people whom Catholic Charities has helped over the past year. This sholike the amazing people in our community.
+Sister Mary Katherine Ryan, RSM,
+Sister Mary Francis Cunningham, RSM,
+Sister Mary Catharine Halloran, RSM,
+Sister Mary Loretta Sullivan, RSM,
+Sister Mary Pauline Kilroy, RSM,
+Sister Mary Dominic, RSM,
+Sister Mary Magdalen Delaney, RSM,
+Sister Mary Esther McCarthy, RSM,
+Sister Mary Dominic Carroll, RSM,
+Sister Mary Helen McGee
+
+Sequence 154:
+[SOFT PROMPT]<s> Online Blogucation
+14Sep/110
+I had to turn the heater on in my car this morning. The Colorado mornings are getting chilly: in the 40s and 50s. It’s almost like Fall had been hiding behind the Labor Day corner, just waiting to pounce. Despite the cold (and eternal sadness at losing the Labor Day sales), it’s a wonderful time of year.  I love the cool, crisp air and the way it’s so full of fall colors. I’m all about fall right now. I just bought a cooler and some frozen orange juice, so I can have a nice frozen cocktail in the morning. I know, I know, I can go to a nice restaurant, get a big glass of wine and a fancy salad. But I can’t. I need to be doing something like this. It makes me feel like I’m
+
+Sequence 155:
+[SOFT PROMPT]<s> How do you put your intentions into practice?
+posted by Alex Zielinski on March 8, 2013 Filed under: Intentions
+Being International Women’s Day, we’d be silly not to highlight a woman who’s working hard to inspire and challenge her gender every day. Althousince her initial interview for OMDS, Amanda has gone on to feature in the New York Times, Mashable, Fast Company, TechCrunch, and several other outlets. But she’s not one to rest on her laurels, so when we met her in New York City last week, we asked her what she’s been up to since the interview.
+You’re known for using your personal blog to advocate for women in tech, so we asked you to give us a glimpse into how you’re keeping the momentum going, what you’re reading, and what
+
+Sequence 156:
+[SOFT PROMPT]<s> « Video Interview: Andrew Wait of Ancestry.com |
+| The Genealogy Guys Podcast LIVE at 2009 FGS Conference »
+Social Security Numbers: a Non-Issue
+I have written before about the security of the Social Security Death Index and its use as a very effective too}] So if you are an American, I assume that you have at least some knowledge of the SSDI. I have talked about this subject before, and I'll repeat here what I said in 2006:
+Social Security Death Indexes are, as you might imagine, nothing new. A small company called Social Security Data Corporation began issuing these indexes in 1985. Since then, SSDIs have been issued by 15 other companies. You might say that this is like all those pizza companies trying to make their own pizza. In other words, there is no central authority
+
+Sequence 157:
+[SOFT PROMPT]<s> Debate? What Debate?
+Well, that seems to be the question regarding the debate on "Baptists and Calvinism" scheduled for October 16 in Lynchburg, VA. The events of the last two days have made the prospect of actually having the debate very slim. The moderatin today's News, from the Online Associated Press, "Calvinists Split on Baptist Debate".
+These are the final reports from the Southern Baptist Convention (SBC) and the American Baptist Convention (ABC) on the debate that is to be held October 16 at Liberty University in Lynchburg, Virginia.
+SBC President Ronnie Floyd will open the debate.
+The moderator for the debate will be Lynn Pickering, the general editor of the "Worthington Study Bible."
+There will be no opening prayer or closing prayer.
+All presentations
+
+Sequence 158:
+[SOFT PROMPT]<s> A Quote by Patrick Jake "P.J." O'Rourke on animals, children, and purpose
+in animals
+Humans are the only animals that have children on purpose with the exception of guppies, who like to eat theirs.P.J. O'Rourke (1947 -)Contributed by: Zaady Tweet-
+Is it possible to love an animal so much that it feels like it is you?
+Contributed by: The Banana Journal Tweettere
+Do animals dream? The answers to this question are as varied as the animals that dream. Some are waking up in a realm of unreal dreams, some are going to meet their maker in a dream of hell, and some are going to their final rest in the dreams of their loved ones.
+"In a dream you feel like you're alive," says Chuck "Pepper" Pickens, owner of Nampa, Idaho's
+
+Sequence 159:
+[SOFT PROMPT]<s> Sex, Politics, and Global Hip Hop
+The hip hop feminism hub at the U! My hip-hop life now By and01626 on December 6, 2012 12:00 PM
+Before taking this class, I had a certain appreciate for hip-hop but did not spend much of my time immersed in the music or an721061-16-01-63-510-3723120753-34-01-1-0-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1
+
+Sequence 160:
+[SOFT PROMPT]<s> YeungKaiPo
+14 passengers were killed in bus crash in NYC
+By yeun0040 on March 13, 2011 11:53 PM
+On Saturday night, a serious bus crash killed 14 people when the bus was returning to Manhattan's Chinatown after a quick overnight trip to the Mohegan Sun casiin Connecticut. The bus was on its way to Manhattan when it hit a semi-truck that was slowing down.
+New York's governor called the crash "a terrible tragedy," and said that a "full investigation" was needed.
+A bus that hit a semi-truck that was slowing down, killing 14 people, on Saturday night in New York. Photo: The New York Times
+According to the report, there were 40 passengers on the bus, and all of them were reported to be seriously injured. Some of the victims were hospitalized with life-
+
+Sequence 161:
+[SOFT PROMPT]<s> Match.com's Top 10 Cities for Dating Single Moms
+In celebration of the single mother, Match.com has released a list of the Top 10 Cities for Dating Single Moms on its official blog Up To Date.The list was compiled using Match.com’s unparalleled data on Ame
+How To Make Yourself A Woman That Men Can’t Resist
+Most men would agree that if you are smart, independent and kind, you are a woman that they can’t resist. And for the most part, it is true. But some men have trouble getting past their image of a "girly girl." They think that women who are
+Why The Single Mother Of Three Should Start A Business
+If you are a single mom, you know that running your own business is a lot of work. Aside from the responsibilities of being a mother, you have to work around the clock to run
+
+Sequence 162:
+[SOFT PROMPT]<s> Happy 71st birthday to legendary centerman Stan “Stosh” Mikita. Mikita was born in 1940, in the town of Sokolce of the Slovak Republic. Mikita’s birth name was actually Stanislav Guoth, but when Czechoslovakia became a Communist controlled country, Stosh fadiós Mikita became Stosh. He played in the Czechoslovakia junior hockey league before joining the Czech National Hockey Team. The Czech team won the World Hockey Championship in 1962. He also helped the Czech Republic win the gold medal at the 1968 Winter Olympics. 📷: Unknown. pic.twitter.com/Q3BfDsjEu0
+— hockeyWISTA (@hockeywista) June 29, 2019
+This day in hockey history: July 26, 1975
+
+Sequence 163:
+[SOFT PROMPT]<s> My schedule at the 2009 NAB Show
+The convention is about three weeks away, and I’m starting to get full-court press for appointments at the convention. This will be my 21st NAB convention. I have attended every convention since 1989. I know many people havorage my contacts. My current phone number is 212-226-2121. It’s not the most current number, but it works for me. If you’d like to see what a future NAB show will be like, check out the website.
+
+The one thing I don’t want to do at the NAB show is to become the go-to person for technical information about broadcast. I want to learn more about it, but I don’t know enough about it to be the “go-to person.” The knowledge I’ve accumulated is just the tip
+
+Sequence 164:
+[SOFT PROMPT]<s> TrueDrive: 2011 Kia Optima Hybrid
+Tuesday, 08 November 2011 06:00
+Written by Brandy Schaffels
+0 Comments	When the first Kia Optima sedan debuted in the United States in 2000, it was nothing more than a rebadged Hyundai Sonata, which didn’t carry much panacopoor fuel economy, uncomfortable seats, and a gargantuan exterior. In 2001, Kia and Hyundai merged to form the Hyundai/Kia automotive brand. The first Optima became the first Hyundai vehicle to be sold in the United States. The first generation Optima was discontinued in 2007, but the 2011 Kia Optima is back with a new name, new look, and a whole lot of technology.
+The new 2011 Kia Optima, which will be officially
+
+Sequence 165:
+[SOFT PROMPT]<s> 12:40 pm January 10, 2014, by John Kesslerup there is a lot of stuff to cover up there is a lot of stuff to cover up there is a lot of stuff to cover up there is a lot of stuff to cover up there is a lot of stuff to cover up there is a lot of stuff to cover up there is a lot of stuff to cover up there is a lot of stuff to cover up there is a lot of stuff to cover up there is a lot of stuff to cover up there is a lot of stuff to cover up there is a lot of stuff to cover up there is a lot of stuff to cover up there is a lot of stuff to cover up there
+
+Sequence 166:
+[SOFT PROMPT]<s> Posts Tagged ‘Celebrity birthdays’
+Celebrity birthdays Feb. 6: Axl Rose, Natalie Cole, Tom Brokaw, Rip Torn, Robert Townsend, Zsa Zsa Gabor
+February 6th, 2010 by accessAtlanta
+Actress Zsa Zsa Gabor is 93. Actor Patrick MacNee (”The Avengers”) is 88. Actor ored Wood (1915-1981) is 81. Actor Frank Siravo (1944- ) is 75. Singer Robert Townsend (The Color Purple) is 69. Rock musician Tom Brokaw (The Beatles, SNL) is 66. Rock musician Rip Torn (The Torture Show, CBGB) is 64. Actor Kevin Connolly (The Sopranos) is 59. Country singer Tommy Womack (1955- ) is 
+
+Sequence 167:
+[SOFT PROMPT]<s> Cyber Cynic
+ARMing desktop Linux
+By Steven J. Vaughan-Nichols
+October 12, 2009 1:43 PM EDT
+For a brief time in 2008, Linux actually owned a segment of the desktop industry: netbooks. When netbooks first showed up, they ran only Linux. Microsoft panicked an 0
+Linux sales started growing, but that wasn't enough to convince the world that Linux would be the dominant operating system for the next decade. As Windows 7's release approaches, Linux continues to hold its own. It has even become a desktop choice in the world's top-performing smartphones, such as the Samsung Galaxy S.
+It's not that Linux is necessarily better than Windows. The only difference between the two is that Linux can run Windows. But Linux can run Windows in a whole new way. Linux is capable of running more applications and running them in more ways
+
+Sequence 168:
+[SOFT PROMPT]<s> Roger Avary To Direct Bret Easton Ellis' 'Glamorama' In 2012?
+by Gabe Toro
+October 13, 2011 12:12 PM 6 Comments
+The last time Roger Avary directed a film, it was in collaboration with Bret Easton Ellis. Together, the two of them were responsible for the hy, hy, hy, hy, hy, hy, hy, hy, hy, hy, hy, hy, hy, hy, hy, hy, hy, hy, hy, hy, hy, hy, hy, hy, hy, hy, hy, hy, hy, hy, hy, hy, hy, hy, hy, hy, hy, hy, hy, hy, hy, hy, hy, hy, hy, hy, hy, hy, hy, hy, hy, hy, hy, hy, hy, hy, hy, hy, hy, hy, hy, hy, hy, hy, hy
+
+Sequence 169:
+[SOFT PROMPT]<s> She went to prison for her ‘encore career’
+December 4, 2013, 12:55 PM ET
+By Anne TergesenThis week, Encore.org, a San Francisco-based nonprofit that promotes second careers in the nonprofit sector, is handing out Purpose Prizes, its answer to the MacArthurhave-it-yourself grant. In the spirit of gift-giving, we thought we'd pass along a few of our favorites. We chose the categories of well-deserved recognition and innovation.
+Because she had a passion for teaching and a talent for making money, Sherry Wright had a dual life. "It was like living a double life," she says. "I had a real-life job, and I also taught at a school for girls. And, of course, I still had a passion for teaching." Sherry started teaching at age 16 and loved it. "I
+
+Sequence 170:
+[SOFT PROMPT]<s> MPR News A fresh eye on the news Anatomy of a news story
+7 There was a story floating around this weekend that makes a wonderful exercise in ascertaining the difference between solid newspaper reporting and TV/video news fare. Perhaps the medium really is the  two are not the same.
+There's a good reason for that.
+The difference between good reporting and bad reporting is not the amount of time spent on it, or the number of facts that are covered. It's not how much background research you do, or how well you weigh the news you're hearing. It's not how much "interviewing" you do. It's not how many "victims" you interview, or how much sympathy you project on the people you interview. It's not how much you use exclamation points.
+It's the
+
+Sequence 171:
+[SOFT PROMPT]<s> MPR News A fresh eye on the news The “D” word
+The economic meltdown is bad. Most of us are pretty scared, more than a little angry, and our ears perk up when we hear people throw the “D” word around pretty loosely. Earlier this week, a poll showed that almincluding a slight increase in the number of Americans who say they would consider suicide if they couldn’t find a job.
+<iframe src="//embed.mprnews.org/embed/114386" width="100%" height="240" frameborder="0" scrolling="no" allowfullscreen></iframe>
+
+<p>Our colleague <a href="http://www.dailykos.com/storyonly/2008/9/13/116985/1049/567/
+
+Sequence 172:
+[SOFT PROMPT]<s> Chat Rooms (9) Hi Guest - Join Us Now!
+The Reality of Bisexuality
+By Robert Weiss LCSW, CSAT-S
+Sex is Not a One-Way Street
+I had thought that in writing this long-overdue blog on bisexuality I could offer a straightforward, readily understandable overview are the rights and needs of bisexual people. However, my intentions have been subverted by the complexity of the issue.
+Why is it that I'm often asked to explain bisexuality to someone who has no idea what bisexuality is? The reason is that the issues that bisexuals face are in many ways the same as those faced by lesbians and gay men, but they are approached from a different perspective.
+The perspective of a bisexual person, or a bisexual person who wants to understand bisexuality, is that bisexuality is not a
+
+Sequence 173:
+[SOFT PROMPT]<s> Eleven Give Million-Dollar Donations to Super PACs
+By Kent Cooper	Posted at 9:23 a.m. on Jan. 29
+Eleven associations, unions and individuals have already given more than $1 million each to Super PACs in 2013, with more to be reported this week.
+Super PACs eland 11 different individuals and unions to date. 11 associations have given $1 million or more, and the 11 individuals or unions have each given $500,000 or more. 25 other individuals and unions have contributed $100,000 or more, but their contributions have not yet been reported.
+11 individuals and unions have given more than $1 million each to Super PACs  in 2013, including Michael Bloomberg ($2,100,000), Steve Bannon ($1,5
+
+Sequence 174:
+[SOFT PROMPT]<s> Sen. Harry Reid’s Fundraiser Gets 2 Years in Prison
+By Kent Cooper	Posted at 2:23 p.m. on Oct. 2, 2013
+A Nevada lawyer and lobbyist who was a fundraiser for the 2010 re-election campaign of Sen. Harry Reid, D-Nev., has been sentenced to two years in prisonby a federal judge.
+Reid was ordered to pay $1 million in fines and restitution for his role in a scheme to obtain nearly $100,000 from a Las Vegas company to pay for campaign-related expenses, including a party thrown by the senator for a gambling company that Reid had backed.
+Cohen told the judge that Reid never had a financial interest in the gambling company.
+Reid told a Nevada newspaper after the sentencing that he has "never been a gambler and that I was just trying to help."
+
+
+Sequence 175:
+[SOFT PROMPT]<s> | | Voices Home
+Gordon Brown hails education as the best anti-poverty program
+Submitted by Kavita Watsa	On Mon, 09/20/2010 Tweet WidgetGoogle Plus OneLinkedin Share Button1 Comment
+This morning, 69 million children would not have gone to school around the fluency and literacy in their mother tongue, according to a new report. And millions of other children, both in the developing and developed world, would not have been able to receive the basic education they need to be a part of the 21st century economy.
+In 2008, the United Nations Development Programme (UNDP) launched the 'The Global Education Monitoring Report: Learning to Count the Costs', a comprehensive study of the state of education around the world. The study was a comprehensive survey of 146 countries, focusing on education as a driver of sustain
+
+Sequence 176:
+[SOFT PROMPT]<s> Email	Hard boiled crime stories, old and new, in classic packaging
+Cory Doctorow at 5:14 am Mon, Sep 6, 2004 — FEATURED —
+Kindle Hard Case Crime is a new paperback imprint that's reprinting old pulp crime novels and commissioning new novels in the style ofr
+Pulp Fiction, Dead Cops, and Pussy
+Hard Case Crime at 12:30 pm Fri, Aug 18, 2004 — FEATURED —
+A new hardcover imprint, Hard Case Crime, is publishing new novels of hard-boiled pulp crime fiction. Their first publication is a collection of crime fiction short stories from the 1930s and '40s called "Pulp Noir: Classic Crime Stories of Hard-Boiled Noir" by Charles L. Grant.
+Eight Reasons
+
+Sequence 177:
+[SOFT PROMPT]<s> This page contains a single entry from the blog posted on August 1, 2010 8:04 PM.
+The previous post in this blog was The world according to a couch potato.
+The next post in this blog is Ups and downs.
+« The world according to a couch potato |
+| Ups and dowLosing My Religion »</s> This is a placeholder page for Denis Haddad, which means this person is not currently on this site. We do suggest using the tools below to find Denis Haddad.
+You are visiting the placeholder page for Denis Haddad. This page is here because someone used our placeholder utility to look for Denis Haddad. We created this page automatically in hopes Denis Haddad would find it. If you are not Denis Haddad, but are an alumni of Dwight High School Dwight, IL, register on this site for free
+
+Sequence 178:
+[SOFT PROMPT]<s> Jessica Alba’s Swimming Pool in Bollywood Debut
+By Andrew Stephenson	Posted on June 9th, 2009 in Movies, News
+Jessica Alba’s swimming pool makes its Bollywood movie debut in Sajid Nadiadwala’s Kambakht Ishq which stars Akshay Kumar, Kareena Kapoor and Amriin the lead roles. The 30-year-old actress plays the role of a dancer in the film and is seen wearing a sari and a kameez as she swims.
+Alba, who plays a Mumbai socialite in the movie, will also be seen wearing a kameez for her role in the film. Sajid Nadiadwala also recently announced that his next film is the Hindi remake of Hollywood film Chasing Amy.
+The film stars Akshay Kumar, Kareena Kapoor and Amrish Puri. It is sl
+
+Sequence 179:
+[SOFT PROMPT]<s> Anushka Sharma still nervous around Shah Rukh Khan
+By Priyanka Ramesh Kumar	Posted on November 18th, 2012 in Movies, News, Stars
+It’s been 4 years since Anushka Sharma appeared on the big screen and entered Bollywood staring opposite one of the most populadependable stars, Shah Rukh Khan. And after a long time, the two finally took to the big screen together and the response from the audience was overwhelming. Shah Rukh Khan was recently seen attending a party in Mumbai where Anushka Sharma was also seen. The couple had a fun filled night and both seemed to be in good spirits. Anushka Sharma’s reporters had reported that she was nervous about meeting Shah Rukh Khan but the star himself was all smiles. It was said that he was the most nervous amongst the two and had been
+
+Sequence 180:
+[SOFT PROMPT]<s> It appears that you've exceeded the maximum number of posts you can view, but wait, there's a simple solution. To unlock the forum and continue viewing messages, all you need to do is sign up for a free account. The entire process takes just a few minutes while you're at it, check out the other free resources on our website 
+
+    <a href="https://www.macmillandictionary.com/library/browse/metaphysics">https://www.macmillandictionary.com/library/browse/metaphysics</a>
+
+I hope this helps. 
+
+Thank you!
+
+![](https://www.macmillandictionary.com/library/images/nose-200x200.jpg)
+
+Sincerely,
+
+
+
+![](https://
+
+Sequence 181:
+[SOFT PROMPT]<s> Game 159: Yankees at Blue Jays
+Nick Swisher called this “a must win game” for the Yankees, and after yesterday’s deflating 3-2 loss to the Blue Jays, it has to be.
+At this point, they all are must-win games for the Bombers, who enter today tied once again if the Yankees win, with the Red Sox winning and the Orioles losing. If they lose, the Yankees will have to make up for it in the playoffs.
+The Yankees will be facing R.A. Dickey (10-5, 3.63 ERA) in the series opener. Dickey is in the midst of his best season in his five years in the big leagues, and the Yankees have faced him in each of the last two seasons, winning both of those series.
+The Blue Jays will be facing Troy Percival
+
+Sequence 182:
+[SOFT PROMPT]<s> Lying Awake
+Mark Salzman
+Best bets for book clubs
+BookPage® Column by Julie Hale
+This month's new paperback releases include several excellent titles in fiction and nonfiction. We recommend the following selections as good choices for reading groups.Honkyincluded in the following guidelines:
+Detailed listings of selections for each month are available at bookpage.com.
+------ The Guidelines ------
+The monthly guidelines are based on the reading lists of more than 100 books clubs, as reported in the annual BookPage survey. Clubs representing 10,000 members are invited to participate. The guidelines are based on the latest trends in book sales. Book clubs are invited to recommend titles for review on the site.
+There is no obligation to review books. Books clubs are
+
+Sequence 183:
+[SOFT PROMPT]<s> On The Down Low: Is Real Housewives Of Atlanta’s Porsha Stewart A Beard For Her Suspect NFL Baller Hubby??
+Categories: For Discussion, For Your Information, Gay, News, Reality TV, Shady, SMH, Suspect, The Side-eye, True or False?, What the Hell???, You Canby: Kat L
+Porsha Stewart, wife of Atlanta Braves player Dennis <a href="http://youtu.be/BN592XFoUbU" target="_hplink">Kenny</a>, is being questioned by police as a possible suspect in the murder of her mother, <a href="http://youtu.be/0D6YR2Cx91M" target="_hplink">Aurora Porsha</a>, who was found dead in her home in the summer of 2012.
+
+
+Sequence 184:
+[SOFT PROMPT]<s> Barcelona's Lionel Messi to sit out Zaragoza trip
+5d25d82ff1704a3c80ff4111c309fd81.jpg
+Barcelona's Lionel Messi, from Argentina, smiles during the Champions League quarterfinal second leg soccer match between FC Barcelona and Paris Saint-Germain FC at the )_ Barcelona in action during the Champions League quarterfinal second leg soccer match between FC Barcelona and Paris Saint-Germain FC at the Camp Nou stadium in Barcelona, Spain on April 19, 2019.
+(Photo by ADRIAN THAM / AFP) (Photo credit should read ADRIAN THAM/AFP/Getty Images)
+Barcelona's Lionel Messi will sit out their upcoming Europa League trip to FC Barcelona, Zaragoza, because of a thigh injury, his agent Jorge Arteta said on Wednesday.
+Mess
+
+Sequence 185:
+[SOFT PROMPT]<s> Whatever seems important at the time.
+Opportunity and hindrance
+I married my music teacher. While that has brought me many musical opportunities, it also keeps me from practicing as much as I might like. I hate to make student noises when she's trying to ronly 2015 in other words, I'm always going to be a student. The year after, I quit my job, moved to a small town, and lived there for the next two years.
+That's when I found my love of food and cooking. I took it upon myself to learn how to cook everything from pizza to sushi, from barbecue to biscuits. I'm now a foodie and I love it. But it's also made me a lot less patient, so I'm not cooking every night. Instead, I try to cook one
+
+Sequence 186:
+[SOFT PROMPT]<s> Brian D. Buckley
+crude inky blab
+HomeAboutContactMy BooksNSA Domestic Surveillance
+The Adventures of Links
+Posted on Friday, April 29, 2011 - 6:27 am | Leave a comment
+Greetings, loved ones. LET’S TAKE A JOURNEY.
+First up in links this week, we’ve got The and T he .
+Let’s get the hard stuff out of the way. In his op-ed piece in The New York Times, published today, Barack Obama takes a dig at his former rival for the presidency, Mitt Romney, by way of saying that he “knows the real Mitt Romney” (a quip in the same vein as a similar line from Obama’s book, Dreams from My Father). That’s a cute bit of presidential double-talk, but it’s also a sort of joke that gets it wrong, and which comes across as
+
+Sequence 187:
+[SOFT PROMPT]<s> mine's on the 45
+to find our way home, to break in these bones*
+Having grown weary of a seemingly endless string of flights for the past two weeks, I opted to drive from Northern California to Southern California (and back) this week. It was illogical, reaetea tea
+But, I've gotta admit, the drive was kinda nice. A different kind of scenery. A different kind of noise. And I was kinda blown away by the fact that it took me four hours to get from Sacramento to San Diego.
+I don't know why it took me four hours to get from Sacramento to San Diego. It's not like I drove there. I drove to the airport. I flew from San Diego to Phoenix. And then I drove to Phoenix, and then I drove from Phoenix to San Diego. Why did it take
+
+Sequence 188:
+[SOFT PROMPT]<s> Orioles Draft updates
+The Orioles have agreed to terms with 23 of their 49 selections in the 2010 First Year Player Draft. Here’s the list with the round the player was selected in: Riley Hornback (12), Jeremy Nowak (13),Michael Mosby (14), Joseph Oliveirareproduced from http://www.baltimoresun.com/sports/bs-sp-nd-draft-2010-06-08-draft-index-t1.html in www.baltimoresun.com on 06/08/2010 08:21:30 PM EST.
+
+I’m excited to be a part of this organization. The best way to express that is by taking part in the Orioles Draft. I look forward to getting to know you and your family. Please reach out
+
+Sequence 189:
+[SOFT PROMPT]<s> « AND THE PREMISE OF HIS CAMPAIGN IS THAT HE'S A SMART BUSINESSMAN?: |
+| AND THEY WONDER WHY WE'RE WINNING?: »
+SURE, IT WOULD BE MORE HONEST...:
+Jeter captains Turn 2 Foundation event (Doug Miller, 1/31/08, MLB.com)
+...but you can hardly expect him to callSmallville.
+A World Series trophy will be on display at the National Museum of American History in Washington, D.C., on Feb. 14.
+A look at the trophy and its plaque (courtesy of The National Museum of American History)
+Labels: 2007 World Series, Joe D, SONA, Steve, Steve Cohen
+# posted by JoeD : 12:39 AM
+http://en.wikipedia.org/wiki/Derek_Jeter
+http://www.boston.com/sports/baseball/
+
+Sequence 190:
+[SOFT PROMPT]<s> November 19, 2012	Notes from the road: Kansas City, MO	Tweet
+As the lights came up on the stage of the Sprint Center in Kansas City, Bruce greeted the crowd by saying that “when you come to Kansas City, you can’t resist playing this song – so we’ll play it\, as if it were an announcement of the number of times you could hear it, the time it would take to get to the end of the line and your name, that it was just a one-time deal. But it’s not. It’s not. It’s not. It’s not.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Sequence 191:
+[SOFT PROMPT]<s> @nes-native-english-services
+active 2 days, 19 hours ago
+NES – Native English Services started the forum topic Ok…first things first…Why the heck is it that I can't…. in the group How-To and Troubleshooting 2 years, 6 months ago
+“Zoom-in” on the buddypressstarted the forum topic How to download the BuddyPress plugins to be able to test them out on a demo site, in the group How-To and Troubleshooting 2 years, 6 months ago
+https://forum.nexus.nhs.uk/showthread.php?t=269375 started the forum topic Unhandled promise rejection in OAuth2-Server-Library, in the group How-To and Troubleshooting 2 years, 6 months ago
+I'm getting an error in OAuth2-Server-Library, which is un
+
+Sequence 192:
+[SOFT PROMPT]<s> WTF? Author Edits Lincoln
+I enjoy Thomas Lowry’s books. I think of them as the People magazine of Civil War literature, and not in a bad way. You can read the books in short bursts, putting them down for a while and returning to them later without losing tmusically or theater style. It is very readable, the writing is often very good, and it is entertaining. It has a very personal, nostalgic feel to it, and the reader is pulled into the characters’ worlds and places.
+
+This book is a good example of that.
+
+It’s about a young man named Slim. He is a private, assigned to the 145th Pennsylvania Volunteers. He lives in the Warrensburg region of the Adirondacks. The book takes place during the summer of 1863. The summer of 
+
+Sequence 193:
+[SOFT PROMPT]<s> in Paramus, NJ 07652
+Celebrity Bios
+Celebrity Bios Celebrity Bios Celebrity Bios Celebrity Bios Celebrity Bios Celebrity Bios Celebrity Bios Celebrity Bios Celebrity Bios Celebrity Bios Celebrity Bios Celebrity Bios Celebrity Bios Celebrity Bios Celebrity Bios Celebrity Bios Celebrity Bios Celebrity Bios Celebrity Bios Celebrity Bios
+
+Sequence 194:
+[SOFT PROMPT]<s> Winnebago recognized as top motor home manufacturer
+Thursday, February 14, 2013 11:10 AM
+Winnebago Industries Inc., of Forest City, has been recognized by Statistical
+Surveys Inc. as the top performing motor home manufacturer in the country in
+2012. In thekeep-up-with-the-times category, Winnebago has been named as the
+"No. 1 Owner-Operated Motorhome Manufacturer" for the third consecutive
+year. Winnebago also ranked first in owner satisfaction in the motor home
+manufacturing industry for 2012.
+The Motor Home survey, now in its 15th year, is conducted by Statistical
+Surveys, Inc., a leading provider of data analysis and statistics for the
+motor home industry. Winnebago's overall performance is attributed to the
+company'
+
+Sequence 195:
+[SOFT PROMPT]<s> CAIR-Chicago Government Relations Coordinator Presents at SAALT Conference About |
+Activist Corner >> Today is Wednesday, April 16, 2014 CAIR-Chicago Government Relations Coordinator Presents at SAALT Conference March 18, 2007 CAIR-Chicago Government Relat{\'I}nteraction with SAALT Conference: A Call for Anti-Islam Hate Crime Protection, Presented by the CAIR-Chicago Government Relations Coordinator, Ahmad Abu Kwat\\\\\\\\\\\\\\\'Ali, to the Special Assistance to Aliens in the Americas League of Teachers of Talmudic and Kabbalistic Studies, the Anti-Islam Campaign (SAALT) Conference in Chicago, Illinois, 2007
+Today is Wednesday, April 16,
+
+Sequence 196:
+[SOFT PROMPT]<s> California Appellate Report
+Thoughts on recent Ninth Circuit and California appellate cases from Professor Shaun Martin at the University of San Diego School of Law.
+People v. Cordell (Cal. Ct. App. - June 1, 2011)
+It's June. And here's another guy who's n']e asked for help to get out of his legal bind, and the court sent him to the Department of Social Services, the Division of Adult and Juvenile Services, and the juvenile court. What does this have to do with any of the people who are here today? I'm sorry, what is this all about?
+A lot, as it turns out.
+In People v. Cordell, the court affirmed the trial court's denial of the defendant's motion to suppress, and the court reversed the conviction.
+Here, the defendant and his father had
+
+Sequence 197:
+[SOFT PROMPT]<s> March 7/09 9:24 am - Tour de PEI Returns for 2009Posted by Editor on 03/7/09 The Tour de PEI organizing committee is gearing up for the return of world-class cycling across Prince Edward Island.Tour de PEI, presented by Scotiabank, showcases Prince Edward by bringing riders together for a unique combination of road racing, cyclocross, and criterium events. Taking place over three days, March 24-26, 2009, the 2009 Tour de PEI is set to bring a total of 4,500 riders to the Island for a variety of events, including the national road race, criterium and cyclocross championships. This year's Tour de PEI will feature a race program that will include 26 events across the Island. The first event of the weekend will
+
+Sequence 198:
+[SOFT PROMPT]<s> The blog that used to be here is now at http://www.taylormarshall.com/2008/08/is-christ-savior-of-his-mother-mary_09.html.opo
+What happened in the early church
+Where did all the books go
+I love Ezekiel 40:1-12
+1 And he took some of the wood from the house, and cut it with a stone, and burnt some of it with fire in the midst, and all the men saw it.
+2 And he took the cauldron full of hot coals of fire, and put them down among the lilies.
+3 And he came to the door, and called to his slaves, and they brought the lamb without blemish.
+4 And he smote the
+
+Sequence 199:
+[SOFT PROMPT]<s> Regeneron Pharmaceuticals, Inc. (NASDAQ:REGN)
++ Watch REGN
+The Company is a biopharmaceutical company that discovers, develops, and intends to commercialize pharmaceutical products for the treatment of serious medical conditions.
+pchop123
+Submitted: 4/9/20ton
+I have REGN, which is a good drug for a good cause, but I can't get past the fear of what will happen to the company when they have to put the drug on the market.
+Mack42
+Submitted: 4/11/20
+REGN stock has been in the negative for awhile, so I am not very optimistic about this company.
+Submitted: 4/12/20c44
+I own Regeneron Pharmaceuticals, Inc. (REGN) and I have held onto this stock
+
+Sequence 200:
+[SOFT PROMPT]<s> Christian Apologetics and Research Ministry Gardening by Matt SlickSome people might not think that parenting is a part of apologetics. But, it is. Christian parents have a great deal of influence in what their children think about the Lord. After all, isn,
+In this book, J. Warner Wallace provides the best apologetics book ever written. The book begins with a story about a child in his home, who has a difficult time with sin. The child's parents have neglected him, and the father's attitude is the most important reason for the boy's difficulties. The book then shows that a father can give the same attention to his child that he gives to his own life. The father can then do what he wants, but the child can still live his life in obedience to God. In the book, the author discusses the value of
+
+Sequence 201:
+[SOFT PROMPT]<s> You Are Here: home / Events on March 2, 2013
+Books and Brew Book Club Saturday, March 2, 2013
+10:30 AM - 11:30 AM Directions to this location: Woods Run More info... Teen Book Club: Looking for Alaska Saturday, March 2, 2013
+Discussions happen the first Saschool, Teen, Woods Run High School, Room 102, 4:00 PM, Directions to this location: Woods Run High School, Woods Run Drive, Westminster, Maryland, 21156, Directions to this location: Woods Run High School, Woods Run Drive, Westminster, Maryland, 21156, Directions to this location: Woods Run High School, Woods Run Drive, Westminster, Maryland, 21156, Directions to this location: Woods Run High School, Woods
+
+Sequence 202:
+[SOFT PROMPT]<s> UNITED STATES v. BRYAN, 339 U.S. 323 (1950)
+UNITED STATES v. BRYAN.
+CERTIORARI TO THE UNITED STATES COURT OF APPEALS FOR THE
+DISTRICT OF COLUMBIA CIRCUIT. No. 99. Argued December 15, 1949.
+Decided May 8, 1950.
+Respondent was the executive secretary and hadPeople's Republic of China's First Clerk for the United States' Embassy in China, which office had been created by Executive Order of 1939, as reenacted in 1941, 64 Stat. 1159, 1160, and 64 Stat. 1160, 1161, 1162.
+Respondent, who had been an employee of the Chinese Government since 1934, was charged with having knowingly assisted in a conspiracy to obstruct
+
+Sequence 203:
+[SOFT PROMPT]<s> ~ Friday of the Seventh Week in Ordinary TimeMark 10:1-12Thursday of the Seventh Week in Ordinary TimeMark 9:41-50Wednesday of the Seventh Week in Ordinary TimeMark 9:38-40Tuesday of the Seventh Week in Ordinary TimeMark 9:30-37Monday of the Seventh Week iare you and you are not my mother?"
+(Mark 9:38-40) The Master and the Pharisee
+(Mark 10:1-12) The Master and the Unknown Student
+(Mark 10:1-12) The Master and the Unknown Student: Prayer
+(Mark 10:1-12) The Master and the Unknown Student: Sermon
+(Mark 9:38-40) The Master and the Pharisee: Prayer
+(Mark 9:38-4

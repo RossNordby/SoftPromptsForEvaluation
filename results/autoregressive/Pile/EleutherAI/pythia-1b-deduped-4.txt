@@ -1,0 +1,1482 @@
+Sequence 0:
+[SOFT PROMPT]The quick brown fox jumps You're getting this! >>> I'm the right one for you, that's why I want to play. <
+
+Just talk to me and we'll see.
+
+When you talk to me, you'll get the answer.
+
+You'll get the answer. <-- Click.
+
+Here's the link to my test.
+
+The button will open it up and tell you.
+
+The button will tell you. <-- Click.
+
+I like it when you say things like that.
+
+If you're like me, you'd want to get rid of this.
+
+But I
+
+Sequence 1:
+[SOFT PROMPT]The creature, low and squat, peered aside me; Just your code, from now on, is your code. Just the data, without the user interaction, or if it's the other way around. Or, at least, if you want to implement it in your own program, or in a tool, or in another language.
+
+Then, you'll just have to explain what it does.
+
+And why.
+
+### Prerequisites
+
+The user needs to have access to the right modules. They need to be able to use the program, or the data that the program collects, or the tool that it uses.
+
+### Use cases
+
+The tool
+
+Sequence 2:
+[SOFT PROMPT]Meow! Hiss! The real problem facing Novosibirsk in the wake of The Great Cat-astrophe of 1846 was the over-population of wild cats, and the lack of a central water source for their consumption. The species were hunted to near extinction, and the town was forced to build a water supply in the river that was fed by the tundra. After that, life in the town was somewhat livable, but only in the sense that there was plenty of meat and the opportunity to steal chickens.
+
+In the new century, the tundra vegetation has been replaced by shrubs, and the water supply has become more contaminated. As the tundra ecosystem dies, the lake, and in turn, the river, is
+
+Sequence 3:
+[SOFT PROMPT]Curiously, AI capabilities have not improved much since the.
+
+<div style="width:100%;">
+<div style="width:100%;">
+<div style="width:100%;">
+<div style="width:100%;">
+<div style="width:100%;">
+<div style="width:100%;">
+<div style="width:100%;">
+<div style="width:100%;">
+<div style="width:100%;">
+<div style="width:100%;">
+<div style="width:100%;">
+<div style="width:100%;">
+<div style="width
+
+Sequence 4:
+[SOFT PROMPT]I tried to get him to give me a cup of water but he just kept saying '-How was your day? Do you have anything you need?-Would you like me to call you back?-Thanks for your help, - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Sequence 5:
+[SOFT PROMPT]Densely informative loss functions have an advantage in optimization landscapes that.
+
+In this paper, we introduce a novel deep neural network for dense prediction that learns dense features for the joint distribution over $\mathcal{S}$ in the same way as vanilla CNNs do. This deep network is called the [[[**Deep Pointwise Convolutional Network**]{}]{}]{} (DPCN). We also introduce an auxiliary loss function to improve the efficiency of training the DPCN. In the experiment, we demonstrate that the proposed loss functions and auxiliary loss functions have superior performance over existing loss functions and auxiliary loss functions.
+
+Related Work
+============
+
+There have been several recent studies that explore the performance of deep
+
+Sequence 6:
+[SOFT PROMPT]'Not a fan of that at all,' he said. 'I prefer cayenne pepper in my cereal.' became guilty of a deliberate act of plagiarism, and as a result, he was sacked from his job at the high school. 'We didn't know what to do with him,' said his father, Larry. 'There was a lot of stuff on the internet that had come up about him, so I asked him if he wanted to go to the library and see if there was anything there.' At the library, however, he met a group of students who told him that he had done nothing wrong. 'They were very nice,' he recalled, 'and they helped me out a lot. I was just amazed at how
+
+Sequence 7:
+[SOFT PROMPT]Want to hear one weird trick to end ######
+
+What it does: ## *algo:* selects a pair of parallel messages using a greedy algorithm. ## *message:* a message (one-to-one). ## *sample:* a random message. ## *distribution:* a distribution over all possible messages. ## *encoder:* a block of code that converts the message into a vector of numbers. ## *decoder:* a block of code that converts the message into a vector of numbers. ## *implicitly randomized:* in the sense that it does not make any assumptions about the message distribution. ## *algorithm:* the algorithm that does the message selection. ##
+
+Sequence 8:
+[SOFT PROMPT]THE TEN BIGGEST REASONS WHY YOU STILL CAN'T the blogosphere at large. I welcome any feedback or suggestions. I've written about a variety of subjects, and some of the content here is a mix of my own work and what I've come across in other places. I'm open to any feedback on anything, and will try to address any questions that readers may have. My email is matt@thebeststory.net. Matt has a great mind and is always trying to figure things out. You can find more about me at www.thebeststory.net.
+
+Share this:
+
+Like this:
+
+LikeLoading...
+
+Related
+
+About matt
+
+Sequence 9:
+[SOFT PROMPT]I'm... darkly amused, maybe, but mostly sickened. My most-viewed video on youtube was about *
+
+The world is a weird place, I'm a bajillionaire because of nothing more than having this one mother. A little story about my mother. As you may know, I was born with a rare disease called Xeroderma pigmentosum. It was the one thing that seemed to help me to grow up.
+
+It's a skin cancer, you see, caused by the lack of a gene that makes your DNA break. The disease itself is just so incurable that it requires surgery to remove the tumor, which I was given in my early twenties. That surgery was the end of my life.
+
+Sequence 10:
+[SOFT PROMPT]If you look at the math, most babies spend at least 6 months in orbit around Earth before the Earth. ́́́́́́́́́́́́́́́́́́́́́́́́́́́́́́́́́́́́́́́́́́́́́́́́́́́́́́́́́́́́́́
+
+Sequence 11:
+[SOFT PROMPT]INTERNATIONAL CONFERENCE FOR DOG SHAPED COOKIES: Paper submission should not be translated directly to this template. You may wish to visit http://interp.arizona.edu/cookie2r/template/ and create your own. https://www.cookies.arizona.edu/interp/template/ is not an official web page of the International Cookie Commission, but a simple page where you can find a set of easy-to-use template codes that you can modify for your own purpose. Please don't post your template codes on the Internet. These codes are meant for use only by members of the International Cookie Commission. They are meant for your convenience, and you
+
+Sequence 12:
+[SOFT PROMPT]New reports indicate that no one likes webdev. 'It's just so', said one developer, ' all |
+atonallvthe | onalthe | atonallvthe | onalthe | atonallvthe | onalthe | atonallvthe | onalthe | atonallvthe | onalthe | atonallvthe | onalthe | atonallvthe | onalthe | atonallvthe | onalthe | atonallvthe | onalthe | atonallvthe | onalthe | atonallvthe | onalthe | atonallvthe | onalthe | atonallvthe |
+
+Sequence 13:
+[SOFT PROMPT]ABOUT AWB
+KIDS ARE KIDS
+JOIN THE CAST
+<< Back to AWB News
+Christine Rouse is honored on the “Today Show”
+The executive director of Acting Without Boundaries (AWB), Christine Rouse, was featured on the NBC Today Show with “Kathie Lee and Hoda” on March 1, 2, and 3, 2013. The show is a project of the award-winning and award-winning charity, “Acting Without Boundaries,” which helps children in need in developing countries. AWB's mission is to create and cultivate a strong community of adults, parents, children and families, which can help young people realize their potential and fulfill their dreams. AWB was established in 2004 by Kristine Kiernan, former executive director of the National Association of Secondary School Principals (NASSP). For more information about AWB, visit www.actingwithoutboundaries.org.
+
+FOLLOW AWB ON
+
+
+Sequence 14:
+[SOFT PROMPT]Read More	Music News
+Taylor Swift Promises Reinvention & Collaborations On Next Album
+View Comments	(Courtesy Big Machine Records)
+new music, red, sweeter than fiction, Taylor Swift
+Following the success of her last album, Red, Taylor Swift says she’ll be  one has no idea whether or not it’s the last one she’ll ever make, and while she’s obviously a bit off-balance, the answer is yes. Swift, who’s managed to turn out three studio albums in three years, is giving fans a look into the future, and the result is an album that features collaborations with fellow artists like Beyoncé and Miley Cyrus.
+“We’re all about going for it,” she tells us, “so that means collaborating with the best people and making the best music. We’re also doing some great things with the new album.
+
+Sequence 15:
+[SOFT PROMPT]for reference. The original video has been deleted and is no longer available. Manuel returns to practiceORCHARD PARK, N.Y. Buffalo Bills quarterback EJ Manuel returned to practice Sunday after missing two weeks because of a left knee injury.Manuel partici this is a talk from the Doctor of Natural Science program, University of California, San Diego. The speaker is in his thirties, tall, athletic, and fit. He is a high school graduate with a degree in Business Administration, and has taken and passed the same courses as Manuel. He has also worked in the military, including a tour in Afghanistan. This is his first appearance at the program. Manuel is the first person to be invited to the University of California, San Diego, to speak at its school of Natural Science. This is his first speaking experience, and he is excited to give it a try.
+
+Welcome to
+
+Sequence 16:
+[SOFT PROMPT]Ciara, VH1 Divas 2012, VH1 DIVAS, Ciara, VH1 DIVAS Photos, Tune In Live Sunday Dec. 16 9/8c at VH1
+0 Comments	Vh1 Divas 2012: Ciara Performs Michael Jackson Tribute
+Ciara danced to Michael Jackon’s “Billie Jean” during Vh1 Divas. She earned cheers from the.Ciara Performs Michael Jackson Tribute - hilton on VH1 TV - Duration: 5:07. Duration: 5:07. Ciara dances to Michael Jackson's "Billie Jean" during VH1 Divas on VH1 TV - Duration: 5:07. <a href="http://www.hilton.com/en/group/videos/video/hilton-group-vh1-divas-2012-ciara-performs-michael-jackson-tribute-tv-360p-lgbt-ap/" target="_blank">Hilton.com</
+
+Sequence 17:
+[SOFT PROMPT]4 Mind 4 Life: Mental Health Tips
+Mental Health Tips
+Brain Fog Causes and Cloudy Thinking
+Created by Drew | : New Brain Information You should know that brain fog is very common to experience for people of all ages. Brain fog can happen to anyone, young or been.e2s.gsfc.nasa.gov/Science/Global/Hazards/Fog.htm 2 Mind 4 Life: Mental Health Tips
+3M®4 Mind 4 Life: Mental Health Tips
+How to Prevent Mental Illness
+New To 4 Mind 4 Life: Mental Health Tips
+What to Do When Your Mind is Out of Control
+Fight Brain Fog: Your Next Step in Life
+5 Mind 4 Life: Mental Health Tips
+5 Mind 4 Life: Mental Health Tips
+Brain Fog Causes and Cloudy Thinking
+6 Mind 4 Life: Mental Health Tips
+6 Mind
+
+Sequence 18:
+[SOFT PROMPT]hide Positive outlook in heart disease tied to fewer deaths
+Friday, September 20, 2013 9:20 a.m. EDT
+NEW YORK (Reuters Health) - People with heart disease who are more upbeat and excited tend to live longer than those who don't have such a positive outlook thero-munications.com/cta/article/view/28-0814-good-heart.html In the U.S., upbeat thinking has been linked to reduced risk of death from heart disease. Researchers in the U.S. studied 10,000 people who died from heart disease in 1992 and found that those who were more upbeat at the time of death were less likely to die than those who were less upbeat. But after controlling for a variety of factors, including the person's age, sex, body mass index, and smoking habits, researchers concluded that the association between upbeatness and reduced
+
+Sequence 19:
+[SOFT PROMPT]hide U.S. rethinking lowest-priced contract rule for guarding embassies
+Friday, March 22, 2013 1:08 a.m. EDT
+By Susan Cornwell
+WASHINGTON (Reuters) - Lawmakers are reconsidering a 1990 law that makes the State Department accept the lowest bids for contract
+
+Kovrig and Spyridon in a Washington Post article titled "CIA Becomes Spy Agency" stated: "The agency has been working since the early 1990s to improve its ability to spy on dissidents and other adversaries. It has made considerable progress, but it still faces major hurdles to operating effectively and efficiently. And there is still no guarantee that it can effectively carry out its mission without legal protections for it."
+
+CIA is a criminal activity. It's a "criminal" activity that is being tolerated by the Obama administration.
+
+Just because it is being tolerated by the administration, it
+
+Sequence 20:
+[SOFT PROMPT]Beth Israel Medical Center, NY
+Ricardo Cruciani, M.D., Ph.D., Department of Pain Medicine and Palliative Care, Beth Israel Medical Center Hi, my name is Ricardo Cruciani, I'm an M.D. and Ph.D., a pain specialist and I'm the Vice Chairman and Director of th.e Pain and Palliative Care Unit at Beth Israel Medical Center. I am the Vice Chairman and Director of the Pain and Palliative Care Unit at Beth Israel Medical Center, NY. I was born in Boston, Massachusetts, the son of Carmela, who was a mother of eight children, and Carmen, who was a mother of three. He graduated with honors from the Univers.it. d of Boston in 1980 and obtained a B.A. in Psychology from the University of Chicago in 1980. He did his internship and residency in the Department of Psychiatry and Behavioral Sciences at the Hospital for. in New York
+
+Sequence 21:
+[SOFT PROMPT]How to Conquer Recession Depression
+Oct. 7, 2008 By KATE BARRETT Listen in at a coffee shop, stop a stranger on the street or strike up a conversation at the bus stop and you'll likely hear a story like Marie Moore's.
+Struggling to pay her bills and concer event at the Dallas Farmers' Market. The National Association of Realtors has warned that the economy is "under the weather."
+It's been hard to get out of the slump, but what is helping? Ask this top economic expert to give you a break.
+
+How to Win at the Office of Personal Financial Management
+Dec. 2, 2007 By KATE BARRETT I work at a place where I've never worked before. I recently moved from one cubicle to another, and while it's great to be surrounded by people who love what I do, it can be hard to make time to meet new people
+
+Sequence 22:
+[SOFT PROMPT]Live	PHOTOS: Tattoos in the military
+Tale of the Tat: U.S. Military Body Ink
+David, who asked that is face not be shown because he is with Special Operations, has his left arm almost entirely covered in tattoos. The designs include rays of light, angels anu_en_us_help_us_pisses_out_8_nasty_girl_e_hassle_f_over_9_year_old_youngest_girl_who_shows_the_flesh_before_showing_hair_is_7_feet_tall_at_least_11_inches_from_top_of_her_head_7_feet_tall_and_large_for_this_she_has_light_dark_skin_and_hair_with_a_nasty_dew
+
+Sequence 23:
+[SOFT PROMPT]Protests in Turkey
+Chaos in Istanbul
+Erdem Gunduz stands in a silent protest at Taksim Square in Istanbul, June 18, 2013. Gunduz staged an eight-hour silent vigil in Taksim Square, scene of violent clashes between police and anti-government protesters in r list_2 = list(drop_case(data_list, 5))[1:] train_log_file = open(train_log_file, 'w') print('\n') for train_idx, (x_train, x_test, y_train, y_test) in train_list: for k, (train_data, test_data, target_data) in enumerate(zip(train_data, test_data, target_data)): if k not in train_idx: x_train.append(train_data[k]) y_train.append(y
+
+Sequence 24:
+[SOFT PROMPT]Live	Home> International
+Reporter's Notebook: One Face From Tahrir Square, Cairo
+CAIRO, Feb. 3, 2011
+By DAVID MUIR
+David Muir More from David »
+Weekend Anchor, "World News" Follow @DavidMuir
+Sherief Gaberf shows his injuries after being struck in the face Nation-building and street protests in Egypt have sent tens of thousands of people fleeing into the streets of the nation's capital, as well as several European countries, and other parts of the Middle East.
+
+While the violence has focused on the streets of Cairo, Egyptians are leaving the country, some by train and others by plane.
+
+Hundreds of thousands of Egyptians have taken to the streets of Cairo to protest against the recent government shake-up and the military's decision to step down from power.
+
+Tens of thousands have taken to the streets of Cairo, Egypt to protest against the recent government shake
+
+Sequence 25:
+[SOFT PROMPT]Abiding Word Ev. Lutheran Church
+Proclaiming God's Word in Bowling Green, Ohio.
+HomePastor Luke UlrichSermonsWhere We Are…
+Looking for a place to Abide in His Word? Join Us on Sundays: 9:00 am Sunday School; 10:00 am Divine Service
+John 8:31-32 Jesus said: 5.6 Minutes to read this scripture.
+To read the whole message, press the Print button on your remote control.
+As soon as you start reading, your computer will display a message that will ask if you would like to save
+the page. Just click Yes. The program will begin recording the message and will stop when you have read the whole
+scripture. After you have finished reading, press the OK button on your remote control to stop the recording.
+Sermon Scriptures
+Recommended readings:
+Psalms 113:1-6; 114:2-4; 115:1-3
+
+Sequence 26:
+[SOFT PROMPT]Hurricane Isaac Videos: Anderson Cooper reporting in Louisiana	As Tropical Storm Isaac gained strength in the Gulf of Mexico over the weekend Anderson flew from the Republican National Convention in Tampa to New Orleans.
+On Tuesday, shortly after 11 a.m. C to a local service and received a message from home stating that the game server is down.
+No one responded to our inquiry, and we assumed the problem was just temporary.
+This led us to wonder how long it might take for the server to recover.
+
+No one responded to our inquiry, and we assumed the problem was just temporary.
+This led us to wonder how long it might take for the server to recover.
+
+No one responded to our inquiry, and we assumed the problem was just temporary.
+This led us to wonder how long it might take for the server to recover.
+
+No one responded to
+
+Sequence 27:
+[SOFT PROMPT]Home » News & Events » Ecumenical Patriarchate Ecumenical Patriarchate 20 Total Articles< Previous 1234 Next >
+2010 Patriarchal Encyclical on Great and Holy Lent
+Beloved brothers and sisters, children in the Lord,
+Tomorrow, we enter the period of Holy and ﻿// Copyright (c) Microsoft.  All Rights Reserved.  Licensed under the Apache License, Version 2.0.  See License.txt in the project root for license information.
+
+using System.Collections.Generic;
+using System.Collections.Immutable;
+using System.Diagnostics;
+using System.Linq;
+using Microsoft.CodeAnalysis.Text;
+using Roslyn.Test.Utilities;
+using Roslyn.Utilities;
+
+namespace Microsoft.CodeAnalysis.Editor.VisualBasic.Test
+{
+    [DiagnosticAnalyzer(LanguageNames.VisualBasic)]
+
+Sequence 28:
+[SOFT PROMPT]Sign up for the Daily Drop so you don't miss out on AR's daily in I.pp.1. in I.pp.2. in I.pp.3. in I.pp.4. in I.pp.5. in I.pp.6. in I.pp.7. in I.pp.8. in I.pp.9. in I.pp.10. in I.pp.11. in I.pp.12. in I.pp.13. in I.pp.14. in I.pp.15. in I.pp.16. in I.pp.17. in I.pp.18. in I
+
+Sequence 29:
+[SOFT PROMPT]Home Baltimore News Baltimore News
+Baltimore Gas&Electric (BG&E), Potomac Electric Power Co. (PEPCO), and Delmarva Power Co. (Courtesy Image) Md. Gives Customers a Break on Utility Cutoffs
+BALTIMORE (AP) — The Maryland Public Service Commission says utilit, its electricity rate customers get the benefit of their utility cutoffs.
+The utility says it's sending customers a notice that says customers will be receiving their utility rates for Dec. 31.
+Utilities in Maryland had to file their rates with the commission on Monday. The utilities have until Jan. 8 to file the rates.
+PG&E Corp. (PCG) says its ratepayers will benefit from a new lower utility rate for January.
+PG&E's rates for the year start at a flat rate of $3.80 per kilowatt-hour, down $0.10 per kilowatt-
+
+Sequence 30:
+[SOFT PROMPT]Black Church ‘Keeper of the Flame’ Gala to Celebrate Obama Second Inauguration
+by AFRO Staff African American Church Inaugural Ball (Courtesy Image)
+WASHINGTON, D.C. -- The leaders of African American churches will, once again, convene in Washington, D.C.  15012009
+
+Black Church ‘Keeper of the Flame’ Gala to Celebrate Obama Second Inauguration
+by AFRO Staff African American Church Inaugural Ball (Courtesy Image)
+WASHINGTON, D.C. -- The leaders of African American churches will, once again, convene in Washington, D.C. )/((sqrt(4) - sqrt(4)*-1 - sqrt(4))*-6)*3)**2.
+-3/4
+Simplify (sqrt(99) + sqrt(99) + (sqrt(99) - (sqrt(99) + (sqrt(
+
+Sequence 31:
+[SOFT PROMPT]ShareThis AFT and members strongly support Chicago Teachers Union
+The AFT and our members around the country stand firmly with the Chicago Teachers Union and will support its members in their efforts to secure a fair contract that will enable them to give  the hours between 6:00 a.m. and 10:00 a.m. Everyday, CPS workers across the nation will strike if the union does not negotiate with the district and eliminate the deficit. If the AFT, CTU and our members cannot get a fair contract that protects all of our students, our schools and our communities, we will stand with the CTU and its members to shut down the district and get the Chicago Public Schools back on track.
+http://ctu.org/blog/2014/02/18/ctu-holidays-fight-for-children/The Washington Post
+
+Sequence 32:
+[SOFT PROMPT]...catching myself at Recoleta Cemetary
+...tweeting
+annabel twitterpated
+...linking
+My Yelp Page
+UCLA Extension
+L.A. Conservancy
+...blogging
+Belated resolutions for 2011
+(posted here in order to make them real)1) Travel more.Last year was a banner year for,.
+
+The Project’s team: a new front, a new business, a new building
+
+Maraise Benjamins is a little project, a new front for the University of California, Los Angeles, Conservancy, and a new business.
+
+A little project, a new front for the Conservancy, and a new business. It’s a project to redesign the exterior of the conservatory to make it more energy efficient.
+
+The design of the Conservatory will feature glass that allows it to reflect the environment, but also make the space more “sustainable” in a way that’s
+
+Sequence 33:
+[SOFT PROMPT]CONNECT with us. HomeCollectionsObjectsMilitary Personal Items
+Military Personal Items A selection of military uniforms and personal equipment from World War I through the Cold War. This group includes examples from the United States armed forces and other of
+
+Fighting Against the Odds: Bringing The Outcome to Reality
+
+ABSTRACT
+
+World War II
+
+Published: April 17, 2016
+
+DOI: 10.1510/eco.00000003-F-868B-3
+
+Fighting Against the Odds: Bringing The Outcome to Reality
+
+J. Donald McCarthy, Instructor of History, Pacific Division, The University of Washington, Seattle
+
+Editor's Note: This article was originally published in the journal of the National Coalition of Anti-war Activists, Issue 8, Spring 2016, Vol.
+
+Sequence 34:
+[SOFT PROMPT]Rogue 5-string
+redwoodmike
+NewUsername: redwoodmikePost Number: 6Registered: 9-2008Posted on Thursday, June 27, 2013 - 11:11 am: Hello...I have a 1996 Rogue 5-string that I want to sell. I put it up on Craigslist in the SF Bay area at a price of $1,700 and the seller is giving it away for free. He has the book and everything. I'd love to get rid of it. My old Rogue is like 20 years old, and has only been used about 6 times. Anyone know of a good place to sell it?
+
+Hey RedwoodMike, I'm pretty sure you can sell it at this price and get it back if you want to. I've got a few 5-string guitars and would like to sell mine as well. I've sold a few of them and they are in great condition and only used a few times. But I'm going to keep the guitar
+
+Sequence 35:
+[SOFT PROMPT]Home / History of The Eagles
+History of The Eagles
+The Story of an American Band
+Item: 40-581799
+Category: Personality DVD
+Format: 3 Blu-ray Discs
+This 3 Disc Blu-ray in 5.1 Surround Sound and Stereo is packaged in a six-panel digipak with accompanying pho
+
+title = History of The Eagles
+
+Author = Clive Cussler
+
+File = 40-581799
+
+Publisher = ABC-CLIO
+
+Price = $29.99
+
+Edition = 5
+
+Language = English
+
+Description = The story of a band that makes it in the tough world of the big city.
+
+Story of The Eagles - Clive Cussler
+
+The story of an American band.
+
+Publisher = ABC-CLIO
+
+Price = $29.99
+
+Format = 3 Blu-ray Discs
+
+Edition = 5
+
+
+Sequence 36:
+[SOFT PROMPT]algebraicthunk.net/ blog/ entry/ Close Encounters of the Automotive Kind
+I got run over by a car on Wednesday.
+Well, that's an exaggeration. My foot got run over by a car on Wednesday. I was trying to cross, in a crosswalk, in front of a red SUV that was sfamouspeople-accounts.tumblr.com/ blog/ entry/ My Friend's Car
+What is this? My friend's car is almost my car. This is my friend's car.
+I almost had it.
+I almost had it.
+I almost had it.
+I almost had it.
+I almost had it.
+I almost had it.
+I almost had it.
+I almost had it.
+I almost had it.
+I almost had it.
+I almost had it.
+I almost had it.
+I almost had it.
+I almost had it.
+I almost
+
+Sequence 37:
+[SOFT PROMPT]This blog is dedicated to those that truly bring a story to life: The Villains! In movies, comics, games, books, even in real life, villains make everything possible. So now we've decided to pay tribute to all the great villains of the world. We've come toSo the truth is, you never know what you'll get. But one thing's for sure, it's always better than nothing at all. Your friends, the people you care about, and the many awesome things you could do with your time. You never know when you'll be called upon to help someone else. When the world needs you. When you have to be brave, or when you know you're going to be happy. When you have to save a kid, or a country. You never know when your turn is coming. And there are no consequences, no setbacks. You never know what your next move will be
+
+Sequence 38:
+[SOFT PROMPT]« Traveling all-star softball...
+Maryland joining Big Ten»
+No Ben means no win for Steelers
+By Buck Frank (bfrank@altoonamirror.com)
+Save | PITTSBURGH - It was a typical Steelers-Bal-timore Ravens game Sunday night. Neither team was able to muster much off
+the field in the game that featured three wins in as many days. The Steelers held a two-point lead at the break and
+stuck to the Ravens for the final five innings.
+Steelers ace Ben Roethlisberger, who led the team with 31 points, was a key for the Steelers. The
+steelers offense came up big when Roethlisberger got into trouble, scoring the game-winning run in the third
+quarter. Roethlisberger was held to just seven points on the night.
+It was the second time in three games that the Steelers have been held scoreless. The
+
+Sequence 39:
+[SOFT PROMPT]Africa in Western media
+Please, please: don't tell me that the White Man does not care about Africa.Ovulation.ep.vovoo.eu
+
+[^1]: Although we used the official Ovulation.ep.vovoo.eu website as a source of data, we did not verify the authenticity of the website. We therefore cannot guarantee that the results of the study are accurate.
+
+[^2]: We provide a high-quality translation for the last word in this section.
+
+[^3]: This study has been funded by a grant from the Faculty of Arts and Social Sciences, Lund University.
+
+[^4]: We used the last word in the previous sentence to create a new translation.
+
+
+Sequence 40:
+[SOFT PROMPT]Question:	Where did dale earnhardt jr finish in todays nascar race? Answer:	Earnhardt started and finished in 20th place. Jeff Gordon came in 1st. AnswerParty
+Jeff Gordon ×
+Jeff Gordon Details
+Jeffery Michael "Jeff" Gordon (born August 4, 1971) is an Ameri"
+
+#   "    _  _ _     _   "   " "  _ _   " "  "  _ _  " "  _ _ "   " "  " "  "  "  "  "  "  "   "   "  "  "  "  "  "  "  "  "  "  "  "  "  "  "  "  "  "  "  "  "  "  "  "  "  "  "  "  "  "  "  "  "  "  "  "
+
+Sequence 41:
+[SOFT PROMPT]Jacob Lawrence American 1917 -2000 Born:
+Atlantic City, New Jersey, United States Studied:
+Harlem Art Workshop American Artists School, New York Exhibited:
+Lawrence One-Man Show, Museum of Modern Art, New Y Examples of Work:
+Baltimore Museum of Art, MD HirPages
+
+Thursday, July 15, 2014
+
+I’m loving the booklet! I can’t wait to see what is next. I’m really looking forward to this one.
+
+As soon as I saw the cover, I knew I was in for a good read. I love the idea of an eco-friendly and affordable wedding book. I love the idea of a book about a single day in a single wedding.
+
+I’m already imagining how much it would cost to put this book together. But I’m sure it will be well worth the effort. I think it’s going to
+
+Sequence 42:
+[SOFT PROMPT]Code of the Public Local Laws of Maryland, 1930
+350 ARTICLE 2.
+ANNAPOLIS.*
+P. L. L., 1888, Art. 2, sec. 28. 1898, ch. 370. 1914, ch. 156. 1914 Code, sec. 29.
+1. The boundaries of the City of Annapolis shall be as follows: Be- ginning at the corner of the w between St. Paul's church and State House;
+West between St. Paul's church and State House;
+East between St. Paul's church and Hickory Street;
+North between the said church and Hickory Street;
+South between the said church and West Franklin Street;
+East and West between Franklin Street and Mary Street;
+South between Franklin Street and the line between South King Street and South
+Washington Street;
+North and South between the said Franklin Street and Washington Street;
+West between Franklin Street and the line between State House and the point
+at which it intersects with the land of the State of
+
+Sequence 43:
+[SOFT PROMPT]Despite Everything, Tiger Will Always Be No. 1
+by: Frank Deford, NPR, April 16, 2014 2:04:00 am
+Frank Deford says there'll never be another Tiger Woods of any sport. // AFP/Getty Images, Karim Sahib
+Tiger Woods hasn't won a major in six years, and at 38, s*
+So it's not surprising that Tiger, in a new interview with The Guardian, says that when he looks back on his career, he can't think of anything he would have done differently. "If you ask me, I've got to say that I've always been able to compete," he says. "I'm very proud of what I've done."
+So he'll keep playing. That's a safe bet. The reason, as he says, is simple: "I've had the most success in the sport I've loved."
+It's a truth that Woods seems to have held all along. In his 1997
+
+Sequence 44:
+[SOFT PROMPT]RCW 51.48.210Delinquent taxes.
+If payment of any tax due is not received by the department by the due date, there shall be assessed a penalty of five percent of the amount of the tax for the first month or part thereof of delinquency; there shall be assesstaciticotestimonials 3of the failure to pay delinquent taxes on or before the date that they are due and payable.taciticotestimonials 4.1.1Revenue. Every person who fails to pay any tax imposed by this chapter or the collection of any tax imposed by this chapter or by any other law is liable for a penalty equal to the amount of the tax, penalty, or assessment, plus interest.taciticotestimonials 3of the failure to pay delinquent taxes on or before the date that they are due and payable.taciticotestimonials 4.
+
+Sequence 45:
+[SOFT PROMPT]Al-Qaida Arm In Yemen Flexes Its Muscles In Nigeria
+Share Tweet E-mail Comments Print By Dina Temple-Raston Originally published on Thu July 12, 2012 11:25 am
+Listen	An unusual terrorism case started in Nigeria late last week. Prosecutors in the capital ci the Islamists were initially successful in killing a senior police officer in the capital Abuja, but that was followed by a coordinated series of attacks across the country. The police officer, named as Maj. Gen. Osagie Adesoye, died when an explosives-laden vehicle rammed his police car in Sule Local Government Area, near Abuja. He was identified as a Nigerian who had joined the military and was a friend of Yusuf al-Qaradawi, the preacher of the Muslim Brotherhood. The attack was one of several carried out by the terrorist group. According to the government, the police officer
+
+Sequence 46:
+[SOFT PROMPT]by AwesomePerson#2
+The most beautiful girl in the world who has an amazing personality. Everybody loves her and wishes they could be friends with her. When she is not around them, they get very sad. Although she has never had a boyfriend, the boys are linie.lubasov@gmail.com <e.lubasov@gmail.com> e.lubasov@gmail.com <e.lubasov@gmail.com>
+1	Житті.	Житті	ADJ	Ji|Hi	Animacy=Inan|Case=Nom|Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing	0	root	_	_
+1	Навчається	Навчається	ADJ	Ji
+
+Sequence 47:
+[SOFT PROMPT]Tunisia, Egypt and ElBaradei
+In the Guardian, my friend Jack Shenker talks to Mohamed ElBaradei about the risks of a Tunisia-like uprising in Egypt — which ElBaradei does not want:
+"What has transpired in Tunisia is no surprise and should be very instructi women, but there is another element of the story that I think is significant. If you look at the world outside of Tunisia, it is remarkable to see that the quality of the government has deteriorated. If you look at the record of the cabinet and the legislature, you have almost no quality at all. The political future of the country is very much up in the air. I think the big picture is that the best thing that can happen to the country is to end the repression and to make sure that the new government, whatever it is, is credible and capable of governing."
+
+Tuesday, November 19, 2010
+
+I
+
+Sequence 48:
+[SOFT PROMPT]Audubon.org
+Feature Articles Editor's Note Letters
+Audubon View
+Field Notes True Nature Incite
+Earth Almanac Audubon At Home Reviews
+One Picture E.O. Wilson Stuart Pimm Richard Cizik
+E-Correspondence
+Can religion and environmentalism find common ground in Karen W. Losey
+Spirit of the Age
+Audubon Views
+The South
+The Sights of Southern Ontario
+The Southland
+The Shores
+Sylvia Pond
+Spirit of the Age
+An E-Letter to Family and Friends
+Cecilia Bacon
+The Frogliders
+Canadian Nature Writing
+Correspondence
+Birds of Canada
+Terra Nova
+The Canadian Journey
+Frogliders
+Clark Museum
+Canadian Art
+Correspondence
+Margaret Lefebvre
+Backwoods Wildlife
+Huron
+Dr. Mark MacDougall
+Pra
+
+Sequence 49:
+[SOFT PROMPT]Forums » Economics » Economics Questions » Friedmanite Anarcho-Capitalism and the Chicago School
+Friedmanite Anarcho-Capitalism and the Chicago School
+1,711 Posts Points 29,285
+posted on Thu, Nov 22 2012 6:38 PM rated by 0 users
+I need some clarification h 14 Questions have been solved by Friedmanite Anarcho-Capitalism and the Chicago School. 11/22/2012 10:26:09 AMI need some clarification h/?
+
+It seems that we are still struggling with the concept of freedom, because of our misunderstanding of what freedom is. In our minds, it is just something we are able to do. It is not something we have the right to do. It is something we have to give up. Freedom is something that we have to give up to have. We need to give up something. Freedom is not something that we can give up.
+
+It seems
+
+Sequence 50:
+[SOFT PROMPT]Arbuthnot Date:
+Jan 7, 2008 4:28pm Forum:
+Re: The Jerry Question i'm pretty sure i've mentioned it previously, but if i had to choose between the GD & Jerry's side projects, i'd easily choose the latter, even though i ever only got to see the JGB the once  and GD's music was definitely his. But i digress.
+
+Soup, and Sand, the jerry's band will be on tour this fall with "Thunderbird". Thats about as good a title for a gig as i could think of.
+
+Drummer: I love the time in the band with Jerry, he has great guitar playing and is able to lay down the drum beat in a very nice way.
+
+Guitarist: When I first started the band we played through all the songs, this was the main way we learned. I loved it and now I'm doing it.
+
+
+Sequence 51:
+[SOFT PROMPT]Utah State football: Joe Hill poised for significant role at running back
+USU notes • Soph won't start, but will be a big contributor.
+By Tony Jones The Salt Lake Tribune Published August 9, 2012 4:41 pm
+Logan • Through two seasons at Utah State, seven car believe they are a franchise in the football |
+Photos courtesy of Utah State Athletics |
+The Cougars hope to make a name for themselves as a legitimate FBS contender in the West.
+By Taylor Kitsch • 7:00 p.m. ET • ESPN3.com • ESPN
+By Taylor Kitsch • 7:00 p.m. ET • ESPN3.com • ESPN
+Rex's Picks by the numbers
+Agree: I'd take a lot of players from this class.
+By Brent Zwerneman • 7:00 p.m. ET • ESPN3.com •
+
+Sequence 52:
+[SOFT PROMPT]Utah State football: Aggies' defense challenged but hold up vs. UNLV
+By Tony Jones The Salt Lake Tribune Published September 29, 2012 7:58 pm
+Logan • Utah State went scoreless in the first quarter, surrendered a first-half touchdown for the first time this Wednesday's biggest challenge for Utah State's defense was getting a stop on a late-season Hail Mary touchdown pass from quarterback Aaron Wilson. The Aggies held the Rebels to a field goal and a scoreless first quarter as the defense held the Cougars to just 31 yards rushing. Utah State has a potent rushing attack led by tailback Ben Kunz. Running back Ben Tate has rushed for 1,259 yards this season. The Aggies have allowed just 32 rushing yards per game. Utah State's offense has been one of the most prolific offenses in the nation. The Aggies have scored 44 or more points in four of
+
+Sequence 53:
+[SOFT PROMPT]Search within this collection: Recent Submissions
+1815 Chap. 0140. An Act To Apportion And Assess A Tax Of One Hundred And Thirty-Three Thousand, Three Hundred And Twenty-Eight Dollars And Fifty-Two Cents, And To Provide For The Reimbursement Of Twenty-Eig
+
+Comments
+
+Where is the levy in all of this? This is not a small tax. It is far too much to be allowed to be spent. I do not know how the legislature will make up the difference.
+
+Mr. KNOX (W.J. on the 4th of March, 1815)
+
+Yes, it is a small tax. I am very sorry that it is not less, and I hope it is not more. I think we can do a much better work than this. I hope you will agree with me.
+
+Mr. ROGERS (H.C
+
+Sequence 54:
+[SOFT PROMPT]Promoting, Protecting, and Strengthening Home Schooling
+EA Blog
+About EA
+Start Home Schooling
+Just Plain Interesting: Springboards for Research on the AmishJune 4th, 2013 by MelissaPublished with PermissionWritten by Karen Robuckwww.TOSMagazine.comI see th (1) a mark for the beginning of the last stanza of the poem, written in iambic pentameter (see page 1) ; (2) an alto and a basso for the first line of the second stanza; (3) a quatrain, a six-line poem that is rhymed in a pattern called quatrain rhyme (see page 4) ; (4) a three-line stanza, a five-line poem, and a six-line poem, all of which are written in iambic pentameter (see page 1) ; (5) a short
+
+Sequence 55:
+[SOFT PROMPT]ARKOFGOD
+For I know the plans I have for you, declares the LORD, plans for welfare and not for evil, to give you a future and a hope. ( Jeremiah 29:11)
+Home10 commandments and the Law of Christbecoming a believercreationism vs evolutionismDeath and resurre health and the Law of Christ
+
+Tuesday, December 12, 2011
+
+Not a lot of people are doing research on the case of the man with the bottle, the infamous schizophrenic who lost his sight and his life when he was 20 years old. What many people don't realize is that the man in question was not mentally ill at all, but rather, he was on the brink of dying. In fact, he was a very strong person, and had suffered much mental abuse, as many schizophrenics do. But his life was not over yet.
+
+As the story goes, he was diagnosed as schizophrenic,
+
+Sequence 56:
+[SOFT PROMPT]Moretti Fine Art shows fine works by Italian masters in Shanghai for the first time
+The Master of Memphis (Florence, active c.1500-1510), The Holy Family with the Infant Saint John the Baptist and two shepherds. Oil on panel, diameter: 112 cm.
+SHANGHAI.- E"class MakeRequest{
+    /**
+     * {@inheritdoc}
+     */
+    def apply(obj: Any, request: Request): Unit =
+      obj match {
+        case w: HTMLFormElement => w.sendRequest(request)
+        case h: HTMLDivElement => h.sendRequest(request)
+        case t: HTMLTextAreaElement => t.sendRequest(request)
+        case p: HTMLParamElement => p.sendRequest(request)
+        case p: HTMLFormElement => p.sendRequest(request)
+        case s: HTMLScriptElement =>
+
+Sequence 57:
+[SOFT PROMPT]Home→Collections→CrossroadsIN THE NEWSCrossroadsFIND MORE STORIES ABOUT:LoveDelray BeachBandMeetingYoung People| MoreFEATURED ARTICLESLIFESTYLETeaching at the crossroadsAugust 24, 2012Meet another member of South Florida's many-sided faith community. This  heALTHIP|SESQUIBE|SESQUIBE|SESQUIBE|SESQUIBE|SESQUIBE|SESQUIBE|SESQUIBE|SESQUIBE|SESQUIBE|SESQUIBE|SESQUIBE|SESQUIBE|SESQUIBE|SESQUIBE|SESQUIBE|SESQUIBE|SESQUIBE|SESQUIBE|SESQUIBE|SESQUIBE|SESQUIB
+
+Sequence 58:
+[SOFT PROMPT]Skip to the content | Change text size Monash University - Faculty of Arts
+About Arts
+Contact Arts
+[Staff Only]
+Search Monash Arts
+Arts Faculty » Journalism, Australian & Indigenous Studies » About the School of Journalism, Australian and Indigenous Studie# This is a comment, please ignore it.
+
+The email from the Australian Department of Education about this article has not yet been opened.
+
+Just to confirm that the article is a valid article, please respond by email.
+
+There is no reference to "zero" in the article.
+
+"In 2012, I visited Monash University and I found the School of Journalism was doing an amazing job in providing resources to all students."
+
+There is no reference to "zero" in the article.
+
+"In 2012, I visited Monash University and I found the School of Journalism was doing an
+
+Sequence 59:
+[SOFT PROMPT]Posts tagged with LOMBARDI
+May 4, 9:40 am	Winning Isn’t Everything: ‘Lombardi’ to Close on Broadway
+By PATRICK HEALY	Sara Krulwich/The New York Times Dan Lauria in the title role in “Lombardi.”
+“Lombardi,” the play that tried to draw men to Broadway with a.d.c. readings by two women, won the Pulitzer Prize for Drama in 1970.
+The one-woman show, which ran at the Goodman Theater in New York for a year, was presented in its original cast and with a new cast of three, in June.
+It is being presented at the Theater at Lincoln Center on May 12-14.
+Directed by Gregory Mosher, the show opens at the Goodman Theater on Thursday night.
+The show, which also features a performance by two women, is about how “Lombardi” — a L.A. detective with a drinking problem — comes to
+
+Sequence 60:
+[SOFT PROMPT]Who was Robert Filliou?
+Born January 17, 1926, Sauve, FranceDied 1987, Les EyziesRobert Filliou, a member of Fluxus, the 1960's performance group that specialized in esthetic nonevents, believed that art didn't have to express itself in the form of objects and that "there was no need for communication." Fluxus, the 1960's performance group that specialized in esthetic nonevents, believed that art didn't have to express itself in the form of objects. Filliou's art is characterized by the way he allows his subjects to move around in a composition, allowing them to occupy and influence each other. His compositions were free from the idea of the thing. They were composed of simple forms, and in this way they were accessible to all viewers. His works often had a variety of subjects and were relatively simple. These were the works that were to become famous. He studied at the
+
+Sequence 61:
+[SOFT PROMPT]Atheism's 10 Commandments
+p>I saw a display recently on “Atheism’s 10 Commandments.” In fact, it was brought to my attention by somebody who asked if I had been involved in creating it because it sounds so much like me. When I listened to it, I was horrifi report, but now I’m interested in the fact that it has no biblical basis. I am not going to try to explain the full list, but I will give a brief description of the basic tenets of the statement.
+
+1. God exists and there is no deity.
+
+2. God is both wise and holy.
+
+3. God has no equal or opposite.
+
+4. God is the center of the universe.
+
+5. God is the source of all life.
+
+6. God is infinite and all-powerful.
+
+7. God is all-knowing and
+
+Sequence 62:
+[SOFT PROMPT]Symptoms of Infection in Pregnancy
+Symptoms of infection in pregnancy vary depending on the infection. Infections such as
+cytomegalovirus (CMV),
+group B streptococcal disease (GBS),
+toxoplasmosis, and some sexually transmitted diseases (STDs) may not have  from each pregnancy. These infections are the most common cause of maternal
+and fetal morbidity and mortality. However,
+most women who have these infections do not have symptoms. The reason for this is that
+they are often asymptomatic or have no symptoms at all.
+
+Symptoms of infection in pregnancy
+Infections that are transmitted to the fetus or newborn can cause serious problems.
+
+·
+Cytomegalovirus Infection
+
+Cytomegalovirus infection can be passed to the newborn through
+contact with infected mother or mother-to-child
+transmission. This is called vertical
+infection. The infection is
+
+Sequence 63:
+[SOFT PROMPT]Risk Factors for Cervical Cancer
+A risk factor is something that increases your chances of developing a disease or condition.
+It is possible to develop cervical cancer with or without the risk factors listed below. However, the more risk factors you have,  The
+Risk factors for cervical cancer
+Age: 10–49
+Risk factors for cervical cancer:
+Tubo-ovarian abscess: Your chances of developing a cervical cancer are greatly increased if you are pregnant or you have a past history of having an infected tube in your cervix.
+HPV: If you have a past history of having an infected cervix, your chances of developing cervical cancer are greatly increased.
+Male partner: Your chances of developing cervical cancer are greatly increased if you are married.
+A history of childbirth: Your chances of developing cervical cancer are greatly increased if you have had a previous childbirth
+
+Sequence 64:
+[SOFT PROMPT]Bombardier Opens Third Service Centre For Commercial Aircraft By Bill Goldston
+February 19, 2010 - Bombardier Aerospace announced that it has added a third commercial aircraft service centre to its growing customer support network worldwide. The facility,  me to two locations in Calgary and Montreal to provide a 24-hour commercial aircraft support centre for Bombardier aircraft.
+
+This is not a problem as Bombardier can only use one of the three service centres. It will only use the Bombardier service centre in Calgary to respond to commercial aircraft inquiries, and will not use the facility in Montreal.
+
+Bombardier has set up the new facility to handle customer inquiries about the three Bombardier ATR-72-600 airplanes that it offers to customers.
+
+Customers interested in Bombardier aircraft can make a booking online at www.b
+
+Sequence 65:
+[SOFT PROMPT]Racine Maintenance School Bond (2008)
+The Racine Maintenance School Bond was a bond measure that was on the April 1, 2008 ballot in Racine County. It was intended to use $16.5 million over a five year span for maintenance of the Racine Unified School Distr of Racine and Kenosha Counties. It was approved by a 2-1 vote in the Racine County Board of Supervisors. The total cost of the bond was $17.9 million. The measure passed with 40% of the votes against it.
+
+References
+
+External links
+ Official Website
+
+Category:2008 Wisconsin elections
+Category:2008 Wisconsin elections
+Category:Elections in Racine County, Wisconsin
+Category:2008 Wisconsin disasters
+Category:Racine County, WisconsinArchive for January, 2009
+
+What’s the point of having a high-powered internal marketing department if you can’
+
+Sequence 66:
+[SOFT PROMPT]Changes related to "United States congressional delegations from Idaho"
+← United States congressional delegations from Idaho and removals from https://github.com/brodyjb/pipeline/issues/161
+← Canceled by the system administrator.←
+→ Follow the instructions in the issue report for details.←
+→ Check out the system status for more details.←
+→ See the release notes for more details.←
+→ The status of this release is pending.←
+→ The following people have contributed to this release:←
+→ John Benjamin Dreyer → https://github.com/brodyjb/pipeline/issues/142
+→ Fossil Team →
+
+Sequence 67:
+[SOFT PROMPT]Footnotes have been changed to endnotes and the symbols to numbers. - Jim Duvall
+Editor's Preface
+Among the transactions which were recorded by the delegates at the ninety-ninth session of the venerable body, whose minutes we herewith present to the public now need not be considered. They may be gathered from the minutes of the meetings of the various committees which are set apart for the purpose, and the statements of the committees which are of a special character.
+
+In the second volume of the "Canon of Praise," "to the Church of God in Christ in New York," we find the following recommendation: "Let us look at the appointments made by the last congress, and at the appointments which have been made by the last session. What is the amount of power conferred by the legislature upon the several departments of the church, by the several bodies which have been formed by it
+
+Sequence 68:
+[SOFT PROMPT]Draft History [-]Drafted in the 5th round (145th overall) by the California Angels in 1996 (did not sign)Drafted in the 2nd round (66th overall) by the Chicago White Sox in 1999 (did not sign) Draft Report [+] Drafted in the 2nd round (43rd overall) by the italian National Team in 2002 (did not sign)Drafted in the 2nd round (66th overall) by the Seattle Mariners in 2003 (did not sign) Drafted in the 3rd round (128th overall) by the San Diego Padres in 2005 (did not sign)Drafted in the 3rd round (130th overall) by the Toronto Blue Jays in 2006 (did not sign)
+
+Comments (0)
+
+Transcript of Draft History [-]
+
+Draft History: Born and Raised in CaliforniaBy Rory Knight
+
+1. Growing up in California
+
+Sequence 69:
+[SOFT PROMPT]San Jose Sharks Schedule, Previews, Recaps: Not Time To Panic For Sharks
+It couldn't last forever, regardless of how the San Jose Sharks played, they were going to have to lose again at some point. They were going to have to lose two or three games in a ro Friday's 8:00pm game will see the San Jose Sharks get their fourth straight win, while the Detroit Red Wings take on the Los Angeles Kings in their final home game. Thursday night's game will be a battle between two teams who were among the top teams in the Western Conference standings just a few weeks ago, and both have to prove they can keep their playoff hopes alive. Tonight's game will be a battle of the up-and-coming youngsters, while also having to show they can compete with the elite of the Western Conference. San Jose is currently tied for second in the Pacific Division with the Anaheim D
+
+Sequence 70:
+[SOFT PROMPT]Obituaries 10-25-2011
+October 25, 2011By Beacon Hill Times Staff
+Barbara Livingston Hally
+Contributing writer for Beacon Hill Times
+Barbara Livingston Hally of Boston died on October 18. She was 93 years old.
+Born to Mary Bolles Livingston and Harry Angus . She was raised in Adams County, daughter of the late
+Charles B. Livingston and Agnes Monroe Livingston. She was a retired teacher. She was a member of the Adams County Historical Society. She is survived by her husband of 64 years, Albert Hally; her children,
+Cathy Livingston (Jim) of Canton and Joe Livingston (Pam) of Hadley; her grandchildren, Jay Livingston of Franklin and Jay Hally of Hadley; three great-grandchildren, Tessa Livingston and Nicole Livingston.
+Visitation will be from 2 to 8 p.m. on Thursday
+
+Sequence 71:
+[SOFT PROMPT]NewsNewsletterPressContact
+GermanEnglishFrenchRussianChinese
+Home pageUpright and grand pianosConsulting and salesBechstein - The LegendConcerts and pianistsService
+Concert calendarPianistsInterviews and voicesPiano competitionsCDs and DVDs
+International c'
+
+title: "Win Win | Win Win - David de Beaudieu | "
+
+format: "html"
+---
+
+{% for title in pages %}
+  <h2>{{ title }}</h2>
+{% endfor %}
+<script>
+  $(function() {
+    $('a[href$="/services"]').on('click', function(e) {
+      e.preventDefault();
+      $.post('/services/winwin/winwin', {name: $(this).attr('href')}, function(data) {
+        $('#main-page').
+
+Sequence 72:
+[SOFT PROMPT]print Belfer Center Home > Regions > Africa
+By DateBy TopicBy Publication TypeBy Program/ProjectBy Expert	Filter by Select Program/Project
+Science, Technology, and Public Policy
+Harvard�Belfer on Syria
+Managing the Atom
+Energy Technology Innovation Policy
+ be- ries or adverse effects of the treaty. A society that violates this principle will be in a position to use its power to advance itself against its enemies.
+]]>
+
+Alphabet Inc. and the U.S. Army. Defiant to the charge that it violated trade secrets laws, Google disclosed Thursday that it had paid the government for access to information it held about the NSA, and it also said it has done so under a commercial contract.
+
+The new settlement between the Justice Department and Google was not the first for the company, which says it has not been the subject of any federal investigation or lawsuit for its
+
+Sequence 73:
+[SOFT PROMPT]AMD Powers the Heart of the Next Console Generation
+By Nihar Patel -
+AMD, INTC, NVDA
+Nihar is a member of The Motley Fool Blog Network -- entries represent the personal opinion of the blogger and are not formally edited.
+AMD (NYSE: AMD) isn't joking when i;m suggesting AMD the company that is working on a next generation of computer
+and video cards.
+Now we know that i am not joking, because i was first the same time.
+AMD has been working on it for quite some time.
+So, i have to ask, is AMD still planning on introducing the next generation of video cards?
+The company has launched its new Fusion
+processors, that are being powered by the Cortex-A15 cores and Cortex-A57 cores.
+Cortex-A15 has been benchmarked to be up to 10 times faster than the Cortex-A57.
+
+Sequence 74:
+[SOFT PROMPT]eBook sales jump 115% in January
+Amazon's Android Appstore may launch March 22
+AT&T to acquire T-Mobile from Deutsche Telekom for $39 billion
+on Mar 20, 2011 at 2:30 PM
+AT&T, the nation’s second largest wireless provider, has just announced that it will ac'reporting a major shake-up of its network. The change, which is slated to roll out to more than 3 million customers in the first quarter of 2011, is designed to provide greater bandwidth to users and to improve the overall experience. In addition, AT&T will be acquiring T-Mobile, the nation’s third largest mobile network, for $39 billion in cash, making it the nation’s largest wireless carrier. The move is expected to lead to a reduction in the number of cell towers in the company’s service area, which is designed to boost overall network performance.
+“As the nation’s largest
+
+Sequence 75:
+[SOFT PROMPT]Older Articles	Europe
+by Dan Graziano
+Huawei announces global availability of the Ascend P1 smartphone
+By Dan Graziano on April 18, 2012 at 10:45 PM.	Huawei announces global availability of the Ascend P1 smartphone
+Huawei on Wednesday announced global avai
+
+Europe
+
+Huawei has announced that it will be releasing a new smartphone on May 9, 2012, in China. The device will be released with a three-year warranty.
+
+Huawei Ascend P1 will be available in two variants. The P1 will be available in a 4GB/8GB model, and a 6GB/12GB model. It will also be available with a MicroSD card slot.
+
+The company will be releasing the Ascend P1 in China. The device will be available in black, white, red, blue, and green colors.
+
+Hua
+
+Sequence 76:
+[SOFT PROMPT]Nothing "Is What It Is"
+Question: Which will come first, the completion of the Second Avenue Subway or the next Mets World Series victory? Christine Quinn: Well I can’t actually answer that question honestly because my father is 84, and he remembers the da etc. How can I help? Please help me, just like I helped my dad. 😉 Chilke, de la Blanche.
+
+First of all, I want to say thank you for the lovely feedback I’ve received on the podcast.
+
+I know that some of the comments I’ve received have been really interesting and enlightening and I’m very grateful to everyone who has taken the time to take part.
+
+I also want to thank everyone who has downloaded the episodes, liked the podcast and left me a message, just because you enjoy listening to it.
+
+As you can see,
+
+Sequence 77:
+[SOFT PROMPT]LOVE, Francis Johnson, (1901 - 1989)
+LOVE, Francis Johnson, a Representative from West Virginia; born in Cadiz, Harrison County, Ohio, on January 23, 1901; attended the public schools; Bethany College at Bethany, W.Va., A.B., 1924; principal of Warwood Hig ifive School, W.Va., 1927-28; lawyer; was state senator from 1931-33; secretary of state from 1933-37; was elected as a Republican to the United States House of Representatives in 1934; was appointed as Ambassador to France in 1938; elected as a Republican to the United States Senate to fill the vacancy caused by the death of Francis W. Johnson; served from 1937 to 1940; served as United States Ambassador to Great Britain from 1941 to 1945; was United States Ambassador to Italy from 1945 to 1947; appointed as U.S. Envoy to the United Nations in 1949; was defeated in his re-
+
+Sequence 78:
+[SOFT PROMPT]Steven M. Smith
+25 Breaking Away from a False Dilemma
+With a high-school level understanding of science and theology, I was convinced by this "either-or" argument and, to my knowledge, became the first Young Earth Creationist in my local Nazarene church. I
+
+The “creationist” movement that started in the early 1980s is by no means a monolith. There are different camps within the movement, and even within the movement itself. In this article, I will not be talking about the evolution movement or the Christian right, which are separate topics, but rather the Young Earth Creationist movement.
+
+The Creationist movement is divided into two main camps: Creationists and Intelligent Designers. In the past, these two groups have fought bitterly over who gets the “right” to claim that the earth is 6,000 years old. This division is by no means a “
+
+Sequence 79:
+[SOFT PROMPT]0 Scientists Tell Their Stories: Owen Gingerich
+When it came time to go to graduate school, one of Owen Gingerich's science professors told him “If you feel a calling to go to astronomy, you should give it a try, because we shouldn’t let atheists take over playing the game of astronomy.1. Field of the Invention
+The present invention relates to a microwave oven and a food product heat treating method using the microwave oven. More particularly, the present invention relates to a microwave oven capable of efficiently heating food products and a food product heat treating method using the microwave oven.
+2. Description of the Related Art
+Generally, a microwave oven is a device that heats food products by using a high frequency electromagnetic wave. Since the microwave oven uses a high frequency electromagnetic wave, it is effective to improve the quality of the food products to be heated.
+A conventional microwave oven includes a probe portion for
+
+Sequence 80:
+[SOFT PROMPT]This week in origins news: Inflation of a cosmic kind, new theories about the Higgs particle, a lively collection of links from favorite spots in the blogosphere, and a few interactive items for those who enjoy playing as much as they do reading around theThe people of good will.Thank you. Thank you. Thank you. These are the words of James Madison in 1829. The United States, we’re told, was founded on the principles of liberty and limited government. As the Federalist Papers show, however, this vision of government was far from complete. It is still imperfect. It’s full of paradoxes, ambiguities, and contradictions. And it’s very much alive. In fact, the most recent incarnation of that vision is the Obamacare law, which was passed in 2010. The law has been criticized for many reasons. One of the most popular
+
+Sequence 81:
+[SOFT PROMPT]Blackstone Blog
+Blackstone honored at the 2011 inMotion Commitment to Justice Awards
+The Blackstone Group received a special honor as the top fundraising team for inMotion’s Story by Story—Climbing to End Domestic Violence! event. A gala ceremony was held Biodegradation of chemical warfare agents in aqueous solutions by plant communities of the Phragmites australis (tropical prairie) and Poa annua (non-tropical grass) forests.
+Phragmites australis and Poa annua forests are important sites for the biodegradation of chemical warfare agents (CWAs) because these species produce saponifiable organic matter, and they produce sufficient organic matter to meet the need for these materials. Biodegradation of CWAs by plants in these habitats may also contribute to the protection of these sites from further degradation by the contamination of waterways with these materials.
+
+Sequence 82:
+[SOFT PROMPT]Power Ranking the NFL's Top 50 Active Offensive Linemen
+By Cody Swartz
+Rob Carr/Getty Images 16.3K
+It’s notoriously difficult to grade offensive linemen, especially considering there are very limited statistics to evaluate their performance. The Pro Bowl v) 2015, most units finished among the top five offensive linemen in pass protection, with only 11% of linemen in the top five. If the players were drafted into the NFL, most would be considered better than average, but given their limited opportunity to shine, it’s impossible to know for sure how much they were worth.
+With that in mind, we took a look at the NFL’s top 50 active offensive linemen to see how much each player’s value ranked in relation to his peers. We then compared their statistics to other offensive linemen in the NFL, including pass-blocking metrics like “blocking snaps
+
+Sequence 83:
+[SOFT PROMPT]Top Five Stables Ever in WWE/WCW
+By Goutham Babu
+Ever since the wrestling industry started, there were great teams constituting various great wrestlers. Many of such stables created world wide attraction and accelerated the profit of wrestling industry.
+He
+Stables have been the most important part of the wrestling industry, and they have created some of the most great stables in WWE, WCW, and ECW. These stables created a lot of excitement and excitement in the industry. They have also made some great personalities to popularize the wrestling industry and its concept. They have created some of the best personalities and greatest wrestlers.
+
+1. The Big Show
+
+The Big Show is the greatest wrestler of all time. He is also one of the greatest wrestlers in WCW, WWE, and ECW. The Big Show is known for his skill in
+
+Sequence 84:
+[SOFT PROMPT]Want more real-time Dallas Mavericks news?
+What's Next for Dirk Nowitzki After Frustrating 2012-13 NBA Season? By Zach Buckley
+Forgive Dirk Nowitzki if he doesn't know how to act right now.It's been a while since he's had to deal with something like this.F.+ ||.||
+
+"This is the kind of game you can beat, so you should feel good." - F. | | | |
+
+"It's good to have some goals in life." - C. | | | | |
+
+"It's good to have some goals in life." - C. | | | | |
+
+"I've had more fun in my life than you'll ever have in yours." - F. | | | | |
+
+"I've had more fun in my life than you'll ever have in yours." - C. | | | | |
+
+
+Sequence 85:
+[SOFT PROMPT]DogecoinObverseReverseDate of introduction8 December 2013; 3 months ago (2013-12-08)User(s)InternationalInflationApproximately 100 billion coins to be mined by end of 2014. Thereafter, 5.2 billion new coins per year.SymbolÐ,[1] Ɖ,[citation needed] DNicknam turn a sideways looking dogecoin
+
+Well, well, well, Dogecoin is a community funded project. So, the best way to use Dogecoin is to support the community. We have great ideas and would love to hear about them. Please help us out! Share your ideas on the forums. Here is a Dogecoin bot which will print your name on the forum.
+
+This is my 1st ever gif, and it is super easy to do.
+
+DOGE=1,1000000
+x=cos(PI*1000)
+y=sin(PI*1000)
+d
+
+Sequence 86:
+[SOFT PROMPT]GraniteIgneous rockGranite containing potassium feldspar, plagioclase feldspar, quartz, and biotite and/or amphiboleCompositionPotassium feldspar, plagioclase feldspar, and quartz; differing amounts of muscovite, biotite, and hornblende-type amphiboles.
+Ju
+
+This is a short extract of the text from "Intro to Mineralogy" by John F.Boyd, published in a second edition in 1899:
+
+This mineral has been called feldspar, plagioclase, quartz, and other names. It is the common name of the minerals, and, in common with many of them, it was formerly called
+[etc.].
+
+There is a constant alternation of dipping and lifting in these minerals, which has made them, for a long time, one of the most easily recognised and recognised minerals. It has been so in some of
+
+Sequence 87:
+[SOFT PROMPT]Shenae GrimesBorn(1989-10-24) October 24, 1989 (age 24)Toronto, Ontario, CanadaOccupationActress, photographerYears active2004–presentSpouse(s)Josh Beech (m. 2013)
+Jump to: navigation, searchShenae GrimesBorn(1989-10-24) October 24, 1989 (age 24)Toronto, O when she was 19, Shenae Grimes moved to Toronto and lived in her parents’ house until her mother moved into a new place in Yorkdale. She lived with her parents in the former home of her paternal grandmother, Toni. She had two younger sisters, Analeah and Kahya.
+
+Shenae has said that her parents had divorced when she was nine years old. Her mother and stepfather, who was also her father, were married for four years. She said that she did not know her stepfather, but he was the man who took her into his care after her mother was killed.
+
+
+Sequence 88:
+[SOFT PROMPT]Wavenumber
+Jump to: navigation, searchIn the physical sciences, the wavenumber is the spatial frequency of a wave. It can be envisaged as the number of waves that exist over a specified distance (analagous to frequency being the number of wave oscillations aperiodic waves.
+
+n n n n n n n n n n n n n n n n n n n n n n n n n n n n n n n n n n n n n n n n n n n n n n n n n n n n n n n n n n n n n n n n n n n n n n n n n n n n n n n n n n n n n n n n n n n n n n n n n n n n n n n n n n n n n n n n n n n n n n n n n n
+
+Sequence 89:
+[SOFT PROMPT]Posts tagged "DealerBlock" Owner's Manual
+Find help on how to use the new ADESA.com
+We are very excited about the launch of our new website a few weeks ago. While the new ADESA.com is user-friendly and easy to navigate, we understand you might have questio
+
+LICENSED DEALER
+
+SHIPPING IS FREE
+
+Gift Wrap
+
+Welcome to the new ADESA.com. Here you will find a wealth of information on the best in the car dealership industry. The most important information is already in the Owner's Manual. Take a look and see if you have the information you need.
+
+ADESA is the auto industry's largest dealer network. We have been in business for over 40 years. We are here to help you get the most from your new vehicle.
+
+WHY ADESA
+
+ADESA.com is
+
+Sequence 90:
+[SOFT PROMPT]« How to Strengthen an Interfaith Relationship
+Autism Awareness Month: How to Support the Cause »
+Hear the Voices of Help and Hope
+Hear stories of hope — directly from just a few of the people whom Catholic Charities has helped over the past year. This sho in 'proportions of support' is a measurement of a donor's generosity. But Catholic Charities does not "buy" charity — it gives, and it's important to keep the relationship strong.
+How Catholics Support Faith-Based Organizations
+Hear stories of faith-based organizations — directly from just a few of the people whom Catholic Charities has helped over the past year. This shoographies of faith-based organizations includes organizations such as the Adventist Alliance, the Red Cross, and St. Vincent de Paul.
+To find out more about Catholic Charities, and the work it does, visit www.cath
+
+Sequence 91:
+[SOFT PROMPT]Online Blogucation
+14Sep/110
+I had to turn the heater on in my car this morning. The Colorado mornings are getting chilly: in the 40s and 50s. It’s almost like Fall had been hiding behind the Labor Day corner, just waiting to pounce. Despite the cold (and 
+goodbye, autumn), I decided to try to write some notes about what I’ve been up to this summer. In fact, I wrote the very first blog entry about summer. I have a couple of different ways of looking at things, and I’m pretty sure I’m right in the middle of one of them. I’ve
+been watching the Olympics. I haven’t been to the
+Rockies since I was in college, so I’ve been there just a few times. I’ve been doing lots of hiking. I’ve been on two trips to the Rocky Mountains (to which I
+
+Sequence 92:
+[SOFT PROMPT]How do you put your intentions into practice?
+posted by Alex Zielinski on March 8, 2013 Filed under: Intentions
+Being International Women’s Day, we’d be silly not to highlight a woman who’s working hard to inspire and challenge her gender every day. Althou the 13 th Anniversary of the Légion d’Honneur. For the 13th anniversary, the Grand Orient of France will celebrate the achievements of its women, including Aline Brotons, the Grand Duchess of Luxembourg. She was the first Grand Duchess to receive the title. With the title comes an international mission. The Grand Orient of France has chosen Aline Brotons as its Grand Duchess of Luxembourg, whose responsibilities are to promote, protect, defend and honor the Grand Duke of Luxembourg and his family, and to make the Grand Duke of Luxembourg a citizen of the world. Since Aline Brotons’ birth
+
+Sequence 93:
+[SOFT PROMPT]« Video Interview: Andrew Wait of Ancestry.com |
+| The Genealogy Guys Podcast LIVE at 2009 FGS Conference »
+Social Security Numbers: a Non-Issue
+I have written before about the security of the Social Security Death Index and its use as a very effective too arizonacollection.com/ 2009/03/15/ socialsecuritynumbers- a-non-issue/ arizonacollection.com/2009/03/15/socialsecuritynumbers- a-non-issue/
+How Many People Have Their Social Security Numbers Correctly?
+How Many People Have Their Social Security Numbers Correctly?
+How Many People Have Their Social Security Numbers Correctly?
+How Many People Have Their Social Security Numbers Correctly?
+How Many People Have Their Social Security Numbers Correctly?
+How Many People Have Their Social Security Numbers Correctly?
+How Many People Have Their
+
+Sequence 94:
+[SOFT PROMPT]Debate? What Debate?
+Well, that seems to be the question regarding the debate on "Baptists and Calvinism" scheduled for October 16 in Lynchburg, VA. The events of the last two days have made the prospect of actually having the debate very slim. The moderat a sound; the time of a sound was the time when the human voice is heard; we heard the human voice.
+a moment's silence before speaking.
+a continuous tone is sounded by a human voice.
+a simultaneous sound of the two sounds is produced when a human voice is heard and a loud sound is produced when a human voice is heard.
+a sound which is repeated is produced when a human voice is heard.
+a continuous tone is produced when a human voice is heard.
+a simultaneous sound of the two sounds is produced when a human voice is heard and a loud sound is produced when a human voice is heard
+
+Sequence 95:
+[SOFT PROMPT]A Quote by Patrick Jake "P.J." O'Rourke on animals, children, and purpose
+in animals
+Humans are the only animals that have children on purpose with the exception of guppies, who like to eat theirs.P.J. O'Rourke (1947 -)Contributed by: Zaady Tweet evidence, the immune system produces antibodies that block an infection. The antibody, or antibody-forming cells, are specific to the infecting organism, and so they protect the body from that organism, not from the infection. So, by blocking an infection with an antibody, we have a chance to reduce the likelihood of infection. The antibodies, or antibody-forming cells, are produced in the body's defense against pathogens, and so they protect the body from the pathogen, not from the infection. The body's defenses are constantly changing and responding to the pathogens that enter the body. The body's immune system, however, produces antibodies that are
+
+Sequence 96:
+[SOFT PROMPT]Sex, Politics, and Global Hip Hop
+The hip hop feminism hub at the U! My hip-hop life now By and01626 on December 6, 2012 12:00 PM
+Before taking this class, I had a certain appreciate for hip-hop but did not spend much of my time immersed in the music or an of hip-hop. When I was asked to help in the 2014 interview for this project, I was shocked. How I was never really engaged in hip-hop music, and this was a real shocker. Now, I was able to connect with the music and see the political implications of hip-hop in a way that I had not before. My whole worldview and relationship with hip-hop was changed. I am now an advocate for all women in the movement for change. As we are all tired of being ghettoized in our gender. We are tired of being labeled. We are tired of being not appreciated and seen
+
+Sequence 97:
+[SOFT PROMPT]YeungKaiPo
+14 passengers were killed in bus crash in NYC
+By yeun0040 on March 13, 2011 11:53 PM
+On Saturday night, a serious bus crash killed 14 people when the bus was returning to Manhattan's Chinatown after a quick overnight trip to the Mohegan Sun casi from a Friday night show at the Royal Palace in Turtle Bay.
+
+The fatal crash occurred at around 11:15 pm in the 49th Street-3rd Avenue bus lane, just a few minutes after a bus had arrived at the Mohegan Sun casino in Turtle Bay, New York.
+
+A young man was killed in the accident, while a woman and her child were seriously injured. All 14 passengers were in critical condition.
+
+The official toll of fatalities is 15, including the man who died, and 12 others were injured.
+
+The bus was carrying 25 passengers, including 15 students from Bronx
+
+Sequence 98:
+[SOFT PROMPT]Match.com's Top 10 Cities for Dating Single Moms
+In celebration of the single mother, Match.com has released a list of the Top 10 Cities for Dating Single Moms on its official blog Up To Date.The list was compiled using Match.com’s unparalleled data on Ame8,433,100 matches (65% response rate) made by single mothers across the world.Cities are ranked based on the percentage of single mothers in each city, the percentage of single mothers, and the number of single mothers in each city.
+
+If you are looking for a cute girl to hang out with and get to know, then this is the place for you. There are a ton of cute singles out there. You will be surprised to see just how many of them are actually cute. There are a lot of people who are looking for love and dating a single moms, so it is not surprising to see
+
+Sequence 99:
+[SOFT PROMPT]Happy 71st birthday to legendary centerman Stan “Stosh” Mikita. Mikita was born in 1940, in the town of Sokolce of the Slovak Republic. Mikita’s birth name was actually Stanislav Guoth, but when Czechoslovakia became a Communist controlled country, Stosh fFor more info, please visit: http://mikitamikita.com/Introduction {#s1}
+============
+
+The nuclear hormone receptors (NHRs) are a family of ligand-activated transcription factors that play critical roles in many biological processes, including development, homeostasis, and disease (Mandel et al., [@B21]; Song et al., [@B33]). To date, 12 human NHRs have been identified and their functions have been well characterized in mammalian systems (Li et al., [@B18]; Chan et al., [@B5]; Tomaszewski et al., [@B37
+
+Sequence 100:
+[SOFT PROMPT]My schedule at the 2009 NAB Show
+The convention is about three weeks away, and I’m starting to get full-court press for appointments at the convention. This will be my 21st NAB convention. I have attended every convention since 1989. I know many people hav young, fresh-faced 18-year-old Brad Brunelle—who we hope will go on to have an amazing career as a video editor, director, or whatever he ends up doing in the future—recently wrote a piece for Fast Company about the two things that make a good video editor. The first is creativity. We all have different strengths and weaknesses, and that is what makes a good video editor. The second is skill, and the more time we spend in front of a camera, the better we become at it. This is what I’ve been working on for the past few weeks.
+
+The key thing
+
+Sequence 101:
+[SOFT PROMPT]TrueDrive: 2011 Kia Optima Hybrid
+Tuesday, 08 November 2011 06:00
+Written by Brandy Schaffels
+0 Comments	When the first Kia Optima sedan debuted in the United States in 2000, it was nothing more than a rebadged Hyundai Sonata, which didn’t carry much panac8)
+Race in Three Words (3W)
+Race is a blend of 4 terms:
+A. Race – which is a cultural, ethnic or social identity.
+B. Route – a series of roads or paths that lead to a destination
+C. Spec – the color or look of a car
+D. State – the color of a car
+E. Fare – the price for a car
+8)
+Directions
+1) Find a car you like and get it ready to go.
+2) Get in and drive it.
+3) Stop for a moment and look at it.
+
+Sequence 102:
+[SOFT PROMPT]12:40 pm January 10, 2014, by John Kessler: Welcome to our workshop! | Workshop! | Dancing in the forest! |
+Depending on the time of day and the state of the group, we either dance together, or separately. | Dancing in the forest! | Dancing in the forest! | Dancing in the forest! | Dancing in the forest! | Dancing in the forest! | Dancing in the forest! | Dancing in the forest! | Dancing in the forest! | Dancing in the forest! | Dancing in the forest! | Dancing in the forest! | Dancing in the forest! | Dancing in
+
+Sequence 103:
+[SOFT PROMPT]Posts Tagged ‘Celebrity birthdays’
+Celebrity birthdays Feb. 6: Axl Rose, Natalie Cole, Tom Brokaw, Rip Torn, Robert Townsend, Zsa Zsa Gabor
+February 6th, 2010 by accessAtlanta
+Actress Zsa Zsa Gabor is 93. Actor Patrick MacNee (”The Avengers”) is 88. Actor >Actor Robert Townsend (”Dreamgirls”) is 78. And the real celebrity is no surprise: Zsa Zsa Gabor (”Forrest Gump”) is 93. Born in Estonia in 1923, Gabor has appeared in several movies and television shows, most notably as a victim of child abuse in the “The Wild Bunch” series. She later became a mother and appeared in many films and TV shows.
+I really enjoyed watching this video and I hope it inspires you to have a happy and healthy 82nd birthday!
+
+Celebrity Birthdays: Tom Brokaw (Feb
+
+Sequence 104:
+[SOFT PROMPT]Cyber Cynic
+ARMing desktop Linux
+By Steven J. Vaughan-Nichols
+October 12, 2009 1:43 PM EDT
+For a brief time in 2008, Linux actually owned a segment of the desktop industry: netbooks. When netbooks first showed up, they ran only Linux. Microsoft panicked anIf the netbook market faltered, Microsoft didn't feel like the market leader in netbooks, and netbook manufacturers rushed to embrace Linux as the next-generation OS.
+
+But a new market has emerged, one where Windows 8 is no longer the only option. Linux is back on the desktop, and it's not only because of Windows 8. ARMing desktop Linux has allowed the likes of Novell, Novell Solutions, and Red Hat to offer Linux in a way that hasn't been possible before.
+
+Novell's Barebones Linux is what you'd expect to find on a standard netbook, and Nov
+
+Sequence 105:
+[SOFT PROMPT]Roger Avary To Direct Bret Easton Ellis' 'Glamorama' In 2012?
+by Gabe Toro
+October 13, 2011 12:12 PM 6 Comments
+The last time Roger Avary directed a film, it was in collaboration with Bret Easton Ellis. Together, the two of them were responsible for the hyEffect of silica on bone formation and mineralization.
+The mechanisms underlying the role of silica in bone mineralization and formation are not completely understood. This review focuses on the molecular and cellular processes that may be affected by silica in the bone mineralization process. Silica may act as a nucleation site for calcium phosphate (CaP) mineralization by modulating the amount of calcium ions released from the bone matrix. The effect of silica on bone mineralization may also be related to the effect of silica on cell differentiation and proliferation, the properties of bone matrix, the size of bone, and the behavior of osteoclasts. The specificities of silica and
+
+Sequence 106:
+[SOFT PROMPT]She went to prison for her ‘encore career’
+December 4, 2013, 12:55 PM ET
+By Anne TergesenThis week, Encore.org, a San Francisco-based nonprofit that promotes second careers in the nonprofit sector, is handing out Purpose Prizes, its answer to the MacArthur sure that the reward for working with the poor is also a second career.
+
+“The idea behind the Prize is to give these innovators a second chance,” said Catherine Smith, executive director of Encore. “We want to change the narrative that second careers are impossible to achieve.”
+
+Since its launch in 2011, the organization has awarded more than 2,500 prizes to nonprofit leaders and innovators. Some of the prizes include:
+
+• $1,000 for the next president of a nonprofit that works to promote higher education
+• $1,000 for the next president of a nonprofit that advocates for affordable housing
+
+
+Sequence 107:
+[SOFT PROMPT]MPR News A fresh eye on the news Anatomy of a news story
+7 There was a story floating around this weekend that makes a wonderful exercise in ascertaining the difference between solid newspaper reporting and TV/video news fare. Perhaps the medium really is  that was kind of crazy.
+
+Examining the reporting of the White House press corps. | Emory University School of Law Photo by: Christopher Ketcham
+
+Since White House reporters do not always get it right, how can we possibly trust their reports? | Emory University School of Law Photo by: Christopher Ketcham
+
+Some news outlets, such as the Washington Post and the New York Times, have had a pretty good track record of accuracy.
+
+But if they’re not getting it right, how can we possibly trust their reports?
+
+To address this question, I looked at the reporting
+
+Sequence 108:
+[SOFT PROMPT]MPR News A fresh eye on the news The “D” word
+The economic meltdown is bad. Most of us are pretty scared, more than a little angry, and our ears perk up when we hear people throw the “D” word around pretty loosely. Earlier this week, a poll showed that alm: The best policy of the past 10 years has been to just not do anything, but it turns out we’re not the only ones that have learned that lesson. It turns out that when it comes to the stock market, the best policy of the past decade is to just not do anything.
+The D word is a phrase used by many in the financial industry to refer to certain companies that have performed poorly over the past year. The phrase was first used in the 2008 financial crisis and refers to companies that have fallen into financial trouble. Now, in the wake of the worst economic crisis in decades, many companies are attempting to sell
+
+Sequence 109:
+[SOFT PROMPT]Chat Rooms (9) Hi Guest - Join Us Now!
+The Reality of Bisexuality
+By Robert Weiss LCSW, CSAT-S
+Sex is Not a One-Way Street
+I had thought that in writing this long-overdue blog on bisexuality I could offer a straightforward, readily understandable overview  This article was first published on http://www.psychologytoday.com/blog/bisexuality-2/201109/the-reality-of-bisexuality-by-robert-weiss-csat-s-a-critique-of-one-way-street-part-i-the-situation-of-bisexuality-by-robert-weiss-csat-s-a-review-of-the-situation-of-bisexuality-by-robert-weiss-csat-s-a-review-of-
+
+Sequence 110:
+[SOFT PROMPT]Eleven Give Million-Dollar Donations to Super PACs
+By Kent Cooper	Posted at 9:23 a.m. on Jan. 29
+Eleven associations, unions and individuals have already given more than $1 million each to Super PACs in 2013, with more to be reported this week.
+Super PACs . This post originally appeared on The Wall Street Journal’s Facebook page on Jan. 27.
+
+About This Site
+
+Follow by Email
+
+About
+
+Kent Cooper is the former editor of The Wall Street Journal's Washington blog, The Hill. He is the author of "The Day Before: Why America Must Become an Electoral Revolution" and the editor of "Getting Ready for the 2012 Presidential Election." This is his personal blog. He can be reached at kent@kentcooper.com.Q:
+
+WebRTC not working on Android Browser
+
+I have tried many ways of working with
+
+Sequence 111:
+[SOFT PROMPT]Sen. Harry Reid’s Fundraiser Gets 2 Years in Prison
+By Kent Cooper	Posted at 2:23 p.m. on Oct. 2, 2013
+A Nevada lawyer and lobbyist who was a fundraiser for the 2010 re-election campaign of Sen. Harry Reid, D-Nev., has been sentenced to two years in prisonmeant to be served concurrently.
+
+
+
+By Bruce Lehner
+
+NewsHour Senior Columnist
+
+The Senate Majority Leader’s political contribution to his own re-election campaign may be enough to push his business partner to prison, and it should be enough to get the same punishment for his business partner, former top lobbyist and lobbyist extraordinaire Jack Abramoff.
+
+While Reid was chair of the powerful Senate Appropriations Committee, he raised millions of dollars for Abramoff, who was also a close friend and lobbyist for the government’s biggest business interests.
+
+Reid
+
+Sequence 112:
+[SOFT PROMPT]| | Voices Home
+Gordon Brown hails education as the best anti-poverty program
+Submitted by Kavita Watsa	On Mon, 09/20/2010 Tweet WidgetGoogle Plus OneLinkedin Share Button1 Comment
+This morning, 69 million children would not have gone to school around the  when they are not a little kids but the problem is, it is often difficult to distinguish the difference between a child who is old enough to be at school and a child who is not. The other thing that makes a difference is, the need for education does not come only from parents but also from the government, and the education system itself. So if the education system is in such a condition, we should try to improve it. Gordon Brown has urged the government to give education a lot more attention. There are many policies that could help, but one of the main ones is the introduction of national curriculum. The British education system is highly
+
+Sequence 113:
+[SOFT PROMPT]Email	Hard boiled crime stories, old and new, in classic packaging
+Cory Doctorow at 5:14 am Mon, Sep 6, 2004 — FEATURED —
+Kindle Hard Case Crime is a new paperback imprint that's reprinting old pulp crime novels and commissioning new novels in the style of, |
+by Anthony
+•••
+This is a series of excerpts from hard boiled crime stories that have been collected in one place and updated. These are not the original stories and they are the original text and artwork. The stories were collected by Anthony Doctorow and republished here with his permission. To see the complete text of the stories, please visit: "Somewhere In The City" at
+http://www.randomhouse.com/crime/books/index.htm or the website: "Kick Out The Horns" at
+http://www.randomhouse.com/shopping/books
+
+Sequence 114:
+[SOFT PROMPT]This page contains a single entry from the blog posted on August 1, 2010 8:04 PM.
+The previous post in this blog was The world according to a couch potato.
+The next post in this blog is Ups and downs.
+« The world according to a couch potato |
+| Ups and dow.
+| The world according to a couch potato |
+|
+| is at #27 on Google News
+
+Related Posts:
+
+I was in New York for the weekend. I had a very successful event at the State University of New York at Stony Brook in a lecture entitled: "What is Buddhism? What is a Buddha? What is Buddhism? Is it a religion? A philosophy? A set of practices?"
+
+My question to the presenters is: "What is the main thing about Buddhism?"
+
+The presenters did a very good job of answering this question. But what is the main thing about
+
+Sequence 115:
+[SOFT PROMPT]Jessica Alba’s Swimming Pool in Bollywood Debut
+By Andrew Stephenson	Posted on June 9th, 2009 in Movies, News
+Jessica Alba’s swimming pool makes its Bollywood movie debut in Sajid Nadiadwala’s Kambakht Ishq which stars Akshay Kumar, Kareena Kapoor and Amri the Dog. It is being shot in the same pool where Jessica, in the 2005 blockbuster Tera Damaye, swam for her life.
+The swimming pool is said to have cost around Rs. 4.5 crore.
+The swimming pool is said to have cost around Rs. 4.5 crore.
+More Videos…
+http://www.youtube.com/watch?v=_lOzC3lvYbE
+http://www.youtube.com/watch?v=_lOzC3lvYbE
+http://www.youtube.com/watch?
+
+Sequence 116:
+[SOFT PROMPT]Anushka Sharma still nervous around Shah Rukh Khan
+By Priyanka Ramesh Kumar	Posted on November 18th, 2012 in Movies, News, Stars
+It’s been 4 years since Anushka Sharma appeared on the big screen and entered Bollywood staring opposite one of the most popula can’t. From “Neerja” to “Aashiqui 2” and “Dabangg,” the “Bang-Bang” actress has proven to be a versatile actress with impeccable acting chops. However, she was less active on the screen after her son’s death, and hasn’t done much in the last couple of years. But now, the B-town diva has opened up about her newfound activities and her goals in the entertainment industry.
+The actress, who is currently shooting for “Raabta”, says that she has a lot of confidence and is in
+
+Sequence 117:
+[SOFT PROMPT]It appears that you've exceeded the maximum number of posts you can view, but wait, there's a simple solution. To unlock the forum and continue viewing messages, all you need to do is sign up for a free account. The entire process takes just a few minutes  No public discourse on the history of the internet in the 1990s. Unlike the public discourse on the internet during the 1990s, this post was not written by a neutral observer.
+
+Prahlad Dutt has been involved in various projects related to the history of the internet. These include the development of the internet, work on the first modems, the history of Internet technologies and early online services, the emergence of the e-commerce industry, and the development of web applications.
+
+Prahlad Dutt is currently working as a consultant and independent research scholar at University of California, Berkeley. He is the author
+
+Sequence 118:
+[SOFT PROMPT]Game 159: Yankees at Blue Jays
+Nick Swisher called this “a must win game” for the Yankees, and after yesterday’s deflating 3-2 loss to the Blue Jays, it has to be.
+At this point, they all are must-win games for the Bombers, who enter today tied once again  had lost three straight games in their last two and are in danger of losing the division lead and losing their playoff hopes.
+They have won two of the last three, and after the Yankees beat the A’s in Oakland yesterday, it is very possible that they could take a step back this week and lose again.
+
+Game 160: Yankees at Red Sox
+Boston jumped out to a 3-0 lead in the first, but the Yankees took a 4-2 lead in the second, and then won it in the third. They won the series opener 5-1 and were able to hold off a three-game sweep of
+
+Sequence 119:
+[SOFT PROMPT]Lying Awake
+Mark Salzman
+Best bets for book clubs
+BookPage® Column by Julie Hale
+This month's new paperback releases include several excellent titles in fiction and nonfiction. We recommend the following selections as good choices for reading groups.Honky select one
+
+#
+# Here are some "alternative" titles you might want to try.
+#
+# 1. A New Hope
+# 2. Redemption
+# 3. The Emperor's New Clothes
+# 4. The Anatomy of Love
+# 5. The Tin Man
+# 6. The Dark Tower
+# 7. Saga of the Titanic
+# 8. The Two Towers
+# 9. House of Giant Monsters
+# 10. The Wolf Man
+# 11. The Shining
+# 12. The Hunchback of Notre Dame
+# 13. The Time Machine
+
+Sequence 120:
+[SOFT PROMPT]On The Down Low: Is Real Housewives Of Atlanta’s Porsha Stewart A Beard For Her Suspect NFL Baller Hubby??
+Categories: For Discussion, For Your Information, Gay, News, Reality TV, Shady, SMH, Suspect, The Side-eye, True or False?, What the Hell???, You Can aadc40a9a4a-f72b-4a29-8b7a-a34c6b0b4fe5 [no] [no] [no] [no] [no] [no] [no] [no] [no] [no] [no] [no] [no] [no] [no] [no] [no] [no] [no] [no] [no] [no] [no] [no] [no] [no] [no] [no] [no] [no] [no] [no
+
+Sequence 121:
+[SOFT PROMPT]Barcelona's Lionel Messi to sit out Zaragoza trip
+5d25d82ff1704a3c80ff4111c309fd81.jpg
+Barcelona's Lionel Messi, from Argentina, smiles during the Champions League quarterfinal second leg soccer match between FC Barcelona and Paris Saint-Germain FC at the  less
+
+Barcelona's Lionel Messi (L) is presented with the ball by defender Eric Abidal (R) during the second half of their Champions League soccer match against Paris Saint-Germain FC at the Camp Nou stadium in Barcelona, Spain, Thursday, May 23, 2017. (AP Photo/Jordi Sanchez) less
+
+Barcelona's Lionel Messi (L) is presented with the ball by defender Eric Abidal (R) during the second half of their Champions League soccer match against Paris Saint-Germain FC at the Camp Nou stadium in Barcelona, Spain,... more
+
+
+
+Sequence 122:
+[SOFT PROMPT]Whatever seems important at the time.
+Opportunity and hindrance
+I married my music teacher. While that has brought me many musical opportunities, it also keeps me from practicing as much as I might like. I hate to make student noises when she's trying to r 6.9 6.9 6.9 6.9 6.9 6.9 6.9 6.9 6.9 6.9 6.9 6.9 6.9 6.9 6.9 6.9 6.9 6.9 6.9 6.9 6.9 6.9 6.9 6.9 6.9 6.9 6.9 6.9 6.9 6.9 6.9 6.9 6.9 6.9 6.9 6.9 6.9 6.9 6.9 6.9 6.9 6.9 6.
+
+Sequence 123:
+[SOFT PROMPT]Brian D. Buckley
+crude inky blab
+HomeAboutContactMy BooksNSA Domestic Surveillance
+The Adventures of Links
+Posted on Friday, April 29, 2011 - 6:27 am | Leave a comment
+Greetings, loved ones. LET’S TAKE A JOURNEY.
+First up in links this week, we’ve got The Coin, our ongoing coverage of the newly-reformed NSA and the U.S. government’s efforts to domestic surveillance, by Jonathan D. Sarna, Thomas B. Edsall, Brian Fung and Sara Nelson. From the book, The Unspeakable: How the NSA Is Tracking Us and What We Can Do About It:
+
+NSA officials said they want to have the tools they need to sift through millions of electronic messages and, in some cases, do so at a level that won’t overwhelm users’ systems.
+
+The agency has not provided a complete explanation of the
+
+Sequence 124:
+[SOFT PROMPT]mine's on the 45
+to find our way home, to break in these bones*
+Having grown weary of a seemingly endless string of flights for the past two weeks, I opted to drive from Northern California to Southern California (and back) this week. It was illogical, rea
+
+##### ____
+
+> a. First thing, he just used "I think" in the plural, so there's no way it could possibly be a mistake. He's not being sarcastic, he's a guy who's been with me a lot longer than I've been with him, and I'm not gonna lie, I kinda thought he was gonna say something like "he's a good man", and I'm not gonna lie, I kinda didn't want to know what he said. It was kinda silly, and it's a real personal thing, and it was something I was going to do anyway. >
+
+Sequence 125:
+[SOFT PROMPT]Orioles Draft updates
+The Orioles have agreed to terms with 23 of their 49 selections in the 2010 First Year Player Draft. Here’s the list with the round the player was selected in: Riley Hornback (12), Jeremy Nowak (13),Michael Mosby (14), Joseph Oliveira “Kisses for the road, ladies and gentlemen, because this is the official YouTube page for the 2012 Orioles World Series Championship! This video is brought to you by Kraft Sports, The Official CPA Sponsor of the Orioles and the official parent company of Orioles Sports Group.http://www.youtube.com/c/OriolesSportsGroup “The video will be shown at the front of every ballpark during the tournament and on the stadium’s giant video board at every game.” http://www.youtube.com/watch?v=Ej0d4t6u6Rc “
+
+Sequence 126:
+[SOFT PROMPT]« AND THE PREMISE OF HIS CAMPAIGN IS THAT HE'S A SMART BUSINESSMAN?: |
+| AND THEY WONDER WHY WE'RE WINNING?: »
+SURE, IT WOULD BE MORE HONEST...:
+Jeter captains Turn 2 Foundation event (Doug Miller, 1/31/08, MLB.com)
+...but you can hardly expect him to call to the base of the tee on
+Tuesday.
+"There's no doubt that the ballclub we have has great
+potential, but it's not quite there yet," Jeter said. "The thing I
+want to do is keep working and keep the faith, because I know it's
+going to come."
+In his first full season, Jeter has thrown out 12.1 percent of
+batters faced and is tied for the lead in the AL in
+batting average. His.322 average ranks fifth in the
+American League, and his three homers are tied for the AL
+lead.
+On
+
+Sequence 127:
+[SOFT PROMPT]November 19, 2012	Notes from the road: Kansas City, MO	Tweet
+As the lights came up on the stage of the Sprint Center in Kansas City, Bruce greeted the crowd by saying that “when you come to Kansas City, you can’t resist playing this song – so we’ll play it news from the road, from the airport to the hotels and everything in between, the hard times of travel are over. Welcome to the season of traveling. In the winter months of 2012, the leaves have all fallen and the air is crisp. In the spring, the season of flowers, the birds are returning to their nests and we’re all in the middle of enjoying our time together. In the fall, we all start to go home, we all go home, we all start to go home. This year, we’re taking a trip. It’s been a good year, but we’re taking a trip.
+
+Sequence 128:
+[SOFT PROMPT]@nes-native-english-services
+active 2 days, 19 hours ago
+NES – Native English Services started the forum topic Ok…first things first…Why the heck is it that I can't…. in the group How-To and Troubleshooting 2 years, 6 months ago
+“Zoom-in” on the buddypress in NES, My own solution of how to solve a problem with a buddy on buddypress is written in the link below… This is one of the two posts of this topic, and will be the most useful one…
+“Blitzkrieg” by nes-native-english-services on NES
+active 2 days, 21 hours ago
+NES – Native English Services started the forum topic First things first…
+“Ok…first things first… Why the heck is it that I can't…. in the group How-To and Troubleshooting 2 years, 6 months ago
+
+
+Sequence 129:
+[SOFT PROMPT]WTF? Author Edits Lincoln
+I enjoy Thomas Lowry’s books. I think of them as the People magazine of Civil War literature, and not in a bad way. You can read the books in short bursts, putting them down for a while and returning to them later without losing t an old and recondite post, I came across the following, which appears to be the only surviving item from Lowry’s prewar Civil War volume:
+In Chapter III of “Under the Lash” we read:
+
+“Now I have spoken with my brothers and I have done my best to be honest and upstanding, but I do not know whether I have been successful in these things, for some of my comrades are still so very loyal to me that they are willing to trust me, but there are others who are more skeptical.
+
+“This skepticism is manifested by their doubts about my abilities, my
+
+Sequence 130:
+[SOFT PROMPT]in Paramus, NJ 07652xipart
+Left Side: USING GET_BATTERY_DETAILS.md
+bot: You are not using the battery details in your file.
+
+Using get_battery_details.md
+bot: Your file contains only battery details.
+
+Using get_battery_details.md
+bot: You are using the battery details in your file.
+
+Using get_battery_details.md
+bot: Your file contains battery details.
+
+Using get_battery_details.md
+bot: You are using the battery details in your file.
+
+Using get_
+
+Sequence 131:
+[SOFT PROMPT]Winnebago recognized as top motor home manufacturer
+Thursday, February 14, 2013 11:10 AM
+Winnebago Industries Inc., of Forest City, has been recognized by Statistical
+Surveys Inc. as the top performing motor home manufacturer in the country in
+2012. In the
+
+Tweet: Winnebago®
+
+Last week, Winnebago’s earnings missed expectations by 5 cents a share and a
+disappointing number of dealers said the company should not be rated at all.
+However, our analysts expect that the company will report EPS of between
+$1.00 and $1.05 a share, up from a previous estimate of $1.00 a share.
+
+Wii and Game Consoles continue to win over the masses
+
+Nintendo announced on Monday that they’re bringing their revolutionary
+Gadget Boy portable console to the masses, which will be
+
+Sequence 132:
+[SOFT PROMPT]CAIR-Chicago Government Relations Coordinator Presents at SAALT Conference About |
+Activist Corner >> Today is Wednesday, April 16, 2014 CAIR-Chicago Government Relations Coordinator Presents at SAALT Conference March 18, 2007 CAIR-Chicago Government Relating community activism in Chicago | CAIR-Chicago, a not-for-profit corporation with a mission to promote justice, peace, and the American way of life.The Illinois State Bar Association is a not-for-profit organization whose mission is to protect the legal profession, promote quality legal services, and strengthen the community by raising the bar in the practice of law.For more information about CAIR-Chicago, visit www.caichicago.org.Nigerian President Buhari celebrates his second term in office in a photo released by his office. Photo: Associated Press via Getty Images/File Image
+
+This article
+
+Sequence 133:
+[SOFT PROMPT]California Appellate Report
+Thoughts on recent Ninth Circuit and California appellate cases from Professor Shaun Martin at the University of San Diego School of Law.
+People v. Cordell (Cal. Ct. App. - June 1, 2011)
+It's June. And here's another guy who's n to see if he's one of the cops who broke up his party. The California Court of Appeal decided to affirm a criminal conviction in a man's case involving the police beating of a young man who was resisting arrest. But this case was different than the others I've seen, because it involved an undercover officer who offered a young man money to take a lie detector test.
+
+So the Court of Appeal reversed a conviction in this case because it held that the trial court improperly instructed the jury on the definition of "resisting arrest."
+
+The California Court of Appeal, sitting en banc, affirmed the conviction because the trial court properly
+
+Sequence 134:
+[SOFT PROMPT]March 7/09 9:24 am - Tour de PEI Returns for 2009Posted by Editor on 03/7/09 The Tour de PEI organizing committee is gearing up for the return of world-class cycling across Prince Edward Island.Tour de PEI, presented by Scotiabank, showcases Prince Edward "s best bike trails in 2010, including the Troll Country, Spruce Hill, Mt. Challis and Pictou Meadows.
+
+April 17/09 1:05 pm - Tour de PEI First Ever Cycle Across Prince Edward Island Posted by Editor on 03/7/09 The Tour de PEI organizing committee is gearing up for the return of world-class cycling across Prince Edward 
+Island in 2010.Tour de PEI, presented by Scotiabank, showcases Prince Edward 
+Island's best bike trails in 2010, including the Troll Country, Spruce Hill, Mt.
+
+Sequence 135:
+[SOFT PROMPT]The blog that used to be here is now at http://www.taylormarshall.com/2008/08/is-christ-savior-of-his-mother-mary_09.html.ity (6th ed.) Book.
+
+22:18:40: <krona> so what would Jesus look like?
+
+22:18:40: <krona> christ = savior of the church
+
+22:18:40: <jmc> He would be... I think he'd be a male version of the same Jesus as a rock. He'd be... not so... very young, like 5-6 years old.
+
+22:18:41: <lmmf> He'd be more powerful than Moses
+
+22:18:42: <kron
+
+Sequence 136:
+[SOFT PROMPT]Regeneron Pharmaceuticals, Inc. (NASDAQ:REGN)
++ Watch REGN
+The Company is a biopharmaceutical company that discovers, develops, and intends to commercialize pharmaceutical products for the treatment of serious medical conditions.
+pchop123
+Submitted: 4/9/20
+
+SAN FRANCISCO, CA--(Marketwired - March 20, 2020) - Regeneron Pharmaceuticals, Inc. (NASDAQ:REGN) today announced that it has reached an agreement with the FDA to delay the current license expiration date for its respiratory drug product, REGN-510. The delay will be for the immediate future. The approval will allow the company to pursue the FDA's remaining required filings for the new drug application.
+The Company is continuing to evaluate its Phase III study for the new respiratory drug, REGN-510. The study is expected to be completed in April 2020
+
+Sequence 137:
+[SOFT PROMPT]Christian Apologetics and Research Ministry Gardening by Matt SlickSome people might not think that parenting is a part of apologetics. But, it is. Christian parents have a great deal of influence in what their children think about the Lord. After all, isnIn an October 2014 article in the New Testament Times, Tanya Bonaccoux notes the importance of the image of Jesus as the source of God's goodness in the lives of children:
+
+We tend to think of God's love as being unconditional and unconditional love. But what is unconditional love? When I think of the kind of love God has for us, it's not the kind that is made only for our good; it's the kind that is made for us because of who we are. And the way God has made me a part of the story of His love for me is through the love that He has for my parents
+
+Sequence 138:
+[SOFT PROMPT]You Are Here: home / Events on March 2, 2013
+Books and Brew Book Club Saturday, March 2, 2013
+10:30 AM - 11:30 AM Directions to this location: Woods Run More info... Teen Book Club: Looking for Alaska Saturday, March 2, 2013
+Discussions happen the first Sa from: 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 101 102 103 104 105 106 107 108 109 110 111 112 113 114 115 116 117 118 119 120 121 122 123 124 125
+
+Sequence 139:
+[SOFT PROMPT]UNITED STATES v. BRYAN, 339 U.S. 323 (1950)
+UNITED STATES v. BRYAN.
+CERTIORARI TO THE UNITED STATES COURT OF APPEALS FOR THE
+DISTRICT OF COLUMBIA CIRCUIT. No. 99. Argued December 15, 1949.
+Decided May 8, 1950.
+Respondent was the executive secretary and had/had charge of the National Bureau of
+Alcoholism and Substance Abuse. Petitioner was charged with violating § 5 of the
+National Prohibition Act by using intoxicating liquors and other intoxicating agents
+for the purpose of selling, dispensing, and administering the same. On July 19, 1949,
+he entered a plea of guilty before Judge Leighton, who sentenced him to a term of
+eighteen months' imprisonment. He was not permitted to withdraw his plea. On
+November 2, 1949, he was sentenced to one year and one day in prison. On June 6,
+1951, he was granted a
+
+Sequence 140:
+[SOFT PROMPT]~ Friday of the Seventh Week in Ordinary TimeMark 10:1-12Thursday of the Seventh Week in Ordinary TimeMark 9:41-50Wednesday of the Seventh Week in Ordinary TimeMark 9:38-40Tuesday of the Seventh Week in Ordinary TimeMark 9:30-37Monday of the Seventh Week i This Is Mark 9:31-36Monday of the Seventh Week in Ordinary TimeMark 9:29-30Tuesday of the Seventh Week in Ordinary TimeMark 9:26-27Monday of the Seventh Week in Ordinary TimeMark 9:25-26Tuesday of the Seventh Week in Ordinary TimeMark 9:23-24Monday of the Seventh Week in Ordinary TimeMark 9:22-23Tuesday of the Seventh Week in Ordinary TimeMark 9:21-22Monday of the Seventh Week in Ordinary TimeMark 9:20-21Tuesday of the Seventh Week in Ordinary TimeMark 9:19-20
